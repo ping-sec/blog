@@ -1,3 +1,10 @@
+---
+title: Getting Started with Kali Linux - Installation Guide and Tips for Beginners
+date: 2024-11-13
+created: 2024-11-13
+modified: 2025-10-08
+---
+---
 ![[kali-linux-1080x675.webp]]
 ## Introduction
 
