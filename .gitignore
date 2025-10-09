@@ -1,0 +1,11 @@
+# Ignore everything
+*
+*/
+
+# But don't ignore the blog folder
+!ping-sec.com/
+!ping-sec.com/blog/
+!ping-sec.com/blog/**
+
+# Don't ignore .gitignore itself
+!.gitignore
