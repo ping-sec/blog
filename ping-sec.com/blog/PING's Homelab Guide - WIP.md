@@ -1,4 +1,4 @@
-Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky with any questions or for clarifications. You'll find me lurking on the TCM Security Discord as PING. You can help make the guide a community-driven effort to lift one another up with your own projects and advice.
+Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) as PING. You can help make the guide a community-driven effort to lift one another up with your own projects and advice.
 
 > [!NOTE]
 > NOTE: This guide will be very photo heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
@@ -98,7 +98,7 @@ Honestly, I will likely remove the panel since I don't mind having these exposed
 Following this sentence, there are more photos showing off the different parts of the case:
 
 ![[4u-internal.jpg]]
-Above is the case with the front panel removed. Do you research on cases, this one I don't so much like internally as I have to remove the drive bays to mount the motherboard or other PCIe cards.
+Above is the case with the side panel removed. Do your research on cases, this one I don't so much like internally as I have to remove the drive bays to mount the motherboard or other PCIe cards.
 ![[4u-rear-view.jpg]]
 Here is the rear of the case, note the cutouts meant for the power supply and the motherboard I/O shield to fit. You can also see the 2 80mm exhaust fans and the expansion slots.
 
@@ -121,4 +121,4 @@ and finally, here it is zoomed out somewhat to show the entire board outside of 
 
 ![[mobo-full.jpg]]
 
-Next, I will purchase a Power Supply Unit or PSU, for short. I will need DDR4 for RAM, hard drives for storage, 2x CPU's and likely a very cheap video card for graphics. I am rather annoyed that there are few expansion slots, as I would have liked to have space for a 10GBe Network Interface Card or NIC, for short.
+Next, I will purchase a Power Supply Unit or PSU, for short. I will need DDR4 for RAM, hard drives for storage, 2x CPU's and likely a very cheap video card for hardware transcoding. I am rather annoyed that there are few expansion slots, as I would have liked to have space for a 10GBe Network Interface Card or NIC, for short.
