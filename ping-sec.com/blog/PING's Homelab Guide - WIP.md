@@ -8,14 +8,24 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 > I am trying to build this machine using parts nearly entirely from eBay or select Amazon sellers. If I find a good deal on Facebook, I may snag that too. I'm always hunting for more gear!
 
 # Homelab Ideas:
-- You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger) and a microSD Card.
-- One could find mini-pc's or Small Form Factor machines with better processors and more memory for likely cheaper via: eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
+- You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card.
+- One could find mini-pc's or Small Form Factor machines with better processors and more memory for likely cheaper via eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
 	- I am a frequent Facebook marketplace, eBay and local computer re-seller's/repair shop hunter. If I see something that's reasonable I grab it for my homelab.
 - "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy.
 
 > [!Current Build]
 > My Current, Working build:
-> I am running [TrueNAS Scale CE](https://www.truenas.com/truenas-community-edition/) as my base OS. I'm using a Supermicro 4u case with room for 20 drives inserted into the front bays of the server. It uses 2x Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz and gives me 16 cores and 32 threads, often abbreviated to just: 16c/32t in other places. It has 128 GB of DDR3 ECC RAM. Most of the drive bays are filled with Western Digital 8TB SATA Drives. There is also a 256GB SSD for Truenas to live on. This arrangement gives me 72.56 Terabytes for storage with some disks reserved for ZFS replication (we'll go over this in a later update to the guide).
+> OS: TrueNAS Scale CE
+> Case: Supermicro 4U w/ 20 hard drive bays
+> Motherboard: Will need to check
+> Hard Drives: 8TB Western Digital drives shucked from external drives
+> CPU Coolers: 2x Noctua DH14s
+> CPUs: 2x Intel Xeon(R) CPU- E5-2850 V2 - 16c/23t
+> HBA Cards: Will have to check
+> RAM: 128 GB DDR-3 ECC
+> PSU: Evga 1,000W
+> GPU: Nvidia 1080
+> NIC Card: Onboard and 2 10Gbe ports via PCIe card
 > 
 > Build Tasks: VMs, Media Streaming, among AI and other personal workflows.
 
