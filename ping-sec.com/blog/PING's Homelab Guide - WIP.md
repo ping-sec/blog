@@ -1,4 +1,4 @@
-Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) as PING. You can help make the guide a community-driven effort to lift one another up with your own projects and advice.
+Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) as PING. You can help make the guide a community-driven effort and resource. It always feels good to help one another!
 
 > [!NOTE]
 > NOTE: This guide will be very photo heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
@@ -8,7 +8,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 
 # Homelab Ideas:
 - You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger) and a microSD Card.
-- One could find mini-pc's or Small Form Factor machines with better processors and more memory for likely cheaper via: eBay. **The bigger your budget, the better the performance**.
+- One could find mini-pc's or Small Form Factor machines with better processors and more memory for likely cheaper via: eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
 	- I am a frequent Facebook marketplace, eBay and local computer re-seller's/repair shop hunter. If I see something that's reasonable I grab it for my homelab.
 - "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy.
 
@@ -75,13 +75,17 @@ Get a quality power supply, full stop. There are many different efficiency ratin
 Remember, we aren't going for a gaming build so we don't require a Nvidia GTX 5090 card or anything like that. We can get a purpose built card that will do a hardware conversion on media, known as transcoding. As this can be necessary since the CPUs may not have onboard video, you can remove it after you're done configuring the system. Proxmox, my chosen OS, allows one to setup headless or without a monitor through a web GUI.
 
 # Network Interface Card - NIC
-For my builds, I am typically transferring files that are large back and forth. Think media that's streaming to my smart home devices or mainly ISO's. I love trying out new flavors of Linux but I've been known to build labs like [[GOAD]], an intentionally vulnerable Active Directory lab based on the ever popular Game of Thrones series. You'll want the fastest transfer speed you can get and one can find 1 or dual slot 10Gbe (instead of 1Gbe) cards for very reasonable. It helps to have a network switch which supports this otherwise, there's no point. To be clear, you can get by with onboard NICs in the majority of cases but note it could impact your workflow. Time is money as is often said!
+For my builds, I am typically transferring files that are large back and forth. Think media that's streaming to my smart home devices or mainly ISO's. I love trying out new flavors of Linux but I've been known to build labs like [[GOAD]] (link is to the notes portion of the site), an intentionally vulnerable Active Directory lab based on the ever popular Game of Thrones series. You'll want the fastest transfer speed you can get and one can find 1 or dual slot 10Gbe (instead of 1Gbe) cards for very reasonable. It helps to have a network switch which supports this otherwise, there's no point. To be clear, you can get by with onboard NICs in the majority of cases but note it could impact your workflow. Time is money as is often said!
 
 # OS
 This is an important consideration also. With TrueNAS and zfs, in general, you need all disks to be the same size or the array chooses the lowest TB storage and applies that capacity to all drives. Note that's an oversimplification but it's very close to the truth.
 
-I am choosing Proxmox for the build this time. It's always been a bit of a mystery to me and I finally have the ability to learn it by tinkering with it in the comfort of my home.
+I am choosing Proxmox for the build this time. It's always been a bit of a mystery to me and I finally have the ability to learn it by tinkering with it in the comfort of my home. If I tried this all in a cloud lab, I'm looking at hundreds of dollars per month for all the VMs and such I tinker with on a daily basis.
 
+# Miscellaneous Supplies
+You'll want to have some thermal paste on hand and it doesn't hurt to have some spare ethernet patch cables and SATA cables. I've known SATA cables to go bad and completely confuse my troubleshooting efforts. I have thought whole drives were bad before and it was a simple SATA cable change that fixed me right up. 
+
+Again, this isn't a gaming build so some artic 5 silver thermal paste is probably good. One shouldn't need something fancy like liquid metal. You'll only need a healthy dot, like the size of a BB for installing the CPU Cooler(s).
 # Misc Pictures of my build unboxing:
 
 For starters, I ordered a 4u rack mounted case, the Rosewill RSV-R4100U case from eBay. Why a 4u case? I found a good deal on it and I already have a rack that lives in my closet that will fit the new machine nicely. There happens to be space for either 7x 3.5" hard drives or 14x 2.5" SSD slots. 
