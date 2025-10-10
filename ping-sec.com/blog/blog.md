@@ -6,7 +6,7 @@ Blog Posts for TCM Security:
 
 Historical Hacks Posts
 
-__Coming Soon__
+[[Historical Hacks Marconi vs. The Magician]]
 
 The Homelab Beginner's Guide
 [[PING's Homelab Guide - WIP]]
