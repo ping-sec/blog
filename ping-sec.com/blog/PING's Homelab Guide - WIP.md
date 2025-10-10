@@ -10,8 +10,8 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 # Homelab Ideas:
 - You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card.
 - One could find mini-pc's or Small Form Factor machines with better processors and more memory for likely cheaper via eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
-	- I am a frequent Facebook marketplace, eBay and local computer re-seller's/repair shop hunter. If I see something that's reasonable I grab it for my homelab.
-- "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy.
+	- I am a frequent Facebook marketplace, eBay and local computer re-seller's/repair shop hunter. If I see something that's priced reasonable, I grab it for my homelab.
+- "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy or alternatively, harvested their drives for other machines.
 
 > [!Current Build]
 > My Current, Working build:
@@ -56,10 +56,10 @@ Recently, I found a marketplace post nearby, in which the poster was giving away
 I mostly follow the guides from [ServerBuilds.net](https://serverbuilds.net), they specifically recommend older equipment which still has lots of life remaining but that was retired on a planned decommission program by their respective owners. As I'm building a new big rig for the homelab, it felt more honest to just buy what I always wanted, instead of what I needed. Especially considering the parts are rather reasonable at auction and if you look hard enough.
 
 # Needs
-Here are some "must-have's" that every build requires. We'll break them down into individual sections.
+Here are some "must-have's" that every build requires. We'll break them down into individual sections. Primary concerns not listed below are networking, do you have enough switches and ethernet drops? Do you have power to the area you want to keep the home lab and all the various bits and pieces? They're going to run hot, in some parts of the world air conditioning is not an affordable luxury, consistent and reliable power and internet are not always guaranteed. The access to parts, HVAC, power, and networking are a standard in the US and I apologize for not including these statements earlier.
 
 # Case
-Not only do you want something with good airflow as mechanical hard drives like to be cool but you want plenty of room for as many as you can afford. This is why I went with the Rosewill case. It had space for 7 mechanical hard drives. You also want to consider if you need a server rack or cabinet. I have a 42u metal server rack which lives in the closet and holds my current 4u build with plenty of room to spare. Other options include the following: updating in a later edition of this guide.
+Not only do you want something with good airflow as mechanical hard drives like to be cool but you want plenty of room for as many as you can afford. This is why I went with the Rosewill case. It had space for 7x mechanical hard drives. You also want to consider if you need a server rack or cabinet. I have a 42u metal server rack which lives in the closet and holds my current 4u build with plenty of room to spare. Other options include the following: updating in a later edition of this guide.
 
 # Motherboard
 The motherboard is an important part though I'd argue the single most important piece is actually a quality power supply. If you're spending a good amount of cash on the rest of it and it fails due to some no name Chinese special, you're not going to be a happy camper. I chose to stick with the "Use what you have" mindset. Below you'll find pictures of the start of my build.
