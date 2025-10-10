@@ -1,7 +1,8 @@
 Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) and [HackSmarter Discord](https://discord.gg/PhF23AnyJm) as PING. You can help make the guide a community-driven effort and resource. It always feels good to help one another!
 
+
 > [!NOTE]
-> NOTE: This guide will be very photo heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
+> NOTE: This guide will be very photo and link heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
 
 > [!ANOTHER NOTE]
 > I am trying to build this machine using parts nearly entirely from eBay or select Amazon sellers. If I find a good deal on Facebook, I may snag that too. I'm always hunting for more gear!
@@ -34,7 +35,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 > - Fan upgrades?
 
 # Thinking about the build
-This is the most important part of the entire process. Weight out your budget and your goals. Do you want a VM or Virtualization server, A backup server, a 4K media streaming powerhouse, or a docker container paradise? **Use what you have and upgrade, when, and if, you are able**. Start with something simple like I did, with a Raspberry Pi, a freebie from the E-Waste recycler in your area, a cheapie you found on eBay or from the pile at work the IT Guy was giving away.
+This is the most important part of the entire process. Weight out your budget and your goals. Do you want a VM or Virtualization server, A low power backup server, a 4K media streaming powerhouse, or a docker container paradise? **Use what you have and upgrade, when, and if, you are able**. Start with something simple like I did, with a Raspberry Pi, a freebie from the E-Waste recycler in your area, a cheapie you found on eBay or from the pile at work the IT Guy was giving away.
 
 When I started buying equipment, I started cheap and eased my way into the larger, overspecced server that I have now. My original plan was to only buy 2 Raspberry Pi 4's to run a network ad-blocker using a utility called [Pi-Hole](https://pi-hole.net). I wanted 2 of them for each side of my house, sometimes when one goes down for an update or upgrade, it's nice to have a backup ready to continue feet away. I quickly ran into memory issues and had to plan my next move.
 
@@ -80,12 +81,15 @@ For my builds, I am typically transferring files that are large back and forth. 
 # OS
 This is an important consideration also. With TrueNAS and zfs, in general, you need all disks to be the same size or the array chooses the lowest TB storage and applies that capacity to all drives. Note that's an oversimplification but it's very close to the truth.
 
-I am choosing Proxmox for the build this time. It's always been a bit of a mystery to me and I finally have the ability to learn it by tinkering with it in the comfort of my home. If I tried this all in a cloud lab, I'm looking at hundreds of dollars per month for all the VMs and such I tinker with on a daily basis.
+I am choosing [Proxmox](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso) for the build this time. It's always been a bit of a mystery to me and I finally have the ability to learn it by tinkering with it in the comfort of my home. If I tried this all in a cloud lab, I'm looking at hundreds of dollars per month for all the VMs and storage and such I tinker with on a daily basis.
 
 # Miscellaneous Supplies
 You'll want to have some thermal paste on hand and it doesn't hurt to have some spare ethernet patch cables and SATA cables. I've known SATA cables to go bad and completely confuse my troubleshooting efforts. I have thought whole drives were bad before and it was a simple SATA cable change that fixed me right up. 
 
 Again, this isn't a gaming build so some artic 5 silver thermal paste is probably good. One shouldn't need something fancy like liquid metal. You'll only need a healthy dot, like the size of a BB for installing the CPU Cooler(s).
+
+# Additional Considerations
+A homelab doesn't have to be just a box with some drives in it. Once you have your goals in mind, you can expand or shrink your expectations from there. Some add in gear like network switches for learning Cisco's IOS
 # Misc Pictures of my build unboxing:
 
 For starters, I ordered a 4u rack mounted case, the Rosewill RSV-R4100U case from eBay. Why a 4u case? I found a good deal on it and I already have a rack that lives in my closet that will fit the new machine nicely. There happens to be space for either 7x 3.5" hard drives or 14x 2.5" SSD slots. 
@@ -125,4 +129,4 @@ and finally, here it is zoomed out somewhat to show the entire board outside of 
 
 ![[mobo-full.jpg]]
 
-Next, I will purchase a Power Supply Unit or PSU, for short. I will need DDR4 for RAM, hard drives for storage, 2x CPU's and likely a very cheap video card for hardware transcoding. I am rather annoyed that there are few expansion slots, as I would have liked to have space for a 10GBe Network Interface Card or NIC, for short.
+Next, I will purchase a Power Supply Unit or PSU, for short. I will need DDR4 for RAM, hard drives for storage, 2x CPU's and likely a very cheap video card for hardware transcoding. I am rather annoyed that there are three expansion slots, as I would have liked to have space for a 10GBe Network Interface Card or NIC, for short.
