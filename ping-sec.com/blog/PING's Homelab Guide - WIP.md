@@ -9,8 +9,8 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 
 # Homelab Ideas:
 - You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card.
-- One could find mini-pc's or Small Form Factor machines with better processors and more memory for likely cheaper via eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
-	- I am a frequent Facebook marketplace, eBay and local computer re-seller's/repair shop hunter. If I see something that's priced reasonable, I grab it for my homelab.
+- One could find Intel NUCs, mini-pc's or Small Form Factor (SFF) machines with better processors and more memory for likely cheaper via eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
+	- I am a frequent Facebook marketplace, eBay and local computer reseller's/repair shop hunter. If I see something that's priced reasonable, I grab it for my homelab.
 - "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy or alternatively, harvested their drives for other machines.
 
 > [!Current Build]
