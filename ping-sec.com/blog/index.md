@@ -5,9 +5,6 @@ created: 2025-10-08
 modified: 2025-10-08
 ---
 ---
-
-## title: Welcome to Ping-Sec
-
 # Welcome to Ping-Sec 🔐
 
 Hey there! I'm PING, and this is my corner of the internet where I break down cybersecurity concepts, share pentesting techniques, and document my journey through the world of information security.

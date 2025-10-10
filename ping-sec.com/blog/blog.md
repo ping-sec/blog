@@ -5,11 +5,11 @@ Blog Posts for TCM Security:
 - [[Is Linux Hard to Learn]]
 
 Historical Hacks Posts
-[[Rotors, Plugboards, and Reflectors, Oh My Cracking the Enigma Machine with a Bombe]]
-[[Historical Hacks Marconi vs. The Magician]]
+-  [[Rotors, Plugboards, and Reflectors, Oh My Cracking the Enigma Machine with a Bombe]]
+- [[Historical Hacks Marconi vs. The Magician]]
 
 The Homelab Beginner's Guide
-[[PING's Homelab Guide - WIP]]
+- [[PING's Homelab Guide - WIP]]
 
 If you need to reach out, please use the link below to my Bluesky or find me on the TCM Security Discord as PING.
 
