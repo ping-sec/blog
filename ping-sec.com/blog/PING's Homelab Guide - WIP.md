@@ -15,17 +15,17 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 
 > [!Current Build]
 > My Current, Working build:
-> OS: TrueNAS Scale CE
-> Case: Supermicro 4U w/ 20 hard drive bays
-> Motherboard: Will need to check
-> Hard Drives: 8TB Western Digital drives shucked from external drives
-> CPU Coolers: 2x Noctua DH14s
-> CPUs: 2x Intel Xeon(R) CPU- E5-2850 V2 - 16c/23t
-> HBA Cards: Will have to check
-> RAM: 128 GB DDR-3 ECC
-> PSU: Evga 1,000W
-> GPU: Nvidia 1080
-> NIC Card: Onboard and 2 10Gbe ports via PCIe card
+> - OS: TrueNAS Scale CE
+> - Case: Supermicro 4U w/ 20 hard drive bays
+> - Motherboard: Will need to check
+> - Hard Drives: 8TB Western Digital drives shucked from external drives
+> - CPU Coolers: 2x Noctua DH14s
+> - CPUs: 2x Intel Xeon(R) CPU- E5-2850 V2 - 16c/23t
+> - HBA Cards: Will have to check
+> - RAM: 128 GB DDR-3 ECC
+> - PSU: Evga 1,000W
+> - GPU: Nvidia 1080
+> - NIC Card: Onboard and 2 10Gbe ports via PCIe card
 > 
 > Build Tasks: VMs, Media Streaming, among AI and other personal workflows.
 
@@ -56,7 +56,7 @@ Recently, I found a marketplace post nearby, in which the poster was giving away
 I mostly follow the guides from [ServerBuilds.net](https://serverbuilds.net), they specifically recommend older equipment which still has lots of life remaining but that was retired on a planned decommission program by their respective owners. As I'm building a new big rig for the homelab, it felt more honest to just buy what I always wanted, instead of what I needed. Especially considering the parts are rather reasonable at auction and if you look hard enough.
 
 # Needs
-Here are some "must-have's" that every build requires. We'll break them down into individual sections. Primary concerns not listed below are networking, do you have enough switches and ethernet drops? Do you have power to the area you want to keep the home lab and all the various bits and pieces? They're going to run hot, in some parts of the world air conditioning is not an affordable luxury, consistent and reliable power and internet are not always guaranteed. The access to parts, HVAC, power, and networking are a standard in the US and I apologize for not including these statements earlier.
+Here are some "must-have's" that every build requires. We'll break them down into individual sections. Primary concerns not listed below are networking, do you have enough switches and ethernet drops? Do you have power to the area you want to keep the home lab and all the various bits and pieces? They're going to run hot, in some parts of the world air conditioning is not an affordable luxury, consistent and reliable power and internet are not always guaranteed. The access to parts, HVAC, power, and networking are a standard in the US and I apologize for not including these statements earlier. Not only do they run hot, but they can run noisy when fully engaged. Keep that in mind for the location of the server and equipment too. Will this drive my significant other crazy? Valid concerns for sure!
 
 # Case
 Not only do you want something with good airflow as mechanical hard drives like to be cool but you want plenty of room for as many as you can afford. This is why I went with the Rosewill case. It had space for 7x mechanical hard drives. You also want to consider if you need a server rack or cabinet. I have a 42u metal server rack which lives in the closet and holds my current 4u build with plenty of room to spare. Other options include the following: updating in a later edition of this guide.
