@@ -5,7 +5,7 @@ Blog Posts for TCM Security:
 - [[Is Linux Hard to Learn]]
 
 Historical Hacks Posts
-
+[[Rotors, Plugboards, and Reflectors, Oh My Cracking the Enigma Machine with a Bombe]]
 [[Historical Hacks Marconi vs. The Magician]]
 
 The Homelab Beginner's Guide
