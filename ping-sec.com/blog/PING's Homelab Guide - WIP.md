@@ -20,7 +20,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 > - Motherboard: Will need to check
 > - Hard Drives: 8TB Western Digital drives shucked from external drives
 > - CPU Coolers: 2x Noctua DH14s
-> - CPUs: 2x Intel Xeon(R) CPU- E5-2850 V2 - 16c/23t
+> - CPUs: 2x Intel Xeon(R) CPU- E5-2650 V2 - 16c/23t
 > - HBA Cards: Will have to check
 > - RAM: 128 GB DDR-3 ECC
 > - PSU: Evga 1,000W
