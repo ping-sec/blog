@@ -5,10 +5,12 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 > NOTE: This guide will be very photo and link heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
 
 > [!ANOTHER NOTE]
+> This guide is from the perspective of an American buyer with ready access to platforms selling equipment, concerns like affordable HVAC, internet and reliable stable utilities. Your mileage may vary.
+> 
 > I am trying to build this machine using parts nearly entirely from eBay or select Amazon sellers. If I find a good deal on Facebook, I may snag that too. I'm always hunting for more gear!
 
 # Homelab Ideas:
-- You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card. Warning though this is just to see if you like having a machine to do this kind of thing. If you find you like it, continue with upgrading to a bigger, more capable rig.
+- You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card. Pi's are usually considered overpriced for being underpowered but if you want to start small, this is it but I think your money would be better spent on a more capable box.
 - One could find Intel NUCs, mini-pc's or Small Form Factor (SFF) machines with better processors and more memory for likely cheaper via eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
 	- I am a frequent Facebook marketplace, eBay and local computer reseller's/repair shop hunter. If I see something that's priced reasonable, I grab it for my homelab.
 - "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy or alternatively, harvested their drives for other machines.
