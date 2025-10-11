@@ -1,4 +1,4 @@
-Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) and [HackSmarter Discord](https://discord.gg/PhF23AnyJm) as PING. You can help make the guide a community-driven effort and resource. It always feels good to help one another!
+Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky or the Discord listed below with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) and [HackSmarter Discord](https://discord.gg/PhF23AnyJm) as PING. You can help make the guide a community-driven effort and resource. It always feels good to help one another!
 
 
 > [!NOTE]
@@ -8,7 +8,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 > I am trying to build this machine using parts nearly entirely from eBay or select Amazon sellers. If I find a good deal on Facebook, I may snag that too. I'm always hunting for more gear!
 
 # Homelab Ideas:
-- You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card.
+- You can find a [Raspberry Pi kit](https://www.pishop.us/product-category/raspberry-pi/raspberry-pi-5/raspberry-pi-5-kits/) for just about $120 USD, containing the Raspberry Pi 5, USB-C Power Supply (They will NOT run off a cell phone charger, they require more wattage than a normal everyday one can output) and a microSD Card. Warning though this is just to see if you like having a machine to do this kind of thing. If you find you like it, continue with upgrading to a bigger, more capable rig.
 - One could find Intel NUCs, mini-pc's or Small Form Factor (SFF) machines with better processors and more memory for likely cheaper via eBay. **The bigger your budget, the better the performance**. On that note, you can get something a bit more expensive like the [Minisforum MS-01](https://store.minisforum.com/products/minisforum-ms-01?utm_medium=cpcg&gad_source=1&gad_campaignid=20895639069&gclid=Cj0KCQjw3aLHBhDTARIsAIRij5_VQRK7O6Br0H7lsYgGiYo2GImoqURDc9y7jobUJHkSe9e6JVsttU8aAljpEALw_wcB) workstation.
 	- I am a frequent Facebook marketplace, eBay and local computer reseller's/repair shop hunter. If I see something that's priced reasonable, I grab it for my homelab.
 - "Retired Gaming PC" or that *old* PC you just upgraded recently. I have added retired machines to my home lab with absolute joy or alternatively, harvested their drives for other machines.
@@ -18,7 +18,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 > - OS: TrueNAS Scale CE
 > - Case: Supermicro 4U w/ 20 hard drive bays
 > - Motherboard: Will need to check
-> - Hard Drives: 8TB Western Digital drives shucked from external drives
+> - Hard Drives: 8TB Western Digital + 1x 256 GB Samsung SSD for boot drive
 > - CPU Coolers: 2x Noctua DH14s
 > - CPUs: 2x Intel Xeon(R) CPU- E5-2650 V2 - 16c/23t
 > - HBA Cards: Will have to check
