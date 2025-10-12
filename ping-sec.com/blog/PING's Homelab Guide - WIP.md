@@ -89,6 +89,19 @@ Motherboards are usually pretty reasonably priced. You want one with enough SATA
 
 Bear in mind also, that server motherboards are often larger and use a different form factor than desktop builds in the majority of situations. Consider this carefully when purchasing.
 
+## Consumer Motherboards
+
+| Brand - Specs | Model + Link | CPU           | RAM                | Form Factor | PCIe | SATA            | NIC | IPMI | Other  | Estimated Price |
+| ------------- | ------------ | ------------- | ------------------ | ----------- | ---- | --------------- | --- | ---- | ------ | --------------- |
+| ASRock        | B85 PRO4     | Core i3/i5/i7 | Non-ECC UDIMM ONLY | ATX         | 4    | 2xSATA3 4xSATA4 | 1   | No   | -      | ~$55            |
+| ASUS          | H81I-PLUS    | Core i3/i5/i7 | Non-ECC UDIMM ONLY | Mini-ITX    | 1    | 2xSATA3         | 1   | No   | -      | ~$45            |
+| ASUS          | H81M-A       | Core i3/i5/i7 | Non-ECC UDIMM ONLY | Micro-ATX   | 3    | 2xSATA3 2xSATA3 | 1   | No   | -      | ~$35            |
+| ASUS          | H81M-C       | Core i3/i5/i7 | Non-ECC UDIMM ONLY | Micro-ATX   | 3    | 2xSATA3 2xSATA3 | 1   | No   | 1x PCI | ~$50            |
+| Gigabyte      | GA-H81M-S1   | Core i3/i5/i7 | Non-ECC UDIMM ONLY | Micro-ATX   | 3    | -               | 1   | No   | -      | ~$50            |
+
+## Server/Workstation Motherboards
+__Coming Soon__
+
 # Hard Drives
 One could in theory go all the way with SSD's but that's rather expensive and low density of storage unless you've got a credit card with plenty of room. I suggest buying Western Digital external drives and "shucking" them like an oyster to get at the drive inside. It sounds complicated and definitely voids the warranty but anyone with a screwdriver can handle this task. I'll go into more detail on the shucking process in a later edition of the guide.
 
