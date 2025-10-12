@@ -147,7 +147,7 @@ You'll want to have some thermal paste on hand and it doesn't hurt to have some 
 Again, this isn't a gaming build so some artic 5 silver thermal paste is probably good. One shouldn't need something fancy like liquid metal. You'll only need a healthy dot, like the size of a BB for installing the CPU Cooler(s).
 
 # Additional Considerations
-A homelab doesn't have to be just a box with some drives in it. Once you have your goals in mind, you can expand or shrink your expectations from there. Some add in gear like network switches for learning Cisco's IOS or a firewall is a good way to start setting up advanced projects.
+A homelab doesn't have to be just a box with some drives in it. Once you have your goals in mind, you can expand or shrink your expectations from there. Some add in gear like network switches for learning Cisco's IOS or a firewall is a good way to start setting up advanced projects you can add to your resume or CV. It comes across really well that you're a self-starter and motivated towards continuous learning.
 # Misc Pictures of my build unboxing:
 
 For starters, I ordered a 4u rack mounted case, the Rosewill RSV-R4100U case from eBay. Why a 4u case? I found a good deal on it and I already have a rack that lives in my closet that will fit the new machine nicely. There happens to be space for either 7x 3.5" hard drives or 14x 2.5" SSD slots. 
