@@ -67,13 +67,14 @@ Here are some recommendations from the Serverbuilds.net community, unfortunately
 
 ## Tower Cases
 
-| Brand          | Case + Link     | Fits          | 3.5" Drive Space | Estimated Price |
-| -------------- | --------------- | ------------- | ---------------- | --------------- |
-| Cooler Master  | N400            | <= ATX        | 8 + 2            | ~$65            |
-| Cooler Master  | Elite 350 + PSU | <= ATX        | 6 + 4            | ~$90            |
-| Fractal Design | Node 804        | <= mATX       | 10               | ~$115           |
-| Fractal Design | Node 304        | Mini-ITX      | 6                | ~$90            |
-| Silverstone    | DS380B          | DTX, Mini-ITX | 8 hotswap        | ~$200           |
+| Brand          | Case + Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Fits          | 3.5" Drive Space | Estimated Price     |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------- | ------------------- |
+| Cooler Master  | [N400](https://www.amazon.com/Cooler-Master-NSE-400-KKN2-Mid-Tower-Computer/dp/B00DKXXBU0/ref=sr_1_1?crid=T558P08O05CX&dib=eyJ2IjoiMSJ9.IWoSVkAv4yXjYWHKL9FjNpd32vDUAYZSYR121NU6WVZ9FFgkPVR5tkX8RvO5Nct0SI3TDJ6JGWGv-f3NiK5bd9Q6kliUkMcFjqMeDlVKbboiV8J8SQB_giCOJlCAOHXlcERp0wktngVVMGX0avWdCEKTMaAsOam7g3IlRjiU0kqUh1X9FdlI8Nv8wotKzpMucq3L08BRiaM4fwrVt91Km8gTBzhzOyvMK3_LXrFzzlw.VnuXG8idlsyLXybsWjrAVRGzXjMJ6NwnkLYBfDi_ILE&dib_tag=se&keywords=Cooler%2BMaster%2Bn400&qid=1760238420&sprefix=cooler%2Bmaster%2Bn400%2Caps%2C152&sr=8-1&th=1) | <= ATX        | 8 + 2            | ~$75                |
+| Cooler Master  | Elite 350 + PSU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | <= ATX        | 6 + 4            | ~$90 - Unavailable  |
+| Fractal Design | Node 804                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | <= mATX       | 10               | ~$115 - Unavailable |
+| Fractal Design | Node 304                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          | Mini-ITX      | 6                | ~$90 - Unavailable  |
+| Silverstone    | DS380B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | DTX, Mini-ITX | 8 hotswap        | ~$200 -             |
+*Note:* I'm researching more readily available options
 ## Rackmount Chassis
 
 | Brand    | Case + Link | Fits | 3.5" Drive Space | Estimated Price |
@@ -83,7 +84,7 @@ Here are some recommendations from the Serverbuilds.net community, unfortunately
 | Rosewill | RSV-R4000   | All  | 8 + 3            | ~$100           |
 | Rosewill | RSV-L4000   | All  | 8 + 3            | ~$120           |
 | Rosewill | RSV-L4412   | All  | 12 Hotswap       | ~$275           |
-
+*Note:* More research required
 # Motherboards
 Motherboards are usually pretty reasonably priced. You want one with enough SATA ports AND with enough expansion slots for your needs. As I already have a case, I'm pretty locked in with options. Spend money here and on a quality PSU.
 
