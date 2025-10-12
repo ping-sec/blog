@@ -49,7 +49,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 # Thinking about the build
 This is the most important part of the entire process. Weight out your budget and your goals. Do you want a VM or Virtualization server, A low power backup server, a 4K media streaming powerhouse, or a docker container paradise? Do you want a rack mounted server or a tower server? Do you want to use an unused laptop? **Use what you have and upgrade, when, and if, you are able**. Start with something simple like I did, with a Raspberry Pi, a freebie from the E-Waste recycler in your area, a cheapie you found on eBay or from the pile at work the IT Guy was giving away.
 
-When I started buying equipment, I started cheap and eased my way into the larger, overspecced server that I have now. My original plan was to only buy 2 Raspberry Pi 4's to run a network ad-blocker using a utility called [Pi-Hole](https://pi-hole.net). I wanted 2 of them for each side of my house, sometimes when one goes down for an update or upgrade, it's nice to have a backup ready to continue feet away. I quickly ran into memory issues and had to plan my next move.
+When I started buying equipment, I started cheap and eased my way into the larger, overspecced server that I have now. My original plan was to only buy 2 Raspberry Pi 4's to run a network ad-blocker using a utility called [Pi-Hole](https://pi-hole.net). I wanted 2 of them for each side of my house, sometimes when one goes down for an update or a botched upgrade, it's nice to have a backup ready to continue feet away. I quickly ran into memory issues and had to plan my next move.
 
 Next, I switched to purchasing a couple of [mini or small form factor](https://www.ebay.com/itm/295020790427?_skw=mini+home+server+pc&itmmeta=01K75PJSMDGD23RVNHQF8EE7A7&hash=item44b09c029b:g:NSsAAeSwFWZo2Egz&itmprp=enc%3AAQAKAAAA0FkggFvd1GGDu0w3yXCmi1dGJ6FRavo2V%2FUWe8e1pDzSiLutTQ4eI7LyAT%2FcmdT1wT7ev5SJt%2BNlNUAYPu3xbYh7gBeRUCpd30%2F59S%2BV6JZYLOHbYsDnEi0bmKlD6B4v08yfG6SwXPd1eYOUx0egPmwhZwuKTYHv41Wt1EEX20f355UcDKiMY17ioJ6V%2BJlf5zaeWSYlmGXPHRzn36%2FyI5FZbGeabFv4ys9pV5JXbZRHYmLLQtRsF8%2FLMnw7SLtEMlh%2B5hpmrZiRrnXyX1CpvGo%3D%7Ctkp%3ABlBMULCay7a5Zg) PC's. This started the main hobby that's become my homelab today. I ran so many docker containers on those little guys, I had an absolute blast learning how to configure Docker Compose files to bring up an entire stack of applications that I used often up with one command and little wait time. Eventually, I needed more horsepower and came across my current build, case and all minus drives for ~$600 USD.
 
@@ -58,7 +58,7 @@ Recently, I found a marketplace post nearby, in which the poster was giving away
 I mostly follow the guides from [ServerBuilds.net](https://serverbuilds.net), they specifically recommend older equipment which still has lots of life remaining but that was retired on a planned decommission program by their respective owners. As I'm building a new big rig for the homelab, it felt more honest to just buy what I always wanted, instead of what I needed. Especially considering the parts are rather reasonable at auction and if you look hard enough.
 
 # Needs
-Here are some "must-have's" that every build requires. We'll break them down into individual sections. Primary concerns not listed below are networking, do you have enough switches and ethernet drops? Do you have power to the area you want to keep the home lab and all the various bits and pieces? They're going to run hot, in some parts of the world air conditioning is not an affordable luxury, consistent and reliable power and internet are not always guaranteed. The access to parts, HVAC, power, and networking are a standard in the US and I apologize for not including these statements earlier. Not only do they run hot, but they can run noisy when fully engaged. Keep that in mind for the location of the server and equipment too. Will this drive my significant other crazy? Valid concerns for sure!
+Here are some "must-have's" that every build requires. We'll break them down into individual sections. Primary concerns not listed below are networking, do you have enough switches and ethernet drops? Do you have power to the area you want to keep the home lab and all the various bits and pieces? They're going to run hot, in some parts of the world air conditioning is not an affordable luxury, consistent and reliable power and internet are not always guaranteed. The access to parts, HVAC, power, and networking are a standard in the US and I apologize for not including these statements earlier. Not only do servers and switches run hot, but they can run noisy when fully engaged. Keep that in mind for the location of the server and equipment too. Will this drive my significant other crazy? Valid concern for sure!
 
 # Case
 Not only do you want something with good airflow as mechanical hard drives like to be cool but you want plenty of room for as many as you can afford. This is why I went with the Rosewill case. It had space for 7x mechanical hard drives. You also want to consider if you need a server rack or cabinet. I have a 42u metal server rack which lives in the closet and holds my current 4u build with plenty of room to spare. Other options include the following: Do you want a tower server, this is basically a larger version of the standard PC case. You also have the choice of a rackmountable server. Which flows into another potential need...A server rack of some sort.
@@ -97,13 +97,22 @@ This is an important consideration also. With TrueNAS and zfs, in general, you n
 
 I am choosing [Proxmox](https://www.proxmox.com/en/downloads/proxmox-virtual-environment/iso) for the build this time. It's always been a bit of a mystery to me and I finally have the ability to learn it by tinkering with it in the comfort of my home. If I tried this all in a cloud lab, I'm looking at hundreds of dollars per month for all the VMs and storage and such I tinker with on a daily basis.
 
+# Firewall - OPNsense, PFsense, and Protecli Firewalls
+__Coming soon__
+
+# Network Switches
+__Coming Soon__
+
+# Wireless Access Points
+__Coming Soon__
+
 # Miscellaneous Supplies
 You'll want to have some thermal paste on hand and it doesn't hurt to have some spare ethernet patch cables and SATA cables. I've known SATA cables to go bad and completely confuse my troubleshooting efforts. I have thought whole drives were bad before and it was a simple SATA cable change that fixed me right up. 
 
 Again, this isn't a gaming build so some artic 5 silver thermal paste is probably good. One shouldn't need something fancy like liquid metal. You'll only need a healthy dot, like the size of a BB for installing the CPU Cooler(s).
 
 # Additional Considerations
-A homelab doesn't have to be just a box with some drives in it. Once you have your goals in mind, you can expand or shrink your expectations from there. Some add in gear like network switches for learning Cisco's IOS
+A homelab doesn't have to be just a box with some drives in it. Once you have your goals in mind, you can expand or shrink your expectations from there. Some add in gear like network switches for learning Cisco's IOS or a firewall is a good way to start setting up advanced projects.
 # Misc Pictures of my build unboxing:
 
 For starters, I ordered a 4u rack mounted case, the Rosewill RSV-R4100U case from eBay. Why a 4u case? I found a good deal on it and I already have a rack that lives in my closet that will fit the new machine nicely. There happens to be space for either 7x 3.5" hard drives or 14x 2.5" SSD slots. 
