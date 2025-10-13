@@ -1,5 +1,6 @@
 Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. Please feel free to reach out to [me](https://bsky.app/profile/ping-sec.bsky.social) on Bluesky or the Discord listed below with any questions or for clarifications. You'll find me lurking on the [TCM Security Discord](https://discord.gg/tcm) and [HackSmarter Discord](https://discord.gg/PhF23AnyJm) as PING. You can help make the guide a community-driven effort and resource. It always feels good to help one another!
 
+The guide is meant to be free information, and occupies a lot of time finding this information and searching and building, etc. If you want to support the guide, I keep 95% of what one sends. Please consider [Buying me a Coffee](https://buymeacoffee.com/pingsec)! Obviously not required, I'll continue posting regardless.
 
 > [!NOTE]
 > NOTE: This guide will be very photo and link heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
@@ -101,7 +102,15 @@ Bear in mind also, that server motherboards are often larger and use a different
 | Gigabyte      | GA-H81M-S1   | Core i3/i5/i7 | Non-ECC UDIMM ONLY | Micro-ATX   | 3    | -               | 1   | No   | -      | ~$50            |
 
 ## Server/Workstation Motherboards
-__Coming Soon__
+
+
+| Brand + Specs | Model + Link | CPU                 | RAM                    | Form Factor | PCIe | SATA            | NIC | IPMI | Other    | Estimated Price |
+| ------------- | ------------ | ------------------- | ---------------------- | ----------- | ---- | --------------- | --- | ---- | -------- | --------------- |
+| Supermicro    | X10SLM-F     | Xeon, Core i3       | ECC UDIMM ONLY         | Micro-ATX   | 3    | 4xSATA3 2xSATA2 | 2   | Yes  | SATA DOM | ~$90            |
+| Supermicro    | X10SLM±F     | Xeon, Core i3/i5/i7 | ECC UDIMM ONLY         | Micro-ATX   | 3    | 4xSATA3 2xSATA2 | 2   | Yes  | SATA DOM | ~$100           |
+| Supermicro    | X10SLM±LN4F  | Xeon, Core i3       | ECC UDIMM ONLY         | Micro-ATX   | 2    | 4xSATA3 2xSATA2 | 2   | Yes  | SATA DOM | ~$130           |
+| Supermicro    | X10SLV       | Core i3/i5/i7       | Non-ECC UDIMM ONLY     | Mini-ITX    | 1    | 2xSATA3 2xSATA2 | 2   | No   | SODIMM   | ~$120           |
+| ASRock Rack   | C226M WS     | Xeon, Core i3/i5/i7 | ECC/Non-ECC UDIMM ONLY | Micro-ATX   | 3    | 6xSATA3         | 2   | No   | --       | ~$170           |
 
 # Hard Drives
 One could in theory go all the way with SSD's but that's rather expensive and low density of storage unless you've got a credit card with plenty of room. I suggest buying Western Digital external drives and "shucking" them like an oyster to get at the drive inside. It sounds complicated and definitely voids the warranty but anyone with a screwdriver can handle this task. I'll go into more detail on the shucking process in a later edition of the guide.
@@ -110,7 +119,16 @@ One could in theory go all the way with SSD's but that's rather expensive and lo
 Intel Xeon's, at least in the choice I'm making can run rather hot stuck in a case surrounded by mechanical drives. You want to increase the air flow as much as possible. Depending on the configuration of the motherboard and what you want to spend, a single CPU model may make more sense than the raw power of a dual CPU build. These are typically available for pretty reasonable on eBay and Amazon.
 
 # CPU(s)
-I based my decision on this topic on raw cores and threads. I have my eye on a pair of Intel Xeon CPUs that ship with a 20c/40 t count. They're usually around $42 for the ones I'm looking into. More options to come in a future edition of the guide.
+CPU's are relatively cheap. Most consumer models (i3/i5/i7) have an integrated GPU on the chip itself, this saves one needing a graphics card and consuming extra power. It would also occupy a PCIe slot better used to maximize storage density for a NAS or backup server. Though for some builds, like a streaming server, it's probably best to have one that's supported by the OS for transcoding. Note that the newer builds of TrueNAS, Gold Eye and beyond, appear to remove support for older GPU's specific to this purpose. Below are a handful of CPU options, match it to your board and fit it to your wallet.
+
+| Model            | Code  | Cores + Threads | Max Freq. | TDP | Passmark Score | Price (est.) |
+| ---------------- | ----- | --------------- | --------- | --- | -------------- | ------------ |
+| Pentium G3240    | SR1NB | 2C/2T           | 3.2GHz    | 53  | 3251           | ~$10         |
+| i3-4330TE        | SR180 | 2C/4T           | 2.4GHz    | 34  | 3680           | ~$25         |
+| i7-5775C         | SR2AG | 4C/8T           | 3.7GHz    | 65  | 10837          | ~$100        |
+| Xeon E3-1225 V3  | SR1KX | 4C/4T           | 3.6GHz    | 84  | 7238           | ~$45         |
+| Xeon E3-1230L V3 | SR158 | 4C/8T           | 2.8GHz    | 25  | 7231           | ~$65         |
+| Xeon E3-1280 V3  | SR150 | 4C/8T           | 4.0GHz    | 82  | 9841           | ~$100        |
 
 # HBA Card(s)
 These cards are great for adding more drive density to a machine, provided it can hold the drives in the first place. HBA stands for Host Bus Adapter card and they're usually flashed into IT mode and pretty widely available.
