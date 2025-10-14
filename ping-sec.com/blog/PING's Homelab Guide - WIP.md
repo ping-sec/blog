@@ -115,6 +115,7 @@ Bear in mind also, that server motherboards are often larger and use a different
 # Hard Drives
 One could in theory go all the way with SSD's but that's rather expensive and low density of storage unless you've got a credit card with plenty of room. I suggest buying Western Digital external drives and "shucking" them like an oyster to get at the drive inside. It sounds complicated and definitely voids the warranty but anyone with a screwdriver can handle this task. I'll go into more detail on the shucking process in a later edition of the guide.
 
+Here you have a handful of choices, Shuck-able mechanical drives of the SATA variety, SAS drives, and SSD drives. Note the motherboard models I've outlined don't include any M.2 slots so you'll need to choose 2.5" SSDs if you want to go that route. 
 # CPU Coolers
 Intel Xeon's, at least in the choice I'm making can run rather hot stuck in a case surrounded by mechanical drives. You want to increase the air flow as much as possible. Depending on the configuration of the motherboard and what you want to spend, a single CPU model may make more sense than the raw power of a dual CPU build. These are typically available for pretty reasonable on eBay and Amazon.
 
