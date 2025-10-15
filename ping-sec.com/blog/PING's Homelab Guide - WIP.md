@@ -37,15 +37,15 @@ The guide is meant to be free information, and occupies a lot of time finding th
 > - Case: [Rosewill RSV-R4100U](https://www.ebay.com/sch/i.html?_nkw=Rosewill+RSV-R4100U&_sacat=0&_from=R40&_trksid=p4624852.m570.l1313)
 > - Motherboard: [Huananzhi X99-F8D Plus](https://www.aliexpress.us/item/3256807414795351.html?spm=a2g0o.productlist.main.4.499azR1UzR1UEB&aem_p4p_detail=2025100916571710792524128859310000657189&algo_pvid=90ee19b6-411f-43bb-849f-58f653a98892&algo_exp_id=90ee19b6-411f-43bb-849f-58f653a98892-3&pdp_ext_f=%7B%22order%22%3A%22207%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%21462.19%21171.01%21%21%213280.29%211213.71%21%402101e7f617600542378558278ee185%2112000041460603001%21sea%21US%21891770572%21X%211%210%21n_tag%3A-29919%3Bd%3Aafaafc1d%3Bm03_new_user%3A-29895&curPageLogUid=fYjs2sdJy6ix&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007601110103%7C_p_origin_prod%3A&search_p4p_id=2025100916571710792524128859310000657189_1)
 > - Proposed yet necessary hardware:
-> - Hard Drives:
-> - CPU Coolers:
-> - CPUs
-> - HBA Card(s):
-> - RAM:
-> - PSU:
-> - GPU?
+> - Hard Drives: Likely to be SAS Drives
+> - CPU Coolers: Likely Noctua DH-14s
+> - CPUs: High core/High Thread Intel Xeons
+> - HBA Card(s): TBD
+> - RAM: As much as the board can hold
+> - PSU: ~600-800W
+> - GPU: ?
 > - Upgraded 10Gbe NIC card
-> - Fan upgrades?
+> - Fan upgrades: ?
 
 # Thinking about the build
 This is the most important part of the entire process. Weight out your budget and your goals. Do you want a VM or Virtualization server, A low power backup server, a 4K media streaming powerhouse, or a docker container paradise? Do you want a rack mounted server or a tower server? Do you want to use an unused laptop? **Use what you have and upgrade, when, and if, you are able**. Start with something simple like I did, with a Raspberry Pi, a freebie from the E-Waste recycler in your area, a cheapie you found on eBay or from the pile at work the IT Guy was giving away.
