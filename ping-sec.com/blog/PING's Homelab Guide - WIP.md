@@ -140,7 +140,7 @@ CPU's are relatively cheap. Most consumer models (i3/i5/i7) have an integrated G
 These cards are great for adding more drive density to a machine, provided it can hold the drives in the first place. HBA stands for Host Bus Adapter card and they're usually flashed into IT mode and pretty widely available.
 
 # RAM
-This is where it can get expensive, depending on the proposed workload, and compatibility with your motherboard...It might be expensive. My motherboard seems to only take DDR4 and RAM prices seem to rollercoaster up then down fairly regularly for no real reason.
+This is where it can get expensive, depending on the proposed workload, and compatibility with your motherboard...It might be costly. My motherboard seems to only take DDR4 and RAM prices seem to rollercoaster up then down fairly regularly for no real reason.
 
 # Power Supply - PSU
 Get a quality power supply, full stop. There are many different efficiency ratings but overall, remember this isn't meant to truly be a gaming or mining build. You want enough juice flowing as efficiently as possible, while maintaining that you want a stable supply of power to your drives all the time. Cheap power supplies are known to surge sometimes and fry whatever is connected to them. That's a bad thing when you're spending this amount of money and have important data to protect.
