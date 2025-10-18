@@ -1,10 +1,10 @@
 Hey There! Thanks for checking out the guide, I hope it really helps you. There are lots of links to other vendors, NONE of the links are affiliate links where I make any sort of money. 
 
 > [!NOTE]
-> There's also the [[Contact]] form.
-> Discords: [TCM Security](https://discord.gg/tcm) and [HackSmarter](https://discord.gg/PhF23AnyJm)
-> LinkedIn: https://www.linkedin.com/in/casey-campbell-a63255264
-> Bluesky: https://bsky.app/profile/ping-sec.bsky.social
+> Please use the [[Contact]] form or use these options:
+> - Discords: PING on the[TCM Security](https://discord.gg/tcm) and [HackSmarter](https://discord.gg/PhF23AnyJm)
+> - LinkedIn: https://www.linkedin.com/in/casey-campbell-a63255264
+> - Bluesky: https://bsky.app/profile/ping-sec.bsky.social
 
 The guide is meant to be free information, and occupies a lot of time finding this information and searching and building, etc. If you want to support the guide, I keep 95% of what one sends. Please consider [Buying me a Coffee](https://buymeacoffee.com/pingsec)! Obviously not required, I'll continue posting regardless.
 
