@@ -34,7 +34,7 @@ This site is built with Obsidian for writing and Quartz for publishing - because
 
 Have questions? Want to collaborate? Find security issues with this site?
 
-**[Reach out!](https://bsky.app/profile/ping-sec.bsky.social)**
+[[Contact]]
 
 ---
 
