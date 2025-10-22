@@ -12,7 +12,7 @@ The guide is meant to be free information, and occupies a lot of time finding th
 > NOTE: This guide will be very photo and link heavy, so it may take longer to load for some users. It is also pointed more towards first-time builders and the experienced friends out there may be a little bored with the guide quickly. If you'd like some *other* reading material on the more complex, visit my good friend __0xBEN's__ site: https://benheater.com/
 
 > [!ANOTHER_NOTE]
-> This guide is from the perspective of an American buyer with ready access to platforms selling equipment, concerns like affordable HVAC, internet and reliable stable utilities. Your mileage may vary.
+> This guide is from the perspective of an American buyer with ready access to platforms selling equipment, with no concerns like affordable HVAC, internet and reliable stable utilities. Your mileage may vary.
 > 
 > I am trying to build this machine using parts nearly entirely from eBay or select Amazon sellers. If I find a good deal on Facebook, I may snag that too. I'm always hunting for more gear!
 
