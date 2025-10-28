@@ -2,7 +2,7 @@ Hey There! Thanks for checking out the guide, I hope it really helps you. There 
 
 > [!NOTE]
 > Please use the [[Contact]] form or use these options:
-> - Discords: PING on the [TCM Security](https://discord.gg/tcm) and [HackSmarter](https://discord.gg/PhF23AnyJm)
+> - PING on the [TCM Security](https://discord.gg/tcm) and [HackSmarter](https://discord.gg/PhF23AnyJm) Discords
 > - LinkedIn: https://www.linkedin.com/in/casey-campbell-a63255264
 > - Bluesky: https://bsky.app/profile/ping-sec.bsky.social
 
