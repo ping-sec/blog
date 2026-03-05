@@ -9,7 +9,7 @@ Historical Hacks Posts
 - [[Historical Hacks Marconi vs. The Magician]]
 
 The Homelab Beginner's Guide
-- [[PING's Homelab Guide - WIP]]
+- [[PING's Homelab Guide - WIP-original]]
 
 If you need to reach out, please use the link below to my Bluesky or find me on the TCM Security Discord as PING.
 
