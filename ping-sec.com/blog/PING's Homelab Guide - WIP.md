@@ -4,4 +4,4 @@
 > - LinkedIn: https://www.linkedin.com/in/casey-campbell-a63255264
 > - Bluesky: https://bsky.app/profile/ping-sec.bsky.social
 
-The guide itself has undergone many changes in the background but I haven't pushed any updates in 2026.
+The guide itself has undergone many changes in the background but I haven't pushed any updates in 2026. This has been due to (productive) drains on my time and I've tried to rethink the entire process given that many will be facing the squeeze of RAM, HDD, and SSD prices.
