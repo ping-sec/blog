@@ -5,3 +5,6 @@
 > - Bluesky: https://bsky.app/profile/ping-sec.bsky.social
 
 The guide itself has undergone many changes in the background but I haven't pushed any updates in 2026. This has been due to (productive) drains on my time and I've tried to rethink the entire process given that many will be facing the squeeze of RAM, HDD, and SSD prices.
+
+I have also felt there to be a shift in the direction of the Home Lab based questions I'm seeing most often. More software/OS centered questions are being posted than ever before. This tells me that the home lab community is strong on the hardware side but weaker on the software/OS portions of things. This will mark a shift in how the guide is published going forward.
+
