@@ -8,3 +8,9 @@ The guide itself has undergone many changes in the background but I haven't push
 
 I have also felt there to be a shift in the direction of the Home Lab based questions I'm seeing most often. More software/OS centered questions are being posted than ever before. This tells me that the home lab community is strong on the hardware side but weaker on the software/OS portions of things. This will mark a shift in how the guide is published going forward.
 
+# What Do You Want to Do?
+Browse hardware recommendations?
+Create a VM host?
+Create a streaming media server?
+Create a NAS?
+Manage any Container(s)?
