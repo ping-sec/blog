@@ -4,18 +4,13 @@
 > - LinkedIn: https://www.linkedin.com/in/casey-campbell-a63255264
 > - Bluesky: https://bsky.app/profile/ping-sec.bsky.social
 
-Cases
-	Tower Cases
-Cases
-	Rackmount Chassis
+The guide will now solely focus on NON-SBCs as it's the best value for the money going forward. No more recommendations of the Raspberry PI or similar Single Board Computing devices moving ahead.
 
-Motherboards
-	Consumer Motherboards
-Motherboards
-	Server/Workstation Motherboards
+Choose a link to see the hardware suggestions from my good friends at [ServerBuilds.net](https://serverbuilds.net)
 
-CPUs
-	Consumer-Grade
-CPUs
-	Enterprise-Grade
+- Cases
+- Motherboards
+- CPUs
+- Hard Drives
+- 
 
