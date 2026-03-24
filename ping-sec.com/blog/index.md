@@ -23,7 +23,7 @@ Hey there! I'm PING, and this is my corner of the internet where I break down cy
 - [[PING's Homelab Guide - WIP-original]]
 - [[Rotors, Plugboards, and Reflectors, Oh My Cracking the Enigma Machine with a Bombe]]
 - [[Historical Hacks Marconi vs. The Magician]]
-- [[Getting Started with Kali Linux - Installation Guide and Tips for Beginners]]
+- [[Getting Started with Kali Linux - Installation Guide and Tips for Beginners - TCM Security Blog]]
 - [[Introduction To Digital Privacy - TCM Security Blog]]
 
 ## About This Site
