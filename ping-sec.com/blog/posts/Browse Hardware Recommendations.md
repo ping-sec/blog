@@ -33,7 +33,11 @@ Tower Case Suggestions
 
 Rackmount Chassis Suggestions
 
-| Brand | Case + Link | Fits | 3.5" Drive Space | Estimated Pricing |
-| ----- | ----------- | ---- | ---------------- | ----------------- |
-|       |             |      |                  |                   |
+| Brand    | Case + Link | Fits | 3.5" Drive Space  | Estimated Pricing |
+| -------- | ----------- | ---- | ----------------- | ----------------- |
+| Rosewill | RSV-L4500   | All  | 15                | ~$150             |
+| Rosewill | RSV-R4100   | All  | 6 + 2             | ~$110             |
+| Rosewill | RSV-R4000   | All  | 8 + 3             | ~$100             |
+| Rosewill | RSV-L4000   | All  | 8 + 3             | ~$120             |
+| Rosewill | RSV-L4412   | All  | 12 (Hotswappable) | ~$275             |
 
