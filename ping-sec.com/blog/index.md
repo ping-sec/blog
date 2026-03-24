@@ -24,7 +24,7 @@ Hey there! I'm PING, and this is my corner of the internet where I break down cy
 - [[Rotors, Plugboards, and Reflectors, Oh My Cracking the Enigma Machine with a Bombe]]
 - [[Historical Hacks Marconi vs. The Magician]]
 - [[Getting Started with Kali Linux - Installation Guide and Tips for Beginners]]
-- [[Introduction To Digital Privacy]]
+- [[Introduction To Digital Privacy - TCM Security Blog]]
 
 ## About This Site
 

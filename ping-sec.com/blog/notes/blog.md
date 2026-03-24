@@ -1,7 +1,7 @@
 Blog Posts for TCM Security:
 
 - [[Getting Started with Kali Linux - Installation Guide and Tips for Beginners]]
-- [[Introduction To Digital Privacy]]
+- [[Introduction To Digital Privacy - TCM Security Blog]]
 - [[Is Linux Hard to Learn]]
 
 Historical Hacks Posts
