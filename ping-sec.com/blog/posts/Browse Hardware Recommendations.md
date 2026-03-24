@@ -17,7 +17,23 @@ Choose a link to see the hardware suggestions reproduced here, from my good frie
 - NIC
 - GPU
 - OSs
-- Firewall Hardware
+- Firewall Hardware - OPNsense/PFSense/Protectli
 - Wireless Access Points (WAPs)
 - Network Switches
+
+### Cases
+Tower Case Suggestions
+
+| Brand          | Case + Link     | Fits          | 3.5" Drive Space | Estimated Pricing |
+| -------------- | --------------- | ------------- | ---------------- | ----------------- |
+| Cooler Master  | N400            | <- ATX        | 8 + 2            | ~$75              |
+| Cooler Master  | Elite 350 + PSU | <- ATX        | 6 + 4            | ~$90              |
+| Fractal Design | Node 804        | <- mATX       | 10               | ~$115             |
+| SilverStone    | DS380B          | DTX, Mini-ITX | 8 (Hotswappable) | ~$200             |
+
+Rackmount Chassis Suggestions
+
+| Brand | Case + Link | Fits | 3.5" Drive Space | Estimated Pricing |
+| ----- | ----------- | ---- | ---------------- | ----------------- |
+|       |             |      |                  |                   |
 
