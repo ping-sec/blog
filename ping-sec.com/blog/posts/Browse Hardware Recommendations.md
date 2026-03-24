@@ -6,11 +6,18 @@
 
 The guide will now solely focus on NON-SBCs as it's the best value for the money going forward. No more recommendations of the Raspberry PI or similar Single Board Computing devices moving ahead.
 
-Choose a link to see the hardware suggestions from my good friends at [ServerBuilds.net](https://serverbuilds.net)
+Choose a link to see the hardware suggestions reproduced here, from my good friends at [ServerBuilds.net](https://serverbuilds.net)
 
 - Cases
 - Motherboards
 - CPUs
 - Hard Drives
-- 
+- RAM
+- Power Supply
+- NIC
+- GPU
+- OSs
+- Firewall Hardware
+- Wireless Access Points (WAPs)
+- Network Switches
 
