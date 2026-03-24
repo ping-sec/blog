@@ -15,3 +15,7 @@ Motherboards
 	Server/Workstation Motherboards
 
 CPUs
+	Consumer-Grade
+CPUs
+	Enterprise-Grade
+
