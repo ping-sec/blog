@@ -6,33 +6,34 @@ This is not an exhaustive list and should only serve as a gentle reminder
 80/443 - HTTP/HTTPS
 8000/8080/8443 - Alternatives frequently seen
 
-File Transfer
+**File Transfer**
 21 - FTP
 22 - SSH
 445 - SMB
 
-Directory Services
+**Directory Services**
 389/636 - LDAP/LDAPS
 88 - Kerberos
 
-Database Services
+**Database Services**
 1433 - MS SQL
 3306 - MySQL
 5432 - PostgreSQL
 
-Email - Messaging
+**Email - Messaging**
 25 - SMTP
 110/995 - POP3/POP3S
 143-993 - IMAP/IMAPS
 
-Management Protocols
+**Management Protocols**
 161/162 SNMP UDP
 3389 - RDP
 5985/5986 - WinRM
 
-Other Important Services
+**Other Important Services**
 53 - DNS
 135 - MSRPC
 139 - NetBIOS
 1080 - SOCKS Proxy
+23 - Telnet
 
