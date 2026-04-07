@@ -1,8 +1,7 @@
 I've created a course on Digital Privacy for Security Professionals and I'm seeking feedback on how to get the content to interested parties. 
 
-I have 4 options, as I see it:
+It would seem the people want to see it on TCM Academy. So there's some hope it could be leveraged and hosted there after some administrative actions occur.
 
-- HackSmarter Academy
-- TCM Academy - Free Tier
-- YouTube
-- Self-hosting it here on Ping-Sec
+I have thought long and hard on this and I think the home should actually be the scrappy, little underdog that is HackSmarter.
+
+More to come soon...
