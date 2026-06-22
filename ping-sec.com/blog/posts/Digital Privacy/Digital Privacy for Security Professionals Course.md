@@ -1,1 +1,0 @@
-I'm pleased to announce the course is going to Hack Smarter's Academy.
