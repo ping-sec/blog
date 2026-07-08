@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-
+import * as Component from "./quartz/components"
 /**
  * Quartz 4 Configuration
  *
@@ -8,15 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Ping-Sec",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google",
+      tagId: "G-YB20D9LDQ5",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "ping-sec.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -77,7 +78,41 @@ const config: QuartzConfig = {
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
-      Plugin.ContentPage(),
+      Plugin.ContentPage({
+        beforeBody: [
+          Component.Breadcrumbs(),
+          Component.ArticleTitle(),
+          Component.ContentMeta(),
+          Component.TagList(),
+        ],
+        left: [
+          Component.PageTitle(),
+          Component.MobileOnly(Component.Spacer()),
+          Component.Search(),
+          Component.Darkmode(),
+          Component.DesktopOnly(Component.Explorer()),
+        ],
+        right: [
+          Component.Graph(),
+          Component.DesktopOnly(Component.TableOfContents()),
+          Component.Backlinks(),
+          Component.RecentNotes({ limit: 5 }),
+        ],
+        afterBody: [
+          Component.Comments({
+            provider: 'giscus',
+            options: {
+              repo: '',
+              repoId: '',
+              category: '',
+              categoryId: '',
+            }
+          })
+        ],
+        footer: Component.Footer({
+          links: {},
+        }),
+      }),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       Plugin.ContentIndex({
@@ -93,5 +128,4 @@ const config: QuartzConfig = {
     ],
   },
 }
-
 export default config
