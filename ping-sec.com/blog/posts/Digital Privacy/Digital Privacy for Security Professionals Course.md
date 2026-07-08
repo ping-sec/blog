@@ -1,0 +1,1 @@
+After much thought, I have chosen to just self-publish the course I had been planning. Please stay tuned for more information soon.
