@@ -11,7 +11,7 @@ Hey there! I'm PING, and this is my corner of the internet where I break down cy
 
 ## What You'll Find Here
 
-- **Security Research** - Deep dives into vulnerabilities, exploit development, and security analysis, such as [[/blog/posts/Kerberoasting|Kerberoasting]]
+- **Security Research** - Deep dives into vulnerabilities, exploit development, and security analysis, such as [[blog/posts/Kerberoasting|Kerberoasting]]
 - **Pentesting Guides** - Practical walkthroughs of testing methodologies and tools, such as [[Common OSCP Ports]]
 - **CTF Writeups** - Solutions and strategies from capture-the-flag competitions
 - **Tool Reviews** - Honest assessments of security tools and frameworks
