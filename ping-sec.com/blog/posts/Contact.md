@@ -1,5 +1,11 @@
 # Contact
 
+I'll be at the TCM Security booth in the Noob Village for Defcon 34. Stop by for a custom sticker or business card.
+
+Otherwise find me here:
+[Discord](https://discord.com/users/202932449297039360)
+[LinkedIn](https://www.linkedin.com/in/casey-campbell-a63255264/)
+
 Get in touch with me using the form below.
 
 <form action="https://formspree.io/f/xvgwlldz" method="POST" class="contact-form">
