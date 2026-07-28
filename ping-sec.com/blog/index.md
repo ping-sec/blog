@@ -22,6 +22,9 @@ Hey there! I'm PING, and this is my corner of the internet where I break down cy
 - Digital Privacy for Security Professionals Course - COMING SOON!
 - [[Kerberoasting]]
 - [[PING's Homelab Guide - WIP-original]]
+
+Some of my other works for both Ping-Sec.com and TCM Security
+
 - [[Rotors, Plugboards, and Reflectors, Oh My Cracking the Enigma Machine with a Bombe]]
 - [[Historical Hacks Marconi vs. The Magician]]
 - [[Getting Started with Kali Linux - Installation Guide and Tips for Beginners - TCM Security Blog]]
