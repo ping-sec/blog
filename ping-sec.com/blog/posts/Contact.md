@@ -1,6 +1,6 @@
 # Contact
 
-I'll be at the TCM Security booth in the Noob Village for Defcon 34. Stop by for a custom sticker or business card.
+I'll be at the [TCM Security](https://tcm-sec.com) booth in the [Noob Village](https://www.noobvillage.org/) for [Defcon](https://defcon.org) 34. Stop by for a custom sticker or business card.
 
 Otherwise find me here:
 - [Discord](https://discord.com/users/202932449297039360)
