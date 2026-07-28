@@ -38,10 +38,7 @@ This site is built with Obsidian for writing and Quartz for publishing - because
 
 Have questions? Want to collaborate? Find security issues with this site?
 
-Please use either the [[Contact]] page or one of the below options:
-- Discords: PING on [TCM Security](https://discord.gg/tcm) and [HackSmarter](https://discord.gg/PhF23AnyJm)
-- LinkedIn: https://www.linkedin.com/in/casey-campbell-a63255264
-- Bluesky: https://bsky.app/profile/ping-sec.bsky.social
+Please use the [[Contact]] page.
 
 ---
 
