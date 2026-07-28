@@ -5,6 +5,7 @@ One of the quieter truths about Active Directory: You don't need to be an admin 
 In this post, I break down what Kerberoasting actually is, the specific misconfigurations that make it possible, how to defend against it, and what to watch for on the detection side.
 
 The Mechanics
+
 Kerberoasting abuses the normal way Kerberos issues service tickets in Active Directory.
 
 Every service account meant to be reached over Kerberos has a Service Principal Name (SPN) registered to it. When any authenticated user wants to access that service, they ask the Key Distribution Center (KDC, the domain controller) for a service ticket (TGS) for that SPN. Here's the catch: part of that ticket is encrypted with a key derived from the service account's password. And the KDC doesn't check whether the requester has any business accessing the service, if you're authenticated and you ask, you get the ticket.
