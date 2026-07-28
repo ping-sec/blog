@@ -1,10 +1,10 @@
-Introduction
+### Introduction
 
 One of the quieter truths about Active Directory: You don't need to be an admin to start collecting crackable credentials. You just have to be _anyone_ on the domain. Kerberoasting is the attack that actually proves this. With just a valid domain account, an attacked can pull encrypted material tied to privileged service accounts and grind it out offline, out of sight of the Domain Controller. It's cheap, reliable, and it's been a red-team staple for _years_. This is because the underlying design works exactly as _intended_, the weakness lives in how organizations configure their service accounts, not in Kerberos itself.
 
 In this post, I break down what Kerberoasting actually is, the specific misconfigurations that make it possible, how to defend against it, and what to watch for on the detection side.
 
-The Mechanics
+### The Mechanics
 
 Kerberoasting abuses the normal way Kerberos issues service tickets in Active Directory.
 
@@ -45,13 +45,14 @@ Unnecessary or stale SPNs. Accounts carrying SPNs they don't need, or decommissi
 
 A note on Server 2025. Microsoft is phasing RC4 out, WS2025 DCs no longer issue RC4 TGTs by default, new domains stood up from Q1 2026 have RC4 disabled, and the plan is to drop RC4 as an assumed supported etype by end of Q2 2026. But RC4 is still enabled by default in most existing deployments, so downgrade requests remain in play today. And none of this touches the core issue: Kerberoasting is fundamentally a weak-password problem, and AES-only does not make you safe.
 
-Defenses
+### Defenses
 Use group Managed Service Accounts (gMSAs). This is the real kill switch. gMSA passwords are 120 characters, randomly generated, and rotated automatically, there's no human-set password left to crack, so even an AES ticket is effectively uncrackable. Migrating SPN-bearing accounts to gMSAs removes the vulnerability rather than slowing it down.
 Enforce AES, disable RC4. Where a gMSA isn't yet possible, force AES encryption for Kerberos and disable RC4 so attackers can't downgrade to the fast-cracking path.
 Keep service accounts out of privileged groups. Apply least privilege ruthlessly. A cracked account that has no path to anything valuable is a dead end.
 Enforce long, random passwords on any account that must stay human-managed. 25+ characters, randomly generated, rotated. If it can't be a gMSA, make it look like one.
 Audit and remove unused SPNs. Regularly review SPN assignments and decommission stale service accounts so the roastable surface stays as small as possible.
-Detection
+
+### Detection
 
 Kerberoasting hides inside normal Kerberos traffic, so detection is about spotting anomalies rather than a single smoking-gun event.
 
