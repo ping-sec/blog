@@ -12,11 +12,11 @@ Every service account meant to be reached over Kerberos has a Service Principal 
 
 That's the entire opening. The attack flow looks like this:
 
-Enumerate SPNs. An authenticated user queries the domain for accounts that have SPNs set, these are the roastable targets.
-Request TGS tickets. For each target SPN, request a service ticket from the KDC. This is a completely legitimate Kerberos operation.
-Extract the encrypted blob. The portion of the ticket encrypted with the service account's password-derived key is pulled out.
-Crack offline. Take that blob to a separate machine and run a dictionary or brute-force attack against it with Hashcat or John. Because the cracking happens offline, there are no failed-logon events and no lockouts on the domain controller.
-Use the password. Once cracked, the plaintext password is used to authenticate as the service account, and if that account is over-privileged, the domain may fall with it.
+- Enumerate SPNs. An authenticated user queries the domain for accounts that have SPNs set, these are the roastable targets.
+- Request TGS tickets. For each target SPN, request a service ticket from the KDC. This is a completely legitimate Kerberos operation.
+- Extract the encrypted blob. The portion of the ticket encrypted with the service account's password-derived key is pulled out.
+- Crack offline. Take that blob to a separate machine and run a dictionary or brute-force attack against it with Hashcat or John. Because the cracking happens offline, there are no failed-logon events and no lockouts on the domain controller.
+- Use the password. Once cracked, the plaintext password is used to authenticate as the service account, and if that account is over-privileged, the domain may fall with it.
 
 The reason this is so dangerous is the asymmetry: requesting the ticket is silent and looks normal, and all the noisy work happens somewhere the defenders can't see.
 
