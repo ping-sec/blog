@@ -1,6 +1,6 @@
 ### Introduction
 
-One of the quieter truths about Active Directory: You don't need to be an admin to start collecting crackable credentials. You just have to be _anyone_ on the domain. Kerberoasting is the attack that actually proves this. With just a valid domain account, an attacked can pull encrypted material tied to privileged service accounts and grind it out offline, out of sight of the Domain Controller. It's cheap, reliable, and it's been a red-team staple for _years_. This is because the underlying design works exactly as _intended_, the weakness lives in how organizations configure their service accounts, not in Kerberos itself.
+One of the quieter truths about Active Directory: you don't need to be an admin to start collecting crackable credentials. You just have to be anyone on the domain. Kerberoasting is the attack that actually proves this. With only a valid domain account, an attacker can pull encrypted material tied to privileged service accounts and grind it out offline, out of sight of the Domain Controller. It's cheap, it's reliable, and it's been a red-team staple for years. It persists because the underlying design works exactly as intended — the weakness lives in how organizations configure their service accounts, not in Kerberos itself.
 
 In this post, I break down what Kerberoasting actually is, the specific misconfigurations that make it possible, how to defend against it, and what to watch for on the detection side.
 
