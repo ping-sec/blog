@@ -13,4 +13,3 @@ The Homelab Beginner's Guide
 
 If you need to reach out, please use the link below to my Bluesky or find me on the TCM Security Discord as PING.
 
-**[Contact](https://bsky.app/profile/ping-sec.bsky.social)**
