@@ -19,7 +19,7 @@ Hey there! I'm PING, and this is my corner of the internet where I break down cy
 
 ## Recent Posts
 
-- Digital Privacy for Security Professionals Course - COMING SOON!
+- [[Digital Privacy for Security Professionals Course]] - COMING SOON!
 - [[Nmap for Beginners]]
 - [[Getting Started with NetExec]]
 - [[Kerberoasting]]
