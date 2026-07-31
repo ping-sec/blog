@@ -12,7 +12,7 @@ date: 2026-07-29
 draft: false
 ---
 
-The Flipper Zero is a "learn by poking at things" device, and that's exactly why it's such a good teaching tool. It doesn't hand you exploits — it hands you a friendly interface over a pile of wireless protocols that most people assume are secure and mostly aren't. The best way to start is with the boring stuff you own, because that's where the real lessons live.
+The Flipper Zero is a "learn by poking at things" device, and that's exactly why it's such a good teaching tool. It doesn't hand you exploits, it hands you a friendly interface over a pile of wireless protocols that most people assume are secure and mostly aren't. The best way to start is with the boring stuff you own, because that's where the real lessons live.
 
 Here's a path that gets you comfortable with the interface while actually teaching you how these systems work.
 
@@ -20,11 +20,11 @@ Here's a path that gets you comfortable with the interface while actually teachi
 
 IR is the gentlest possible introduction. Point a remote at your Flipper, learn the buttons, save them, and you've got a universal remote for your TV, AC, or projector. The built-in universal remote database covers most consumer gear without any setup at all.
 
-There's no legal gray area here and nothing to break — it's the perfect place to get a feel for capturing, saving, and replaying a signal, which is the mental model you'll reuse everywhere else on the device.
+There's no legal gray area here and nothing to break, it's the perfect place to get a feel for capturing, saving, and replaying a signal, which is the mental model you'll reuse everywhere else on the device.
 
 ## 125 kHz RFID: clone a fob you already carry
 
-Read one of your own low-frequency fobs — an old gym tag, an apartment fob, a hotel-style card — and clone it to a blank. It takes about thirty seconds.
+Read one of your own low-frequency fobs: an old gym tag, an apartment fob, a hotel-style card and clone it to a blank. It takes about thirty seconds.
 
 The lesson lands harder than any slide deck: these credentials have no meaningful authentication. If you can hold your Flipper near the card, you can copy it. Once you've watched your own building fob duplicate in real time, you understand *why* low-frequency RFID for access control is a problem, not just *that* it is.
 
