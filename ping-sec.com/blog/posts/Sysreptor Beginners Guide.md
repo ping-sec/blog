@@ -1,4 +1,15 @@
-# SysReptor: A Beginner's Guide
+---
+title: "SysReptor for Beginners: Stop Writing Pentest Reports in Word"
+description: "A hands-on introduction to SysReptor — what it is, how to self-host it, the four concepts that make the UI click, and how to build a finding library that cuts your reporting time in half."
+tags:
+  - sysreptor
+  - reporting
+  - pentesting
+  - tools
+  - beginner
+draft: false
+date: 2026-07-31
+---
 
 ## What it is
 
@@ -6,7 +17,8 @@ SysReptor is a pentest reporting platform. You design the report layout once in 
 
 It's built by Syslifters (an Austrian shop) and comes in two flavors: a free Community Edition and a paid Professional tier. You can self-host either one, or pay for their cloud.
 
-**Important licensing note:** despite what a lot of blog posts say, SysReptor is *source-available*, not open source. It ships under the "SysReptor Community License." You can read the code and run it internally for free, but it's not GPL/MIT and you don't get the same rights. Worth knowing if you're making a decision for an employer.
+> [!info] Source-available, not open source
+> Despite what a lot of write-ups say, SysReptor ships under the custom "SysReptor Community License" — not GPL or MIT. You can read the code and run it internally for free, but you don't get the same rights to fork, modify, and redistribute. Worth knowing if you're making this call for an employer.
 
 ## Why bother?
 
@@ -86,11 +98,13 @@ That script creates a `sysreptor/` directory with the source, generates your sec
 
 When it finishes, hit **http://127.0.0.1:8000/**.
 
-> ⚠️ **Yes, you're piping a script from the internet into bash.** If that bothers you (it should at least register), read the script first, or use the manual Docker Compose install documented on the same page. Syslifters also signs their images with cosign and documents verification steps — worth doing if this is going anywhere near client data.
+> [!warning] You're piping a script from the internet into bash
+> If that bothers you — and it should at least register — read the script before you run it, or use the manual Docker Compose install documented on the same page. Syslifters signs their images with cosign and documents the verification steps; do that if this is going anywhere near client data.
 
 ### Immediately after install
 
-**Put a real webserver in front of it.** The install script can spin up Caddy for you, which handles TLS automatically. Don't leave port 8000 exposed unauthenticated on anything routable. Syslifters maintains a public security advisories page on GitHub, and running the bare app server without a reverse proxy is explicitly not recommended.
+> [!danger] Put a real webserver in front of it
+> The install script can spin up Caddy for you, which handles TLS automatically. Don't leave port 8000 exposed unauthenticated on anything routable. Syslifters maintains a public security advisories page on GitHub, and running the bare app server without a reverse proxy is explicitly not recommended.
 
 Config lives in `sysreptor/deploy/app.env` if you need to change things later.
 
@@ -146,7 +160,8 @@ The renderer uses Chromium under the hood, so "how would this look as a web page
 
 ## Building your template library
 
-This is where the actual ROI is, and it's the thing beginners skip.
+> [!tip] This is the part beginners skip
+> Everything else in SysReptor is convenience. The finding library is where the actual return on investment lives. Start building it from your very first report.
 
 After every engagement, take any finding you wrote that wasn't hyper-specific to that client and turn it into a template. Write the description and recommendation generically, leave placeholders for the client-specific details.
 
