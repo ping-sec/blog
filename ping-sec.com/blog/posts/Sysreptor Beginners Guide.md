@@ -99,7 +99,7 @@ That script creates a `sysreptor/` directory with the source, generates your sec
 When it finishes, hit **http://127.0.0.1:8000/**.
 
 > [!warning] You're piping a script from the internet into bash
-> If that bothers you — and it should at least register — read the script before you run it, or use the manual Docker Compose install documented on the same page. Syslifters signs their images with cosign and documents the verification steps; do that if this is going anywhere near client data.
+> If that bothers you, and it should at least register, read the script before you run it, or use the manual Docker Compose install documented on the same page. Syslifters signs their images with cosign and documents the verification steps; do that if this is going anywhere near client data.
 
 ### Immediately after install
 
@@ -116,13 +116,13 @@ To stop it: `cd sysreptor/deploy && docker compose stop`
 
 Four concepts. Get these and the UI makes sense:
 
-**Design** — the template. HTML + CSS + Vue.js that defines what the PDF looks like: cover page, headers, fonts, table styles, how findings get laid out. You pick a design when you create a project. Most people set up one company design and never touch it again.
+**Design**: the template. HTML + CSS + Vue.js that defines what the PDF looks like: cover page, headers, fonts, table styles, how findings get laid out. You pick a design when you create a project. Most people set up one company design and never touch it again.
 
-**Project** — one engagement. Contains report sections (scope, methodology, exec summary), findings, notes, and uploaded images.
+**Project**: one engagement. Contains report sections (scope, methodology, exec summary), findings, notes, and uploaded images.
 
-**Finding** — one vulnerability. Title, severity, description, impact, recommendation, references, evidence. Written in Markdown.
+**Finding**: one vulnerability. Title, severity, description, impact, recommendation, references, evidence. Written in Markdown.
 
-**Finding Template** — a reusable finding. Your library. Instead of rewriting the SQLi description for the 30th time, you insert the template and edit the specifics.
+**Finding Template**: a reusable finding. Your library. Instead of rewriting the SQLi description for the 30th time, you insert the template and edit the specifics.
 
 The relationship: a **Design** styles a **Project**, which contains **Findings**, which are often created from **Finding Templates**.
 
@@ -148,8 +148,8 @@ That's genuinely the whole loop.
 
 ## Markdown tips that'll save you pain
 
-- **Images:** drag and drop into the editor. They get uploaded to the project and referenced automatically. Don't hotlink external images — they won't render reliably in the PDF pipeline.
-- **Code blocks:** use fenced blocks with a language hint for syntax highlighting. Long terminal output will overflow the page — trim it to the relevant lines. Nobody wants your full nmap output in the finding body.
+- **Images:** drag and drop into the editor. They get uploaded to the project and referenced automatically. Don't hotlink external images, they won't render reliably in the PDF pipeline.
+- **Code blocks:** use fenced blocks with a language hint for syntax highlighting. Long terminal output will overflow the page, trim it to the relevant lines. Nobody wants your full nmap output in the finding body.
 - **Tables:** standard Markdown tables work, but wide tables break page layout. If you need a wide table, that's usually a sign it belongs in an appendix.
 - **Page breaks and layout control:** handled in the design, not the Markdown. If your finding is splitting awkwardly across pages, fix the CSS, not the content.
 - **References:** there's a cross-referencing system so you can link between findings and sections and have them resolve properly in the PDF.
@@ -195,7 +195,7 @@ Don't reach for this on day one. Get comfortable with the manual workflow first,
 
 ## Community vs Professional
 
-Community gets you the full reporting workflow — unlimited projects, designs, templates, tool imports, notes, archiving. The main limits:
+Community gets you the full reporting workflow: unlimited projects, designs, templates, tool imports, notes, archiving. The main limits:
 
 - **3 users max**
 - No SSO (Keycloak, Entra ID, Google, ADFS)
@@ -216,7 +216,7 @@ For a solo tester or a student, Community is entirely sufficient. The 3-user cap
 
 **Out of memory during render.** Rendering runs Chromium in the app container. Under-provisioned VMs fail here first. 8 GB is the stated requirement for a reason.
 
-**Design edits blowing up the report.** The designer is real HTML/CSS/Vue — you can absolutely break it. Copy an existing design before customizing rather than editing in place, and there's a debugging page in the docs for when the preview goes blank.
+**Design edits blowing up the report.** The designer is real HTML/CSS/Vue: you can absolutely break it. Copy an existing design before customizing rather than editing in place, and there's a debugging page in the docs for when the preview goes blank.
 
 **Following an outdated tutorial.** There are a lot of 2023–2024 SysReptor walkthroughs with install steps that no longer match. The official docs are actively maintained; prefer them.
 
