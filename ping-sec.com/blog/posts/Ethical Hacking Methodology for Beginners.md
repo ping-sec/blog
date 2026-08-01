@@ -8,7 +8,7 @@ tags:
   - beginners
   - pentest-fundamentals
 draft: false
-date: 2026-07-31
+date: 2026-07-30
 ---
 
 A phase-by-phase reference for how a penetration test actually flows. The order matters: each phase feeds the next. Rushing to "exploitation" is the most common beginner mistake, and most of the real work lives in recon and enumeration.
