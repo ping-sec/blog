@@ -38,7 +38,7 @@ It's also very popular for OSCP/CPTS/PNPT exam reports, which is how most people
 
 Go play with the hosted demo first: **https://sysreptor.com/demo**
 
-Seriously — spend fifteen minutes clicking around before you spin up infrastructure. You'll know within that window whether the workflow fits how you think. The playground has demo reports loaded so you can see what a finished product looks like.
+Seriously. Spend fifteen minutes clicking around before you spin up infrastructure. You'll know within that window whether the workflow fits how you think. The playground has demo reports loaded so you can see what a finished product looks like.
 
 If you decide you like it, then pick your deployment.
 
