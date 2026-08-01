@@ -1,8 +1,20 @@
-# Ethical Hacking Methodology — Beginner's Cheatsheet
+---
+title: "Ethical Hacking Methodology: A Beginner's Cheatsheet"
+description: The phase-by-phase flow of a penetration test, from signed scope through the final report, for people just starting out.
+tags:
+  - ethical-hacking
+  - penetration-testing
+  - methodology
+  - beginners
+  - pentest-fundamentals
+draft: false
+date: 2026-07-31
+---
 
-A phase-by-phase reference for how a penetration test actually flows. The order matters: each phase feeds the next. Rushing to "exploitation" is the most common beginner mistake, most of the real work lives in recon and enumeration.
+A phase-by-phase reference for how a penetration test actually flows. The order matters: each phase feeds the next. Rushing to "exploitation" is the most common beginner mistake, and most of the real work lives in recon and enumeration.
 
-> **Rule zero:** Everything below assumes you have **written authorization** and a defined **scope**. No signed scope = not ethical hacking, just crime. Stay in scope, keep your rules of engagement handy, and stop if you find something outside your authorization.
+> [!warning] Rule Zero: Authorization
+> Everything below assumes you have **written authorization** and a defined **scope**. No signed scope = not ethical hacking, just crime. Stay in scope, keep your rules of engagement handy, and stop if you find something outside your authorization.
 
 ---
 
@@ -18,7 +30,8 @@ A phase-by-phase reference for how a penetration test actually flows. The order 
 | 5 | Post-Exploitation | Escalate & expand | Priv-esc, loot, pivot, persist |
 | 6 | Reporting | Communicate findings | The deliverable that actually matters |
 
-Common frameworks that formalize this: **PTES** (Penetration Testing Execution Standard), **OSSTMM**, **NIST SP 800-115**, and the **Cyber Kill Chain**. They differ in labels, not spirit.
+> [!info] Frameworks
+> Several standards formalize this flow: **PTES** (Penetration Testing Execution Standard), **OSSTMM**, **NIST SP 800-115**, and the **Cyber Kill Chain**. They differ in labels, not spirit.
 
 ---
 
@@ -26,11 +39,11 @@ Common frameworks that formalize this: **PTES** (Penetration Testing Execution S
 
 The unglamorous phase that keeps you employed and out of jail.
 
-- **Scope**: exactly which IPs, domains, apps, and accounts are in bounds. Everything else is off-limits.
-- **Rules of Engagement (RoE)**: allowed hours, allowed techniques (is social engineering ok? DoS? password spraying against prod?), and who to contact.
-- **Authorization**: signed, dated, from someone with authority to grant it. Keep a copy reachable during the test.
-- **Emergency contacts**: who to call if you knock something over or find evidence of a prior breach.
-- **Goals**: black box / grey box / white box? Assumed-breach? Compliance-driven?
+- **Scope:** exactly which IPs, domains, apps, and accounts are in bounds. Everything else is off-limits.
+- **Rules of Engagement (RoE):** allowed hours, allowed techniques (is social engineering ok? DoS? password spraying against prod?), and who to contact.
+- **Authorization:** signed, dated, from someone with authority to grant it. Keep a copy reachable during the test.
+- **Emergency contacts:** who to call if you knock something over or find evidence of a prior breach.
+- **Goals:** black box / grey box / white box? Assumed-breach? Compliance-driven?
 
 ---
 
@@ -39,7 +52,7 @@ The unglamorous phase that keeps you employed and out of jail.
 **Passive** (no packets to the target) → **Active** (light interaction).
 
 **Passive / OSINT**
-- `whois example.com` - registration, name servers
+- `whois example.com`: registration, name servers
 - Certificate transparency: `crt.sh` for subdomains
 - Google dorking: `site:example.com filetype:pdf`, `intitle:index.of`
 - DNS: `dig`, `nslookup`, `dnsrecon`, `subfinder`, `amass`
@@ -51,7 +64,7 @@ The unglamorous phase that keeps you employed and out of jail.
 - Subdomain brute force: `ffuf`, `gobuster dns`
 - Banner/tech fingerprinting: `whatweb`, Wappalyzer
 
-**Output:** a target map: domains, subdomains, IP ranges, tech stack, people, exposed assets.
+**Output:** a target map covering domains, subdomains, IP ranges, tech stack, people, and exposed assets.
 
 ---
 
@@ -59,7 +72,7 @@ The unglamorous phase that keeps you employed and out of jail.
 
 Enumeration is where tests are won. Be thorough, take notes per host.
 
-**Host discovery & port scanning — `nmap`**
+**Host discovery & port scanning with `nmap`**
 ```bash
 # Quick full-port sweep
 nmap -p- --min-rate 1000 -T4 <target> -oA scans/allports
@@ -85,9 +98,9 @@ nmap -sC -sV -p <ports> <target> -oA scans/detailed
 Turn enumeration data into a prioritized list of "here's what might break."
 
 - Map service versions to known CVEs (`searchsploit <service>`, vendor advisories)
-- Run scanners where appropriate (Nessus, OpenVAS) — but **verify manually**; scanners produce false positives
+- Run scanners where appropriate (Nessus, OpenVAS), but **verify manually**; scanners produce false positives
 - Look for misconfigurations, not just CVEs: default creds, weak permissions, exposed admin panels, verbose errors
-- Web: think OWASP Top 10: injection, broken access control (IDOR), auth flaws, SSRF, XSS
+- Web: think OWASP Top 10 (injection, broken access control (IDOR), auth flaws, SSRF, XSS)
 - Prioritize by **exploitability × impact**, not just CVSS score
 
 **Output:** a ranked shortlist of candidate weaknesses to test.
@@ -98,8 +111,8 @@ Turn enumeration data into a prioritized list of "here's what might break."
 
 Prove the vulnerability is real. Aim for the lowest-noise path that demonstrates impact.
 
-- Manual first, tooling second, understand *why* it works
-- Public exploits: `searchsploit`, Exploit-DB, GitHub PoCs — **read the code before running it**
+- Manual first, tooling second; understand *why* it works
+- Public exploits (`searchsploit`, Exploit-DB, GitHub PoCs): **read the code before running it**
 - Frameworks: Metasploit (`msfconsole`) for known modules
 - Web: exploit findings by hand via Burp Repeater; validate injection, access-control, upload flaws
 - Password attacks: `hydra`, `john`, `hashcat` (spraying > brute force to avoid lockouts)
@@ -107,7 +120,7 @@ Prove the vulnerability is real. Aim for the lowest-noise path that demonstrates
 **Discipline:**
 - Take a screenshot / capture proof for each successful step
 - Note exact request/command used (you'll need it for the report and remediation retest)
-- Don't destroy data. Don't exfiltrate real customer data — prove access, don't loot indiscriminately
+- Don't destroy data. Don't exfiltrate real customer data; prove access, don't loot indiscriminately
 
 **Output:** confirmed foothold(s) with evidence.
 
@@ -123,12 +136,12 @@ Access is the start, not the finish. Show the *business impact*.
   - Windows: `winpeas`, unquoted service paths, token privileges, stored creds
 - **Credential harvesting:** dump/collect creds where in scope (e.g., `mimikatz`, SAM, config files)
 - **Lateral movement / pivoting:** reach new hosts through the compromised one
-- **Active Directory chains:** Kerberoasting, AS-REP roasting, DCSync, ACL abuse — map with BloodHound first
+- **Active Directory chains:** Kerberoasting, AS-REP roasting, DCSync, ACL abuse; map with BloodHound first
 - **Persistence:** only if the RoE allows it, and always documented so it can be cleaned up
 
 **Cleanup:** track every change you make (accounts, files, shells) so nothing is left behind.
 
-**Output:** demonstrated depth: how far an attacker could actually get.
+**Output:** demonstrated depth, i.e. how far an attacker could actually get.
 
 ---
 
@@ -137,15 +150,15 @@ Access is the start, not the finish. Show the *business impact*.
 The report is the product. A brilliant exploit chain nobody can remediate is worthless.
 
 **Structure**
-- **Executive summary** — plain-language risk for leadership, no jargon
-- **Methodology** — scope, timeline, approach
-- **Findings** — each with:
+- **Executive summary:** plain-language risk for leadership, no jargon
+- **Methodology:** scope, timeline, approach
+- **Findings**, each with:
   - Title & severity (CVSS + business context)
   - Description & affected assets
   - **Steps to reproduce** (clear enough for the client to replay)
   - Evidence (screenshots, requests)
   - **Impact** and **remediation** guidance
-- **Appendices** — raw data, tool output
+- **Appendices:** raw data, tool output
 
 **Good-finding checklist:** Can the client reproduce it? Do they understand the risk? Do they know how to fix it? Can you retest the fix later?
 
@@ -154,7 +167,7 @@ The report is the product. A brilliant exploit chain nobody can remediate is wor
 ## The Beginner Mindset
 
 - **80% of the work is recon + enumeration.** If you're stuck, you haven't enumerated enough.
-- **Take notes constantly** (Obsidian, CherryTree, whatever) — per host, timestamped.
+- **Take notes constantly** (Obsidian, CherryTree, whatever), per host, timestamped.
 - **Understand tools, don't just run them.** Know what a command sends on the wire.
 - **Stay in scope. Always.**
 - **Practice legally:** TryHackMe, Hack The Box, PortSwigger Web Security Academy, VulnHub, and your own lab.
@@ -175,4 +188,5 @@ The report is the product. A brilliant exploit chain nobody can remediate is wor
 
 ---
 
-*Use only against systems you own or are explicitly authorized to test.*
+> [!info] Legal reminder
+> Use only against systems you own or are explicitly authorized to test.
