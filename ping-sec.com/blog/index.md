@@ -9,6 +9,10 @@ modified: 2026-07-28
 
 Hey there! I'm PING, and this is my corner of the internet where I break down cybersecurity concepts, share pentesting techniques, and document my journey through the world of information security.
 
+If you have a sticker or business card from Defcon and want to keep in touch:
+# [[Contact]]
+
+
 ## What You'll Find Here
 
 - **Security Research** - Deep dives into vulnerabilities, exploit development, and security analysis, such as [[Kerberoasting]]
