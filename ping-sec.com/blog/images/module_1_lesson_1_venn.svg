@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 1030" width="1050" height="1030" role="img" aria-labelledby="venn-title venn-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="venn-title">Figure 1. Security, privacy, and anonymity as three overlapping sets</title>
+  <desc id="venn-desc">Three overlapping circles labeled Security, Privacy, and Anonymity. Each circle alone holds one example of that concept without the other two. The center region holds the objective of the course, which is all three together. The three regions where only two circles overlap are left empty as a reader exercise.</desc>
+
+  <rect x="0" y="0" width="1050" height="1030" fill="#ffffff"/>
+
+  <!-- Heading -->
+  <text x="525" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Three Different Problems</text>
+  <text x="525" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Security, privacy, and anonymity overlap. No one of them gives you the other two.</text>
+
+  <!-- Stroke-style key, so the three sets are told apart without color -->
+  <g font-size="12.5" fill="#374151">
+    <line x1="330" y1="106" x2="372" y2="106" stroke="#0072B2" stroke-width="3.5"/>
+    <text x="379" y="110">Security, solid</text>
+    <line x1="470" y1="106" x2="512" y2="106" stroke="#E69F00" stroke-width="3.5" stroke-dasharray="11 7"/>
+    <text x="519" y="110">Privacy, dashed</text>
+    <line x1="615" y1="106" x2="657" y2="106" stroke="#009E73" stroke-width="3.5" stroke-dasharray="1 7" stroke-linecap="round"/>
+    <text x="664" y="110">Anonymity, dotted</text>
+  </g>
+
+  <!-- The three sets -->
+  <g>
+    <circle cx="400.5" cy="393.1" r="250" fill="#0072B2" fill-opacity="0.15" stroke="#0072B2" stroke-width="3.5"/>
+    <circle cx="649.5" cy="393.1" r="250" fill="#E69F00" fill-opacity="0.15" stroke="#E69F00" stroke-width="3.5" stroke-dasharray="11 7"/>
+    <circle cx="525" cy="608.8" r="250" fill="#009E73" fill-opacity="0.15" stroke="#009E73" stroke-width="3.5" stroke-dasharray="1 7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Region 1: Security only -->
+  <g text-anchor="middle" fill="#111827">
+    <text x="286.6" y="298" font-size="17" font-weight="700" letter-spacing="0.6">SECURITY</text>
+    <text x="286.6" y="324" font-size="12.5" font-weight="700">Encrypted mass surveillance.</text>
+    <text x="286.6" y="342" font-size="12.5">The traffic is protected. The</text>
+    <text x="286.6" y="359" font-size="12.5">government still knows who</text>
+    <text x="286.6" y="376" font-size="12.5">speaks to whom.</text>
+  </g>
+
+  <!-- Region 2: Privacy only -->
+  <g text-anchor="middle" fill="#111827">
+    <text x="763.4" y="298" font-size="17" font-weight="700" letter-spacing="0.6">PRIVACY</text>
+    <text x="763.4" y="324" font-size="12.5" font-weight="700">A postcard.</text>
+    <text x="763.4" y="342" font-size="12.5">Convention protects it. Each</text>
+    <text x="763.4" y="359" font-size="12.5">person who handles it can</text>
+    <text x="763.4" y="376" font-size="12.5">read it.</text>
+  </g>
+
+  <!-- Region 3: Anonymity only -->
+  <g text-anchor="middle" fill="#111827">
+    <text x="525" y="660" font-size="17" font-weight="700" letter-spacing="0.6">ANONYMITY</text>
+    <text x="525" y="686" font-size="12.5" font-weight="700">A forum post from open cafe Wi-Fi.</text>
+    <text x="525" y="704" font-size="12.5">The forum does not know you.</text>
+    <text x="525" y="721" font-size="12.5">The network sees everything.</text>
+  </g>
+
+  <!-- Region 4: Security and privacy, left empty -->
+  <g text-anchor="middle" fill="#5b6472">
+    <text x="525" y="265" font-size="26" font-weight="700">?</text>
+    <text x="525" y="289" font-size="10.5" letter-spacing="0.5">FILL THIS</text>
+    <text x="525" y="303" font-size="10.5" letter-spacing="0.5">IN</text>
+  </g>
+
+  <!-- Region 5: Security and anonymity, left empty -->
+  <g text-anchor="middle" fill="#5b6472">
+    <text x="361.8" y="515" font-size="26" font-weight="700">?</text>
+    <text x="361.8" y="539" font-size="10.5" letter-spacing="0.5">FILL THIS</text>
+    <text x="361.8" y="553" font-size="10.5" letter-spacing="0.5">IN</text>
+  </g>
+
+  <!-- Region 6: Privacy and anonymity, left empty -->
+  <g text-anchor="middle" fill="#5b6472">
+    <text x="688.2" y="515" font-size="26" font-weight="700">?</text>
+    <text x="688.2" y="539" font-size="10.5" letter-spacing="0.5">FILL THIS</text>
+    <text x="688.2" y="553" font-size="10.5" letter-spacing="0.5">IN</text>
+  </g>
+
+  <!-- Region 7: the center, all three -->
+  <g text-anchor="middle" fill="#111827">
+    <text x="525" y="438" font-size="13" font-weight="700" letter-spacing="0.3">THE OBJECTIVE OF</text>
+    <text x="525" y="456" font-size="13" font-weight="700" letter-spacing="0.3">THIS COURSE</text>
+    <text x="525" y="476" font-size="11.5" fill="#374151">All three, in layers,</text>
+    <text x="525" y="491" font-size="11.5" fill="#374151">and by intention.</text>
+  </g>
+
+  <!-- Caption -->
+  <line x1="110" y1="898" x2="940" y2="898" stroke="#d1d5db" stroke-width="1"/>
+  <g fill="#374151">
+    <text x="110" y="928" font-size="13.5" font-weight="700" fill="#111827">Figure 1.</text>
+    <text x="178" y="928" font-size="13.5">Security, privacy, and anonymity are three different problems. They overlap, but no</text>
+    <text x="110" y="948" font-size="13.5">one of them gives you the other two.</text>
+
+    <text x="110" y="982" font-size="13.5" font-weight="700" fill="#111827">Reader exercise.</text>
+    <text x="222" y="982" font-size="13.5">The three regions marked with a question mark are deliberately</text>
+    <text x="110" y="1002" font-size="13.5">empty. Give one example for each before you continue. There is more than one correct</text>
+    <text x="110" y="1022" font-size="13.5">answer. Compare your examples against the three scenarios in Section 3.</text>
+  </g>
+</svg>

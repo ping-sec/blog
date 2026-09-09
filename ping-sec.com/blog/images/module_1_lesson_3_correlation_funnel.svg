@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 790" width="1120" height="790" role="img" aria-labelledby="fun-title fun-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="fun-title">Figure 2. A metadata correlation attack, from one anonymous post to one person</title>
+  <desc id="fun-desc">A funnel with four stages. It starts with one anonymous post that carries an EXIF timestamp, a phrase that implies a time zone, a narrow specialty, and a writing style. Three filters then narrow the candidate pool from roughly fifty people, to roughly ten, to one. Each filter is driven by ordinary public metadata, not by any secret.</desc>
+
+  <defs>
+    <marker id="dn" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 5 10 L 10 0" fill="none" stroke="#6b7280" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1120" height="790" fill="#ffffff"/>
+
+  <text x="560" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: How One Post Becomes One Name</text>
+  <text x="560" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Nothing in this chain is secret. Every filter runs on public data.</text>
+
+  <!-- Input -->
+  <rect x="110" y="108" width="650" height="104" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2.5"/>
+  <text x="134" y="138" font-size="14.5" font-weight="700" fill="#111827" letter-spacing="0.6">ONE ANONYMOUS POST</text>
+  <text x="134" y="164" font-size="12.5" fill="#374151">It carries an image with an EXIF timestamp, a phrase that implies a local time,</text>
+  <text x="134" y="186" font-size="12.5" fill="#374151">a narrow technical specialty, and a consistent writing style.</text>
+
+  <text x="900" y="150" text-anchor="middle" font-size="13" fill="#6b7280">candidates</text>
+  <text x="900" y="182" text-anchor="middle" font-size="24" font-weight="700" fill="#6b7280">unknown</text>
+
+  <line x1="435" y1="216" x2="435" y2="256" stroke="#6b7280" stroke-width="2" marker-end="url(#dn)"/>
+
+  <!-- Stage 1 -->
+  <rect x="110" y="262" width="650" height="76" rx="10" fill="#E69F00" fill-opacity="0.16" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="134" y="292" font-size="14" font-weight="700" fill="#8a6000">Filter 1. Public posts inside that window, in that time zone</text>
+  <text x="134" y="318" font-size="12.5" fill="#374151">source: the EXIF timestamp, and the phrasing that implies a local hour</text>
+  <rect x="830" y="272" width="180" height="56" rx="8" fill="#ffffff" stroke="#E69F00" stroke-width="2"/>
+  <text x="920" y="308" text-anchor="middle" font-size="24" font-weight="700" fill="#8a6000">about 50</text>
+
+  <line x1="435" y1="342" x2="435" y2="382" stroke="#6b7280" stroke-width="2" marker-end="url(#dn)"/>
+
+  <!-- Stage 2 -->
+  <rect x="175" y="388" width="520" height="76" rx="10" fill="#E69F00" fill-opacity="0.26" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="199" y="418" font-size="14" font-weight="700" fill="#8a6000">Filter 2. Public commits on the same date</text>
+  <text x="199" y="444" font-size="12.5" fill="#374151">source: commit timestamps, and matching technical subject matter</text>
+  <rect x="830" y="398" width="180" height="56" rx="8" fill="#ffffff" stroke="#E69F00" stroke-width="2"/>
+  <text x="920" y="434" text-anchor="middle" font-size="24" font-weight="700" fill="#8a6000">about 10</text>
+
+  <line x1="435" y1="468" x2="435" y2="508" stroke="#6b7280" stroke-width="2" marker-end="url(#dn)"/>
+
+  <!-- Stage 3 -->
+  <rect x="240" y="514" width="390" height="76" rx="10" fill="#b3261e" fill-opacity="0.14" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="264" y="544" font-size="14" font-weight="700" fill="#8c1d18">Filter 3. Profiles with that specialty and region</text>
+  <text x="264" y="570" font-size="12.5" fill="#374151">source: a public professional profile</text>
+  <rect x="830" y="524" width="180" height="56" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="2"/>
+  <text x="920" y="560" text-anchor="middle" font-size="24" font-weight="700" fill="#8c1d18">1</text>
+
+  <line x1="435" y1="594" x2="435" y2="634" stroke="#6b7280" stroke-width="2" marker-end="url(#dn)"/>
+
+  <!-- Result -->
+  <rect x="305" y="640" width="260" height="64" rx="10" fill="#b3261e" fill-opacity="0.22" stroke="#b3261e" stroke-width="3"/>
+  <text x="435" y="680" text-anchor="middle" font-size="18" font-weight="700" fill="#8c1d18" letter-spacing="0.8">IDENTIFIED</text>
+
+  <text x="560" y="742" text-anchor="middle" font-size="13.5" fill="#4b5563">Lesson 2 named this pattern: aggregation defeats anonymity. This figure shows the mechanism.</text>
+  <text x="560" y="764" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Metadata is the join key. It is what lets an analyst match one data set against another.</text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 730" width="1180" height="730" role="img" aria-labelledby="flow-title flow-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="flow-title">Figure 2. The data ecosystem, from you to the buyers</title>
+  <desc id="flow-desc">A left to right flow in four stages. Stage 1 is you. Stage 2 is the primary collectors, such as platforms, analytics, carriers, and operating systems. Stage 3 is data brokers and aggregators. Stage 4 is the buyers. Two notes below the flow explain that aggregation occurs at stage 3, and that breached broker data is never recalled.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="730" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Where Your Data Goes</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Your data does not stay with the party that collected it. It moves, it is joined, and it is sold.</text>
+
+  <!-- Stage 1: YOU -->
+  <rect x="40" y="120" width="230" height="46" rx="8" fill="#374151"/>
+  <text x="155" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.6">1. YOU</text>
+  <rect x="40" y="166" width="230" height="200" rx="8" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <g font-size="12.5" fill="#111827">
+    <text x="58" y="200">Browsing and search</text>
+    <text x="58" y="224">Telephone and location</text>
+    <text x="58" y="248">Purchases</text>
+    <text x="58" y="272">Posts and accounts</text>
+  </g>
+
+  <!-- Stage 2: PRIMARY COLLECTORS -->
+  <rect x="330" y="120" width="230" height="46" rx="8" fill="#0072B2"/>
+  <text x="445" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.6">2. COLLECTORS</text>
+  <rect x="330" y="166" width="230" height="200" rx="8" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <g font-size="12.5" fill="#111827">
+    <text x="348" y="200">Platforms and apps</text>
+    <text x="348" y="224">Analytics and ad pixels</text>
+    <text x="348" y="248">Internet and mobile carriers</text>
+    <text x="348" y="272">Operating system telemetry</text>
+  </g>
+
+  <!-- Stage 3: BROKERS -->
+  <rect x="620" y="120" width="230" height="46" rx="8" fill="#E69F00"/>
+  <text x="735" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.6">3. BROKERS</text>
+  <rect x="620" y="166" width="230" height="200" rx="8" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="9 6"/>
+  <g font-size="12.5" fill="#111827">
+    <text x="638" y="200">Identity graphs</text>
+    <text x="638" y="224">Location data brokers</text>
+    <text x="638" y="248">Credit and risk files</text>
+    <text x="638" y="272">People search sites</text>
+  </g>
+
+  <!-- Stage 4: BUYERS -->
+  <rect x="910" y="120" width="230" height="46" rx="8" fill="#009E73"/>
+  <text x="1025" y="150" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.6">4. BUYERS</text>
+  <rect x="910" y="166" width="230" height="200" rx="8" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="2.5" stroke-dasharray="1.5 6" stroke-linecap="round"/>
+  <g font-size="12.5" fill="#111827">
+    <text x="928" y="200">Advertisers</text>
+    <text x="928" y="224">Insurers and lenders</text>
+    <text x="928" y="248">Employers and screeners</text>
+    <text x="928" y="272">Political campaigns</text>
+    <text x="928" y="296">Government agencies</text>
+    <text x="928" y="320">Fraud and scam operators</text>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="#374151" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="272" y1="266" x2="322" y2="266"/>
+    <line x1="562" y1="266" x2="612" y2="266"/>
+    <line x1="852" y1="266" x2="902" y2="266"/>
+  </g>
+  <g font-size="11.5" fill="#4b5563" text-anchor="middle">
+    <text x="297" y="252">collect</text>
+    <text x="587" y="252">sell</text>
+    <text x="877" y="252">buy</text>
+  </g>
+
+  <!-- Note A: aggregation -->
+  <rect x="40" y="410" width="1100" height="106" rx="10" fill="#E69F00" fill-opacity="0.08" stroke="#E69F00" stroke-width="2" stroke-dasharray="9 6"/>
+  <text x="64" y="442" font-size="14.5" font-weight="700" fill="#8a6000">Aggregation occurs at stage 3.</text>
+  <text x="64" y="468" font-size="13" fill="#374151">A broker joins records from many sources into one profile, then attaches a stable identifier to that profile.</text>
+  <text x="64" y="492" font-size="13" fill="#374151">Each source alone looks harmless. The joined profile is not harmless. This is the Lesson 1 point in operation: anonymity removes the name, not the data.</text>
+
+  <!-- Note B: breach -->
+  <rect x="40" y="534" width="1100" height="106" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="64" y="566" font-size="14.5" font-weight="700" fill="#8c1d18">A breach at stage 3 is permanent.</text>
+  <text x="64" y="592" font-size="13" fill="#374151">Broker data that leaks reaches criminal markets, breach aggregation sites, and open source intelligence tooling.</text>
+  <text x="64" y="616" font-size="13" fill="#374151">No party can recall it. A later deletion request at the broker does not remove the copies that are already distributed.</text>
+
+  <text x="590" y="686" text-anchor="middle" font-size="13.5" font-style="italic" fill="#4b5563">Read this diagram two ways. It is the intelligence supply chain for your target. It is also the exposure map for you.</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740" role="img" aria-labelledby="tree-title tree-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="tree-title">Figure 2. An attack tree for one asset, the client report</title>
+  <desc id="tree-desc">A tree with one root goal, an adversary obtains the client report, and four branches. Branch one is take it from your endpoint. Branch two is take it in transit. Branch three is take it at rest. Branch four is you disclose it yourself. Each branch lists its leaf techniques. The fourth branch is marked as the one that needs no attacker at all.</desc>
+
+  <rect x="0" y="0" width="1200" height="740" fill="#ffffff"/>
+
+  <text x="600" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Attack Tree for One Asset</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Pick a real asset, state the goal from the adversary point of view, then branch until you reach something you can act on.</text>
+
+  <rect x="400" y="100" width="400" height="58" rx="10" fill="#374151"/>
+  <text x="600" y="126" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">GOAL</text>
+  <text x="600" y="147" text-anchor="middle" font-size="13.5" fill="#ffffff">An adversary obtains the client report</text>
+
+  <path d="M600 158 L600 186 M165 186 L1035 186 M165 186 L165 216 M455 186 L455 216 M745 186 L745 216 M1035 186 L1035 216" fill="none" stroke="#6b7280" stroke-width="2"/>
+
+  <rect x="40" y="216" width="250" height="46" rx="8" fill="#0072B2"/>
+  <text x="165" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">1. Take it from your endpoint</text>
+  <rect x="40" y="262" width="250" height="196" rx="8" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2"/>
+  <g font-size="12" fill="#111827">
+    <circle cx="58" cy="290" r="3" fill="#0072B2"/><text x="72" y="294">Phishing for your credentials</text>
+    <circle cx="58" cy="316" r="3" fill="#0072B2"/><text x="72" y="320">An unpatched application</text>
+    <circle cx="58" cy="342" r="3" fill="#0072B2"/><text x="72" y="346">Malware inside a tool that</text>
+    <text x="72" y="364">you downloaded</text>
+    <circle cx="58" cy="386" r="3" fill="#0072B2"/><text x="72" y="390">A research collaboration</text>
+    <text x="72" y="408">approach that is a lure</text>
+  </g>
+  <text x="58" y="438" font-size="11.5" font-weight="700" fill="#10476b">Attacker effort: low to moderate</text>
+
+  <rect x="330" y="216" width="250" height="46" rx="8" fill="#56B4E9"/>
+  <text x="455" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">2. Take it in transit</text>
+  <rect x="330" y="262" width="250" height="196" rx="8" fill="#56B4E9" fill-opacity="0.14" stroke="#56B4E9" stroke-width="2"/>
+  <g font-size="12" fill="#111827">
+    <circle cx="348" cy="290" r="3" fill="#2b7fa8"/><text x="362" y="294">Mail sent without encryption</text>
+    <circle cx="348" cy="316" r="3" fill="#2b7fa8"/><text x="362" y="320">A share link with no expiry</text>
+    <text x="362" y="338">and no password</text>
+    <circle cx="348" cy="360" r="3" fill="#2b7fa8"/><text x="362" y="364">A file dropped into a group</text>
+    <text x="362" y="382">chat with the wrong members</text>
+  </g>
+  <text x="348" y="438" font-size="11.5" font-weight="700" fill="#1f5f7f">Attacker effort: low</text>
+
+  <rect x="620" y="216" width="250" height="46" rx="8" fill="#E69F00"/>
+  <text x="745" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">3. Take it at rest</text>
+  <rect x="620" y="262" width="250" height="196" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <g font-size="12" fill="#111827">
+    <circle cx="638" cy="290" r="3" fill="#b07b00"/><text x="652" y="294">Cloud account takeover</text>
+    <circle cx="638" cy="316" r="3" fill="#b07b00"/><text x="652" y="320">A stolen or lost laptop</text>
+    <circle cx="638" cy="342" r="3" fill="#b07b00"/><text x="652" y="346">An unencrypted backup drive</text>
+    <circle cx="638" cy="368" r="3" fill="#b07b00"/><text x="652" y="372">An old device that was</text>
+    <text x="652" y="390">never wiped</text>
+  </g>
+  <text x="638" y="438" font-size="11.5" font-weight="700" fill="#8a6000">Attacker effort: moderate</text>
+
+  <rect x="910" y="216" width="250" height="46" rx="8" fill="#b3261e"/>
+  <text x="1035" y="245" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">4. You disclose it yourself</text>
+  <rect x="910" y="262" width="250" height="196" rx="8" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <g font-size="12" fill="#111827">
+    <circle cx="928" cy="290" r="3" fill="#8c1d18"/><text x="942" y="294">Metadata in a published file</text>
+    <circle cx="928" cy="316" r="3" fill="#8c1d18"/><text x="942" y="320">A screenshot that was</text>
+    <text x="942" y="338">cropped, not redacted</text>
+    <circle cx="928" cy="360" r="3" fill="#8c1d18"/><text x="942" y="364">A comment left in a public</text>
+    <text x="942" y="382">repository</text>
+    <circle cx="928" cy="404" r="3" fill="#8c1d18"/><text x="942" y="408">A detail in a conference talk</text>
+  </g>
+  <text x="928" y="438" font-size="11.5" font-weight="700" fill="#8c1d18">Attacker effort: none</text>
+
+  <rect x="40" y="496" width="1120" height="112" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="66" y="528" font-size="15" font-weight="700" fill="#8c1d18">Branch 4 has no attacker in it.</text>
+  <text x="66" y="556" font-size="13" fill="#374151">Branches 1 to 3 need somebody to do work: send a lure, steal a device, break an account. Branch 4 needs nobody. It happens when you publish.</text>
+  <text x="66" y="580" font-size="13" fill="#374151">Lesson 3 covered every leaf in that branch. It is the cheapest path in this tree for an adversary, and it is the only one that you control completely.</text>
+
+  <text x="600" y="660" text-anchor="middle" font-size="13.5" fill="#4b5563">Build one of these for each asset that you rated critical. Stop branching when you reach a leaf that names a control you could actually apply.</text>
+  <text x="600" y="686" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">A tree that ends in "they hack me" is not finished. A tree that ends in "the share link has no expiry date" is finished.</text>
+</svg>

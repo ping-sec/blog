@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 770" width="1020" height="770" role="img" aria-labelledby="lay-title lay-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="lay-title">Figure 3. The four-layer model for footprint management</title>
+  <desc id="lay-desc">Four stacked bands. From the top: the public layer, the professional layer, the personal layer, and the operational layer. A dashed isolation boundary separates each band from the next. Each boundary carries the rule that no identifier, device, or account is shared across it.</desc>
+
+  <rect x="0" y="0" width="1020" height="770" fill="#ffffff"/>
+
+  <text x="510" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Four Layers, Four Boundaries</text>
+  <text x="510" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The objective is not zero footprint. The objective is four footprints that do not connect.</text>
+
+  <!-- Layer 1: PUBLIC -->
+  <rect x="60" y="120" width="900" height="118" rx="10" fill="#0072B2" fill-opacity="0.12" stroke="#0072B2" stroke-width="3"/>
+  <line x1="270" y1="128" x2="270" y2="230" stroke="#0072B2" stroke-width="1.5"/>
+  <text x="165" y="172" text-anchor="middle" font-size="17" font-weight="700" fill="#10476b" letter-spacing="0.6">PUBLIC</text>
+  <text x="165" y="194" text-anchor="middle" font-size="11.5" fill="#4b5563">Layer 1</text>
+  <g font-size="13" fill="#111827">
+    <text x="292" y="162" font-weight="700">What you want strangers to find.</text>
+    <text x="292" y="186">Professional site, sanitized repositories, conference talks, a professional</text>
+    <text x="292" y="210">mail address. Assume that every item here is permanent.</text>
+  </g>
+
+  <line x1="60" y1="253" x2="960" y2="253" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <rect x="230" y="242" width="560" height="22" fill="#ffffff"/>
+  <text x="510" y="258" text-anchor="middle" font-size="11.5" fill="#6b7280">isolation boundary: no shared identifier, device, or account</text>
+
+  <!-- Layer 2: PROFESSIONAL -->
+  <rect x="60" y="268" width="900" height="118" rx="10" fill="#56B4E9" fill-opacity="0.18" stroke="#56B4E9" stroke-width="3"/>
+  <line x1="270" y1="276" x2="270" y2="378" stroke="#2b7fa8" stroke-width="1.5"/>
+  <text x="165" y="320" text-anchor="middle" font-size="17" font-weight="700" fill="#1f5f7f" letter-spacing="0.6">PROFESSIONAL</text>
+  <text x="165" y="342" text-anchor="middle" font-size="11.5" fill="#4b5563">Layer 2</text>
+  <g font-size="13" fill="#111827">
+    <text x="292" y="310" font-weight="700">Your employer identity.</text>
+    <text x="292" y="334">Company mail, client files, internal tools, engagement notes. This layer is</text>
+    <text x="292" y="358">bound by contract and by non-disclosure agreements. Treat it as borrowed.</text>
+  </g>
+
+  <line x1="60" y1="401" x2="960" y2="401" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <rect x="230" y="390" width="560" height="22" fill="#ffffff"/>
+  <text x="510" y="406" text-anchor="middle" font-size="11.5" fill="#6b7280">isolation boundary: no shared identifier, device, or account</text>
+
+  <!-- Layer 3: PERSONAL -->
+  <rect x="60" y="416" width="900" height="118" rx="10" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="3" stroke-dasharray="9 6"/>
+  <line x1="270" y1="424" x2="270" y2="526" stroke="#b07b00" stroke-width="1.5"/>
+  <text x="165" y="468" text-anchor="middle" font-size="17" font-weight="700" fill="#7a5200" letter-spacing="0.6">PERSONAL</text>
+  <text x="165" y="490" text-anchor="middle" font-size="11.5" fill="#4b5563">Layer 3</text>
+  <g font-size="13" fill="#111827">
+    <text x="292" y="458" font-weight="700">Your private life.</text>
+    <text x="292" y="482">Family, banking, medical records, personal messaging, personal accounts.</text>
+    <text x="292" y="506">Privacy settings at maximum. Never used for work and never used for research.</text>
+  </g>
+
+  <line x1="60" y1="549" x2="960" y2="549" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 6"/>
+  <rect x="230" y="538" width="560" height="22" fill="#ffffff"/>
+  <text x="510" y="554" text-anchor="middle" font-size="11.5" fill="#6b7280">isolation boundary: no shared identifier, device, or account</text>
+
+  <!-- Layer 4: OPERATIONAL -->
+  <rect x="60" y="564" width="900" height="118" rx="10" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="3" stroke-dasharray="1.5 7" stroke-linecap="round"/>
+  <line x1="270" y1="572" x2="270" y2="674" stroke="#00795a" stroke-width="1.5"/>
+  <text x="165" y="616" text-anchor="middle" font-size="17" font-weight="700" fill="#00614a" letter-spacing="0.6">OPERATIONAL</text>
+  <text x="165" y="638" text-anchor="middle" font-size="11.5" fill="#4b5563">Layer 4</text>
+  <g font-size="13" fill="#111827">
+    <text x="292" y="606" font-weight="700">Your active research identity.</text>
+    <text x="292" y="630">Burner personas, isolated browser profiles, a VPN or Tor, disposable accounts,</text>
+    <text x="292" y="654">a separate device where the task justifies it. Maximum isolation from layers 1 to 3.</text>
+  </g>
+
+  <text x="510" y="722" text-anchor="middle" font-size="13" fill="#4b5563">A layer fails when one identifier crosses a boundary: a reused user name, a reused photograph,</text>
+  <text x="510" y="744" text-anchor="middle" font-size="13" fill="#4b5563">a reused telephone number, a reused device, or a reused writing habit.</text>
+</svg>

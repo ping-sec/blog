@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 900" width="1060" height="900" role="img" aria-labelledby="ice-title ice-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ice-title">Figure 1. The digital footprint as an iceberg</title>
+  <desc id="ice-desc">An iceberg split by a waterline. The small tip above the line is the active footprint, which you create on purpose and can see. The large mass below the line is the passive footprint, which other parties record without your action. Lists on the right give examples of each.</desc>
+
+  <rect x="0" y="0" width="1060" height="900" fill="#ffffff"/>
+
+  <text x="530" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The Footprint Iceberg</text>
+  <text x="530" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">You choose the tip. Other parties record the mass.</text>
+
+  <g font-size="12.5" fill="#374151">
+    <line x1="352" y1="104" x2="394" y2="104" stroke="#E69F00" stroke-width="3.5"/>
+    <text x="401" y="108">Active, solid</text>
+    <line x1="540" y1="104" x2="582" y2="104" stroke="#0072B2" stroke-width="3.5" stroke-dasharray="1 7" stroke-linecap="round"/>
+    <text x="589" y="108">Passive, dotted</text>
+  </g>
+
+  <rect x="0" y="300" width="1060" height="600" fill="#0072B2" fill-opacity="0.07"/>
+  <line x1="40" y1="300" x2="1020" y2="300" stroke="#0072B2" stroke-width="3"/>
+  <text x="1015" y="322" text-anchor="end" font-size="12" fill="#10476b">waterline: the limit of what you can review and delete</text>
+
+  <polygon points="285,155 425,300 145,300" fill="#E69F00" fill-opacity="0.28" stroke="#E69F00" stroke-width="3"/>
+  <text x="285" y="248" text-anchor="middle" font-size="20" font-weight="700" fill="#7a5200" letter-spacing="0.6">ACTIVE</text>
+  <text x="285" y="274" text-anchor="middle" font-size="12.5" fill="#7a5200">the part you post</text>
+
+  <polygon points="145,300 425,300 470,470 405,690 275,830 140,680 85,470" fill="#0072B2" fill-opacity="0.22" stroke="#0072B2" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <text x="272" y="470" text-anchor="middle" font-size="24" font-weight="700" fill="#10476b" letter-spacing="0.6">PASSIVE</text>
+  <text x="272" y="500" text-anchor="middle" font-size="13" fill="#10476b">the part that is</text>
+  <text x="272" y="521" text-anchor="middle" font-size="13" fill="#10476b">recorded about you</text>
+
+  <text x="520" y="172" font-size="15" font-weight="700" fill="#7a5200" letter-spacing="0.6">ACTIVE FOOTPRINT</text>
+  <text x="520" y="192" font-size="12" fill="#4b5563">You make it on purpose. You can see it.</text>
+  <g font-size="13" fill="#111827">
+    <circle cx="528" cy="212" r="3" fill="#E69F00"/><text x="542" y="216">Posts, comments, and reviews</text>
+    <circle cx="528" cy="234" r="3" fill="#E69F00"/><text x="542" y="238">Accounts and registration forms</text>
+    <circle cx="528" cy="256" r="3" fill="#E69F00"/><text x="542" y="260">Repositories, videos, and articles you publish</text>
+    <circle cx="528" cy="278" r="3" fill="#E69F00"/><text x="542" y="282">Mail and messages you send</text>
+  </g>
+
+  <text x="520" y="342" font-size="15" font-weight="700" fill="#10476b" letter-spacing="0.6">PASSIVE FOOTPRINT</text>
+  <text x="520" y="362" font-size="12" fill="#4b5563">Other parties make it. You do not see it.</text>
+  <g font-size="13" fill="#111827">
+    <circle cx="528" cy="384" r="3" fill="#0072B2"/><text x="542" y="388">IP addresses in server logs</text>
+    <circle cx="528" cy="409" r="3" fill="#0072B2"/><text x="542" y="413">Browser and device fingerprint</text>
+    <circle cx="528" cy="434" r="3" fill="#0072B2"/><text x="542" y="438">Cookies, tracking pixels, and SDKs inside apps</text>
+    <circle cx="528" cy="459" r="3" fill="#0072B2"/><text x="542" y="463">Location from your telephone and your vehicle</text>
+    <circle cx="528" cy="484" r="3" fill="#0072B2"/><text x="542" y="488">Operating system telemetry</text>
+    <circle cx="528" cy="509" r="3" fill="#0072B2"/><text x="542" y="513">Search history and purchase history</text>
+    <circle cx="528" cy="534" r="3" fill="#0072B2"/><text x="542" y="538">Permissions that apps keep after first use</text>
+    <circle cx="528" cy="559" r="3" fill="#0072B2"/><text x="542" y="563">Smart home devices and wearable devices</text>
+    <circle cx="528" cy="584" r="3" fill="#0072B2"/><text x="542" y="588">Traffic logs at your internet service provider</text>
+    <circle cx="528" cy="609" r="3" fill="#0072B2"/><text x="542" y="613">Message metadata: who, when, how often</text>
+  </g>
+
+  <rect x="520" y="650" width="480" height="124" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="542" y="680" font-size="12.5" font-weight="700" fill="#111827">Lesson 1, Myth 3, applies here.</text>
+  <text x="542" y="704" font-size="12.5" fill="#374151">Encryption protects the content of the tip.</text>
+  <text x="542" y="726" font-size="12.5" fill="#374151">It does not protect the mass. The mass is mostly</text>
+  <text x="542" y="748" font-size="12.5" fill="#374151">metadata, and it grows without any action by you.</text>
+</svg>

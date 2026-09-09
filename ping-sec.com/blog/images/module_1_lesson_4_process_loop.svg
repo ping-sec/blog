@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 600" width="1160" height="600" role="img" aria-labelledby="loop-title loop-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="loop-title">Figure 1. The threat modeling process, as a loop</title>
+  <desc id="loop-desc">Six steps left to right: inventory assets, identify actors, map attack vectors, assess risk, select controls, and record and review. Four of the steps carry the matching question from the Electronic Frontier Foundation security plan. A return arrow runs from the last step back to the first, labelled every quarter or the day a trigger fires. A callout below covers the sixth question, who are my allies.</desc>
+
+  <defs>
+    <marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1160" height="600" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Six Steps, and They Run in a Loop</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">A threat model that you write once and never open again is not a threat model. It is a document.</text>
+
+  <rect x="35" y="112" width="165" height="212" rx="9" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M35 121 a9 9 0 0 1 9 -9 h147 a9 9 0 0 1 9 9 v29 h-165 z" fill="#0072B2"/>
+  <text x="117" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">1. ASSETS</text>
+  <text x="50" y="178" font-size="11.5" font-style="italic" fill="#10476b">What do I want</text>
+  <text x="50" y="194" font-size="11.5" font-style="italic" fill="#10476b">to protect?</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="50" y="224">List what you hold.</text>
+    <text x="50" y="244">Data, identities,</text>
+    <text x="50" y="264">devices, relationships,</text>
+    <text x="50" y="284">and the knowledge</text>
+    <text x="50" y="304">that you carry.</text>
+  </g>
+
+  <rect x="220" y="112" width="165" height="212" rx="9" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M220 121 a9 9 0 0 1 9 -9 h147 a9 9 0 0 1 9 9 v29 h-165 z" fill="#0072B2"/>
+  <text x="302" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">2. ACTORS</text>
+  <text x="235" y="178" font-size="11.5" font-style="italic" fill="#10476b">Who do I want to</text>
+  <text x="235" y="194" font-size="11.5" font-style="italic" fill="#10476b">protect it from?</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="235" y="224">Name them. Give</text>
+    <text x="235" y="244">each one a motive</text>
+    <text x="235" y="264">and a real capability.</text>
+    <text x="235" y="284">Reject the ones that</text>
+    <text x="235" y="304">do not apply to you.</text>
+  </g>
+
+  <rect x="405" y="112" width="165" height="212" rx="9" fill="#56B4E9" fill-opacity="0.16" stroke="#56B4E9" stroke-width="2.5"/>
+  <path d="M405 121 a9 9 0 0 1 9 -9 h147 a9 9 0 0 1 9 9 v29 h-165 z" fill="#56B4E9"/>
+  <text x="487" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">3. VECTORS</text>
+  <text x="420" y="178" font-size="11.5" font-style="italic" fill="#1f5f7f">How could they</text>
+  <text x="420" y="194" font-size="11.5" font-style="italic" fill="#1f5f7f">actually reach it?</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="420" y="224">Draw an attack tree</text>
+    <text x="420" y="244">for each critical</text>
+    <text x="420" y="264">asset. Include the</text>
+    <text x="420" y="284">paths where you are</text>
+    <text x="420" y="304">the one who leaks it.</text>
+  </g>
+
+  <rect x="590" y="112" width="165" height="212" rx="9" fill="#E69F00" fill-opacity="0.16" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M590 121 a9 9 0 0 1 9 -9 h147 a9 9 0 0 1 9 9 v29 h-165 z" fill="#E69F00"/>
+  <text x="672" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">4. RISK</text>
+  <text x="605" y="178" font-size="11.5" font-style="italic" fill="#8a6000">How likely, and</text>
+  <text x="605" y="194" font-size="11.5" font-style="italic" fill="#8a6000">how bad if I fail?</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="605" y="224">Rate both. Use the</text>
+    <text x="605" y="244">matrix to sort, not</text>
+    <text x="605" y="264">to decide.</text>
+    <text x="605" y="284">Escalate a severe</text>
+    <text x="605" y="304">outcome on impact.</text>
+  </g>
+
+  <rect x="775" y="112" width="165" height="212" rx="9" fill="#E69F00" fill-opacity="0.16" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M775 121 a9 9 0 0 1 9 -9 h147 a9 9 0 0 1 9 9 v29 h-165 z" fill="#E69F00"/>
+  <text x="857" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">5. CONTROLS</text>
+  <text x="790" y="178" font-size="11.5" font-style="italic" fill="#8a6000">How much trouble</text>
+  <text x="790" y="194" font-size="11.5" font-style="italic" fill="#8a6000">will I go through?</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="790" y="224">Choose controls that</text>
+    <text x="790" y="244">you will really use.</text>
+    <text x="790" y="264">Write down the ones</text>
+    <text x="790" y="284">you reject, and why</text>
+    <text x="790" y="304">you reject them.</text>
+  </g>
+
+  <rect x="960" y="112" width="165" height="212" rx="9" fill="#009E73" fill-opacity="0.14" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M960 121 a9 9 0 0 1 9 -9 h147 a9 9 0 0 1 9 9 v29 h-165 z" fill="#009E73"/>
+  <text x="1042" y="141" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="0.5">6. REVIEW</text>
+  <text x="975" y="178" font-size="11.5" font-style="italic" fill="#00614a">Is any of this still</text>
+  <text x="975" y="194" font-size="11.5" font-style="italic" fill="#00614a">true?</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="975" y="224">Date it, version it,</text>
+    <text x="975" y="244">and set the next</text>
+    <text x="975" y="264">review date before</text>
+    <text x="975" y="284">you close the file.</text>
+  </g>
+
+  <g stroke="#374151" stroke-width="2.5" marker-end="url(#a4)">
+    <line x1="204" y1="218" x2="216" y2="218"/>
+    <line x1="389" y1="218" x2="401" y2="218"/>
+    <line x1="574" y1="218" x2="586" y2="218"/>
+    <line x1="759" y1="218" x2="771" y2="218"/>
+    <line x1="944" y1="218" x2="956" y2="218"/>
+  </g>
+
+  <path d="M1042 328 L1042 372 L117 372 L117 330" fill="none" stroke="#009E73" stroke-width="2.5" stroke-dasharray="8 5" marker-end="url(#a4)"/>
+  <rect x="395" y="360" width="370" height="24" fill="#ffffff"/>
+  <text x="580" y="378" text-anchor="middle" font-size="12.5" font-weight="700" fill="#00614a">every quarter, or the day a trigger fires</text>
+
+  <rect x="35" y="410" width="1090" height="94" rx="10" fill="#0072B2" fill-opacity="0.07" stroke="#0072B2" stroke-width="2"/>
+  <text x="60" y="440" font-size="14.5" font-weight="700" fill="#10476b">The sixth question runs across every step: who are my allies?</text>
+  <text x="60" y="466" font-size="13" fill="#374151">Your client security team, your colleagues, your legal counsel, and the program that authorized the work. Threat modeling is usually taught as a solitary</text>
+  <text x="60" y="490" font-size="13" fill="#374151">exercise. It is not. Several of the controls in this lesson only work if another party agrees to them in advance.</text>
+
+  <text x="580" y="552" text-anchor="middle" font-size="13" fill="#4b5563">The questions in italics come from the Electronic Frontier Foundation guide to building a security plan. See Reference 1.</text>
+</svg>

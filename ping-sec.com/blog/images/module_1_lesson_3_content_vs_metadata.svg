@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 750" width="1080" height="750" role="img" aria-labelledby="cvm-title cvm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="cvm-title">Figure 1. The content of a file compared with the metadata of the same file</title>
+  <desc id="cvm-desc">Two panels side by side. The left panel is a document that holds the two words Hello World. The right panel is the metadata that ships inside the same file. It lists an author name, an organization, timestamps, an edit duration, a revision number, a template, an application version, a printer event, and a full file path. A band below states what those fields disclose.</desc>
+
+  <rect x="0" y="0" width="1080" height="750" fill="#ffffff"/>
+
+  <text x="540" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Two Words, and Everything Else</text>
+  <text x="540" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Both panels are the same file. You wrote one of them.</text>
+
+  <!-- Left panel: content -->
+  <rect x="50" y="110" width="460" height="480" rx="10" fill="#ffffff" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M50 120 a10 10 0 0 1 10 -10 h440 a10 10 0 0 1 10 10 v34 h-460 z" fill="#0072B2"/>
+  <text x="280" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.6">WHAT YOU SEE</text>
+
+  <rect x="90" y="190" width="380" height="300" rx="4" fill="#f9fafb" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="280" y="345" text-anchor="middle" font-size="26" fill="#111827">Hello World</text>
+  <text x="280" y="530" text-anchor="middle" font-size="13" fill="#6b7280">2 words. 11 characters.</text>
+  <text x="280" y="556" text-anchor="middle" font-size="13" fill="#6b7280">You typed all of it on purpose.</text>
+
+  <!-- Right panel: metadata -->
+  <rect x="570" y="110" width="460" height="480" rx="10" fill="#ffffff" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="9 6"/>
+  <path d="M570 120 a10 10 0 0 1 10 -10 h440 a10 10 0 0 1 10 10 v34 h-460 z" fill="#E69F00"/>
+  <text x="800" y="140" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.6">WHAT SHIPS WITH IT</text>
+
+  <g font-size="13" font-family="Consolas, Menlo, monospace">
+    <text x="596" y="190" fill="#6b7280">Author</text>            <text x="790" y="190" fill="#111827">A. Researcher</text>
+    <text x="596" y="220" fill="#6b7280">Company</text>           <text x="790" y="220" fill="#111827">Northwind Consulting</text>
+    <text x="596" y="250" fill="#6b7280">Created</text>           <text x="790" y="250" fill="#111827">2026-03-12 14:47</text>
+    <text x="596" y="280" fill="#6b7280">Modified</text>          <text x="790" y="280" fill="#111827">2026-03-12 14:51</text>
+    <text x="596" y="310" fill="#6b7280">Total edit time</text>   <text x="790" y="310" fill="#111827">4 minutes</text>
+    <text x="596" y="340" fill="#6b7280">Revision number</text>   <text x="790" y="340" fill="#111827">3</text>
+    <text x="596" y="370" fill="#6b7280">Template</text>          <text x="790" y="370" fill="#111827">Normal.dotm</text>
+    <text x="596" y="400" fill="#6b7280">Application</text>       <text x="790" y="400" fill="#111827">Word 2019</text>
+    <text x="596" y="430" fill="#6b7280">Last printed</text>      <text x="790" y="430" fill="#111827">2026-03-12 14:50</text>
+    <text x="596" y="460" fill="#6b7280">Company address</text>   <text x="790" y="460" fill="#111827">not set</text>
+  </g>
+  <line x1="596" y1="482" x2="1004" y2="482" stroke="#e5e7eb" stroke-width="1.5"/>
+  <text x="596" y="508" font-size="13" font-family="Consolas, Menlo, monospace" fill="#6b7280">Source path</text>
+  <text x="596" y="534" font-size="12.5" font-family="Consolas, Menlo, monospace" fill="#b3261e">C:\Users\aresearcher\Clients\</text>
+  <text x="596" y="556" font-size="12.5" font-family="Consolas, Menlo, monospace" fill="#b3261e">Acme_Corp\draft.docx</text>
+
+  <!-- Footer band -->
+  <rect x="50" y="618" width="980" height="98" rx="10" fill="#E69F00" fill-opacity="0.09" stroke="#E69F00" stroke-width="2" stroke-dasharray="9 6"/>
+  <text x="76" y="650" font-size="14.5" font-weight="700" fill="#8a6000">From two words, a reader learns eight things that you did not write.</text>
+  <text x="76" y="676" font-size="13" fill="#374151">A personal name, an employer, a client name, an account name, a working hour, a software version, a printer event, and an internal folder structure.</text>
+  <text x="76" y="700" font-size="13" fill="#374151">You cannot see any of it in the application that produced the file. You must read the file with a separate tool.</text>
+</svg>

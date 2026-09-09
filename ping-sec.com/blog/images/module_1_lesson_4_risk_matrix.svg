@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 720" width="1160" height="720" role="img" aria-labelledby="rm-title rm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="rm-title">Figure 3. The risk matrix, with the severe impact escalation rule</title>
+  <desc id="rm-desc">A five by five grid. Impact runs left to right from one to five. Likelihood runs bottom to top from one to five. Each cell shows the product of the two values. Six example scenarios are plotted as labelled markers. The whole impact five column is outlined and marked escalate on impact alone, because a low likelihood multiplied by a severe impact produces a middling score that hides an outcome you cannot recover from.</desc>
+
+  <rect x="0" y="0" width="1160" height="720" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Sort With the Matrix, Do Not Decide With It</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The number in each cell is likelihood multiplied by impact. That number is a sorting aid, and it has a known failure mode.</text>
+
+  <!-- Grid: 5 columns (Impact 1..5) x 5 rows (Likelihood 5..1) -->
+  <!-- Row L=5 -->
+  <rect x="200" y="130" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="250" y="175" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">5</text>
+  <rect x="300" y="130" width="100" height="76" fill="#fde8c8" stroke="#9ca3af"/><text x="350" y="175" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">10</text>
+  <rect x="400" y="130" width="100" height="76" fill="#f8c98a" stroke="#9ca3af"/><text x="450" y="175" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">15</text>
+  <rect x="500" y="130" width="100" height="76" fill="#f0a3a0" stroke="#9ca3af"/><text x="550" y="175" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">20</text>
+  <rect x="600" y="130" width="100" height="76" fill="#f0a3a0" stroke="#9ca3af"/><text x="650" y="175" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">25</text>
+  <!-- Row L=4 -->
+  <rect x="200" y="206" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="250" y="251" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">4</text>
+  <rect x="300" y="206" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="350" y="251" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">8</text>
+  <rect x="400" y="206" width="100" height="76" fill="#fde8c8" stroke="#9ca3af"/><text x="450" y="251" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">12</text>
+  <rect x="500" y="206" width="100" height="76" fill="#f8c98a" stroke="#9ca3af"/><text x="550" y="251" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">16</text>
+  <rect x="600" y="206" width="100" height="76" fill="#f0a3a0" stroke="#9ca3af"/><text x="650" y="251" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">20</text>
+  <!-- Row L=3 -->
+  <rect x="200" y="282" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="250" y="327" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">3</text>
+  <rect x="300" y="282" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="350" y="327" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">6</text>
+  <rect x="400" y="282" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="450" y="327" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">9</text>
+  <rect x="500" y="282" width="100" height="76" fill="#fde8c8" stroke="#9ca3af"/><text x="550" y="327" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">12</text>
+  <rect x="600" y="282" width="100" height="76" fill="#f8c98a" stroke="#9ca3af"/><text x="650" y="327" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">15</text>
+  <!-- Row L=2 -->
+  <rect x="200" y="358" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="250" y="403" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">2</text>
+  <rect x="300" y="358" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="350" y="403" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">4</text>
+  <rect x="400" y="358" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="450" y="403" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">6</text>
+  <rect x="500" y="358" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="550" y="403" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">8</text>
+  <rect x="600" y="358" width="100" height="76" fill="#fde8c8" stroke="#9ca3af"/><text x="650" y="403" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">10</text>
+  <!-- Row L=1 -->
+  <rect x="200" y="434" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="250" y="479" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">1</text>
+  <rect x="300" y="434" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="350" y="479" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">2</text>
+  <rect x="400" y="434" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="450" y="479" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">3</text>
+  <rect x="500" y="434" width="100" height="76" fill="#eff6ff" stroke="#9ca3af"/><text x="550" y="479" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">4</text>
+  <rect x="600" y="434" width="100" height="76" fill="#dbeafe" stroke="#9ca3af"/><text x="650" y="479" text-anchor="middle" font-size="18" font-weight="700" fill="#374151">5</text>
+
+  <!-- Escalation band over the whole Impact=5 column -->
+  <rect x="600" y="130" width="100" height="380" fill="none" stroke="#b3261e" stroke-width="4" stroke-dasharray="9 5"/>
+  <text x="650" y="558" text-anchor="middle" font-size="12" font-weight="700" fill="#8c1d18">escalate on impact alone</text>
+
+  <!-- Axes -->
+  <text x="250" y="530" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">1</text>
+  <text x="350" y="530" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">2</text>
+  <text x="450" y="530" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">3</text>
+  <text x="550" y="530" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">4</text>
+  <text x="650" y="530" text-anchor="middle" font-size="14" font-weight="700" fill="#374151">5</text>
+  <text x="450" y="590" text-anchor="middle" font-size="15" font-weight="700" fill="#111827" letter-spacing="0.8">IMPACT</text>
+  <text x="185" y="174" text-anchor="end" font-size="14" font-weight="700" fill="#374151">5</text>
+  <text x="185" y="250" text-anchor="end" font-size="14" font-weight="700" fill="#374151">4</text>
+  <text x="185" y="326" text-anchor="end" font-size="14" font-weight="700" fill="#374151">3</text>
+  <text x="185" y="402" text-anchor="end" font-size="14" font-weight="700" fill="#374151">2</text>
+  <text x="185" y="478" text-anchor="end" font-size="14" font-weight="700" fill="#374151">1</text>
+  <text x="140" y="320" text-anchor="middle" font-size="15" font-weight="700" fill="#111827" letter-spacing="0.8" transform="rotate(-90 140 320)">LIKELIHOOD</text>
+
+  <!-- Plotted scenarios -->
+  <g>
+    <circle cx="580" cy="226" r="13" fill="#ffffff" stroke="#111827" stroke-width="2.5"/><text x="580" y="231" text-anchor="middle" font-size="12.5" font-weight="700" fill="#111827">A</text>
+    <circle cx="580" cy="302" r="13" fill="#ffffff" stroke="#111827" stroke-width="2.5"/><text x="580" y="307" text-anchor="middle" font-size="12.5" font-weight="700" fill="#111827">B</text>
+    <circle cx="680" cy="302" r="13" fill="#ffffff" stroke="#b3261e" stroke-width="2.5"/><text x="680" y="307" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8c1d18">C</text>
+    <circle cx="680" cy="378" r="13" fill="#ffffff" stroke="#b3261e" stroke-width="2.5"/><text x="680" y="383" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8c1d18">D</text>
+    <circle cx="380" cy="150" r="13" fill="#ffffff" stroke="#111827" stroke-width="2.5"/><text x="380" y="155" text-anchor="middle" font-size="12.5" font-weight="700" fill="#111827">E</text>
+    <circle cx="480" cy="226" r="13" fill="#ffffff" stroke="#111827" stroke-width="2.5"/><text x="480" y="231" text-anchor="middle" font-size="12.5" font-weight="700" fill="#111827">F</text>
+  </g>
+
+  <!-- Legend -->
+  <text x="750" y="146" font-size="13" font-weight="700" fill="#111827" letter-spacing="0.6">SCORE BANDS</text>
+  <g font-size="12" fill="#374151">
+    <rect x="750" y="158" width="22" height="16" fill="#f0a3a0" stroke="#9ca3af"/><text x="782" y="171">20 to 25, critical</text>
+    <rect x="750" y="182" width="22" height="16" fill="#f8c98a" stroke="#9ca3af"/><text x="782" y="195">15 to 19, high</text>
+    <rect x="750" y="206" width="22" height="16" fill="#fde8c8" stroke="#9ca3af"/><text x="782" y="219">10 to 14, medium</text>
+    <rect x="750" y="230" width="22" height="16" fill="#dbeafe" stroke="#9ca3af"/><text x="782" y="243">5 to 9, low</text>
+    <rect x="750" y="254" width="22" height="16" fill="#eff6ff" stroke="#9ca3af"/><text x="782" y="267">1 to 4, minimal</text>
+  </g>
+
+  <text x="750" y="308" font-size="13" font-weight="700" fill="#111827" letter-spacing="0.6">PLOTTED SCENARIOS</text>
+  <g font-size="12" fill="#374151">
+    <text x="750" y="332" font-weight="700" fill="#111827">A</text><text x="772" y="332">Phishing or credential abuse. Score 16.</text>
+    <text x="750" y="358" font-weight="700" fill="#111827">B</text><text x="772" y="358">An unpatched application is exploited. Score 12.</text>
+    <text x="750" y="384" font-weight="700" fill="#8c1d18">C</text><text x="772" y="384" fill="#8c1d18">Laptop stolen with client data on it. Score 15.</text>
+    <text x="750" y="410" font-weight="700" fill="#8c1d18">D</text><text x="772" y="410" fill="#8c1d18">Targeted campaign against researchers. Score 10.</text>
+    <text x="750" y="436" font-weight="700" fill="#111827">E</text><text x="772" y="436">A service that you use is breached. Score 10.</text>
+    <text x="750" y="462" font-weight="700" fill="#111827">F</text><text x="772" y="462">Client data leaked through metadata. Score 12.</text>
+  </g>
+
+  <rect x="748" y="486" width="382" height="86" rx="8" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="766" y="512" font-size="12.5" font-weight="700" fill="#8c1d18">D and E both score 10.</text>
+  <text x="766" y="534" font-size="12" fill="#374151">One is a recoverable nuisance. The other ends a</text>
+  <text x="766" y="552" font-size="12" fill="#374151">career and breaks a client contract. The score</text>
+  <text x="766" y="566" font-size="12" fill="#374151">cannot tell them apart. That is the failure mode.</text>
+
+  <rect x="40" y="612" width="1080" height="82" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="64" y="640" font-size="13.5" font-weight="700" fill="#111827">The rule that fixes it: any scenario with impact 5 goes on the action list, whatever its score says.</text>
+  <text x="64" y="664" font-size="12.5" fill="#374151">Likelihood and impact are ordered labels, not measured quantities, so their product is not a real number. Multiplying them compresses very different</text>
+  <text x="64" y="684" font-size="12.5" fill="#374151">risks into one band. Use the grid to sort a long list quickly. Use judgment on anything you could not recover from. See Reference 2.</text>
+</svg>
