@@ -1,4 +1,6 @@
-After much thought, I have chosen to just self-publish the course I had been planning. Note that each module will be uploaded with a 7 day pause, releasing on Fridays following this initial batch
+After much thought, I have chosen to just self-publish the course I had been planning. Note that each module will be uploaded with a 7 day pause, releasing on Fridays following this initial batch.
+
+Lots of reading will be required!
 
 Here's the projected outline:
 
