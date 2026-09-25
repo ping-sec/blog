@@ -1,6 +1,6 @@
 ---
 title: "Threat Modeling: Deciding What You Will Not Defend"
-description: "A threat model is mostly a record of the defences you decided to skip, and why. Here is the method that turns a list of good practices into the few things you will actually do."
+description: A threat model is mostly a record of the defences you decided to skip, and why. Here is the method that turns a list of good practices into the few things you will actually do.
 course: Digital Privacy for Ethical Hackers
 module: 1
 lesson: 1.4
@@ -15,7 +15,7 @@ tags:
   - attack-trees
   - opsec
   - module-1-capstone
-date: 2026-09-08
+date: 2026-09-24
 draft: false
 ---
 

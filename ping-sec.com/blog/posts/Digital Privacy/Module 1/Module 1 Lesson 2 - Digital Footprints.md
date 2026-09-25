@@ -1,6 +1,6 @@
 ---
 title: "Digital Footprints: The Trail You Cannot Stop Making"
-description: "The data trail you leave continuously without knowing it, why anonymity does not stop it being collected, and three documented cases of people re-identified from behaviour alone."
+description: The data trail you leave continuously without knowing it, why anonymity does not stop it being collected, and three documented cases of people re-identified from behaviour alone.
 course: Digital Privacy for Ethical Hackers
 module: 1
 lesson: 1.2
@@ -15,7 +15,7 @@ tags:
   - osint
   - opsec
   - aggregation
-date: 2026-09-08
+date: 2026-09-24
 draft: false
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Privacy, Security, and Anonymity: Three Different Problems"
-description: "Three words most people use interchangeably, the different problem each one actually names, and how to work out which of them matters in a given situation."
+description: Three words most people use interchangeably, the different problem each one actually names, and how to work out which of them matters in a given situation.
 course: Digital Privacy for Ethical Hackers
 module: 1
 lesson: 1.1
@@ -10,7 +10,7 @@ tags:
   - digital-privacy-course
   - privacy
   - privacy-fundamentals
-date: 2026-09-08
+date: 2026-09-24
 draft: false
 ---
 

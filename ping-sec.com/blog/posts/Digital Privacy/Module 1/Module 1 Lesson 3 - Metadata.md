@@ -1,6 +1,6 @@
 ---
 title: "Metadata: The Part of the File You Did Not Write"
-description: "The fields you never typed that travel with every file you share, why they are the join key that defeats anonymity, and how to strip them before you publish."
+description: The fields you never typed that travel with every file you share, why they are the join key that defeats anonymity, and how to strip them before you publish.
 course: Digital Privacy for Ethical Hackers
 module: 1
 lesson: 1.3
@@ -15,7 +15,7 @@ tags:
   - opsec
   - sanitization
   - attribution
-date: 2026-09-08
+date: 2026-09-24
 draft: false
 ---
 
