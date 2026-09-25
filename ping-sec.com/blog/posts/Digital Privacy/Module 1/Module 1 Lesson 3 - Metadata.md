@@ -1,5 +1,5 @@
 ---
-title: "Metadata: The Part of the File You Did Not Write"
+title: "Module 1, Lesson 3 - Metadata: The Part of the File You Did Not Write"
 description: The fields you never typed that travel with every file you share, why they are the join key that defeats anonymity, and how to strip them before you publish.
 course: Digital Privacy for Ethical Hackers
 module: 1

@@ -1,5 +1,5 @@
 ---
-title: "Threat Modeling: Deciding What You Will Not Defend"
+title: "Module 1, Lesson 4 - Threat Modeling: Deciding What You Will Not Defend"
 description: A threat model is mostly a record of the defences you decided to skip, and why. Here is the method that turns a list of good practices into the few things you will actually do.
 course: Digital Privacy for Ethical Hackers
 module: 1

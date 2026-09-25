@@ -1,5 +1,5 @@
 ---
-title: "Digital Footprints: The Trail You Cannot Stop Making"
+title: "Module 1, Lesson 2 - Digital Footprints: The Trail You Cannot Stop Making"
 description: The data trail you leave continuously without knowing it, why anonymity does not stop it being collected, and three documented cases of people re-identified from behaviour alone.
 course: Digital Privacy for Ethical Hackers
 module: 1

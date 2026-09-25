@@ -1,5 +1,5 @@
 ---
-title: "Privacy, Security, and Anonymity: Three Different Problems"
+title: "Module 1, Lesson 1 - Privacy, Security, and Anonymity: Three Different Problems"
 description: Three words most people use interchangeably, the different problem each one actually names, and how to work out which of them matters in a given situation.
 course: Digital Privacy for Ethical Hackers
 module: 1
