@@ -1,5 +1,5 @@
 ---
-title: "PGP and Encrypted Mail: What It Covers, What Broke, and When It Is Still Required"
+title: "Module 3 Lesson 3 - PGP and Encrypted Mail: What It Covers, What Broke, and When It Is Still Required"
 course: Digital Privacy for Ethical Hackers
 module: 3
 lesson: 3.3

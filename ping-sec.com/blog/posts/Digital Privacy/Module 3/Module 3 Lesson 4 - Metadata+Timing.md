@@ -1,5 +1,5 @@
 ---
-title: "Metadata and Timing: The Shape of a Conversation"
+title: "Module 3 Lesson 4 - Metadata and Timing: The Shape of a Conversation"
 course: Digital Privacy for Ethical Hackers
 module: 3
 lesson: 3.4

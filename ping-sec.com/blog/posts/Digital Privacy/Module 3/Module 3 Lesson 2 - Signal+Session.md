@@ -1,5 +1,5 @@
 ---
-title: "Signal and Session: Configuring for a Specific Observer"
+title: "Module 3 Lesson 2 - Signal and Session: Configuring for a Specific Observer"
 course: Digital Privacy for Ethical Hackers
 module: 3
 lesson: 3.2

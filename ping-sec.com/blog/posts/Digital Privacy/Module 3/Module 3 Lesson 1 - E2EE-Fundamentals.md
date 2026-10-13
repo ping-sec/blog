@@ -1,5 +1,5 @@
 ---
-title: "End-to-End Encryption: Who Holds the Key, and What It Does Not Cover"
+title: "Module 3 Lesson 1: End-to-End Encryption: Who Holds the Key, and What It Does Not Cover"
 course: Digital Privacy for Ethical Hackers
 module: 3
 lesson: 3.1
