@@ -1,5 +1,5 @@
 ---
-title: "Hardware Security Keys: What They Solve Completely, and What They Leave Open"
+title: "Module 4 Lesson 2: Hardware Security Keys: What They Solve Completely, and What They Leave Open"
 course: Digital Privacy for Ethical Hackers
 module: 4
 lesson: 4.2

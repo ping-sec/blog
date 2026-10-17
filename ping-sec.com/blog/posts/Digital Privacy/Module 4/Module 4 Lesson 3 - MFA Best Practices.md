@@ -1,5 +1,5 @@
 ---
-title: "Multi-Factor Authentication: One Line, and the Housekeeping Below It"
+title: "Module 4 Lesson 3: Multi-Factor Authentication: One Line, and the Housekeeping Below It"
 course: Digital Privacy for Ethical Hackers
 module: 4
 lesson: 4.3

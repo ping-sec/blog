@@ -1,5 +1,5 @@
 ---
-title: "Account Recovery: The Second Authentication System Nobody Designed"
+title: "Module 4 Lesson 4: Account Recovery: The Second Authentication System Nobody Designed"
 course: Digital Privacy for Ethical Hackers
 module: 4
 lesson: 4.4
