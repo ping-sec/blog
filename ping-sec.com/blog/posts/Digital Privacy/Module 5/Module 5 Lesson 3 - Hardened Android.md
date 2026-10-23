@@ -1,5 +1,5 @@
 ---
-title: "Hardened Android: Two Axes, and the One Nobody Draws"
+title: "Module 5 Lesson 3 - Hardened Android: Hardened Android: Two Axes, and the One Nobody Draws"
 course: Digital Privacy for Ethical Hackers
 module: 5
 lesson: 5.3

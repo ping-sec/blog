@@ -1,5 +1,5 @@
 ---
-title: "iOS and Android: The Wrong Question, and Three Better Ones"
+title: "Module 5 Lesson 1 - iOS vs Android Privacy: iOS and Android: The Wrong Question, and Three Better Ones"
 course: Digital Privacy for Ethical Hackers
 module: 5
 lesson: 5.1

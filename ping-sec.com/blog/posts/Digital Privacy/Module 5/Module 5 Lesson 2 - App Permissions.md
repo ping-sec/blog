@@ -1,5 +1,5 @@
 ---
-title: "App Permissions: Necessary, Insufficient, and Only One of Three Channels"
+title: "Module 5 Lesson 2 - App Permissions: App Permissions: Necessary, Insufficient, and Only One of Three Channels"
 course: Digital Privacy for Ethical Hackers
 module: 5
 lesson: 5.2

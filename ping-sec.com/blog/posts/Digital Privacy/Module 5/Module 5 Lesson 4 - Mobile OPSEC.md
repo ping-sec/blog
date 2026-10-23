@@ -1,5 +1,5 @@
 ---
-title: "Mobile OPSEC: The Boring Column First"
+title: "Module 5 Lesson 4 - Mobile OPSEC: Mobile OPSEC: The Boring Column First"
 course: Digital Privacy for Ethical Hackers
 module: 5
 lesson: 5.4
