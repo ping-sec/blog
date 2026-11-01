@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="lm-title lm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="lm-title">Figure 1. Six ways traffic escapes, sorted by what decides the route</title>
+  <desc id="lm-desc">A table of six leak types organised by the mechanism that sends traffic outside the tunnel rather than by name. Name resolution reaching the wrong resolver is decided by the operating system's resolver order. Browser encrypted name resolution is decided by the browser, which overrides the tunnel's resolver. Real time communication address discovery is decided by the browser's own network stack. Traffic over the newer address family is decided by whether the tunnel carries it. Route injection from the local network is decided by the routing table, which an attacker can change. Kill switch failure is decided by the client software. The final column pairs each with the test that detects it, and the table notes that route injection leaves the tunnel connected and does not trigger a kill switch.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Six Ways Traffic Escapes, and What Decides the Route</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Leaks are usually taught as a list of names. Sorting them by which component chooses the path tells you where to look and what to fix.</text>
+
+  <rect x="30" y="98" width="1120" height="44" rx="8" fill="#374151"/>
+  <text x="48" y="126" font-size="12.5" font-weight="700" fill="#ffffff">HOW IT ESCAPES</text>
+  <text x="330" y="126" font-size="12.5" font-weight="700" fill="#ffffff">WHAT DECIDES THE ROUTE</text>
+  <text x="640" y="126" font-size="12.5" font-weight="700" fill="#ffffff">TUNNEL STILL UP?</text>
+  <text x="830" y="126" font-size="12.5" font-weight="700" fill="#ffffff">WHAT FINDS IT</text>
+
+  <rect x="30" y="148" width="1120" height="60" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="174" font-size="12.5" font-weight="700" fill="#8a6000">Name lookups to the wrong resolver</text>
+  <text x="48" y="194" font-size="11" fill="#4b5563">the classic, and still common</text>
+  <text x="330" y="182" font-size="12" fill="#374151">The operating system's resolver order</text>
+  <text x="640" y="182" font-size="12" fill="#374151">Yes</text>
+  <text x="830" y="182" font-size="12" fill="#374151">A resolver test, extended mode</text>
+
+  <rect x="30" y="216" width="1120" height="60" rx="6" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2"/>
+  <text x="48" y="242" font-size="12.5" font-weight="700" fill="#8c1d18">The browser doing its own lookups</text>
+  <text x="48" y="262" font-size="11" fill="#4b5563">on by default, and rarely mentioned</text>
+  <text x="330" y="250" font-size="12" fill="#374151">The browser, which overrides the tunnel</text>
+  <text x="640" y="250" font-size="12" fill="#374151">Yes</text>
+  <text x="830" y="250" font-size="12" fill="#374151">A resolver test, but read it carefully</text>
+
+  <rect x="30" y="284" width="1120" height="60" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="310" font-size="12.5" font-weight="700" fill="#8a6000">Address discovery in the browser</text>
+  <text x="48" y="330" font-size="11" fill="#4b5563">much reduced since 2019, see Figure 3</text>
+  <text x="330" y="318" font-size="12" fill="#374151">The browser's own network stack</text>
+  <text x="640" y="318" font-size="12" fill="#374151">Yes</text>
+  <text x="830" y="318" font-size="12" fill="#374151">A browser leak test</text>
+
+  <rect x="30" y="352" width="1120" height="60" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="378" font-size="12.5" font-weight="700" fill="#8a6000">Traffic over the newer address family</text>
+  <text x="48" y="398" font-size="11" fill="#4b5563">now more than half of all traffic</text>
+  <text x="330" y="386" font-size="12" fill="#374151">Whether the tunnel carries it at all</text>
+  <text x="640" y="386" font-size="12" fill="#374151">Yes</text>
+  <text x="830" y="386" font-size="12" fill="#374151">An address family test</text>
+
+  <rect x="30" y="420" width="1120" height="60" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="446" font-size="12.5" font-weight="700" fill="#8c1d18">Routes injected by the local network</text>
+  <text x="48" y="466" font-size="11" fill="#8c1d18">disclosed 2024, and Figure 2's subject</text>
+  <text x="330" y="454" font-size="12" fill="#374151">The routing table, which somebody else set</text>
+  <text x="640" y="446" font-size="12" font-weight="700" fill="#8c1d18">Yes, and the guard</text>
+  <text x="640" y="464" font-size="12" font-weight="700" fill="#8c1d18">does not fire</text>
+  <text x="830" y="454" font-size="12" font-weight="700" fill="#8c1d18">Only checking the routing table</text>
+
+  <rect x="30" y="488" width="1120" height="60" rx="6" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="514" font-size="12.5" font-weight="700" fill="#00614a">The tunnel drops and traffic continues</text>
+  <text x="48" y="534" font-size="11" fill="#4b5563">the one everybody tests</text>
+  <text x="330" y="522" font-size="12" fill="#374151">The client software's own guard</text>
+  <text x="640" y="522" font-size="12" fill="#374151">No</text>
+  <text x="830" y="522" font-size="12" fill="#374151">Killing the process, not clicking disconnect</text>
+
+  <rect x="30" y="572" width="1120" height="146" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="602" font-size="15.5" font-weight="700" fill="#10476b">Four things this table makes visible that a list of names does not</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="628" r="3.5" fill="#0072B2"/><text x="80" y="632"><tspan font-weight="700">Five of the six leave the tunnel connected.</tspan> The client reports everything is fine, because from its point of view everything is. Only one is a connection failure.</text>
+    <circle cx="66" cy="654" r="3.5" fill="#0072B2"/><text x="80" y="658"><tspan font-weight="700">Row five is invisible to every other row's test.</tspan> The traffic never enters the tunnel, so there is nothing for the client to notice, and the guard has nothing to react to.</text>
+    <circle cx="66" cy="680" r="3.5" fill="#0072B2"/><text x="80" y="684"><tspan font-weight="700">The last column is not one website.</tspan> A single all-in-one page checks three of these and cannot see the other three, which is why the routine in Section 7 is longer than one link.</text>
+    <circle cx="66" cy="706" r="3.5" fill="#8c1d18"/><text x="80" y="710"><tspan font-weight="700">And row two is on by default in most browsers</tspan>, so it is not a misconfiguration you made. It is a design decision somebody else made about your traffic.</text>
+  </g>
+
+  <text x="590" y="758" text-anchor="middle" font-size="13.5" fill="#4b5563">Test for the mechanism rather than the symptom. Two leaks that both show a wrong address need completely different fixes.</text>
+  <text x="590" y="782" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">And a green result on an all-in-one page means three of these six were not tested at all.</text>
+</svg>

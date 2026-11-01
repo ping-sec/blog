@@ -22,7 +22,7 @@ Lesson 6.1 established the shape of this problem: a VPN transfers visibility rat
 
 **This lesson is the practical follow-through.** How to read an audit report, which is the thing everybody recommends and nobody explains. What providers actually did after being caught, which is more informative than the incident. And how to build a scorecard whose weights match how much each signal proves, rather than one that awards more points for a kill switch than for a police raid that came up empty.
 
-It also corrects the same jurisdiction framing that appeared in the previous lesson, because the source material for this one expands it into a full ranked list of countries, and the list contradicts itself twice.
+It also returns to the jurisdiction framing from the previous lesson, because one ranked list of countries I reviewed contradicts itself twice.
 
 ### Learning Objectives
 
@@ -75,13 +75,13 @@ A no-logging engagement observes a configuration. It cannot observe intent, it c
 
 **Which is why repetition matters more than any single report.** One provider has now completed six such engagements since 2018, the first two with one large accountancy firm and the subsequent four with another, on an annual cadence since 2022. (Reference 1) That pattern says something a first audit cannot. **And an unannounced engagement says more again**, which Section 3 comes back to.
 
-**One correction to the source material here.** It lists that provider as audited by the first firm, which was true in 2018 and 2020 and has not been the arrangement since 2022. Naming a stale auditor is a small thing that signals the whole comparison was assembled rather than checked.
+**One stale detail to watch for.** One comparison I reviewed lists that provider as audited by the first firm, which was true in 2018 and 2020 and has not been the arrangement since 2022. Naming a stale auditor is a small thing that signals the whole comparison was assembled rather than checked.
 
 ---
 
 ## 2. Reading a Logging Policy
 
-The source material scores privacy policies for clarity. The more useful skill is knowing which distinction to look for, because the same distinction decided both of the cases in Section 3.
+It is tempting to score privacy policies for clarity. The more useful skill is knowing which distinction to look for, because the same distinction decided both of the cases in Section 3.
 
 **Connection records and traffic records are different things.** Connection records are the metadata: which address connected, when, for how long, how much moved. Traffic records are what you did: destinations, name lookups, contents.
 
@@ -95,7 +95,7 @@ The source material scores privacy policies for clarity. The more useful skill i
 
 ## 3. What Providers Did After Being Tested
 
-The source material keeps a permanent avoid list. **The incident is the least informative part of each of these stories.**
+Some guidance keeps a permanent avoid list. **The incident is the least informative part of each of these stories.**
 
 ![[module_6_lesson_3_after_being_caught.svg]]
 
@@ -129,13 +129,13 @@ In 2023 police executed a search warrant at a provider's offices intending to se
 
 **None of which means the incidents do not matter.** They do. They are one input, dated, alongside what came after.
 
-**One claim in the source material to set aside.** It states that multiple providers claiming no logs supplied data to authorities during the Hong Kong protests and that users were arrested. I could not find sourcing for this. It may be true and it is presented without a reference in material that is otherwise careful to cite its examples, so treat it as unverified until somebody produces the source.
+**One claim to set aside.** You may read that multiple providers claiming no logs supplied data to authorities during the Hong Kong protests and that users were arrested. I could not find sourcing for this. It may be true, but treat it as unverified until somebody produces the source.
 
 ---
 
 ## 4. The Jurisdiction List, Again
 
-Lesson 6.1 covered why intelligence alliance membership is a weak signal. The source material for this lesson expands it into a ranked list of countries, which makes two further problems visible.
+Lesson 6.1 covered why intelligence alliance membership is a weak signal. One ranked list of countries I reviewed takes it further, which makes two further problems visible.
 
 **The list contradicts itself.** Sweden appears under acceptable and again under problematic. The Netherlands appears under acceptable and again under problematic. A ranking that places the same country in two tiers has not been checked.
 
@@ -153,7 +153,7 @@ Lesson 6.1 covered why intelligence alliance membership is a weak signal. The so
 
 ## 5. Free Services, With the Numbers Dated
 
-The source material says 38 percent of free Android VPN applications contain malware and 18 percent do not encrypt traffic at all, and presents both as current.
+You will still see the claim that 38 percent of free Android VPN applications contain malware and 18 percent do not encrypt traffic at all, presented as current.
 
 **Those figures come from a study carried out in August 2016** of 283 applications, published the following year. (Reference 4) They were striking then and they are a decade old now, which matters because this is a fast-moving market and because quoting an undated decade-old statistic is the exact failure Lesson 5.2 was about.
 
@@ -167,13 +167,13 @@ The source material says 38 percent of free Android VPN applications contain mal
 
 ## 6. The Scorecard, Reweighted
 
-The source material offers a hundred-point rubric. The arithmetic is fine and the weights encode a set of beliefs that do not survive examination.
+One hundred-point rubric I reviewed shows the problem. The arithmetic is fine and the weights encode a set of beliefs that do not survive examination.
 
 ![[module_6_lesson_3_reweighted.svg]]
 
 *Figure 3. Same hundred points, different question being answered.*
 
-**In the original**, technical features are worth 20, jurisdiction 10 with three of those for alliance membership, and **evidence from an actual legal test is worth 3.** A kill switch and leak protection together outscore a documented occasion when somebody demanded data and none existed.
+**In that rubric**, technical features are worth 20, jurisdiction 10 with three of those for alliance membership, and **evidence from an actual legal test is worth 3.** A kill switch and leak protection together outscore a documented occasion when somebody demanded data and none existed.
 
 ### The Reweighted Version
 
@@ -275,7 +275,7 @@ The source material offers a hundred-point rubric. The arithmetic is fine and th
 
 **Answer: D.** Which is why the reweighted scorecard gives it zero rather than silently ignoring it.
 
-**Question 7.** What is wrong with the country ranking in the source material?
+**Question 7.** What is wrong with the country ranking examined in Section 4?
 
 - A) It ranks too few countries
 - B) It places the same countries in two different tiers, and its top recommendation is currently proposing mandatory retention for these services
@@ -410,7 +410,7 @@ Use the reweighted rubric from Section 6, or your own weighting if you state you
 | Marketing honesty | 5 | | | |
 | **Total** | **100** | | | |
 
-Then score the same three with the original weighting from the source material and compare.
+Then score the same three with the rubric from a published VPN comparison and compare.
 
 **Deliverable.** Both scorings, and one paragraph on where the two disagreed most and why.
 

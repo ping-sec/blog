@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-labelledby="wb-title wb-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wb-title">Figure 2. What actually identifies you, and whether the network can do anything about it</title>
+  <desc id="wb-desc">Six ways a Tor user is identified, each with the mechanism and whether the network can help. Signing in to an account used elsewhere identifies you directly and the network cannot help, because you told them. Opening a downloaded document outside the browser identifies you because the document fetches remote content over your ordinary connection. Routing an ordinary browser through Tor identifies you because your own browser is uniquely configured regardless of the route it takes. Installing extensions identifies you for the same reason. Mixing separate activities in one session links them through cookies and behaviour rather than through addresses. Resizing the window used to identify you and no longer does by default, because the browser now pads the window to common dimensions. A band below states the organising point: five of the six happen above the network, so no amount of routing addresses them, and the sixth was fixed by the browser rather than by the user following advice.</desc>
+
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: What Identifies You, and Whether Routing Can Help</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Lesson 6.7 built a network that hides where you connect from. Almost everything on this list defeats it without touching it.</text>
+
+  <rect x="30" y="98" width="1120" height="34" rx="6" fill="#374151"/>
+  <text x="48" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHAT YOU DO</text>
+  <text x="400" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHY IT IDENTIFIES YOU</text>
+  <text x="880" y="120" font-size="11.5" font-weight="700" fill="#ffffff">CAN THE NETWORK HELP?</text>
+
+  <rect x="30" y="140" width="1120" height="62" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="164" font-size="12.5" font-weight="700" fill="#8c1d18">Sign in to an account you use elsewhere</text>
+  <text x="48" y="184" font-size="11" fill="#4b5563">the most common mistake by a wide margin</text>
+  <text x="400" y="164" font-size="11.5" fill="#374151">The account is the identifier. Everything you do in</text>
+  <text x="400" y="182" font-size="11.5" fill="#374151">that session is now attached to a name.</text>
+  <text x="880" y="173" font-size="11.5" font-weight="700" fill="#8c1d18">No. You told them.</text>
+
+  <rect x="30" y="210" width="1120" height="72" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="234" font-size="12.5" font-weight="700" fill="#8c1d18">Open a downloaded document outside the browser</text>
+  <text x="48" y="254" font-size="11" fill="#4b5563">a document, a spreadsheet, a slide deck</text>
+  <text x="48" y="272" font-size="11" fill="#4b5563">the browser warns about this, and people click through</text>
+  <text x="400" y="234" font-size="11.5" fill="#374151">The file is opened by another application, which fetches</text>
+  <text x="400" y="252" font-size="11.5" fill="#374151">whatever it references over your ordinary connection.</text>
+  <text x="400" y="270" font-size="11.5" fill="#374151">Whoever prepared the file sees your real address.</text>
+  <text x="880" y="243" font-size="11.5" font-weight="700" fill="#8c1d18">No. The request never</text>
+  <text x="880" y="261" font-size="11.5" font-weight="700" fill="#8c1d18">enters the network.</text>
+
+  <rect x="30" y="290" width="1120" height="72" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="314" font-size="12.5" font-weight="700" fill="#8c1d18">Point your ordinary browser at Tor's proxy</text>
+  <text x="48" y="334" font-size="11" fill="#4b5563">the shortcut that sounds sensible</text>
+  <text x="48" y="352" font-size="11" fill="#4b5563">and is the single worst idea in this figure</text>
+  <text x="400" y="314" font-size="11.5" fill="#374151">Your browser is configured like nobody else's: fonts,</text>
+  <text x="400" y="332" font-size="11.5" fill="#374151">extensions, window size, language, hardware. That</text>
+  <text x="400" y="350" font-size="11.5" fill="#374151">stays true whichever route the request takes.</text>
+  <text x="880" y="314" font-size="11.5" font-weight="700" fill="#8c1d18">No. It hides the address</text>
+  <text x="880" y="332" font-size="11.5" font-weight="700" fill="#8c1d18">and leaves the identity,</text>
+  <text x="880" y="350" font-size="11.5" font-weight="700" fill="#8c1d18">which is backwards.</text>
+
+  <rect x="30" y="370" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="394" font-size="12.5" font-weight="700" fill="#8a6000">Install extensions, or change settings for comfort</text>
+  <text x="48" y="414" font-size="11" fill="#4b5563">including turning the security level up and down per site</text>
+  <text x="400" y="394" font-size="11.5" fill="#374151">Tor Browser works by making its users identical. Every</text>
+  <text x="400" y="412" font-size="11.5" fill="#374151">change you make moves you out of that crowd.</text>
+  <text x="880" y="394" font-size="11.5" font-weight="700" fill="#8a6000">No, and the browser is</text>
+  <text x="880" y="412" font-size="11.5" font-weight="700" fill="#8a6000">actively working against you.</text>
+
+  <rect x="30" y="440" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="464" font-size="12.5" font-weight="700" fill="#8a6000">Mix separate activities in one session</text>
+  <text x="48" y="484" font-size="11" fill="#4b5563">research and personal browsing in the same window</text>
+  <text x="400" y="464" font-size="11.5" fill="#374151">Cookies, storage and behaviour link them to each other,</text>
+  <text x="400" y="482" font-size="11.5" fill="#374151">whatever the relays were doing.</text>
+  <text x="880" y="464" font-size="11.5" font-weight="700" fill="#8a6000">No. This is what a new</text>
+  <text x="880" y="482" font-size="11.5" font-weight="700" fill="#8a6000">identity is for, not a new circuit.</text>
+
+  <rect x="30" y="510" width="1120" height="72" rx="6" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2.5"/>
+  <text x="48" y="534" font-size="12.5" font-weight="700" fill="#00614a">Resize or maximise the window</text>
+  <text x="48" y="554" font-size="11" fill="#4b5563">the advice that expired, and is still repeated</text>
+  <text x="400" y="534" font-size="11.5" fill="#374151">It used to report an unusual window size to every page.</text>
+  <text x="400" y="552" font-size="11.5" font-weight="700" fill="#00614a">The browser now pads the window to common dimensions</text>
+  <text x="400" y="570" font-size="11.5" font-weight="700" fill="#00614a">by default, so the reported size stays ordinary.</text>
+  <text x="880" y="534" font-size="11.5" font-weight="700" fill="#00614a">Yes, and it already did.</text>
+  <text x="880" y="552" font-size="11.5" fill="#374151">Adopted in 2019. Stop</text>
+  <text x="880" y="570" font-size="11.5" fill="#374151">giving the old instruction.</text>
+
+  <rect x="30" y="596" width="1120" height="122" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="626" font-size="16" font-weight="700" fill="#10476b">Read the last column: five of the six say no</text>
+  <text x="56" y="652" font-size="12.5" fill="#374151">Every one of those five happens <tspan font-weight="700">above the network</tspan>, in the application or in your own behaviour. Lesson 6.7 built something that hides where you</text>
+  <text x="56" y="672" font-size="12.5" fill="#374151">connect from, and none of these attacks it. They go around it, by getting you to identify yourself through a channel the relays never see.</text>
+  <text x="56" y="698" font-size="12.5" font-weight="700" fill="#10476b">And the one the network did fix, it fixed by changing the software, not by telling users to be careful. That is the more reliable kind of fix.</text>
+
+  <text x="590" y="756" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">So the useful question is not "am I on Tor." It is "what have I done in this session that would identify me if the routing did not exist at all."</text>
+  <text x="590" y="782" text-anchor="middle" font-size="13" fill="#4b5563">Answer that honestly and most of this figure stops applying. Answer it optimistically and the network was never the thing protecting you.</text>
+  <text x="590" y="806" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">This is why the lesson is called using Tor without breaking it, rather than configuring Tor.</text>
+</svg>

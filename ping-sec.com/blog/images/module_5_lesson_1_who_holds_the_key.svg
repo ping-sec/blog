@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 780" width="1180" height="780" role="img" aria-labelledby="wk-title wk-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wk-title">Figure 3. What leaves the device, and who holds the key to it</title>
+  <desc id="wk-desc">Three tiers describing where mobile data ends up. In the first tier data never leaves the handset. In the second it is synchronised to a cloud account and encrypted with a key the vendor also holds, so it is reachable by a legal request, by a breach of the provider, or by a change of policy. In the third it is synchronised but encrypted with a key only the user holds. A panel below shows that the third tier is not a permanent property of a product: one vendor's strongest option was withdrawn for users in one country in February 2025 following a government demand, remains unavailable there in September 2026, and is the subject of continuing litigation. A closing band gives the two settings on each platform that move the most data between tiers.</desc>
+
+  <rect x="0" y="0" width="1180" height="780" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: What Leaves the Device, and Who Holds the Key</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Your handset is largely a client for a cloud account. Which tier your data sits in decides what a legal request or a breach reaches.</text>
+
+  <rect x="30" y="98" width="1120" height="92" rx="10" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2.5"/>
+  <rect x="30" y="98" width="176" height="92" rx="10" fill="#009E73"/>
+  <text x="118" y="136" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">TIER 1</text>
+  <text x="118" y="156" text-anchor="middle" font-size="11.5" fill="#ffffff">it never leaves</text>
+  <text x="230" y="128" font-size="14" font-weight="700" fill="#00614a">On the handset only</text>
+  <text x="230" y="152" font-size="12.5" fill="#374151">Nothing to request, nothing to breach, nothing to hand over. The cost is that a lost device is a lost copy, so this tier needs its own</text>
+  <text x="230" y="172" font-size="12.5" fill="#374151">backup discipline: an encrypted local backup you actually restore from occasionally.</text>
+
+  <rect x="30" y="202" width="1120" height="112" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <rect x="30" y="202" width="176" height="112" rx="10" fill="#b3261e"/>
+  <text x="118" y="246" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">TIER 2</text>
+  <text x="118" y="266" text-anchor="middle" font-size="11.5" fill="#ffffff">they hold a key</text>
+  <text x="118" y="286" text-anchor="middle" font-size="11.5" fill="#ffffff">as well as you</text>
+  <text x="230" y="232" font-size="14" font-weight="700" fill="#8c1d18">Synchronised, and the provider can decrypt it</text>
+  <text x="230" y="256" font-size="12.5" fill="#374151">This is the default on both platforms for most categories, and it is where the great majority of people's photographs, messages and backups live.</text>
+  <text x="230" y="276" font-size="12.5" fill="#374151">Reachable three ways: a lawful request, a breach of the provider, and a change of policy you were not consulted about.</text>
+  <text x="230" y="300" font-size="12.5" font-weight="700" fill="#8c1d18">A backup in this tier can also expose a conversation that was end to end encrypted in transit, because the backup holds the plain text.</text>
+
+  <rect x="30" y="326" width="1120" height="92" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <rect x="30" y="326" width="176" height="92" rx="10" fill="#0072B2"/>
+  <text x="118" y="364" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">TIER 3</text>
+  <text x="118" y="384" text-anchor="middle" font-size="11.5" fill="#ffffff">only you hold it</text>
+  <text x="230" y="356" font-size="14" font-weight="700" fill="#10476b">Synchronised, and only you can decrypt it</text>
+  <text x="230" y="380" font-size="12.5" fill="#374151">Available on both platforms as an option, and switched off by default on the one where it is most discussed. It moves most of Tier 2 up here in</text>
+  <text x="230" y="400" font-size="12.5" fill="#374151">one setting, and it hands you the lockout risk from Lesson 4.4 in exchange, which is a trade worth making deliberately rather than by accident.</text>
+
+  <rect x="30" y="438" width="1120" height="158" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="3"/>
+  <text x="56" y="468" font-size="16" font-weight="700" fill="#8a6000">Tier 3 is not a permanent property of a product, and here is the proof</text>
+  <text x="56" y="496" font-size="13" fill="#374151">In February 2025 one vendor withdrew its strongest encryption option for users in a single country, rather than comply with a government demand for access.</text>
+  <text x="56" y="518" font-size="13" fill="#374151">New users there cannot switch it on. Existing users were required to switch it off. As of September 2026 it has still not been restored, the original worldwide</text>
+  <text x="56" y="540" font-size="13" fill="#374151">demand was withdrawn but a narrower one replaced it, and the matter remains in litigation more than eighteen months later.</text>
+  <text x="56" y="572" font-size="13.5" font-weight="700" fill="#8a6000">The lesson is not about one company. It is that "we cannot read your data" is a statement about the current product in your current country.</text>
+
+  <rect x="30" y="616" width="1120" height="102" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="644" font-size="15" font-weight="700" fill="#111827">The two settings that move the most data between tiers, on either platform</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="670" r="3.5" fill="#374151"/><text x="80" y="674"><tspan font-weight="700">The device backup.</tspan> It is the single largest object you own and it usually contains everything else, including message histories. Check which tier it is in first.</text>
+    <circle cx="66" cy="696" r="3.5" fill="#374151"/><text x="80" y="700"><tspan font-weight="700">Photograph synchronisation.</tspan> The largest volume, the richest metadata, and the category people most often forget is on. Lesson 1.3 explains why photographs matter.</text>
+  </g>
+
+  <text x="590" y="750" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Sort your own data into these three tiers before choosing a platform. Most people discover the tiers are not where they assumed.</text>
+</svg>

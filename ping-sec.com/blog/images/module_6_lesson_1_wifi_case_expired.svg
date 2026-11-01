@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="wc-title wc-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wc-title">Figure 2. Four changes that closed the public network case, and what is left of it</title>
+  <desc id="wc-desc">Four developments that removed most of the original argument for using a VPN on an untrusted network. Encrypted web traffic became near universal, exceeding ninety five percent of page loads. Preloaded strict transport security means browsers refuse plaintext for major sites, so downgrade attacks fail. Encrypted domain name lookups stopped the query leaking to the local network. And encrypted client hello, standardised in March 2026, hides the server name in the handshake, which was the last thing left in clear text. A band below lists what genuinely remains, and a final band gives the reasons to use a VPN that are still sound, none of which is the coffee shop.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: The Coffee Shop Case Has Largely Expired</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">"Always use a VPN on public wireless" was excellent advice in 2013. Four things happened since, and standard guidance has not noticed the fourth.</text>
+
+  <rect x="30" y="100" width="262" height="256" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <circle cx="62" cy="132" r="15" fill="#009E73"/><text x="62" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">1</text>
+  <text x="86" y="130" font-size="13" font-weight="700" fill="#00614a">Encryption became</text>
+  <text x="86" y="147" font-size="13" font-weight="700" fill="#00614a">the default</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="50" y="182">More than 95 percent of page</text>
+    <text x="50" y="200">loads on desktop, more than</text>
+    <text x="50" y="218">97 percent on Android, and</text>
+    <text x="50" y="236">over 99 percent of browsing</text>
+    <text x="50" y="254">time.</text>
+    <text x="50" y="282" font-weight="700" fill="#00614a">The contents were the</text>
+    <text x="50" y="300" font-weight="700" fill="#00614a">original worry, and they</text>
+    <text x="50" y="318" font-weight="700" fill="#00614a">are no longer readable.</text>
+    <text x="50" y="344" font-style="italic" fill="#4b5563">Nothing to intercept.</text>
+  </g>
+
+  <rect x="316" y="100" width="262" height="256" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <circle cx="348" cy="132" r="15" fill="#009E73"/><text x="348" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">2</text>
+  <text x="372" y="130" font-size="13" font-weight="700" fill="#00614a">Downgrade attacks</text>
+  <text x="372" y="147" font-size="13" font-weight="700" fill="#00614a">stopped working</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="336" y="182">Browsers ship a preloaded</text>
+    <text x="336" y="200">list of sites they will only</text>
+    <text x="336" y="218">reach over an encrypted</text>
+    <text x="336" y="236">connection.</text>
+    <text x="336" y="264" font-weight="700" fill="#00614a">Stripping the encryption</text>
+    <text x="336" y="282" font-weight="700" fill="#00614a">out of the connection fails</text>
+    <text x="336" y="300" font-weight="700" fill="#00614a">before it starts.</text>
+    <text x="336" y="328" font-style="italic" fill="#4b5563">Guidance still cites this</text>
+    <text x="336" y="346" font-style="italic" fill="#4b5563">attack as a live risk.</text>
+  </g>
+
+  <rect x="602" y="100" width="262" height="256" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <circle cx="634" cy="132" r="15" fill="#009E73"/><text x="634" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">3</text>
+  <text x="658" y="130" font-size="13" font-weight="700" fill="#00614a">The lookup stopped</text>
+  <text x="658" y="147" font-size="13" font-weight="700" fill="#00614a">leaking</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="622" y="182">Encrypted domain name</text>
+    <text x="622" y="200">resolution is on by default</text>
+    <text x="622" y="218">in the major browsers.</text>
+    <text x="622" y="246">The local network no longer</text>
+    <text x="622" y="264">sees which names you asked</text>
+    <text x="622" y="282">it to resolve.</text>
+    <text x="622" y="310" font-style="italic" fill="#4b5563">Free, built in, and it needs</text>
+    <text x="622" y="328" font-style="italic" fill="#4b5563">no subscription or provider</text>
+    <text x="622" y="346" font-style="italic" fill="#4b5563">to trust with everything.</text>
+  </g>
+
+  <rect x="888" y="100" width="262" height="256" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <circle cx="920" cy="132" r="15" fill="#0072B2"/><text x="920" y="138" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">4</text>
+  <text x="944" y="130" font-size="13" font-weight="700" fill="#10476b">The site name in</text>
+  <text x="944" y="147" font-size="13" font-weight="700" fill="#10476b">the handshake</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="908" y="182">The last thing in clear text</text>
+    <text x="908" y="200">was the server name sent</text>
+    <text x="908" y="218">when the connection opened.</text>
+    <text x="908" y="246" font-weight="700" fill="#10476b">Encrypted client hello now</text>
+    <text x="908" y="264" font-weight="700" fill="#10476b">conceals it. It became a</text>
+    <text x="908" y="282" font-weight="700" fill="#10476b">published standard in</text>
+    <text x="908" y="300" font-weight="700" fill="#10476b">March 2026.</text>
+    <text x="908" y="328" font-style="italic" fill="#4b5563">Default on in the major</text>
+    <text x="908" y="346" font-style="italic" fill="#4b5563">browsers, given encrypted DNS.</text>
+  </g>
+
+  <rect x="30" y="378" width="1120" height="146" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="56" y="408" font-size="15.5" font-weight="700" fill="#8a6000">What genuinely remains, stated without exaggeration</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="434" r="3.5" fill="#b07b00"/><text x="80" y="438"><tspan font-weight="700">The addresses you connect to.</tspan> Still visible to the local network, though shared hosting means one address often serves many sites, which blunts it considerably.</text>
+    <circle cx="66" cy="460" r="3.5" fill="#b07b00"/><text x="80" y="464"><tspan font-weight="700">Timing and volume.</tspan> When you are online and how much you move. A VPN hides the destinations and not this, so it is a partial answer at best.</text>
+    <circle cx="66" cy="486" r="3.5" fill="#b07b00"/><text x="80" y="490"><tspan font-weight="700">Coverage gaps.</tspan> The fourth item needs encrypted DNS and a supporting host, so it is not yet everywhere. Older or badly maintained sites still fall short on the first.</text>
+    <circle cx="66" cy="512" r="3.5" fill="#8c1d18"/><text x="80" y="516"><tspan font-weight="700">A genuinely hostile network</tspan> can still refuse to route you, or serve a captive portal that asks for things. Neither is fixed by a tunnel it will not let you open.</text>
+  </g>
+
+  <rect x="30" y="546" width="1120" height="128" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="576" font-size="15.5" font-weight="700" fill="#00614a">The reasons to use a VPN that are still sound, and none of them is the coffee shop</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="602" r="3.5" fill="#00614a"/><text x="80" y="606"><tspan font-weight="700">You would rather the provider had your browsing than your network operator.</tspan> A real preference, especially where operators may sell it. Figure 1 is the whole argument.</text>
+    <circle cx="66" cy="628" r="3.5" fill="#00614a"/><text x="80" y="632"><tspan font-weight="700">Reaching something your network blocks.</tspan> Censorship, geography, or a restrictive corporate or campus network. This works, when the tunnel itself is not blocked.</text>
+    <circle cx="66" cy="654" r="3.5" fill="#00614a"/><text x="80" y="658"><tspan font-weight="700">Not showing a target your home address.</tspan> The professional case, during authorised work. Lesson 5.2's point about your movements being engagement data applies here too.</text>
+  </g>
+
+  <text x="590" y="718" text-anchor="middle" font-size="13.5" fill="#4b5563">Notice that all three surviving reasons are about who sees your traffic or where it appears to come from. None is about interception.</text>
+  <text x="590" y="744" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Which means the honest recommendation is narrower than "always on public wireless", and considerably easier to justify to somebody who asks why.</text>
+  <text x="590" y="772" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">The bad version of this advice survives because it is simple, and because the people repeating it are often selling the subscription.</text>
+</svg>

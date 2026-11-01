@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="gm-title gm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="gm-title">Figure 3. What changed underneath this whole category between 2025 and 2026</title>
+  <desc id="gm-desc">A timeline of five events. In March 2025 Google moved Android development entirely to internal branches. In June 2025 the Android 16 release arrived without Pixel device configuration files or driver binaries and with a squashed kernel history, so alternative system developers had to reverse engineer the changes. In August 2025 one of the two systems this lesson recommends paused development after its leadership departed. During 2026 public source publication dropped to twice a year, with two of the four quarterly releases effectively exclusive to the stock system. In July 2026 the paused project resumed. Two panels below cover what this means for the projects and what it means for somebody choosing today.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: The Ground Moved, and Most Guidance Predates It</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Everything in this lesson was written against a landscape that changed substantially in the eighteen months to September 2026.</text>
+
+  <rect x="30" y="98" width="212" height="316" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <rect x="30" y="98" width="212" height="36" rx="10" fill="#E69F00"/>
+  <text x="136" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">MARCH 2025</text>
+  <text x="50" y="160" font-size="13" font-weight="700" fill="#8a6000">Development goes</text>
+  <text x="50" y="178" font-size="13" font-weight="700" fill="#8a6000">private</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="50" y="206">Android moves entirely</text>
+    <text x="50" y="224">to internal branches.</text>
+    <text x="50" y="250">Source is still published</text>
+    <text x="50" y="268">at each release, so it is</text>
+    <text x="50" y="286">still open source.</text>
+    <text x="50" y="312">What ended is the public</text>
+    <text x="50" y="330">development process, and</text>
+    <text x="50" y="348">the visibility that came</text>
+    <text x="50" y="366">with it.</text>
+  </g>
+
+  <rect x="256" y="98" width="212" height="316" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <rect x="256" y="98" width="212" height="36" rx="10" fill="#b3261e"/>
+  <text x="362" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">JUNE 2025</text>
+  <text x="276" y="160" font-size="13" font-weight="700" fill="#8c1d18">Device files stop</text>
+  <text x="276" y="178" font-size="13" font-weight="700" fill="#8c1d18">appearing</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="276" y="206">Android 16 ships without</text>
+    <text x="276" y="224">Pixel device configuration</text>
+    <text x="276" y="242">files or driver binaries,</text>
+    <text x="276" y="260">and with a kernel history</text>
+    <text x="276" y="278">squashed into one commit.</text>
+    <text x="276" y="304" font-weight="700" fill="#8c1d18">Developers now work from</text>
+    <text x="276" y="322" font-weight="700" fill="#8c1d18">the previous version and</text>
+    <text x="276" y="340" font-weight="700" fill="#8c1d18">reverse engineer forward.</text>
+    <text x="276" y="366" font-style="italic">Every release, from here on.</text>
+  </g>
+
+  <rect x="482" y="98" width="212" height="316" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <rect x="482" y="98" width="212" height="36" rx="10" fill="#b3261e"/>
+  <text x="588" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">AUGUST 2025</text>
+  <text x="502" y="160" font-size="13" font-weight="700" fill="#8c1d18">One of the two</text>
+  <text x="502" y="178" font-size="13" font-weight="700" fill="#8c1d18">projects pauses</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="502" y="206">CalyxOS stops releasing</text>
+    <text x="502" y="224">after its institute founder</text>
+    <text x="502" y="242">and technical lead depart.</text>
+    <text x="502" y="268" font-weight="700" fill="#8c1d18">Anybody running it stayed</text>
+    <text x="502" y="286" font-weight="700" fill="#8c1d18">on the last build, without</text>
+    <text x="502" y="304" font-weight="700" fill="#8c1d18">security patches, for the</text>
+    <text x="502" y="322" font-weight="700" fill="#8c1d18">next eleven months.</text>
+    <text x="502" y="350" font-style="italic">The failure mode of a small</text>
+    <text x="502" y="368" font-style="italic">project, made concrete.</text>
+  </g>
+
+  <rect x="708" y="98" width="212" height="316" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <rect x="708" y="98" width="212" height="36" rx="10" fill="#E69F00"/>
+  <text x="814" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">DURING 2026</text>
+  <text x="728" y="160" font-size="13" font-weight="700" fill="#8a6000">Source arrives</text>
+  <text x="728" y="178" font-size="13" font-weight="700" fill="#8a6000">twice a year</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="728" y="206">Public source publication</text>
+    <text x="728" y="224">drops from quarterly to</text>
+    <text x="728" y="242">the second and fourth</text>
+    <text x="728" y="260">quarters only.</text>
+    <text x="728" y="286" font-weight="700" fill="#8a6000">Two of the four quarterly</text>
+    <text x="728" y="304" font-weight="700" fill="#8a6000">updates become effectively</text>
+    <text x="728" y="322" font-weight="700" fill="#8a6000">exclusive to stock devices.</text>
+    <text x="728" y="350" font-style="italic">Which widens the patch gap</text>
+    <text x="728" y="368" font-style="italic">for everyone downstream.</text>
+  </g>
+
+  <rect x="934" y="98" width="212" height="316" rx="10" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2"/>
+  <rect x="934" y="98" width="212" height="36" rx="10" fill="#009E73"/>
+  <text x="1040" y="122" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">JULY 2026</text>
+  <text x="954" y="160" font-size="13" font-weight="700" fill="#00614a">The paused project</text>
+  <text x="954" y="178" font-size="13" font-weight="700" fill="#00614a">resumes</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="954" y="206">CalyxOS returns with a</text>
+    <text x="954" y="224">maintained release and a</text>
+    <text x="954" y="242">stated intent to resume</text>
+    <text x="954" y="260">regular updates.</text>
+    <text x="954" y="286" font-weight="700" fill="#00614a">Good news, and two months</text>
+    <text x="954" y="304" font-weight="700" fill="#00614a">old at the time of writing.</text>
+    <text x="954" y="332">Long enough to note. Not</text>
+    <text x="954" y="350">long enough to describe as</text>
+    <text x="954" y="368">a re-established record.</text>
+  </g>
+
+  <rect x="30" y="440" width="550" height="188" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="52" y="470" font-size="15.5" font-weight="700" fill="#111827">What it means for the projects</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="498">Every release now costs more work than the same release cost</text>
+    <text x="52" y="518">two years ago, for the same output. That pressure falls hardest</text>
+    <text x="52" y="538">on the smallest teams.</text>
+    <text x="52" y="566" font-weight="700">So the differentiator between these projects is no longer</text>
+    <text x="52" y="586" font-weight="700">features. It is whether the team can sustain the pace.</text>
+    <text x="52" y="612" font-style="italic">Judge them on release history, not on a comparison table.</text>
+  </g>
+
+  <rect x="600" y="440" width="550" height="188" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="622" y="470" font-size="15.5" font-weight="700" fill="#10476b">What it means for you, choosing today</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="498">You are not choosing a feature set. You are choosing a team to</text>
+    <text x="622" y="518">depend on for security patches for the life of the device.</text>
+    <text x="622" y="546" font-weight="700" fill="#10476b">Check the release feed before you install, and check it again</text>
+    <text x="622" y="566" font-weight="700" fill="#10476b">every few months afterwards.</text>
+    <text x="622" y="594">A project that has gone quiet is not a project taking a break.</text>
+    <text x="622" y="614">It is an unpatched phone, and you will not be notified.</text>
+  </g>
+
+  <text x="590" y="674" text-anchor="middle" font-size="13.5" fill="#4b5563">None of this argues against a hardened system. The security case in Figure 1 is unchanged, and the compatibility case in Figure 2 has improved.</text>
+  <text x="590" y="700" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">What changed is that "pick either of these two, they are both good" stopped being a safe recommendation, and most published guidance still says it.</text>
+  <text x="590" y="728" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Including the material this lesson was written from, which is a fair illustration of why Lesson 5.2 asked you to date your recommendations.</text>
+</svg>

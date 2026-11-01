@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 780" width="1180" height="780" role="img" aria-labelledby="ta-title ta-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ta-title">Figure 3. Two protocol level additions that no comparison chart lists</title>
+  <desc id="ta-desc">On the left, post-quantum hardening. The elliptic curve key exchange used by WireGuard is not quantum resistant, contrary to a common claim; what provides hardening is the optional pre-shared key field, into which a key derived from post-quantum algorithms can be placed. One provider has made this the default on desktop since January 2025, combining a lattice based algorithm standardised by the American standards body with a code based one. On the right, defence against traffic analysis. Even inside a perfect tunnel, the sizes and timing of packets identify which site is being visited, and a defence introduced in 2024 adds cover traffic and regularises packet sizes to disrupt that. A band below notes that both are chosen at the provider rather than by picking a protocol.</desc>
+
+  <rect x="0" y="0" width="1180" height="780" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Two Additions No Comparison Chart Lists</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Both are chosen at the provider rather than by picking a protocol, and both address threats the standard comparison does not measure.</text>
+
+  <rect x="30" y="100" width="550" height="446" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v44 h-550 z" fill="#0072B2"/>
+  <text x="305" y="129" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">POST-QUANTUM HARDENING</text>
+  <text x="305" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">and a correction to a claim you will meet often</text>
+
+  <rect x="52" y="168" width="506" height="88" rx="8" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2"/>
+  <text x="72" y="192" font-size="13" font-weight="700" fill="#8c1d18">The claim, and why it is wrong</text>
+  <text x="72" y="214" font-size="12" fill="#374151">Guides describe the elliptic curve exchange as quantum resistant.</text>
+  <text x="72" y="232" font-size="12" fill="#374151">It is not. It is among the things a quantum computer of sufficient</text>
+  <text x="72" y="250" font-size="12" fill="#374151">size would break, which is the entire reason this work exists.</text>
+
+  <text x="52" y="288" font-size="13" font-weight="700" fill="#10476b">The threat is not the future computer</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="312">It is that traffic captured today can be stored and decrypted</text>
+    <text x="52" y="330">later. Nothing has to exist yet for the recording to be useful,</text>
+    <text x="52" y="348">so anything you send now with a long secrecy requirement is</text>
+    <text x="52" y="366">already exposed to it.</text>
+  </g>
+
+  <text x="52" y="400" font-size="13" font-weight="700" fill="#10476b">What actually provides the hardening</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="424">The protocol has an optional pre-shared key field. A key derived</text>
+    <text x="52" y="442">from post-quantum algorithms is placed into it and combined with</text>
+    <text x="52" y="460">the ordinary exchange, so both must be broken.</text>
+    <text x="52" y="488" font-weight="700" fill="#00614a">One provider has run this by default on desktop since January</text>
+    <text x="52" y="506" font-weight="700" fill="#00614a">2025, pairing the lattice algorithm standardised by the American</text>
+    <text x="52" y="524" font-weight="700" fill="#00614a">standards body with an older code based one.</text>
+  </g>
+
+  <rect x="600" y="100" width="550" height="446" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M600 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v44 h-550 z" fill="#009E73"/>
+  <text x="875" y="129" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">DEFENCE AGAINST TRAFFIC ANALYSIS</text>
+  <text x="875" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">the attack a perfect tunnel does not stop</text>
+
+  <rect x="622" y="168" width="506" height="88" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="642" y="192" font-size="13" font-weight="700" fill="#8a6000">The problem, which Module 3 introduced</text>
+  <text x="642" y="214" font-size="12" fill="#374151">Encryption hides the contents. It does not hide how many packets</text>
+  <text x="642" y="232" font-size="12" fill="#374151">there were, how large they were, or when they arrived, and those</text>
+  <text x="642" y="250" font-size="12" fill="#374151">three together identify which page was loaded with high accuracy.</text>
+
+  <text x="622" y="288" font-size="13" font-weight="700" fill="#00614a">What a defence does about it</text>
+  <g font-size="12" fill="#374151">
+    <text x="622" y="312">It sends cover traffic in both directions at unpredictable times</text>
+    <text x="622" y="330">and regularises packet sizes, so the shape of a page load stops</text>
+    <text x="622" y="348">being a shape anybody recognises.</text>
+    <text x="622" y="376">Introduced in 2024, built on an open framework developed with a</text>
+    <text x="622" y="394">university, published and peer reviewed rather than announced.</text>
+    <text x="622" y="412">A second version in 2025 moved the defence from fixed client</text>
+    <text x="622" y="430">rules to instructions negotiated with the server.</text>
+  </g>
+
+  <text x="622" y="464" font-size="13" font-weight="700" fill="#8a6000">The costs, stated plainly</text>
+  <g font-size="12" fill="#374151">
+    <text x="622" y="488">Cover traffic is real traffic. It uses bandwidth you are not</text>
+    <text x="622" y="506">using for anything, and it is offered on a limited set of servers</text>
+    <text x="622" y="524">rather than the whole network.</text>
+  </g>
+
+  <rect x="30" y="568" width="1120" height="122" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="598" font-size="15.5" font-weight="700" fill="#111827">What these two have in common, and why the comparison chart missed both</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="624" r="3.5" fill="#374151"/><text x="80" y="628"><tspan font-weight="700">Neither is a protocol.</tspan> Both are things a provider builds on top of one, so they do not appear in a row comparing WireGuard against OpenVPN.</text>
+    <circle cx="66" cy="650" r="3.5" fill="#374151"/><text x="80" y="654"><tspan font-weight="700">Both address threats the chart does not measure.</tspan> One is about traffic recorded today and read in fifteen years. The other is about what remains visible after encryption.</text>
+    <circle cx="66" cy="676" r="3.5" fill="#374151"/><text x="80" y="680"><tspan font-weight="700">And both are things to ask a provider about by name</tspan>, in the same breath as the questions from Lesson 6.1 about ownership and evidence.</text>
+  </g>
+
+  <text x="590" y="730" text-anchor="middle" font-size="13.5" fill="#4b5563">A protocol comparison answers which tunnel to open. These two answer what the tunnel still leaks, and how long its contents stay secret.</text>
+  <text x="590" y="756" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Neither is urgent for most readers. Both are worth knowing exist, because in five years one of them will be the default everywhere.</text>
+</svg>

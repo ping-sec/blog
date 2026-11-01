@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 700" width="1160" height="700" role="img" aria-labelledby="ss-title ss-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ss-title">Figure 3. Signal and Session compared honestly</title>
+  <desc id="ss-desc">Two columns. Signal requires a telephone number, runs on infrastructure the project operates, and has a long audit record. Session requires no telephone number and routes through a network of independently operated service nodes funded by a cryptocurrency, but removed forward secrecy in 2021 and restored it only in late 2025. A band below states that neither one hides who you are if you sign in or write in a recognisable way, and that Session's decentralisation moves trust rather than removing it.</desc>
+
+  <rect x="0" y="0" width="1160" height="700" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Two Tools, Two Different Trust Models</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Session is not a stronger Signal. It trades one set of assumptions for another set.</text>
+
+  <rect x="30" y="102" width="540" height="392" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 112 a10 10 0 0 1 10 -10 h520 a10 10 0 0 1 10 10 v36 h-540 z" fill="#0072B2"/>
+  <text x="300" y="134" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">SIGNAL</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="172" font-weight="700" fill="#10476b">Identity</text>
+    <text x="52" y="194">A telephone number, which the service holds even</text>
+    <text x="52" y="214">though other users no longer see it by default.</text>
+
+    <text x="52" y="248" font-weight="700" fill="#10476b">Infrastructure</text>
+    <text x="52" y="270">Operated by the project itself. One organisation to</text>
+    <text x="52" y="290">trust, in one jurisdiction, with a published record of</text>
+    <text x="52" y="310">what it hands over when compelled.</text>
+
+    <text x="52" y="344" font-weight="700" fill="#10476b">Cryptographic record</text>
+    <text x="52" y="366">Long history of independent examination. Forward</text>
+    <text x="52" y="386">secrecy throughout, and post-quantum key agreement</text>
+    <text x="52" y="406">added in stages from 2023.</text>
+
+    <text x="52" y="440" font-weight="700" fill="#8c1d18">What it does not give you</text>
+    <text x="52" y="462">An account with no telephone number behind it.</text>
+    <text x="52" y="482">Your address is visible to the service.</text>
+  </g>
+
+  <rect x="590" y="102" width="540" height="392" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M590 112 a10 10 0 0 1 10 -10 h520 a10 10 0 0 1 10 10 v36 h-540 z" fill="#E69F00"/>
+  <text x="860" y="134" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">SESSION</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="612" y="172" font-weight="700" fill="#8a6000">Identity</text>
+    <text x="612" y="194">A generated identifier. No telephone number, no mail</text>
+    <text x="612" y="214">address, and no directory to look you up in.</text>
+
+    <text x="612" y="248" font-weight="700" fill="#8a6000">Infrastructure</text>
+    <text x="612" y="270">A network of independently operated service nodes,</text>
+    <text x="612" y="290">paid through a cryptocurrency. Messages route through</text>
+    <text x="612" y="310">three of them, so no single node sees both ends.</text>
+
+    <text x="612" y="344" font-weight="700" fill="#8c1d18">Cryptographic record</text>
+    <text x="612" y="366">Moved off the Signal Protocol and removed forward</text>
+    <text x="612" y="386">secrecy in 2021. Restored it, with post-quantum</text>
+    <text x="612" y="406">protection, in late 2025.</text>
+
+    <text x="612" y="440" font-weight="700" fill="#8c1d18">What it does not give you</text>
+    <text x="612" y="462">Freedom from trust. It replaces one operator with a set</text>
+    <text x="612" y="482">of node operators and an economic incentive scheme.</text>
+  </g>
+
+  <rect x="30" y="518" width="1100" height="72" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2"/>
+  <text x="56" y="546" font-size="14.5" font-weight="700" fill="#00614a">Choose on the identity question, which is the one that actually differs</text>
+  <text x="56" y="572" font-size="12.5" fill="#374151">If an account tied to a telephone number is acceptable, Signal has the stronger record. If it is not acceptable at all, that is the case for Session, and you take on its trust model to get it.</text>
+
+  <rect x="30" y="606" width="1100" height="78" rx="10" fill="#b3261e" fill-opacity="0.06" stroke="#b3261e" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="56" y="634" font-size="14.5" font-weight="700" fill="#8c1d18">Neither one hides who you are</text>
+  <text x="56" y="658" font-size="12.5" fill="#374151">An identifier with no name attached is still linkable through what you say, when you say it, and where you connect from. Lesson 1.2 called this aggregation, and it</text>
+  <text x="56" y="676" font-size="12.5" fill="#374151">applies to messaging exactly as it applied to browsing. The messenger is one component of anonymity, and on its own it is not anonymity.</text>
+</svg>

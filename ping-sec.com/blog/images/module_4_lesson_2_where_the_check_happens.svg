@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 740" width="1180" height="740" role="img" aria-labelledby="wc-title wc-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wc-title">Figure 1. Where the phishing check actually happens</title>
+  <desc id="wc-desc">A comparison of two authentication paths under a phishing attack. With a password and a time-based code, the user is the only thing checking the address bar, and anything the user can read out can be relayed to the real site by an attacker. With a FIDO2 credential, four separate parties each apply a check: the browser records the true origin, the browser constrains the relying party identifier to that origin, the authenticator looks for a credential matching the hash of that identifier and finds none on a lookalike domain, and the server verifies both values on arrival. A band below explains that the browser is the enforcement point, which is why the common phrasing that the key checks the domain is a useful shorthand rather than an accurate description.</desc>
+
+  <rect x="0" y="0" width="1180" height="740" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Where the Phishing Check Actually Happens</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Both paths ask for a second factor. Only one of them puts the check somewhere a convincing page cannot reach.</text>
+
+  <rect x="30" y="100" width="1120" height="46" rx="8" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <text x="590" y="129" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">The situation in both columns: you are on a lookalike domain that renders perfectly, and you have not noticed.</text>
+
+  <rect x="30" y="164" width="550" height="364" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 174 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v38 h-550 z" fill="#E69F00"/>
+  <text x="305" y="190" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">A PASSWORD AND A CODE</text>
+  <text x="305" y="206" text-anchor="middle" font-size="11.5" fill="#ffffff">whether the code arrives by message or by application</text>
+
+  <g font-size="12.5" fill="#374151">
+    <circle cx="62" cy="244" r="13" fill="#b07b00"/><text x="62" y="249" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">1</text>
+    <text x="86" y="242" font-weight="700" fill="#8a6000">You read the address bar</text>
+    <text x="86" y="262">This is the whole check. There is no second one.</text>
+
+    <circle cx="62" cy="300" r="13" fill="#b07b00"/><text x="62" y="305" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">2</text>
+    <text x="86" y="298" font-weight="700" fill="#8a6000">You type the password and the code</text>
+    <text x="86" y="318">Both are values a person can read out, which means</text>
+    <text x="86" y="338">both are values a person can be talked into giving.</text>
+
+    <circle cx="62" cy="376" r="13" fill="#8c1d18"/><text x="62" y="381" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">3</text>
+    <text x="86" y="374" font-weight="700" fill="#8c1d18">The page relays them to the real site immediately</text>
+    <text x="86" y="394">The code is valid for around thirty seconds, and the</text>
+    <text x="86" y="414">attacker needs only a few of those.</text>
+
+    <text x="56" y="456" font-style="italic" fill="#8c1d18">A code is a shared secret with a short life, and a short</text>
+    <text x="56" y="476" font-style="italic" fill="#8c1d18">life is a smaller improvement than it sounds.</text>
+    <text x="56" y="500" font-weight="700" fill="#8c1d18">This is better than a password alone, and it is phishable.</text>
+  </g>
+
+  <rect x="600" y="164" width="550" height="364" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M600 174 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v38 h-550 z" fill="#009E73"/>
+  <text x="875" y="190" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">A FIDO2 CREDENTIAL</text>
+  <text x="875" y="206" text-anchor="middle" font-size="11.5" fill="#ffffff">four parties, each applying its own check</text>
+
+  <g font-size="12.5" fill="#374151">
+    <circle cx="632" cy="242" r="13" fill="#00614a"/><text x="632" y="247" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">1</text>
+    <text x="656" y="240" font-weight="700" fill="#00614a">The browser records the true origin</text>
+    <text x="656" y="260">Not the one the page claims. The one it loaded from.</text>
+
+    <circle cx="632" cy="298" r="13" fill="#00614a"/><text x="632" y="303" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">2</text>
+    <text x="656" y="296" font-weight="700" fill="#00614a">The browser constrains the site identifier to it</text>
+    <text x="656" y="316">A page cannot ask for a credential belonging to a</text>
+    <text x="656" y="336">domain it is not actually served from.</text>
+
+    <circle cx="632" cy="374" r="13" fill="#00614a"/><text x="632" y="379" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">3</text>
+    <text x="656" y="372" font-weight="700" fill="#00614a">The key looks for a credential matching that hash</text>
+    <text x="656" y="392">On a lookalike domain there is no match, so there is</text>
+    <text x="656" y="412">nothing to sign. Not a refusal. An absence.</text>
+
+    <circle cx="632" cy="450" r="13" fill="#00614a"/><text x="632" y="455" text-anchor="middle" font-size="12.5" font-weight="700" fill="#ffffff">4</text>
+    <text x="656" y="448" font-weight="700" fill="#00614a">The server verifies both values on arrival</text>
+    <text x="656" y="468">The origin and the identifier hash are checked against</text>
+    <text x="656" y="488">what it expects, so a forged client cannot skip step 2.</text>
+    <text x="656" y="508" font-weight="700" fill="#00614a">Nothing replayable ever leaves your device.</text>
+  </g>
+
+  <rect x="30" y="548" width="1120" height="110" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="578" font-size="15" font-weight="700" fill="#10476b">"The key checks the domain" is a shorthand, and the accurate version tells you more</text>
+  <text x="56" y="604" font-size="12.5" fill="#374151">The key never sees a domain. It sees a hash it was handed, and the browser is what guarantees that hash matches where you really are. That is why the guarantee holds</text>
+  <text x="56" y="624" font-size="12.5" fill="#374151">against a perfect replica of a login page, and why it depends on the client doing its job: a compromised browser, or a client that does not enforce origin correctly,</text>
+  <text x="56" y="644" font-size="12.5" fill="#374151">removes step 1 and step 2. The key is not the whole control. It is the part of the control that cannot be talked into anything.</text>
+
+  <text x="590" y="694" text-anchor="middle" font-size="13.5" fill="#4b5563">So the phishing resistance is structural rather than behavioural, which is the entire reason to buy one.</text>
+  <text x="590" y="718" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">It also tells you exactly which attacks it was never going to stop. That is Figure 2.</text>
+</svg>

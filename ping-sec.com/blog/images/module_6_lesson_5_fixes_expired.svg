@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 790" width="1180" height="790" role="img" aria-labelledby="fe-title fe-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="fe-title">Figure 3. Two standard fixes that expired, and one problem that arrived</title>
+  <desc id="fe-desc">Three panels. The advice to disable the newer address family has expired, because it now carries more than half of measured traffic, some networks are reachable only that way, and disabling it breaks connectivity while the correct fix is a tunnel that carries or blocks it at the interface. The advice to disable browser real time communication has largely expired, because browsers adopted an obfuscation scheme in 2019 that closed the local address half by default, while disabling the feature breaks video calling. A new problem arrived instead: browsers now perform their own encrypted name resolution by default, and the browser's chosen resolver takes priority over the one the tunnel configured. A band below observes that leak fixes age faster than leaks.</desc>
+
+  <rect x="0" y="0" width="1180" height="790" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Two Fixes That Expired, One Problem That Arrived</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The leaks in this lesson are mostly unchanged. The remedies attached to them have moved, and two are now worse than the problem.</text>
+
+  <rect x="30" y="100" width="360" height="402" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#b3261e"/>
+  <text x="210" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">EXPIRED</text>
+  <text x="210" y="146" text-anchor="middle" font-size="11" fill="#ffffff">"just disable the newer addresses"</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="52" y="182" font-weight="700" fill="#8c1d18">Why it was reasonable</text>
+    <text x="52" y="204">Many tunnels carried only the older</text>
+    <text x="52" y="222">address family, so the newer one went</text>
+    <text x="52" y="240">around them silently.</text>
+
+    <text x="52" y="274" font-weight="700" fill="#8c1d18">Why it is not any more</text>
+    <text x="52" y="296">It passed half of measured global</text>
+    <text x="52" y="314">traffic in March 2026. Some mobile</text>
+    <text x="52" y="332">networks and modern data centres are</text>
+    <text x="52" y="350">reachable only that way, and</text>
+    <text x="52" y="368">translation gateways depend on it.</text>
+
+    <text x="52" y="402" font-weight="700" fill="#00614a">What to do instead</text>
+    <text x="52" y="424">Use a tunnel that either carries it or</text>
+    <text x="52" y="442">blocks it at the interface. Both are</text>
+    <text x="52" y="460">correct. Turning it off system-wide is</text>
+    <text x="52" y="478">a change to everything you do.</text>
+  </g>
+
+  <rect x="410" y="100" width="360" height="402" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M410 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#E69F00"/>
+  <text x="590" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">LARGELY EXPIRED</text>
+  <text x="590" y="146" text-anchor="middle" font-size="11" fill="#ffffff">"turn off browser real time calling"</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="432" y="182" font-weight="700" fill="#8a6000">Why it was reasonable</text>
+    <text x="432" y="204">The feature discovered and reported</text>
+    <text x="432" y="222">both your local address and your public</text>
+    <text x="432" y="240">one to any page that asked.</text>
+
+    <text x="432" y="274" font-weight="700" fill="#8a6000">What changed</text>
+    <text x="432" y="296">Browsers adopted an obfuscation scheme</text>
+    <text x="432" y="314">in 2019 that replaces the local address</text>
+    <text x="432" y="332">with a random name. That half is closed</text>
+    <text x="432" y="350">by default on major desktop browsers.</text>
+    <text x="432" y="368">The public address goes through the</text>
+    <text x="432" y="386">tunnel when routing is correct.</text>
+
+    <text x="432" y="420" font-weight="700" fill="#00614a">What to do instead</text>
+    <text x="432" y="442">Test it rather than assume. Disabling</text>
+    <text x="432" y="460">the feature outright breaks video</text>
+    <text x="432" y="478">calling, which people then re-enable.</text>
+  </g>
+
+  <rect x="790" y="100" width="360" height="402" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M790 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#0072B2"/>
+  <text x="970" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">ARRIVED INSTEAD</text>
+  <text x="970" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the browser resolves names itself</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="812" y="182" font-weight="700" fill="#10476b">What happens</text>
+    <text x="812" y="204">Browsers now perform their own</text>
+    <text x="812" y="222">encrypted name resolution, on by</text>
+    <text x="812" y="240">default in several regions.</text>
+
+    <text x="812" y="274" font-weight="700" fill="#10476b">Why it matters here</text>
+    <text x="812" y="296">The browser's chosen resolver takes</text>
+    <text x="812" y="314">priority over the one your tunnel</text>
+    <text x="812" y="332">configured. Your lookups are encrypted</text>
+    <text x="812" y="350">and they go to somebody the tunnel</text>
+    <text x="812" y="368">did not pick.</text>
+
+    <text x="812" y="402" font-weight="700" fill="#8a6000">Is it a leak?</text>
+    <text x="812" y="424">Not in the old sense: your network</text>
+    <text x="812" y="442">operator still cannot read it. But you</text>
+    <text x="812" y="460">no longer know who is answering, which</text>
+    <text x="812" y="478">is a different question worth asking.</text>
+  </g>
+
+  <rect x="30" y="526" width="1120" height="146" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="556" font-size="15.5" font-weight="700" fill="#111827">The pattern, which is the transferable part</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="582" r="3.5" fill="#374151"/><text x="80" y="586"><tspan font-weight="700">Leaks are stable and remedies are not.</tspan> The six mechanisms in Figure 1 have barely changed in a decade. The advice attached to them has changed completely.</text>
+    <circle cx="66" cy="608" r="3.5" fill="#374151"/><text x="80" y="612"><tspan font-weight="700">Two of these remedies now cost more than the leak.</tspan> Turning off half the internet, or breaking video calls, to close a gap that was closed for you five years ago.</text>
+    <circle cx="66" cy="634" r="3.5" fill="#374151"/><text x="80" y="638"><tspan font-weight="700">Copied guidance never notices.</tspan> These instructions propagate between articles without anybody rechecking whether the underlying situation still holds.</text>
+    <circle cx="66" cy="660" r="3.5" fill="#00614a"/><text x="80" y="664"><tspan font-weight="700">So test the leak, and separately ask whether the fix is still the fix.</tspan> Those are two different pieces of work and only the first one gets done.</text>
+  </g>
+
+  <text x="590" y="714" text-anchor="middle" font-size="13.5" fill="#4b5563">This is the same failure Lesson 5.2 described for application recommendations, arriving in a technical setting where it looks more authoritative.</text>
+  <text x="590" y="740" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">A checklist that tells you to disable something is making a claim about the present. Date it, or the claim outlives the reason for it.</text>
+  <text x="590" y="766" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">And notice that the newly arrived item was nobody's misconfiguration. It was a decision made about your traffic by somebody else.</text>
+</svg>

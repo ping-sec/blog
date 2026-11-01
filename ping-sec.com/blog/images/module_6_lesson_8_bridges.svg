@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-labelledby="br-title br-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="br-title">Figure 3. Bridges and pluggable transports, in the order to try them</title>
+  <desc id="br-desc">A ladder of four options for reaching Tor from a network that blocks it. The first is a plain bridge, an unlisted first relay, which defeats blocking by published relay list but not inspection, because the traffic still looks like Tor. The second is the obfuscated transport, the most widely deployed option, which makes the traffic look like random bytes and is the first thing to try. The third wraps the connection inside an ordinary encrypted web session to what appears to be a normal website, deployed in 2024, and is designed to survive systems that look for deviations from a standard handshake. The fourth relays through volunteers running a browser extension, with a broker matching users to volunteers, so the addresses change constantly and there is no fixed target to block. A band below corrects a widespread error about how bridges are discovered: they are distributed as an address and port and appear in no public list, so there is no name to look up, and the actual method is inspection flagging a suspicious connection followed by scanners connecting to that address and port to see whether it answers like Tor.</desc>
+
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+
+  <defs>
+    <marker id="brar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#374151"/></marker>
+  </defs>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Getting In When the Network Blocks Tor</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The relay list is public, so blocking Tor is trivial. These are the answers, in the order to try them, with what each one disguises the traffic as.</text>
+
+  <text x="46" y="116" font-size="11.5" font-weight="700" fill="#374151">TRY FIRST</text>
+  <path d="M60 126 v368" stroke="#374151" stroke-width="2" fill="none" marker-end="url(#brar)"/>
+  <text x="46" y="514" font-size="11.5" font-weight="700" fill="#374151">LAST</text>
+
+  <rect x="86" y="104" width="1064" height="34" rx="6" fill="#374151"/>
+  <text x="104" y="126" font-size="11.5" font-weight="700" fill="#ffffff">OPTION</text>
+  <text x="410" y="126" font-size="11.5" font-weight="700" fill="#ffffff">WHAT IT LOOKS LIKE ON THE WIRE</text>
+  <text x="830" y="126" font-size="11.5" font-weight="700" fill="#ffffff">WHAT IT DEFEATS, AND WHAT IT DOES NOT</text>
+
+  <rect x="86" y="146" width="1064" height="76" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="106" y="170" font-size="12.5" font-weight="700" fill="#8a6000">A plain bridge</text>
+  <text x="106" y="190" font-size="11" fill="#4b5563">an unlisted first relay, given</text>
+  <text x="106" y="208" font-size="11" fill="#4b5563">to you rather than published</text>
+  <text x="410" y="180" font-size="11.5" fill="#374151">A Tor connection to an address that is not</text>
+  <text x="410" y="198" font-size="11.5" fill="#374151">on the public list.</text>
+  <text x="830" y="171" font-size="11.5" fill="#374151">Defeats blocking by relay list.</text>
+  <text x="830" y="189" font-size="11.5" font-weight="700" fill="#8c1d18">Does not defeat inspection: the</text>
+  <text x="830" y="207" font-size="11.5" font-weight="700" fill="#8c1d18">traffic still looks like Tor.</text>
+
+  <rect x="86" y="230" width="1064" height="76" rx="6" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2.5"/>
+  <text x="106" y="254" font-size="12.5" font-weight="700" fill="#00614a">An obfuscated bridge</text>
+  <text x="106" y="274" font-size="11" fill="#4b5563">the most widely deployed option,</text>
+  <text x="106" y="292" font-size="11" fill="#4b5563">and where to start</text>
+  <text x="410" y="264" font-size="11.5" fill="#374151">Random bytes with no recognisable structure.</text>
+  <text x="410" y="282" font-size="11.5" fill="#374151">An extra layer of encryption sits between</text>
+  <text x="410" y="300" font-size="11.5" fill="#374151">you and the bridge to achieve that.</text>
+  <text x="830" y="264" font-size="11.5" font-weight="700" fill="#00614a">Defeats inspection that looks for</text>
+  <text x="830" y="282" font-size="11.5" font-weight="700" fill="#00614a">Tor. Does not help if the address</text>
+  <text x="830" y="300" font-size="11.5" font-weight="700" fill="#00614a">itself has been discovered.</text>
+
+  <rect x="86" y="314" width="1064" height="76" rx="6" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2"/>
+  <text x="106" y="338" font-size="12.5" font-weight="700" fill="#10476b">A web-tunnelled bridge</text>
+  <text x="106" y="358" font-size="11" fill="#4b5563">deployed in 2024, and the</text>
+  <text x="106" y="376" font-size="11" fill="#4b5563">newest of these</text>
+  <text x="410" y="348" font-size="11.5" fill="#374151">An ordinary encrypted session to what appears</text>
+  <text x="410" y="366" font-size="11.5" fill="#374151">to be a normal website, on a normal port,</text>
+  <text x="410" y="384" font-size="11.5" fill="#374151">with a normal handshake.</text>
+  <text x="830" y="348" font-size="11.5" fill="#374151">Built for networks that flag</text>
+  <text x="830" y="366" font-size="11.5" fill="#374151">anything whose handshake is not</text>
+  <text x="830" y="384" font-size="11.5" fill="#374151">exactly standard. Try it second.</text>
+
+  <rect x="86" y="398" width="1064" height="98" rx="6" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2"/>
+  <text x="106" y="422" font-size="12.5" font-weight="700" fill="#10476b">Relayed through volunteers</text>
+  <text x="106" y="442" font-size="11" fill="#4b5563">people running a browser extension</text>
+  <text x="106" y="460" font-size="11" fill="#4b5563">who never know who they helped,</text>
+  <text x="106" y="478" font-size="11" fill="#4b5563">and the option worth knowing about</text>
+  <text x="410" y="422" font-size="11.5" fill="#374151">A short-lived peer to peer session of the kind</text>
+  <text x="410" y="440" font-size="11.5" fill="#374151">a video call uses. A broker introduces you to</text>
+  <text x="410" y="458" font-size="11.5" fill="#374151">whichever volunteer is available, so the address</text>
+  <text x="410" y="476" font-size="11.5" fill="#374151">you connect to keeps changing.</text>
+  <text x="830" y="431" font-size="11.5" font-weight="700" fill="#10476b">There is no stable address to</text>
+  <text x="830" y="449" font-size="11.5" font-weight="700" fill="#10476b">block, which is the whole design.</text>
+  <text x="830" y="469" font-size="11.5" fill="#374151">Slower and less reliable, so it is</text>
+  <text x="830" y="487" font-size="11.5" fill="#374151">a fallback rather than a default.</text>
+
+  <rect x="30" y="510" width="1120" height="152" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="540" font-size="16" font-weight="700" fill="#8c1d18">How bridges are actually discovered, because the common explanation is wrong</text>
+  <text x="56" y="566" font-size="12.5" fill="#374151">A frequent claim, including in this course's own DNS material, is that censors find Tor users by watching name lookups for bridge addresses.</text>
+  <text x="56" y="590" font-size="12.5" font-weight="700" fill="#8c1d18">There is no name to look up. A bridge is handed to you as an address and a port, and appears in no public directory. That is the entire point of it.</text>
+  <text x="56" y="616" font-size="12.5" fill="#374151">What actually happens: inspection flags a connection as suspicious, and scanners elsewhere on the network then connect to that same address and port to</text>
+  <text x="56" y="636" font-size="12.5" fill="#374151">see whether something answers the way Tor answers. If it does, the address and port are blocked, often within minutes.</text>
+  <text x="56" y="656" font-size="12.5" font-weight="700" fill="#8c1d18">The difference matters: if the risk were name resolution, encrypting lookups would help. It is not, and it does not.</text>
+
+  <rect x="30" y="678" width="1120" height="76" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="706" font-size="13" fill="#374151">This is also why the ladder is ordered the way it is. Each rung disguises the traffic further from what a scanner expects to find, and the last rung removes</text>
+  <text x="56" y="730" font-size="13" fill="#374151">the fixed target altogether. <tspan font-weight="700">Move down the ladder only when the rung above stops working</tspan>, because the lower rungs cost speed and reliability.</text>
+
+  <text x="590" y="786" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Ask a network operator's question about your own setup: if I were trying to find this connection, what would I look for, and does this hide that?</text>
+  <text x="590" y="810" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Obtaining bridges is itself a censorship problem, which is why they are handed out through several channels rather than one page.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 700" width="1160" height="700" role="img" aria-labelledby="pc-title pc-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="pc-title">Figure 1. What PGP encrypts on an email, and what it leaves in the clear</title>
+  <desc id="pc-desc">An email shown as two regions. The headers are outside the encryption: sender, recipient, subject line, date, message identifier, thread references, client software, and the record of every server that handled the message. Only the body and its attachments are encrypted. A band below states that the subject line is the most commonly leaked item, because people write descriptive subjects out of habit.</desc>
+
+  <rect x="0" y="0" width="1160" height="700" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The Encryption Starts Below the Headers</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Everything the delivery system needs in order to deliver the message has to stay readable. That is most of what identifies you.</text>
+
+  <rect x="60" y="104" width="1040" height="248" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <path d="M60 114 a10 10 0 0 1 10 -10 h1020 a10 10 0 0 1 10 10 v34 h-1040 z" fill="#b3261e"/>
+  <text x="580" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">HEADERS: NOT ENCRYPTED, BY ANY VERSION OF PGP</text>
+
+  <g font-size="13" font-family="Consolas, Menlo, monospace">
+    <text x="88" y="180" fill="#6b7280">From:</text><text x="240" y="180" fill="#111827">you@yourdomain.example</text>
+    <text x="88" y="206" fill="#6b7280">To:</text><text x="240" y="206" fill="#111827">security@vendor.example</text>
+    <text x="88" y="232" fill="#6b7280">Subject:</text><text x="240" y="232" font-weight="700" fill="#b3261e">Critical injection flaw in the payment path</text>
+    <text x="88" y="258" fill="#6b7280">Date:</text><text x="240" y="258" fill="#111827">Tue, 08 Sep 2026 09:15:32 -0700</text>
+    <text x="88" y="284" fill="#6b7280">Message-ID:</text><text x="240" y="284" fill="#111827">&lt;a1b2c3@yourdomain.example&gt;</text>
+    <text x="88" y="310" fill="#6b7280">In-Reply-To:</text><text x="240" y="310" fill="#111827">&lt;prior-message-id&gt;</text>
+    <text x="640" y="180" fill="#6b7280">References:</text><text x="790" y="180" fill="#111827">the whole thread</text>
+    <text x="640" y="206" fill="#6b7280">User-Agent:</text><text x="790" y="206" fill="#111827">your mail client and version</text>
+    <text x="640" y="232" fill="#6b7280">Received:</text><text x="790" y="232" fill="#111827">every server that handled it</text>
+    <text x="640" y="258" fill="#6b7280">Received:</text><text x="790" y="258" fill="#111827">with timestamps at each hop</text>
+    <text x="640" y="284" fill="#6b7280">Received:</text><text x="790" y="284" fill="#111827">sometimes your address</text>
+  </g>
+  <text x="88" y="336" font-size="12.5" font-style="italic" fill="#8c1d18">Visible to both providers, to every relay in between, and to anyone who compels any of them.</text>
+
+  <rect x="60" y="368" width="1040" height="164" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M60 378 a10 10 0 0 1 10 -10 h1020 a10 10 0 0 1 10 10 v34 h-1040 z" fill="#009E73"/>
+  <text x="580" y="398" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">BODY AND ATTACHMENTS: THIS IS WHAT PGP PROTECTS</text>
+
+  <rect x="88" y="428" width="984" height="84" rx="6" fill="#ffffff" stroke="#009E73" stroke-width="1.5"/>
+  <text x="108" y="454" font-size="12.5" font-family="Consolas, Menlo, monospace" fill="#374151">-----BEGIN PGP MESSAGE-----</text>
+  <text x="108" y="476" font-size="12.5" font-family="Consolas, Menlo, monospace" fill="#6b7280">hQIMA7kf3xQ2vLmBAQ//WvKp2n4RtY8sJcQm1oXbZ0eLdF7Hy3TgNvR6xAqPmE...</text>
+  <text x="108" y="498" font-size="12.5" font-family="Consolas, Menlo, monospace" fill="#374151">-----END PGP MESSAGE-----</text>
+
+  <rect x="60" y="552" width="1040" height="82" rx="10" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="88" y="582" font-size="15" font-weight="700" fill="#8c1d18">The subject line is the one people leak, every time.</text>
+  <text x="88" y="608" font-size="12.5" fill="#374151">It sits in the header block, so it is never encrypted, and years of habit say to write a descriptive one. The example above tells an observer what was found,</text>
+  <text x="88" y="628" font-size="12.5" fill="#374151">where, and by whom, without any need to break the encryption underneath it. Write nothing there, or write something that says nothing.</text>
+
+  <text x="580" y="668" text-anchor="middle" font-size="13.5" fill="#4b5563">One provider does encrypt subject lines, and it is not PGP doing it. Section 5 covers where that applies and where it does not.</text>
+</svg>

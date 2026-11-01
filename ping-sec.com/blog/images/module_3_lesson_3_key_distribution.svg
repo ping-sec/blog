@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 700" width="1160" height="700" role="img" aria-labelledby="kd-title kd-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="kd-title">Figure 3. Key distribution, as taught and as it actually works now</title>
+  <desc id="kd-desc">Two panels. The left panel describes the web of trust model that most guides still teach: verify a key, sign it, upload the signature to a keyserver, and let trust propagate through mutual acquaintances. The right panel explains why that no longer functions: the old keyserver network was attacked in 2019 by attaching enormous numbers of signatures to certificates, and the recommended replacement keyserver deliberately does not distribute third-party signatures at all. It then lists what is used in practice instead.</desc>
+
+  <rect x="0" y="0" width="1160" height="700" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: The Web of Trust Does Not Propagate Any More</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Most guides still teach the left panel. The recommended keyserver removes the very thing the left panel depends on.</text>
+
+  <rect x="30" y="104" width="540" height="336" rx="10" fill="#6b7280" fill-opacity="0.09" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <path d="M30 114 a10 10 0 0 1 10 -10 h520 a10 10 0 0 1 10 10 v36 h-540 z" fill="#6b7280"/>
+  <text x="300" y="136" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHAT THE GUIDES STILL DESCRIBE</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="180" font-weight="700">1. You verify a fingerprint in person</text>
+    <text x="52" y="204">and confirm the key belongs to them.</text>
+    <text x="52" y="238" font-weight="700">2. You sign their key</text>
+    <text x="52" y="262">which attaches your signature to their certificate as</text>
+    <text x="52" y="282">a public statement that you checked.</text>
+    <text x="52" y="316" font-weight="700">3. You upload the signed key</text>
+    <text x="52" y="340">so that everybody else can see your endorsement.</text>
+    <text x="52" y="374" font-weight="700">4. Trust propagates</text>
+    <text x="52" y="398">Somebody who trusts you can now extend some trust</text>
+    <text x="52" y="418">to them, through you, without meeting them.</text>
+  </g>
+
+  <rect x="590" y="104" width="540" height="336" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M590 114 a10 10 0 0 1 10 -10 h520 a10 10 0 0 1 10 10 v36 h-540 z" fill="#b3261e"/>
+  <text x="860" y="136" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHY STEPS 3 AND 4 NO LONGER WORK</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="612" y="180" font-weight="700" fill="#8c1d18">The old keyserver network was attacked in 2019</text>
+    <text x="612" y="204">Nothing in the format limits how many signatures a</text>
+    <text x="612" y="224">certificate may carry. Two well-known contributors had</text>
+    <text x="612" y="244">tens of thousands attached to theirs. Importing a</text>
+    <text x="612" y="264">poisoned certificate could disable a local installation.</text>
+    <text x="612" y="288">The network was append-only, so nothing could be removed.</text>
+
+    <text x="612" y="326" font-weight="700" fill="#8c1d18">The replacement keyserver strips them deliberately</text>
+    <text x="612" y="350">The keyserver now recommended everywhere does not</text>
+    <text x="612" y="370">distribute third-party signatures at all, precisely because</text>
+    <text x="612" y="390">they let anybody attach unlimited data to anybody's key.</text>
+    <text x="612" y="418" font-style="italic" fill="#8c1d18">So your signature on their key is not delivered to anyone.</text>
+  </g>
+
+  <rect x="30" y="466" width="1100" height="146" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="496" font-size="15" font-weight="700" fill="#00614a">What is actually used to obtain a key now</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="522" r="3.5" fill="#00614a"/><text x="80" y="526" font-weight="700">Directly from the person</text><text x="252" y="526">over a channel you already trust, which is what you were verifying against anyway.</text>
+    <circle cx="66" cy="548" r="3.5" fill="#00614a"/><text x="80" y="552" font-weight="700">From their own domain</text><text x="248" y="552">through the directory mechanism a mail client can query automatically, which ties the key to control of the address.</text>
+    <circle cx="66" cy="574" r="3.5" fill="#00614a"/><text x="80" y="578" font-weight="700">From a keyserver that verifies the address</text><text x="382" y="578">by mailing a confirmation before publishing, so the listing means something.</text>
+    <circle cx="66" cy="600" r="3.5" fill="#00614a"/><text x="80" y="604" font-weight="700">From a published fingerprint</text><text x="284" y="604">on a site you have independent reason to trust, checked against what you downloaded.</text>
+  </g>
+
+  <text x="580" y="650" text-anchor="middle" font-size="13.5" fill="#4b5563">Verifying a fingerprint is still correct and still necessary. What stopped working is the idea that your verification helps anybody else.</text>
+  <text x="580" y="676" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Verify for yourself. Do not expect a trust network to carry it onward, because there is no longer one carrying it.</text>
+</svg>

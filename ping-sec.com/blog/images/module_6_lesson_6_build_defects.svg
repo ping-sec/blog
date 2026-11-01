@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 810" width="1180" height="810" role="img" aria-labelledby="bd-title bd-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="bd-title">Figure 3. Six defects in the basic build, sorted by whether they fail loudly or quietly</title>
+  <desc id="bd-desc">A table of six problems in a basic WireGuard build. Three fail loudly and you will find them within minutes: the post-up rule omits address translation so the tunnel connects with no internet, restarting the wrong unit after changing the secure shell port means the port does not change on recent Ubuntu, and the firewall drops forwarded packets by default. Three fail quietly and you may never find them: the server is configured for the older address family only while the client routes only the older family, so all newer-family traffic bypasses the tunnel entirely; the save-configuration option overwrites your own file when the interface stops, discarding comments and freezing resolved addresses; and the monitoring script sends its alert through a mail command with no mail agent installed, so the alert never arrives. A band below observes that both quiet failures that matter are privacy failures.</desc>
+
+  <rect x="0" y="0" width="1180" height="810" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Six Defects in the Build, Sorted by How You Find Out</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The loud ones cost you an evening. The quiet ones cost you the thing you built the tunnel for, and two of the three are leaks.</text>
+
+  <rect x="30" y="98" width="1120" height="34" rx="6" fill="#374151"/>
+  <text x="48" y="120" font-size="12" font-weight="700" fill="#ffffff">WHAT THE BASIC BUILD DOES</text>
+  <text x="470" y="120" font-size="12" font-weight="700" fill="#ffffff">WHAT HAPPENS</text>
+  <text x="850" y="120" font-size="12" font-weight="700" fill="#ffffff">HOW YOU FIND OUT</text>
+
+  <rect x="30" y="140" width="1120" height="26" rx="5" fill="#E69F00" fill-opacity="0.20"/>
+  <text x="48" y="158" font-size="12.5" font-weight="700" fill="#8a6000">FAILS LOUDLY, within the first hour</text>
+
+  <rect x="30" y="172" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.10" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="196" font-size="12" font-weight="700" fill="#374151">The post-up rule accepts forwarding</text>
+  <text x="48" y="216" font-size="12" font-weight="700" fill="#374151">but never adds address translation</text>
+  <text x="470" y="196" font-size="12" fill="#374151">The tunnel connects, hands out an address,</text>
+  <text x="470" y="216" font-size="12" fill="#374151">and reaches nothing at all</text>
+  <text x="850" y="196" font-size="12" fill="#374151">Immediately, because no site or</text>
+  <text x="850" y="216" font-size="12" fill="#374151">service answers through the tunnel</text>
+
+  <rect x="30" y="240" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.10" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="264" font-size="12" font-weight="700" fill="#374151">Change the secure shell port, then restart</text>
+  <text x="48" y="284" font-size="12" font-weight="700" fill="#374151">the service unit</text>
+  <text x="470" y="264" font-size="12" fill="#374151">On Ubuntu 22.10 and later the service is</text>
+  <text x="470" y="284" font-size="12" fill="#374151">socket started, so the port does not move</text>
+  <text x="850" y="264" font-size="12" fill="#374151">At the next login, or when the firewall</text>
+  <text x="850" y="284" font-size="12" fill="#374151">closes the old port and locks you out</text>
+
+  <rect x="30" y="308" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.10" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="332" font-size="12" font-weight="700" fill="#374151">Enable the simple firewall, allow two ports,</text>
+  <text x="48" y="352" font-size="12" font-weight="700" fill="#374151">and consider the firewall done</text>
+  <text x="470" y="332" font-size="12" fill="#374151">Its default policy for forwarded packets is</text>
+  <text x="470" y="352" font-size="12" fill="#374151">to drop them, which is all your traffic</text>
+  <text x="850" y="332" font-size="12" fill="#374151">Immediately, and it looks identical to</text>
+  <text x="850" y="352" font-size="12" fill="#374151">the first row, which sends you in circles</text>
+
+  <rect x="30" y="388" width="1120" height="26" rx="5" fill="#b3261e" fill-opacity="0.18"/>
+  <text x="48" y="406" font-size="12.5" font-weight="700" fill="#8c1d18">FAILS QUIETLY, and you may never find out</text>
+
+  <rect x="30" y="420" width="1120" height="62" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="444" font-size="12" font-weight="700" fill="#8c1d18">The server gets an older-family address only,</text>
+  <text x="48" y="464" font-size="12" font-weight="700" fill="#8c1d18">and the client routes only that family</text>
+  <text x="470" y="444" font-size="12" font-weight="700" fill="#8c1d18">Every newer-family request skips the tunnel</text>
+  <text x="470" y="464" font-size="12" font-weight="700" fill="#8c1d18">and leaves on your real address</text>
+  <text x="850" y="444" font-size="12" font-weight="700" fill="#8c1d18">Never, unless you test. That is over</text>
+  <text x="850" y="464" font-size="12" font-weight="700" fill="#8c1d18">half of measured traffic in the open</text>
+
+  <rect x="30" y="488" width="1120" height="62" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="512" font-size="12" font-weight="700" fill="#8c1d18">Set the save-configuration option to true,</text>
+  <text x="48" y="532" font-size="12" font-weight="700" fill="#8c1d18">which some example configurations do</text>
+  <text x="470" y="512" font-size="12" fill="#374151">Stopping the interface overwrites your file:</text>
+  <text x="470" y="532" font-size="12" fill="#374151">comments gone, names frozen to addresses</text>
+  <text x="850" y="512" font-size="12" fill="#374151">Weeks later, when an edit you made has</text>
+  <text x="850" y="532" font-size="12" fill="#374151">silently disappeared after a reboot</text>
+
+  <rect x="30" y="556" width="1120" height="62" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="580" font-size="12" font-weight="700" fill="#8c1d18">A monitoring script that emails you an alert</text>
+  <text x="48" y="600" font-size="12" font-weight="700" fill="#8c1d18">through the mail command</text>
+  <text x="470" y="580" font-size="12" fill="#374151">A minimal server has no mail agent, so the</text>
+  <text x="470" y="600" font-size="12" fill="#374151">command is missing and nothing is sent</text>
+  <text x="850" y="580" font-size="12" fill="#374151">On the day the server goes down, which</text>
+  <text x="850" y="600" font-size="12" fill="#374151">is the only day it was supposed to work</text>
+
+  <rect x="30" y="640" width="1120" height="118" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="670" font-size="15.5" font-weight="700" fill="#10476b">The part worth carrying into anything else you build</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="694" r="3.5" fill="#0072B2"/><text x="80" y="698"><tspan font-weight="700">Loud failures are the cheap ones.</tspan> You cannot leave them in place, because nothing works until you fix them. They are not the risk in a build like this.</text>
+    <circle cx="66" cy="720" r="3.5" fill="#8c1d18"/><text x="80" y="724"><tspan font-weight="700">Two of the three quiet ones are privacy failures</tspan>, and the tunnel still looks healthy.</text>
+    <circle cx="66" cy="746" r="3.5" fill="#0072B2"/><text x="80" y="750"><tspan font-weight="700">So finish every build with the question the loud failures never make you ask:</tspan> what would be broken right now without telling me?</text>
+  </g>
+
+  <text x="590" y="790" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">A tunnel that connects is not a tunnel that works. Test it against Lesson 6.5 before you trust it with anything.</text>
+</svg>

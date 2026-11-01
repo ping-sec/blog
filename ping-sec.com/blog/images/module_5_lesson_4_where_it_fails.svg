@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 790" width="1180" height="790" role="img" aria-labelledby="wf-title wf-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wf-title">Figure 1. What mobile operational security guidance covers, and where it actually fails</title>
+  <desc id="wf-desc">Two columns. The left lists the threats that most mobile operational security material spends its length on: fake cell towers, brief physical access by a stranger, forced unlock at a border, and targeted surveillance. The right lists the failures that actually occur for working security professionals: client screenshots synchronising to a personal photo library, client contacts entering a personal address book, work accounts on a device shared with family, and engagement locations recorded in photograph metadata. A band below observes that the right column carries contractual and legal consequences, requires no attacker at all, and receives a fraction of the coverage.</desc>
+
+  <rect x="0" y="0" width="1180" height="790" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The Column That Gets Written About, and the Column That Happens</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Both columns are real. Only one of them is likely to happen to you this year, and it is not the interesting one.</text>
+
+  <rect x="30" y="100" width="550" height="424" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v46 h-550 z" fill="#0072B2"/>
+  <text x="305" y="128" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHAT THE GUIDANCE COVERS</text>
+  <text x="305" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">most of the length, most of the excitement</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="186" font-size="13" font-weight="700" fill="#10476b">Fake cell towers</text>
+    <text x="52" y="208">Real, deployed, and worth understanding. Also largely</text>
+    <text x="52" y="228">defeated by using encrypted messaging, which you do anyway.</text>
+
+    <text x="52" y="266" font-size="13" font-weight="700" fill="#10476b">Brief physical access by a stranger</text>
+    <text x="52" y="288">Real, and the hardware and firmware protections in Lesson 5.1</text>
+    <text x="52" y="308">and 5.3 are the answer rather than tape over the ports.</text>
+
+    <text x="52" y="346" font-size="13" font-weight="700" fill="#10476b">Forced unlock at a border</text>
+    <text x="52" y="368">Real, common, and the legal structure matters more than the</text>
+    <text x="52" y="388">technique. Figure 3 covers it precisely.</text>
+
+    <text x="52" y="426" font-size="13" font-weight="700" fill="#10476b">Targeted surveillance by a capable adversary</text>
+    <text x="52" y="448">Real for a small number of people, and the honest advice for</text>
+    <text x="52" y="468">them is a specialist, not a lesson.</text>
+
+    <text x="52" y="502" font-style="italic" fill="#10476b">None of this is wrong. It is disproportionate.</text>
+  </g>
+
+  <rect x="600" y="100" width="550" height="424" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M600 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v46 h-550 z" fill="#b3261e"/>
+  <text x="875" y="128" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHERE IT ACTUALLY FAILS</text>
+  <text x="875" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">no attacker required, and rarely mentioned</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="186" font-size="13" font-weight="700" fill="#8c1d18">A screenshot of a finding, in a synchronised library</text>
+    <text x="622" y="208">You photograph a console, a diagram, a whiteboard. The photo</text>
+    <text x="622" y="228">library uploads it. Lesson 5.1 Tier 2, holding client data.</text>
+
+    <text x="622" y="266" font-size="13" font-weight="700" fill="#8c1d18">Client contacts in a personal address book</text>
+    <text x="622" y="288">Which synchronises, and which you granted to applications</text>
+    <text x="622" y="308">years ago. Their names, roles and numbers, not yours.</text>
+
+    <text x="622" y="346" font-size="13" font-weight="700" fill="#8c1d18">A work account on a device the household uses</text>
+    <text x="622" y="368">Notifications on a lock screen in a shared room. A tablet</text>
+    <text x="622" y="388">signed into the same account. Nobody attacked anything.</text>
+
+    <text x="622" y="426" font-size="13" font-weight="700" fill="#8c1d18">The engagement itself, in photograph metadata</text>
+    <text x="622" y="448">Coordinates and timestamps recording which organisation</text>
+    <text x="622" y="468">hired you and when. Lesson 1.3, arriving through a camera.</text>
+
+    <text x="622" y="502" font-weight="700" fill="#8c1d18">Every one of these is a confidentiality breach.</text>
+  </g>
+
+  <rect x="30" y="546" width="1120" height="132" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="576" font-size="15.5" font-weight="700" fill="#111827">Why the right column deserves the length, and gets a footnote instead</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="602" r="3.5" fill="#374151"/><text x="80" y="606"><tspan font-weight="700">It requires no attacker.</tspan> Nothing has to go wrong for these to happen. They are the default behaviour of a correctly working phone.</text>
+    <circle cx="66" cy="628" r="3.5" fill="#374151"/><text x="80" y="632"><tspan font-weight="700">The consequences are contractual, not technical.</tspan> A confidentiality clause does not distinguish between a breach and a synchronisation setting.</text>
+    <circle cx="66" cy="654" r="3.5" fill="#374151"/><text x="80" y="658"><tspan font-weight="700">And it is boring</tspan>, which is the actual reason it gets a footnote. Nobody writes an exciting section about turning off photo sync on a work phone.</text>
+  </g>
+
+  <text x="590" y="716" text-anchor="middle" font-size="13.5" fill="#4b5563">So this lesson does the right column first and at length, then covers the left column accurately rather than dramatically.</text>
+  <text x="590" y="742" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">If you only do one thing from this lesson: separate the device or the profile that touches client work from the one that holds your life.</text>
+  <text x="590" y="768" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">That single change closes most of the right column, and no amount of counter-surveillance technique closes any of it.</text>
+</svg>

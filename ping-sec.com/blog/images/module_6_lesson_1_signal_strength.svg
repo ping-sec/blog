@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 790" width="1180" height="790" role="img" aria-labelledby="ss-title ss-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ss-title">Figure 3. Judging a VPN provider, by how much each signal is actually worth</title>
+  <desc id="ss-desc">Three tiers of evidence about a provider. Weak signals are the ones marketing sells: intelligence alliance membership lists, phrases such as military grade encryption, server counts, and a no logging claim on its own. Medium signals are checkable facts: transparent ownership, anonymous payment accepted, open source clients, and an audit whose scope and date you can read. The strong signal is what happened when the claim was tested in reality, such as a search warrant executed against a provider that produced nothing because nothing was stored. Two panels below cover jurisdiction as a moving target, with a current example of a country changing its rules, and the concentration of ownership across apparently competing brands and the review sites that rate them.</desc>
+
+  <rect x="0" y="0" width="1180" height="790" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Signals, Ranked by What They Are Worth</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Guidance that warns you about VPN marketing, then recommends judging providers on the criteria that marketing invented, has not finished the job.</text>
+
+  <rect x="30" y="98" width="1120" height="112" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <rect x="30" y="98" width="196" height="112" rx="10" fill="#b3261e"/>
+  <text x="128" y="142" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">WEAK</text>
+  <text x="128" y="164" text-anchor="middle" font-size="11.5" fill="#ffffff">what the marketing</text>
+  <text x="128" y="182" text-anchor="middle" font-size="11.5" fill="#ffffff">is built on</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="248" y="128" font-size="13.5" font-weight="700" fill="#8c1d18">Intelligence alliance membership, "military grade", server counts, and a claim on its own</text>
+    <text x="248" y="152">Alliance lists describe agreements between intelligence services. They are not the rules that decide whether a provider must keep records, which is what</text>
+    <text x="248" y="172">you actually care about. "Military grade" describes an ordinary cipher and means nothing. A server count is a marketing number. And a stated policy of</text>
+    <text x="248" y="192">keeping no records is a sentence somebody wrote, which is where the analysis usually begins and ends.</text>
+  </g>
+
+  <rect x="30" y="222" width="1120" height="132" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <rect x="30" y="222" width="196" height="132" rx="10" fill="#E69F00"/>
+  <text x="128" y="270" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">MEDIUM</text>
+  <text x="128" y="292" text-anchor="middle" font-size="11.5" fill="#ffffff">checkable, and</text>
+  <text x="128" y="310" text-anchor="middle" font-size="11.5" fill="#ffffff">worth checking</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="248" y="252" font-size="13.5" font-weight="700" fill="#8a6000">Ownership you can trace, payment you can make anonymously, clients you can read, audits you can date</text>
+    <text x="248" y="278">These are facts rather than promises, and they support each other. A provider that will take cash and issues an account number instead of asking for an</text>
+    <text x="248" y="298">email address has structurally less to hand over, whatever its policy says.</text>
+    <text x="248" y="324" font-weight="700" fill="#8a6000">On audits specifically: read the scope and the date. An audit is a snapshot of a narrow question, usually commissioned by the subject, and it</text>
+    <text x="248" y="342" font-weight="700" fill="#8a6000">cannot say anything about what happens next week. A badge with no report behind it belongs in the row above.</text>
+  </g>
+
+  <rect x="30" y="366" width="1120" height="132" rx="10" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="3"/>
+  <rect x="30" y="366" width="196" height="132" rx="10" fill="#009E73"/>
+  <text x="128" y="414" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">STRONG</text>
+  <text x="128" y="436" text-anchor="middle" font-size="11.5" fill="#ffffff">what happened</text>
+  <text x="128" y="454" text-anchor="middle" font-size="11.5" fill="#ffffff">when it was tested</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="248" y="396" font-size="13.5" font-weight="700" fill="#00614a">A demand was made, and the provider had nothing to give</text>
+    <text x="248" y="422">This is the only evidence that settles the question, and it is rare because it requires somebody to come looking. In April 2023 police executed a search</text>
+    <text x="248" y="442">warrant at one provider's offices intending to seize customer data. The data did not exist, and they left with nothing.</text>
+    <text x="248" y="468" font-weight="700" fill="#00614a">Court records and seizure reports are worth more than every item in the two rows above put together. Search for them by provider name before</text>
+    <text x="248" y="486" font-weight="700" fill="#00614a">you subscribe, and notice which providers have never been tested at all.</text>
+  </g>
+
+  <rect x="30" y="520" width="550" height="176" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="52" y="550" font-size="15" font-weight="700" fill="#10476b">Jurisdiction is a moving target</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="578">One country's reputation for privacy is the reason several</text>
+    <text x="52" y="598">providers are based there. A revision proposed in 2025 would</text>
+    <text x="52" y="618">require services above a low user threshold to record identity</text>
+    <text x="52" y="638">documents and retain connection records for six months.</text>
+    <text x="52" y="664" font-weight="700" fill="#10476b">It is not yet law. One large provider has already begun</text>
+    <text x="52" y="682" font-weight="700" fill="#10476b">moving infrastructure out, which tells you what it expects.</text>
+  </g>
+
+  <rect x="600" y="520" width="550" height="176" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="622" y="550" font-size="15" font-weight="700" fill="#8c1d18">Three brands, one company, and the site that ranks them</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="578">One group owns four well known consumer brands. Another owns</text>
+    <text x="622" y="598">two more. So a careful comparison of six providers may be a</text>
+    <text x="622" y="618">comparison of two companies.</text>
+    <text x="622" y="644" font-weight="700" fill="#8c1d18">The first group also owns review sites that rank virtual</text>
+    <text x="622" y="662" font-weight="700" fill="#8c1d18">private network providers. Establish who owns the</text>
+    <text x="622" y="680" font-weight="700" fill="#8c1d18">recommendation before you weigh it.</text>
+  </g>
+
+  <text x="590" y="736" text-anchor="middle" font-size="13.5" fill="#4b5563">The practical procedure is short: find out who owns it, find out whether it has ever been tested, and read the audit rather than the badge.</text>
+  <text x="590" y="762" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Everything else on the comparison chart was written by somebody who wanted you to subscribe.</text>
+</svg>

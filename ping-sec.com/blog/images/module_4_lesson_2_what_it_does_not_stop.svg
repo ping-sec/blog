@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 740" width="1180" height="740" role="img" aria-labelledby="ns-title ns-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ns-title">Figure 2. What a hardware key does not stop</title>
+  <desc id="ns-desc">Four attacks that survive a correctly configured hardware key. First, theft of the session cookie after a successful sign in, because that cookie represents an authentication that already happened. Second, a weaker second factor still enabled on the same account, which an attacker will choose instead. Third, the account recovery path, which is a second front door. Fourth, a physical side channel attack on older key firmware, which requires possession of the key and laboratory equipment. Each is paired with the defence that actually addresses it. A band below states that none of these is a reason to skip hardware keys, and that the first three are configuration problems rather than protocol problems.</desc>
+
+  <rect x="0" y="0" width="1180" height="740" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: What a Hardware Key Does Not Stop</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The key does one job completely. Knowing which job means knowing what is still open, and three of these four are settings you control.</text>
+
+  <rect x="30" y="102" width="270" height="290" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <circle cx="64" cy="136" r="16" fill="#b3261e"/><text x="64" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1</text>
+  <text x="90" y="134" font-size="13.5" font-weight="700" fill="#8c1d18">Session theft</text>
+  <text x="90" y="150" font-size="11" fill="#8c1d18">after you sign in</text>
+  <g font-size="12" fill="#374151">
+    <text x="50" y="184">Your browser holds a cookie</text>
+    <text x="50" y="202">proving you already signed in.</text>
+    <text x="50" y="220">Malware on your machine copies</text>
+    <text x="50" y="238">it and replays it elsewhere.</text>
+    <text x="50" y="264" font-weight="700" fill="#8c1d18">No authentication prompt is</text>
+    <text x="50" y="282" font-weight="700" fill="#8c1d18">ever reached, so nothing the</text>
+    <text x="50" y="300" font-weight="700" fill="#8c1d18">key can do applies.</text>
+    <text x="50" y="330" font-style="italic" fill="#00614a">Defence: device health, plus</text>
+    <text x="50" y="348" font-style="italic" fill="#00614a">token binding where the service</text>
+    <text x="50" y="366" font-style="italic" fill="#00614a">offers it. Not the key.</text>
+  </g>
+
+  <rect x="320" y="102" width="270" height="290" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <circle cx="354" cy="136" r="16" fill="#b07b00"/><text x="354" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2</text>
+  <text x="380" y="134" font-size="13.5" font-weight="700" fill="#8a6000">A weaker factor</text>
+  <text x="380" y="150" font-size="11" fill="#8a6000">still enabled beside it</text>
+  <g font-size="12" fill="#374151">
+    <text x="340" y="184">You add the key and leave the</text>
+    <text x="340" y="202">code by message switched on</text>
+    <text x="340" y="220">as a fallback.</text>
+    <text x="340" y="246" font-weight="700" fill="#8a6000">An attacker simply chooses the</text>
+    <text x="340" y="264" font-weight="700" fill="#8a6000">weaker one. The account is now</text>
+    <text x="340" y="282" font-weight="700" fill="#8a6000">exactly as strong as the worst</text>
+    <text x="340" y="300" font-weight="700" fill="#8a6000">method you left enabled.</text>
+    <text x="340" y="330" font-style="italic" fill="#00614a">Defence: remove the weaker</text>
+    <text x="340" y="348" font-style="italic" fill="#00614a">methods, which you can only do</text>
+    <text x="340" y="366" font-style="italic" fill="#00614a">once a backup key is registered.</text>
+  </g>
+
+  <rect x="610" y="102" width="270" height="290" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <circle cx="644" cy="136" r="16" fill="#b07b00"/><text x="644" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3</text>
+  <text x="670" y="134" font-size="13.5" font-weight="700" fill="#8a6000">The recovery path</text>
+  <text x="670" y="150" font-size="11" fill="#8a6000">a second front door</text>
+  <g font-size="12" fill="#374151">
+    <text x="630" y="184">Every account has a procedure</text>
+    <text x="630" y="202">for a person who has lost their</text>
+    <text x="630" y="220">key. So does yours.</text>
+    <text x="630" y="246" font-weight="700" fill="#8a6000">If that procedure is an email</text>
+    <text x="630" y="264" font-weight="700" fill="#8a6000">link and a date of birth, that</text>
+    <text x="630" y="282" font-weight="700" fill="#8a6000">is the account's real strength,</text>
+    <text x="630" y="300" font-weight="700" fill="#8a6000">whatever is at the front door.</text>
+    <text x="630" y="330" font-style="italic" fill="#00614a">Defence: find out what it is</text>
+    <text x="630" y="348" font-style="italic" fill="#00614a">before you need it. Lesson 4.4</text>
+    <text x="630" y="366" font-style="italic" fill="#00614a">is about exactly this.</text>
+  </g>
+
+  <rect x="900" y="102" width="250" height="290" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <circle cx="934" cy="136" r="16" fill="#0072B2"/><text x="934" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">4</text>
+  <text x="960" y="134" font-size="13.5" font-weight="700" fill="#10476b">A physical attack</text>
+  <text x="960" y="150" font-size="11" fill="#10476b">on older firmware</text>
+  <g font-size="12" fill="#374151">
+    <text x="920" y="184">A 2024 side channel result</text>
+    <text x="920" y="202">showed key extraction from</text>
+    <text x="920" y="220">affected devices.</text>
+    <text x="920" y="246">It needs the key in hand and</text>
+    <text x="920" y="264">laboratory equipment, so it is</text>
+    <text x="920" y="282">a targeted attack, not a</text>
+    <text x="920" y="300">broad one.</text>
+    <text x="920" y="330" font-style="italic" fill="#10476b">Firmware cannot be updated,</text>
+    <text x="920" y="348" font-style="italic" fill="#10476b">so this is a purchase decision</text>
+    <text x="920" y="366" font-style="italic" fill="#10476b">rather than a patch.</text>
+  </g>
+
+  <rect x="30" y="418" width="1120" height="132" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="448" font-size="15" font-weight="700" fill="#00614a">Read this the right way round</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="474" r="3.5" fill="#00614a"/><text x="80" y="478"><tspan font-weight="700">None of this argues against hardware keys.</tspan> The attack they remove is the one that actually happens to people, at the moment it happens.</text>
+    <circle cx="66" cy="500" r="3.5" fill="#00614a"/><text x="80" y="504"><tspan font-weight="700">Numbers two and three are configuration, not protocol.</tspan> The key works and the account is still weak, because of a setting nobody revisited.</text>
+    <circle cx="66" cy="526" r="3.5" fill="#00614a"/><text x="80" y="530"><tspan font-weight="700">Number one moves the problem to your machine.</tspan> Once sign in is solved, the endpoint becomes the weakest part of the chain, which is where Module 5 goes.</text>
+  </g>
+
+  <rect x="30" y="574" width="1120" height="94" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="602" font-size="14.5" font-weight="700" fill="#111827">The threat modeling question from Lesson 1.4, applied here</text>
+  <text x="56" y="628" font-size="12.5" fill="#374151">A hardware key answers "somebody convinces me to hand over my credentials" and answers it completely. It does not answer "somebody is already running code</text>
+  <text x="56" y="648" font-size="12.5" fill="#374151">on my laptop" or "somebody phones the help desk and says they are me". Those need different controls, and buying a key does not buy them.</text>
+
+  <text x="590" y="704" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Register the key, then remove the weaker methods, then go and look at recovery. The second and third steps are the ones people skip.</text>
+</svg>

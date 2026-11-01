@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 814" width="1180" height="814" role="img" aria-labelledby="p4-title p4-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="p4-title">Figure 2. Port 443 is a destination, not a disguise</title>
+  <desc id="p4-desc">An explanation of why running a VPN protocol on the standard web port does not hide it. Inspection equipment looks at four things beyond the port number: the byte patterns in the opening handshake, which are distinctive per protocol; the client's own handshake fingerprint, which does not match any browser; the sizes and timing of packets, which do not resemble page loads; and the behaviour of the connection when probed. Published research in 2022 demonstrated identification of one protocol with high accuracy and low false positives, including flows using simple obfuscation. A band below explains where genuine obfuscation sits, that it is a separate layer rather than a port choice, and that it makes traffic unremarkable rather than unobservable.</desc>
+
+  <rect x="0" y="0" width="1180" height="814" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Port 443 Is a Destination, Not a Disguise</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">"Firewalls cannot block port 443 without blocking the whole web" is true, and it is not an argument that your traffic looks like the web.</text>
+
+  <rect x="30" y="100" width="1120" height="92" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="128" font-size="15" font-weight="700" fill="#8c1d18">The claim: run OpenVPN over TCP on port 443 and it is indistinguishable from HTTPS</text>
+  <text x="56" y="154" font-size="12.5" fill="#374151">This appears in nearly every protocol guide, including the one this lesson is built from, usually as the top recommendation for restrictive networks.</text>
+  <text x="56" y="174" font-size="12.5" fill="#374151">Inspection equipment has not worked that way for some years, and the research demonstrating it is now several years old.</text>
+
+  <rect x="30" y="210" width="270" height="252" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <circle cx="64" cy="244" r="16" fill="#374151"/><text x="64" y="250" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1</text>
+  <text x="90" y="250" font-size="13.5" font-weight="700" fill="#111827">The opening bytes</text>
+  <g font-size="12" fill="#374151">
+    <text x="50" y="288">Every protocol starts with a</text>
+    <text x="50" y="306">handshake, and the byte</text>
+    <text x="50" y="324">patterns in those first packets</text>
+    <text x="50" y="342">are distinctive.</text>
+    <text x="50" y="370" font-weight="700">The port number is not part</text>
+    <text x="50" y="388" font-weight="700">of what is being examined.</text>
+    <text x="50" y="418" font-style="italic" fill="#4b5563">Research published in 2022</text>
+    <text x="50" y="436" font-style="italic" fill="#4b5563">identified one protocol this</text>
+    <text x="50" y="454" font-style="italic" fill="#4b5563">way at scale.</text>
+  </g>
+
+  <rect x="320" y="210" width="270" height="252" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <circle cx="354" cy="244" r="16" fill="#374151"/><text x="354" y="250" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2</text>
+  <text x="380" y="250" font-size="13.5" font-weight="700" fill="#111827">Your client's own</text>
+  <text x="380" y="268" font-size="13.5" font-weight="700" fill="#111827">fingerprint</text>
+  <g font-size="12" fill="#374151">
+    <text x="340" y="300">If a connection does use a</text>
+    <text x="340" y="318">real encrypted handshake, the</text>
+    <text x="340" y="336">cipher list, extensions and</text>
+    <text x="340" y="354">version ordering form a</text>
+    <text x="340" y="372">recognisable signature.</text>
+    <text x="340" y="400" font-weight="700">A VPN client's signature does</text>
+    <text x="340" y="418" font-weight="700">not match any browser, which</text>
+    <text x="340" y="436" font-weight="700">is itself the finding.</text>
+  </g>
+
+  <rect x="610" y="210" width="270" height="252" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <circle cx="644" cy="244" r="16" fill="#374151"/><text x="644" y="250" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3</text>
+  <text x="670" y="250" font-size="13.5" font-weight="700" fill="#111827">Shape and rhythm</text>
+  <g font-size="12" fill="#374151">
+    <text x="630" y="288">A page load is a burst then a</text>
+    <text x="630" y="306">pause. A tunnel is a long,</text>
+    <text x="630" y="324">steady flow of similarly</text>
+    <text x="630" y="342">sized packets in both</text>
+    <text x="630" y="360">directions.</text>
+    <text x="630" y="388" font-weight="700">The two do not resemble each</text>
+    <text x="630" y="406" font-weight="700">other, and no port setting</text>
+    <text x="630" y="424" font-weight="700">changes that.</text>
+    <text x="630" y="452" font-style="italic" fill="#4b5563">This is also Figure 3's subject.</text>
+  </g>
+
+  <rect x="900" y="210" width="250" height="252" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <circle cx="934" cy="244" r="16" fill="#374151"/><text x="934" y="250" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">4</text>
+  <text x="960" y="250" font-size="13.5" font-weight="700" fill="#111827">Being probed</text>
+  <g font-size="12" fill="#374151">
+    <text x="920" y="288">A censor that suspects a</text>
+    <text x="920" y="306">server can connect to it and</text>
+    <text x="920" y="324">see how it answers.</text>
+    <text x="920" y="352">A web server serves a page.</text>
+    <text x="920" y="370">A VPN endpoint does not.</text>
+    <text x="920" y="400" font-weight="700">Active probing settles what</text>
+    <text x="920" y="418" font-weight="700">passive inspection only</text>
+    <text x="920" y="436" font-weight="700">suspected.</text>
+  </g>
+
+  <rect x="30" y="484" width="1120" height="146" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="514" font-size="15.5" font-weight="700" fill="#00614a">Where the real answer lives, and it is a separate layer rather than a port number</text>
+  <text x="56" y="540" font-size="12.5" fill="#374151">Obfuscation is a wrapper placed around a tunnel whose job is to remove exactly the four signals above: it randomises the handshake so there are no fixed opening</text>
+  <text x="56" y="560" font-size="12.5" fill="#374151">bytes, it makes the endpoint refuse to identify itself when probed, and in the better designs it reshapes packet sizes and timing.</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="584" r="3.5" fill="#00614a"/><text x="80" y="588"><tspan font-weight="700">Providers ship this under their own names.</tspan> Look for a mode described as obfuscated, stealth, or bridge, rather than assuming a protocol choice covers it.</text>
+    <circle cx="66" cy="610" r="3.5" fill="#00614a"/><text x="80" y="614"><tspan font-weight="700">It is a different question from which protocol you use</tspan>, and a provider may offer excellent protocols and no obfuscation at all. Check separately.</text>
+  </g>
+
+  <rect x="30" y="652" width="1120" height="82" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="56" y="680" font-size="14.5" font-weight="700" fill="#8a6000">And the caveat that the research itself insists on</text>
+  <text x="56" y="706" font-size="12.5" fill="#374151">Simple obfuscation, of the kind that scrambles the payload without changing the behaviour, was defeated in the same study. Anybody whose safety depends on their</text>
+  <text x="56" y="726" font-size="12.5" fill="#374151">tunnel being invisible should not assume it is. Obfuscation makes traffic unremarkable at scale. It does not make it unobservable to somebody looking at you.</text>
+
+  <text x="590" y="776" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">So the honest advice is: pick the protocol on the other five rows of Figure 1, and treat censorship resistance as a separate feature you check for by name.</text>
+  <text x="590" y="800" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Port 443 remains useful for getting through a firewall that only filters by port. That is a different and much smaller claim than the one usually made for it.</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" role="img" aria-labelledby="sf-title sf-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="sf-title">Figure 3. Compartmentalization fails silently, and what to do about it</title>
+  <desc id="sf-desc">The top row shows why a boundary break produces no signal: nothing errors, no warning appears, the page works normally, and the damage is permanent from the moment it happens. The middle row gives three controls that produce a signal instead: make the windows visually distinct, pin sites to a container so the assignment is automatic, and keep a short incident log. The bottom band explains what to do after a break, because deletion does not undo it.</desc>
+
+  <rect x="0" y="0" width="1180" height="700" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Nothing Tells You When It Breaks</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Every other control in this module reports failure. This one does not, which changes how you have to build it.</text>
+
+  <rect x="30" y="100" width="1120" height="150" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="130" font-size="15" font-weight="700" fill="#8c1d18">Why you will not notice</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="158" r="3.5" fill="#8c1d18"/><text x="80" y="162">Nothing throws an error. The page loads exactly as it should.</text>
+    <circle cx="66" cy="184" r="3.5" fill="#8c1d18"/><text x="80" y="188">No warning appears, because from the browser's view nothing went wrong.</text>
+    <circle cx="66" cy="210" r="3.5" fill="#8c1d18"/><text x="80" y="214">You were signed in already, so it felt like convenience rather than a mistake.</text>
+    <circle cx="620" cy="158" r="3.5" fill="#8c1d18"/><text x="634" y="162">The link is made in the first request. There is no window to catch it in.</text>
+    <circle cx="620" cy="184" r="3.5" fill="#8c1d18"/><text x="634" y="188">Closing the tab does not unmake it. Deleting the cookie does not either.</text>
+    <circle cx="620" cy="210" r="3.5" fill="#8c1d18"/><text x="634" y="214">The other party keeps its record regardless of what you do next.</text>
+  </g>
+
+  <text x="590" y="290" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Three controls that produce a signal where the system gives none</text>
+
+  <rect x="30" y="308" width="356" height="212" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 318 a10 10 0 0 1 10 -10 h336 a10 10 0 0 1 10 10 v34 h-356 z" fill="#0072B2"/>
+  <text x="208" y="338" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">MAKE IT VISIBLE</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="378">A different theme, colour and window</text>
+    <text x="52" y="398">position for every identity.</text>
+    <text x="52" y="424">You cannot detect a boundary break</text>
+    <text x="52" y="444">after the fact, so the only workable</text>
+    <text x="52" y="464">control is one that stops you at the</text>
+    <text x="52" y="484">moment before it.</text>
+    <text x="52" y="510" font-weight="700" fill="#10476b">Cheapest control in this lesson.</text>
+  </g>
+
+  <rect x="412" y="308" width="356" height="212" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M412 318 a10 10 0 0 1 10 -10 h336 a10 10 0 0 1 10 10 v34 h-356 z" fill="#009E73"/>
+  <text x="590" y="338" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">REMOVE THE CHOICE</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="434" y="378">Pin each site to its container or</text>
+    <text x="434" y="398">profile so the assignment happens</text>
+    <text x="434" y="418">without you deciding.</text>
+    <text x="434" y="444">A decision you make forty times a</text>
+    <text x="434" y="464">day will eventually be made wrong.</text>
+    <text x="434" y="484">A decision you made once will not.</text>
+    <text x="434" y="510" font-weight="700" fill="#00614a">Automate the routine cases.</text>
+  </g>
+
+  <rect x="794" y="308" width="356" height="212" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M794 318 a10 10 0 0 1 10 -10 h336 a10 10 0 0 1 10 10 v34 h-356 z" fill="#E69F00"/>
+  <text x="972" y="338" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">WRITE IT DOWN</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="816" y="378">One line per slip: what crossed,</text>
+    <text x="816" y="398">which two identities, and what you</text>
+    <text x="816" y="418">were doing at the time.</text>
+    <text x="816" y="444">The log is not for guilt. It shows</text>
+    <text x="816" y="464">you which boundary keeps failing,</text>
+    <text x="816" y="484">so you can redesign that one.</text>
+    <text x="816" y="510" font-weight="700" fill="#8a6000">Repeat slips are a design fault.</text>
+  </g>
+
+  <rect x="30" y="548" width="1120" height="128" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="578" font-size="15" font-weight="700" fill="#111827">After a break, treat it as disclosed rather than fixed</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="56" y="606">Clearing the cookie does not withdraw the record. Assume the link was made and decide what follows from that, which is a threat modeling question</text>
+    <text x="56" y="626">from Lesson 1.4 rather than a browser question. If the identity was disposable, retire it and build a new one. If it was not disposable, work out what the</text>
+    <text x="56" y="646">other party can now infer, and whether anyone has to be told. Then fix the boundary that failed, because it will fail the same way again otherwise.</text>
+  </g>
+</svg>

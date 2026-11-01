@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" width="1180" height="760" role="img" aria-labelledby="td-title td-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="td-title">Figure 1. Two doors into the same account</title>
+  <desc id="td-desc">A comparison of the sign in path and the recovery path. The sign in path is the one you spent three lessons hardening, with a password manager, a hardware key and the weaker methods removed. The recovery path was designed by somebody else, to a different standard, for a person who has genuinely lost everything, and you did not choose it. Both open the same account, so the account's strength is the weaker of the two. A band below reframes the usual trade: the choice is not between security and recoverability, but between fast recovery and safe recovery, and safe recovery is slow, noisy and arranged in advance.</desc>
+
+  <rect x="0" y="0" width="1180" height="760" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Two Doors Into the Same Account</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Three lessons went into the door on the left. The door on the right came with the building, and it opens onto the same room.</text>
+
+  <rect x="30" y="104" width="550" height="284" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 114 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v40 h-550 z" fill="#009E73"/>
+  <text x="305" y="131" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE DOOR YOU BUILT</text>
+  <text x="305" y="148" text-anchor="middle" font-size="11.5" fill="#ffffff">the sign in path, from Lessons 4.1 to 4.3</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="186" font-weight="700" fill="#00614a">What is on it</text>
+    <text x="52" y="208">A unique password from a vault you chose. A hardware</text>
+    <text x="52" y="228">key, or a passkey. The weaker methods removed.</text>
+
+    <text x="52" y="264" font-weight="700" fill="#00614a">Who designed it</text>
+    <text x="52" y="286">You did, deliberately, over three lessons, against a</text>
+    <text x="52" y="306">threat model you wrote down.</text>
+
+    <text x="52" y="342" font-weight="700" fill="#00614a">Who it is optimised for</text>
+    <text x="52" y="364">You, on an ordinary day, signing in as normal.</text>
+  </g>
+
+  <rect x="600" y="104" width="550" height="284" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M600 114 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v40 h-550 z" fill="#b3261e"/>
+  <text x="875" y="131" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE DOOR THAT CAME WITH IT</text>
+  <text x="875" y="148" text-anchor="middle" font-size="11.5" fill="#ffffff">the recovery path, which you have probably never read</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="186" font-weight="700" fill="#8c1d18">What is on it</text>
+    <text x="622" y="208">Frequently a link to an email address, a code by text</text>
+    <text x="622" y="228">message, a date of birth, or a person on a telephone.</text>
+
+    <text x="622" y="264" font-weight="700" fill="#8c1d18">Who designed it</text>
+    <text x="622" y="286">A product team balancing support costs against fraud,</text>
+    <text x="622" y="306">to a standard you were not consulted on.</text>
+
+    <text x="622" y="342" font-weight="700" fill="#8c1d18">Who it is optimised for</text>
+    <text x="622" y="364">A distressed person who has genuinely lost everything.</text>
+  </g>
+
+  <rect x="30" y="406" width="1120" height="56" rx="8" fill="#374151"/>
+  <text x="590" y="430" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Both doors open the same account, so the account is exactly as strong as the weaker of the two.</text>
+  <text x="590" y="450" text-anchor="middle" font-size="12" fill="#e5e7eb">Everything in Lessons 4.1 to 4.3 raised the left one. This lesson is about the fact that nobody checks the right one.</text>
+
+  <rect x="30" y="480" width="1120" height="188" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="510" font-size="15.5" font-weight="700" fill="#10476b">The usual framing of this problem is wrong, and the correct one tells you what to do</text>
+  <text x="56" y="534" font-size="12.5" fill="#374151">You will read that recovery is a trade between security and recoverability: lock it down and risk losing it forever, or keep it easy and let attackers in. That framing</text>
+  <text x="56" y="554" font-size="12.5" fill="#374151">makes the problem look unsolvable. It is not the actual trade.</text>
+  <text x="56" y="586" font-size="13.5" font-weight="700" fill="#10476b">The trade is between fast recovery and safe recovery. A recovery path can be completely reliable and still be hostile to an attacker, if it is:</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="70" cy="612" r="4" fill="#0072B2"/><text x="86" y="616"><tspan font-weight="700">Slow.</tspan> A delay of hours costs you an afternoon once in a decade. It costs an attacker the entire operation, because you are notified while it runs.</text>
+    <circle cx="70" cy="638" r="4" fill="#0072B2"/><text x="86" y="642"><tspan font-weight="700">Noisy.</tspan> Every step announces itself to you on a channel the attacker does not control. Recovery starting is the alert that matters most.</text>
+    <circle cx="70" cy="660" r="4" fill="#0072B2"/><text x="86" y="664"><tspan font-weight="700">Arranged in advance.</tspan> It uses something you set up while calm, not something you can talk a stranger into accepting while distressed.</text>
+  </g>
+
+  <text x="590" y="704" text-anchor="middle" font-size="13.5" fill="#4b5563">This is not theoretical. One large platform now imposes an hour of delay and a second biometric check before an account password or a recovery method</text>
+  <text x="590" y="726" text-anchor="middle" font-size="13.5" fill="#4b5563">can be changed away from familiar locations, precisely so a thief with your device and your passcode cannot lock you out before you react.</text>
+  <text x="590" y="750" text-anchor="middle" font-size="13" font-weight="700" fill="#374151">Slow, noisy and pre-arranged. That is the design goal for every recovery path you control.</text>
+</svg>

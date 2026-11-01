@@ -92,7 +92,7 @@ Two things specific to the work.
 
 ## 4. The Coffee Shop Case Has Largely Expired
 
-This is the correction with the most practical consequence, and the source material contradicts itself about it: one section says a VPN is essential on public wireless, and a later section says that with HTTPS the benefit is marginal. The second is closer to right, and the reasons have grown since.
+This is the correction with the most practical consequence, and guidance can contradict itself about it: one guide I reviewed says in one section that a VPN is essential on public wireless, and in a later section that with HTTPS the benefit is marginal. The second is closer to right, and the reasons have grown since.
 
 ![[module_6_lesson_1_wifi_case_expired.svg]]
 
@@ -181,7 +181,7 @@ One country's reputation for privacy is the reason several well-known providers 
 
 ### Three Brands, One Company, and the Site That Ranks Them
 
-The source material tells you to research three providers and compare. Do that, and check who owns them first.
+The usual advice is to research three providers and compare. Do that, and check who owns them first.
 
 One group owns four well-known consumer brands. Another owns two more. **So a careful comparison of six providers can be a comparison of two companies.** (Reference 6)
 
@@ -197,7 +197,7 @@ One group owns four well-known consumer brands. Another owns two more. **So a ca
 
 **"VPN plus Tor for enhanced privacy."** This is asserted without saying which order, and the two orders have completely different properties and failure modes. The Tor Project's own position is that adding a VPN generally does not improve anonymity and can reduce it, by making your traffic more distinctive and by adding a party who sees you are using Tor. Lesson 6.3 and 6.4 should handle this properly; it should not appear as a throwaway line here.
 
-**On "no-logs" as a binary.** Connection records and traffic records are different, and the source material makes that distinction well. The addition worth making: **a provider that holds no account tied to your identity has less to correlate even if it does keep some connection data**, which is why the payment and account architecture matters more than the policy wording.
+**On "no-logs" as a binary.** Connection records and traffic records are different, and that distinction matters. The addition worth making: **a provider that holds no account tied to your identity has less to correlate even if it does keep some connection data**, which is why the payment and account architecture matters more than the policy wording.
 
 ---
 

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="wq-title wq-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wq-title">Figure 1. The question people argue about, and the three that decide the outcome</title>
+  <desc id="wq-desc">The usual comparison asks which mobile operating system is more private. That question has low yield because the two platforms have converged on the features it compares. Three other questions decide far more: how long the specific device receives security patches and how far through that window it already is, what leaves the device by default and who holds the key to it, and what happens when somebody has the handset in their hand. A band below states the conclusion, which is that a well configured iPhone and a hardened Pixel are close together, while an unpatched inexpensive handset of either kind is the real exposure, and that is the comparison nobody runs.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The Wrong Question, and Three Better Ones</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The platform argument is the one everybody has. It is also the one that changes your exposure least.</text>
+
+  <rect x="30" y="98" width="1120" height="80" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="56" y="126" font-size="15" font-weight="700" fill="#8a6000">The question the industry argues about: "which operating system is more private?"</text>
+  <text x="56" y="150" font-size="12.5" fill="#374151">It is not a meaningless question. It is a low yield one, because the platforms have converged on almost everything it compares: permission models, tracking prompts,</text>
+  <text x="56" y="168" font-size="12.5" fill="#374151">on-device processing, and update windows. The answer changes your exposure less than any of the three below.</text>
+
+  <rect x="30" y="196" width="360" height="392" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 206 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#0072B2"/>
+  <text x="210" y="224" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">1. HOW LONG IS IT PATCHED?</text>
+  <text x="210" y="242" text-anchor="middle" font-size="11" fill="#ffffff">and how far through that window are you</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="52" y="278">The single largest difference between</text>
+    <text x="52" y="296">two handsets, and the one that is</text>
+    <text x="52" y="314">never on the comparison chart.</text>
+
+    <text x="52" y="346" font-weight="700" fill="#10476b">At the top of the range this is now</text>
+    <text x="52" y="364" font-weight="700" fill="#10476b">a tie.</text>
+    <text x="52" y="386">Seven years is committed on current</text>
+    <text x="52" y="404">flagship Pixel and Galaxy lines, which</text>
+    <text x="52" y="422">matches or beats the practical record</text>
+    <text x="52" y="440">on iPhone.</text>
+
+    <text x="52" y="472" font-weight="700" fill="#8c1d18">Lower down it is not close.</text>
+    <text x="52" y="494">Inexpensive handsets may get one or two</text>
+    <text x="52" y="512">years, or nothing dependable at all.</text>
+
+    <text x="52" y="546" font-style="italic" fill="#10476b">Find your device's end of support date</text>
+    <text x="52" y="564" font-style="italic" fill="#10476b">before you change any other setting.</text>
+  </g>
+
+  <rect x="410" y="196" width="360" height="392" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M410 206 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#009E73"/>
+  <text x="590" y="224" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">2. WHAT LEAVES BY DEFAULT?</text>
+  <text x="590" y="242" text-anchor="middle" font-size="11" fill="#ffffff">and who holds the key to it once it has</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="432" y="278">Your handset is mostly a client for a</text>
+    <text x="432" y="296">cloud account. What synchronises, and</text>
+    <text x="432" y="314">under whose key, decides what a legal</text>
+    <text x="432" y="332">request or a breach reaches.</text>
+
+    <text x="432" y="364" font-weight="700" fill="#00614a">This is a settings question, and it</text>
+    <text x="432" y="382" font-weight="700" fill="#00614a">is answerable this afternoon.</text>
+
+    <text x="432" y="414" font-weight="700" fill="#8c1d18">It is also a jurisdiction question,</text>
+    <text x="432" y="432" font-weight="700" fill="#8c1d18">which is the part nobody mentions.</text>
+    <text x="432" y="454">The strongest encryption option on one</text>
+    <text x="432" y="472">platform has been unavailable in one</text>
+    <text x="432" y="490">country since early 2025. Figure 3.</text>
+
+    <text x="432" y="524" font-style="italic" fill="#00614a">A vendor promise is only as durable as</text>
+    <text x="432" y="542" font-style="italic" fill="#00614a">the weakest legal regime the vendor</text>
+    <text x="432" y="560" font-style="italic" fill="#00614a">operates in.</text>
+  </g>
+
+  <rect x="790" y="196" width="360" height="392" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M790 206 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#b3261e"/>
+  <text x="970" y="224" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">3. SOMEBODY HAS IT IN THEIR HAND</text>
+  <text x="970" y="242" text-anchor="middle" font-size="11" fill="#ffffff">the case the privacy comparison never covers</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="812" y="278">Lost, stolen, seized at a border, or</text>
+    <text x="812" y="296">taken during an arrest. This is the</text>
+    <text x="812" y="314">most likely serious event that will</text>
+    <text x="812" y="332">happen to your phone.</text>
+
+    <text x="812" y="364" font-weight="700" fill="#8c1d18">Almost none of it depends on which</text>
+    <text x="812" y="382" font-weight="700" fill="#8c1d18">platform you chose.</text>
+    <text x="812" y="404">It depends on whether the device had</text>
+    <text x="812" y="422">been unlocked since it last booted, on</text>
+    <text x="812" y="440">what unlocks it, and on how long it</text>
+    <text x="812" y="458">has been sitting there.</text>
+
+    <text x="812" y="490" font-style="italic" fill="#8c1d18">Three settings decide the outcome, and</text>
+    <text x="812" y="508" font-style="italic" fill="#8c1d18">two of them take under a minute.</text>
+    <text x="812" y="540" font-weight="700" fill="#8c1d18">Figure 2 is entirely about this, and</text>
+    <text x="812" y="558" font-weight="700" fill="#8c1d18">the source outline omits it.</text>
+  </g>
+
+  <rect x="30" y="608" width="1120" height="118" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="638" font-size="15.5" font-weight="700" fill="#111827">Which makes the honest summary shorter than the scorecard</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="664" r="3.5" fill="#374151"/><text x="80" y="668"><tspan font-weight="700">A well configured iPhone and a hardened Pixel are close together.</tspan> Close enough that the choice between them is a preference, not a security decision.</text>
+    <circle cx="66" cy="690" r="3.5" fill="#374151"/><text x="80" y="694"><tspan font-weight="700">An unpatched inexpensive handset is a long way below both</tspan>, whichever logo is on it, and that is the comparison the platform argument never runs.</text>
+    <circle cx="66" cy="714" r="3.5" fill="#374151"/><text x="80" y="718"><tspan font-weight="700">Configuration moves you further than the platform does</tspan>, which is convenient, because configuration is the part you control today at no cost.</text>
+  </g>
+
+  <text x="590" y="762" text-anchor="middle" font-size="13.5" fill="#4b5563">So the useful version of this lesson is not a scorecard. It is three questions asked about the specific handset in your pocket.</text>
+  <text x="590" y="786" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Answer them in order. The first one may tell you the rest is not worth doing on this device.</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 770" width="1180" height="770" role="img" aria-labelledby="wb-title wb-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wb-title">Figure 2. Which bypass each upgrade actually closes</title>
+  <desc id="wb-desc">The known ways to defeat multi-factor authentication, sorted by which change closes them. Crossing the phishing resistance line closes real time relay phishing and push fatigue. Moving off text message codes, without crossing that line, closes SIM swapping and network interception, which is why upgrading to an application is worth doing on its own. A third group is closed by neither: theft of the session after a successful sign in, social engineering of the account recovery process, and malware already running on the device. A band below covers device bound session credentials, which shipped in Chrome in April 2026 and is the first broad defence against the first of those.</desc>
+
+  <rect x="0" y="0" width="1180" height="770" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Which Bypass Each Upgrade Actually Closes</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Seven known bypasses, sorted by the change that fixes them. Sorting them this way shows which of your work is finished and which has not started.</text>
+
+  <rect x="30" y="98" width="360" height="424" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 108 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v46 h-360 z" fill="#009E73"/>
+  <text x="210" y="126" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">CLOSED BY CROSSING THE LINE</text>
+  <text x="210" y="144" text-anchor="middle" font-size="11" fill="#ffffff">a hardware key, or a passkey with verification</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="52" y="186" font-size="13" font-weight="700" fill="#00614a">Real time relay phishing</text>
+    <text x="52" y="210">A replica page takes your password</text>
+    <text x="52" y="228">and your code and uses both within</text>
+    <text x="52" y="246">the validity window.</text>
+    <text x="52" y="270" font-weight="700">This is the common one. It works</text>
+    <text x="52" y="288" font-weight="700">against every method below the</text>
+    <text x="52" y="306" font-weight="700">line, and against none above it.</text>
+
+    <text x="52" y="348" font-size="13" font-weight="700" fill="#00614a">Push fatigue</text>
+    <text x="52" y="372">Repeated approval requests until</text>
+    <text x="52" y="390">one is approved. Number matching</text>
+    <text x="52" y="408">closes most of it. Crossing the</text>
+    <text x="52" y="426">line removes the prompt entirely.</text>
+    <text x="52" y="456" font-style="italic" fill="#00614a">There is nothing to approve, so</text>
+    <text x="52" y="474" font-style="italic" fill="#00614a">there is nothing to approve by</text>
+    <text x="52" y="492" font-style="italic" fill="#00614a">mistake at eleven at night.</text>
+  </g>
+
+  <rect x="410" y="98" width="360" height="424" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M410 108 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v46 h-360 z" fill="#0072B2"/>
+  <text x="590" y="126" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">CLOSED BY LEAVING SMS</text>
+  <text x="590" y="144" text-anchor="middle" font-size="11" fill="#ffffff">without crossing the line at all</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="432" y="186" font-size="13" font-weight="700" fill="#10476b">SIM swapping</text>
+    <text x="432" y="210">Somebody persuades your carrier to</text>
+    <text x="432" y="228">move your number to their device,</text>
+    <text x="432" y="246">and your codes follow it.</text>
+    <text x="432" y="270" font-weight="700">Note what this needs: no access to</text>
+    <text x="432" y="288" font-weight="700">you, your accounts, or your phone.</text>
+    <text x="432" y="306" font-weight="700">Only to a support agent.</text>
+
+    <text x="432" y="348" font-size="13" font-weight="700" fill="#10476b">Network interception</text>
+    <text x="432" y="372">Weaknesses in the signalling</text>
+    <text x="432" y="390">between carriers, which you have no</text>
+    <text x="432" y="408">visibility of and no control over.</text>
+
+    <text x="432" y="444" font-style="italic" fill="#10476b">This column is why moving from text</text>
+    <text x="432" y="462" font-style="italic" fill="#10476b">messages to an application is worth</text>
+    <text x="432" y="480" font-style="italic" fill="#10476b">doing even though both are phishable.</text>
+    <text x="432" y="504" font-weight="700" fill="#10476b">Two real attacks, gone, for free.</text>
+  </g>
+
+  <rect x="790" y="98" width="360" height="424" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M790 108 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v46 h-360 z" fill="#b3261e"/>
+  <text x="970" y="126" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">CLOSED BY NEITHER</text>
+  <text x="970" y="144" text-anchor="middle" font-size="11" fill="#ffffff">whatever you enable, these remain</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="812" y="186" font-size="13" font-weight="700" fill="#8c1d18">Theft of the session</text>
+    <text x="812" y="210">The cookie proving you already</text>
+    <text x="812" y="228">signed in is copied and replayed.</text>
+    <text x="812" y="246">No prompt is ever reached.</text>
+
+    <text x="812" y="286" font-size="13" font-weight="700" fill="#8c1d18">Recovery by persuasion</text>
+    <text x="812" y="310">Somebody contacts support, says</text>
+    <text x="812" y="328">they lost everything, and is given</text>
+    <text x="812" y="346">a way back in. Defeats all of it.</text>
+
+    <text x="812" y="386" font-size="13" font-weight="700" fill="#8c1d18">Malware on the device</text>
+    <text x="812" y="410">Reads codes as you generate them,</text>
+    <text x="812" y="428">or asks the key to sign while it is</text>
+    <text x="812" y="446">plugged in and unlocked.</text>
+
+    <text x="812" y="482" font-weight="700" fill="#8c1d18">These are the three that survive a</text>
+    <text x="812" y="500" font-weight="700" fill="#8c1d18">perfect authentication setup.</text>
+  </g>
+
+  <rect x="30" y="544" width="1120" height="118" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="572" font-size="15" font-weight="700" fill="#111827">What is being done about the third column, and what is left to you</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="598" r="3.5" fill="#374151"/><text x="80" y="602"><tspan font-weight="700">Session theft:</tspan> device bound session credentials tie the session to hardware on the machine, so a copied cookie is useless elsewhere. It reached general availability in Chrome in April 2026.</text>
+    <circle cx="66" cy="624" r="3.5" fill="#374151"/><text x="80" y="628"><tspan font-weight="700">Recovery by persuasion:</tspan> nothing technical fixes this. You choose services with a defensible process, and you go and read what yours is. That is Lesson 4.4.</text>
+    <circle cx="66" cy="650" r="3.5" fill="#374151"/><text x="80" y="654"><tspan font-weight="700">Malware on the device:</tspan> not an authentication problem, and no authentication change addresses it. That is Module 5.</text>
+  </g>
+
+  <text x="590" y="700" text-anchor="middle" font-size="13.5" fill="#4b5563">The useful reading of this figure is the middle column, which most guidance skips because it does not cross the line.</text>
+  <text x="590" y="726" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">If a service supports nothing above the line, moving it from text messages to an application still removes two entire attacks.</text>
+  <text x="590" y="752" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Perfect is available on some accounts. Better is available on all of them, and better is not a consolation prize.</text>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 790" width="1180" height="790" role="img" aria-labelledby="ta-title ta-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ta-title">Figure 1. Two axes, and most alternative Android systems only move along one</title>
+  <desc id="ta-desc">A two by two comparison. The horizontal axis is whether Google services have been removed. The vertical axis is whether the system boots with verified boot using its own signing keys, which requires relocking the bootloader. Stock Android on a Pixel has verified boot but keeps Google services. GrapheneOS and CalyxOS on Pixel hardware achieve both. Most other alternative systems, including the widely recommended general purpose ones, remove Google services but leave the bootloader permanently unlocked, so nothing verifies what booted. A band below explains that the vertical axis is the one absent from most comparisons, and that moving right while moving down is a trade rather than an improvement.</desc>
+
+  <rect x="0" y="0" width="1180" height="790" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Two Axes, and Most Comparisons Only Draw One</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">"Custom operating system" is not a privacy category. It is a direction on one axis, and the other axis is where the security lives.</text>
+
+  <text x="42" y="330" text-anchor="middle" font-size="13" font-weight="700" fill="#374151" transform="rotate(-90 42 330)">VERIFIED BOOT, WITH THE SYSTEM'S OWN KEYS</text>
+  <text x="64" y="180" text-anchor="middle" font-size="11.5" fill="#4b5563" transform="rotate(-90 64 180)">yes, bootloader relocked</text>
+  <text x="64" y="420" text-anchor="middle" font-size="11.5" fill="#4b5563" transform="rotate(-90 64 420)">no, left unlocked</text>
+
+  <rect x="96" y="108" width="522" height="196" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="118" y="136" font-size="14.5" font-weight="700" fill="#8a6000">Stock Android on a Pixel</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="118" y="162">Verified boot intact, firmware current, patches on the day</text>
+    <text x="118" y="182">they ship. The security floor here is genuinely high.</text>
+    <text x="118" y="210" font-weight="700" fill="#8a6000">And every Google service is present and privileged.</text>
+    <text x="118" y="234">Which is the complaint, and it is a real one.</text>
+    <text x="118" y="266" font-style="italic" fill="#8a6000">Lesson 5.1 was about getting the most out of this square.</text>
+    <text x="118" y="288" font-style="italic" fill="#8a6000">For most people it remains the right answer.</text>
+  </g>
+
+  <rect x="640" y="108" width="522" height="196" rx="10" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="3"/>
+  <text x="662" y="136" font-size="14.5" font-weight="700" fill="#00614a">GrapheneOS, and CalyxOS on Pixel hardware</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="662" y="162">You unlock the bootloader to install, then relock it with the</text>
+    <text x="662" y="182">system's own signing keys. Verified boot comes back.</text>
+    <text x="662" y="210" font-weight="700" fill="#00614a">This is the only square that improves both axes at once,</text>
+    <text x="662" y="230" font-weight="700" fill="#00614a">and it is why the hardware requirement is not snobbery.</text>
+    <text x="662" y="262">Very few devices permit relocking with a key that is not the</text>
+    <text x="662" y="282">manufacturer's. That is the whole reason the list is short.</text>
+  </g>
+
+  <rect x="96" y="324" width="522" height="196" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="118" y="352" font-size="14.5" font-weight="700" fill="#374151">Rooted stock, and most vendor Android</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="118" y="378">Google present, and verification given up in exchange for</text>
+    <text x="118" y="398">control over a device you did not otherwise control.</text>
+    <text x="118" y="426">Rooting has legitimate uses. Privacy is not usually one of</text>
+    <text x="118" y="446">them, and it widens the attack surface considerably.</text>
+    <text x="118" y="478" font-style="italic" fill="#4b5563">The square nobody is aiming for, and where people</text>
+    <text x="118" y="498" font-style="italic" fill="#4b5563">occasionally end up by accident.</text>
+  </g>
+
+  <rect x="640" y="324" width="522" height="196" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="3"/>
+  <text x="662" y="352" font-size="14.5" font-weight="700" fill="#8c1d18">Most other alternative systems, on most hardware</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="662" y="378">Google removed, which is a genuine privacy gain and the</text>
+    <text x="662" y="398">reason these projects exist and are widely recommended.</text>
+    <text x="662" y="426" font-weight="700" fill="#8c1d18">On almost all supported hardware the bootloader stays</text>
+    <text x="662" y="446" font-weight="700" fill="#8c1d18">unlocked permanently, so nothing verifies what booted.</text>
+    <text x="662" y="474">Add firmware that lags the manufacturer's and patches that</text>
+    <text x="662" y="494">arrive later, and this square is a trade, not an upgrade.</text>
+  </g>
+
+  <text x="629" y="552" text-anchor="middle" font-size="13" font-weight="700" fill="#374151">GOOGLE SERVICES REMOVED</text>
+  <text x="360" y="574" text-anchor="middle" font-size="11.5" fill="#4b5563">present and privileged</text>
+  <text x="900" y="574" text-anchor="middle" font-size="11.5" fill="#4b5563">removed</text>
+
+  <rect x="30" y="596" width="1120" height="126" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="626" font-size="15.5" font-weight="700" fill="#10476b">Why the vertical axis is missing from almost every comparison you will read</text>
+  <text x="56" y="652" font-size="12.5" fill="#374151">Because it is invisible in normal use. A device with an unlocked bootloader behaves exactly like one without, right up until somebody has it in their hands for</text>
+  <text x="56" y="672" font-size="12.5" fill="#374151">twenty minutes. Lesson 5.1 argued that physical possession is the likeliest serious event. This axis is what decides that case.</text>
+  <text x="56" y="700" font-size="13" font-weight="700" fill="#10476b">So the question is never "should I install a custom system". It is "which square am I moving to, and did I mean to move down".</text>
+
+  <text x="590" y="756" text-anchor="middle" font-size="13.5" fill="#4b5563">This is also why the honest answer for many people is the top left square, configured properly, rather than the bottom right one installed enthusiastically.</text>
+  <text x="590" y="780" text-anchor="middle" font-size="13" font-weight="700" fill="#374151">The top right square is excellent and it costs a specific phone, an afternoon, and a tolerance for things occasionally not working.</text>
+</svg>

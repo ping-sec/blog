@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" width="1180" height="720" role="img" aria-labelledby="hn-title hn-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="hn-title">Figure 3. Harvest now, decrypt later, and the two defenses against it</title>
+  <desc id="hn-desc">A timeline. Encrypted traffic is recorded today and stored. Later, a key is compromised or a capability arrives that breaks the key exchange. Forward secrecy defends against the first case by deleting per-message keys. Post-quantum key exchange defends against the second. A deployment timeline follows: Signal added a post-quantum key exchange in 2023, Apple shipped its post-quantum messaging protocol in 2024, Signal added a post-quantum ratchet in 2025, and Session restored forward secrecy in late 2025 after removing it in 2021.</desc>
+
+  <defs>
+    <marker id="hnA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="720" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: The Attack That Happens Later</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">An adversary who cannot read your traffic today can still record it, and wait.</text>
+
+  <rect x="30" y="104" width="300" height="120" rx="10" fill="#374151" fill-opacity="0.10" stroke="#374151" stroke-width="2.5"/>
+  <text x="180" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#111827">TODAY</text>
+  <text x="180" y="162" text-anchor="middle" font-size="12.5" fill="#374151">Your encrypted traffic is</text>
+  <text x="180" y="182" text-anchor="middle" font-size="12.5" fill="#374151">recorded and stored. It cannot</text>
+  <text x="180" y="202" text-anchor="middle" font-size="12.5" fill="#374151">be read, and it is kept anyway.</text>
+
+  <line x1="336" y1="164" x2="386" y2="164" stroke="#374151" stroke-width="2.5" marker-end="url(#hnA)"/>
+
+  <rect x="392" y="104" width="300" height="120" rx="10" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="542" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#8c1d18">YEARS LATER</text>
+  <text x="542" y="162" text-anchor="middle" font-size="12.5" fill="#374151">Either your long-term key is</text>
+  <text x="542" y="182" text-anchor="middle" font-size="12.5" fill="#374151">obtained, or a capability arrives</text>
+  <text x="542" y="202" text-anchor="middle" font-size="12.5" fill="#374151">that breaks the key exchange.</text>
+
+  <line x1="698" y1="164" x2="748" y2="164" stroke="#374151" stroke-width="2.5" marker-end="url(#hnA)"/>
+
+  <rect x="754" y="104" width="396" height="120" rx="10" fill="#b3261e" fill-opacity="0.18" stroke="#b3261e" stroke-width="3"/>
+  <text x="952" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#8c1d18">THE OLD TRAFFIC IS READ</text>
+  <text x="952" y="162" text-anchor="middle" font-size="12.5" fill="#374151">Everything recorded in the first box becomes</text>
+  <text x="952" y="182" text-anchor="middle" font-size="12.5" fill="#374151">readable at once, retrospectively, and there is</text>
+  <text x="952" y="202" text-anchor="middle" font-size="12.5" fill="#374151">nothing you can do about it at that point.</text>
+
+  <text x="590" y="270" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Two defenses, and they address the two halves of the middle box</text>
+
+  <rect x="30" y="290" width="550" height="180" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 300 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v34 h-550 z" fill="#0072B2"/>
+  <text x="305" y="320" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">FORWARD SECRECY</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="54" y="358" font-weight="700" fill="#10476b">Answers: they got my key</text>
+    <text x="54" y="384">Each message uses its own key, derived and then</text>
+    <text x="54" y="404">discarded. The long-term key that an adversary might</text>
+    <text x="54" y="424">seize does not reconstruct the discarded ones.</text>
+    <text x="54" y="452" font-style="italic" fill="#10476b">Seizing a device stops reading the archive.</text>
+  </g>
+
+  <rect x="600" y="290" width="550" height="180" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M600 300 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v34 h-550 z" fill="#009E73"/>
+  <text x="875" y="320" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">POST-QUANTUM KEY EXCHANGE</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="624" y="358" font-weight="700" fill="#00614a">Answers: they broke the exchange</text>
+    <text x="624" y="384">Forward secrecy does not help if the method used to</text>
+    <text x="624" y="404">agree the keys is itself broken later. A second, quantum-</text>
+    <text x="624" y="424">resistant exchange is mixed in alongside the classical one.</text>
+    <text x="624" y="452" font-style="italic" fill="#00614a">Hybrid, so it is no weaker than what it replaces.</text>
+  </g>
+
+  <rect x="30" y="494" width="1120" height="128" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="56" y="524" font-size="15" font-weight="700" fill="#111827">This stopped being theoretical while the older version of this lesson was being written</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="56" y="552" font-weight="700" fill="#10476b">2023</text><text x="112" y="552">Signal adds a post-quantum key exchange for session setup.</text>
+    <text x="56" y="574" font-weight="700" fill="#10476b">2024</text><text x="112" y="574">Apple ships a post-quantum messaging protocol with ongoing rekeying, and adds contact key verification.</text>
+    <text x="56" y="596" font-weight="700" fill="#10476b">2025</text><text x="112" y="596">Signal adds a post-quantum ratchet alongside the existing two. Session restores forward secrecy, four years after removing it.</text>
+  </g>
+
+  <text x="590" y="656" text-anchor="middle" font-size="13.5" fill="#4b5563">Note the last entry. A platform's reputation is not its current specification, and a protocol can lose a property as well as gain one.</text>
+  <text x="590" y="680" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Check which version you are running, and what that version actually does.</text>
+</svg>

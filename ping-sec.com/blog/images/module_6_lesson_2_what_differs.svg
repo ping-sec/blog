@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 790" width="1180" height="790" role="img" aria-labelledby="wd-title wd-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wd-title">Figure 1. What actually differs between the three protocols in 2026</title>
+  <desc id="wd-desc">A comparison table of WireGuard, OpenVPN with data channel offload, and IKEv2 with IPsec across six properties: raw throughput, processor efficiency, how much can be configured wrongly, behaviour when the network changes, built-in operating system support, and whether the protocol resists identification on its own. A band below corrects the widely repeated performance figures, explaining that data channel offload moved the OpenVPN data path into the kernel, that it is on by default since version 2.6, and that recent benchmarks show throughput comparable to WireGuard while processor efficiency still favours WireGuard.</desc>
+
+  <rect x="0" y="0" width="1180" height="790" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: What Actually Differs, With the Speed Row Corrected</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The usual comparison is built on throughput figures that stopped being true in 2023. Once that row is fixed, the interesting differences are elsewhere.</text>
+
+  <rect x="30" y="98" width="1120" height="42" rx="8" fill="#374151"/>
+  <text x="48" y="125" font-size="12.5" font-weight="700" fill="#ffffff">PROPERTY</text>
+  <text x="348" y="125" font-size="12.5" font-weight="700" fill="#ffffff">WIREGUARD</text>
+  <text x="628" y="125" font-size="12.5" font-weight="700" fill="#ffffff">OPENVPN 2.6 WITH OFFLOAD</text>
+  <text x="908" y="125" font-size="12.5" font-weight="700" fill="#ffffff">IKEv2 WITH IPSEC</text>
+
+  <rect x="30" y="146" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="172" font-size="12.5" font-weight="700" fill="#8a6000">Raw throughput</text>
+  <text x="48" y="192" font-size="11" fill="#4b5563">the row everybody quotes</text>
+  <text x="348" y="180" font-size="12" fill="#374151">Fast. No longer uniquely so.</text>
+  <text x="628" y="172" font-size="12" font-weight="700" fill="#8a6000">Comparable since 2023.</text>
+  <text x="628" y="192" font-size="11.5" fill="#374151">Benchmarks split both ways.</text>
+  <text x="908" y="180" font-size="12" fill="#374151">Fast, and rarely the bottleneck.</text>
+
+  <rect x="30" y="214" width="1120" height="62" rx="6" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="240" font-size="12.5" font-weight="700" fill="#00614a">Processor efficiency</text>
+  <text x="48" y="260" font-size="11" fill="#4b5563">what battery life follows</text>
+  <text x="348" y="248" font-size="12" font-weight="700" fill="#00614a">Still the clear winner.</text>
+  <text x="628" y="248" font-size="12" fill="#374151">Much improved, still behind.</text>
+  <text x="908" y="248" font-size="12" fill="#374151">Good.</text>
+
+  <rect x="30" y="282" width="1120" height="62" rx="6" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="308" font-size="12.5" font-weight="700" fill="#00614a">How much you can get wrong</text>
+  <text x="48" y="328" font-size="11" fill="#4b5563">the genuine security difference</text>
+  <text x="348" y="316" font-size="12" font-weight="700" fill="#00614a">Almost nothing. No cipher choice.</text>
+  <text x="628" y="316" font-size="12" fill="#374151">A great deal. Weak options exist.</text>
+  <text x="908" y="316" font-size="12" fill="#374151">Some. Defaults are usually sound.</text>
+
+  <rect x="30" y="350" width="1120" height="62" rx="6" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2"/>
+  <text x="48" y="376" font-size="12.5" font-weight="700" fill="#10476b">When the network changes</text>
+  <text x="48" y="396" font-size="11" fill="#4b5563">wireless to cellular, and back</text>
+  <text x="348" y="384" font-size="12" fill="#374151">Seamless. It holds no session.</text>
+  <text x="628" y="384" font-size="12" fill="#374151">Reconnects. Noticeably.</text>
+  <text x="908" y="384" font-size="12" font-weight="700" fill="#10476b">Seamless, by design.</text>
+
+  <rect x="30" y="418" width="1120" height="62" rx="6" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2"/>
+  <text x="48" y="444" font-size="12.5" font-weight="700" fill="#10476b">Built into the operating system</text>
+  <text x="48" y="464" font-size="11" fill="#4b5563">no application needed</text>
+  <text x="348" y="452" font-size="12" fill="#374151">In the Linux kernel. Application elsewhere.</text>
+  <text x="628" y="452" font-size="12" fill="#374151">Application everywhere.</text>
+  <text x="908" y="452" font-size="12" font-weight="700" fill="#10476b">Native on Apple platforms.</text>
+
+  <rect x="30" y="486" width="1120" height="62" rx="6" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2"/>
+  <text x="48" y="512" font-size="12.5" font-weight="700" fill="#8c1d18">Resists identification on its own</text>
+  <text x="48" y="532" font-size="11" fill="#4b5563">against a network that looks</text>
+  <text x="348" y="520" font-size="12" font-weight="700" fill="#8c1d18">No.</text>
+  <text x="628" y="520" font-size="12" font-weight="700" fill="#8c1d18">No, and not on port 443 either.</text>
+  <text x="908" y="520" font-size="12" font-weight="700" fill="#8c1d18">No, and it uses fixed ports.</text>
+
+  <rect x="30" y="570" width="1120" height="130" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="56" y="600" font-size="15.5" font-weight="700" fill="#8a6000">The speed row, corrected, because the old figures are still quoted everywhere</text>
+  <text x="56" y="626" font-size="12.5" fill="#374151">You will read that OpenVPN manages 100 to 200 megabits and WireGuard four to six hundred. That gap was real and it was a consequence of OpenVPN moving every</text>
+  <text x="56" y="646" font-size="12.5" fill="#374151">packet through user space. Data channel offload moved the data path into the kernel, it has been on by default since version 2.6, and the kernel module was merged</text>
+  <text x="56" y="666" font-size="12.5" fill="#374151">upstream in 2026. Recent benchmarks put the two within a few percent of each other, and split in both directions depending on the hardware.</text>
+  <text x="56" y="690" font-size="13" font-weight="700" fill="#8a6000">Processor load still favours WireGuard, which is why the battery row is unchanged. Throughput is no longer a reason to choose between them.</text>
+
+  <text x="590" y="736" text-anchor="middle" font-size="13.5" fill="#4b5563">Which leaves three real differences: how much you can configure wrongly, what happens when the network changes, and what is built in.</text>
+  <text x="590" y="762" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">The last row is the one that matters most in a censored network, and it is a row where all three answer the same way. Figure 2.</text>
+</svg>

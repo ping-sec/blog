@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="sl-title sl-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="sl-title">Figure 1. The three security levels, what each one disables, and what it costs</title>
+  <desc id="sl-desc">A table of the three Tor Browser security levels. Standard leaves everything enabled and is the widest crowd to hide in. Safer blocks scripting on connections that are not encrypted, disables some fonts and mathematical symbols, makes audio, video and hardware graphics click to play, and disables both just in time compilation and the WebAssembly runtime. Safest disables scripting everywhere along with the same set of fonts, media and active content. A band below covers a flaw reported in May 2025 in which the level appeared to change immediately while just in time compilation remained enabled until the browser was restarted, with no warning in the interface, which the project addressed from version fifteen by requiring a restart. A second band notes that the chosen level is detectable by a website, so raising it also moves you into a smaller group of users, which is a real cost that has to be weighed against a real benefit.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The Security Levels, and What Each One Actually Costs</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The slider is usually explained as "more secure to the right." Both directions cost something, and the cost of moving right is not only that pages break.</text>
+
+  <rect x="30" y="98" width="1120" height="34" rx="6" fill="#374151"/>
+  <text x="48" y="120" font-size="11.5" font-weight="700" fill="#ffffff">LEVEL</text>
+  <text x="220" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHAT IT TURNS OFF</text>
+  <text x="640" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHAT THAT BREAKS</text>
+  <text x="930" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHEN IT IS THE RIGHT ONE</text>
+
+  <rect x="30" y="140" width="1120" height="72" rx="6" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2"/>
+  <text x="48" y="166" font-size="13" font-weight="700" fill="#10476b">STANDARD</text>
+  <text x="48" y="186" font-size="11" fill="#4b5563">the default, and the</text>
+  <text x="48" y="202" font-size="11" fill="#4b5563">largest crowd</text>
+  <text x="220" y="176" font-size="11.5" fill="#374151">Nothing. Every browser and site feature</text>
+  <text x="220" y="194" font-size="11.5" fill="#374151">stays on, scripting included.</text>
+  <text x="640" y="176" font-size="11.5" fill="#374151">Nothing, which is the</text>
+  <text x="640" y="194" font-size="11.5" fill="#374151">point of it.</text>
+  <text x="930" y="167" font-size="11.5" fill="#374151">Ordinary browsing where</text>
+  <text x="930" y="185" font-size="11.5" fill="#374151">the concern is who is</text>
+  <text x="930" y="203" font-size="11.5" fill="#374151">watching, not the page.</text>
+
+  <rect x="30" y="220" width="1120" height="86" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="246" font-size="13" font-weight="700" fill="#8a6000">SAFER</text>
+  <text x="48" y="266" font-size="11" fill="#4b5563">the useful middle, and</text>
+  <text x="48" y="282" font-size="11" fill="#4b5563">the one worth knowing</text>
+  <text x="220" y="246" font-size="11.5" fill="#374151">Scripting on connections that are not</text>
+  <text x="220" y="264" font-size="11.5" fill="#374151">encrypted. Some fonts and mathematical</text>
+  <text x="220" y="282" font-size="11.5" fill="#374151">symbols. Audio, video and hardware</text>
+  <text x="220" y="300" font-size="11.5" fill="#374151">graphics become click to play.</text>
+  <text x="640" y="255" font-size="11.5" fill="#374151">Some media needs a click.</text>
+  <text x="640" y="273" font-size="11.5" fill="#374151">Occasional layout oddities</text>
+  <text x="640" y="291" font-size="11.5" fill="#374151">from missing fonts.</text>
+  <text x="930" y="246" font-size="11.5" font-weight="700" fill="#8a6000">Most work that matters.</text>
+  <text x="930" y="264" font-size="11.5" fill="#374151">It removes two large</text>
+  <text x="930" y="282" font-size="11.5" fill="#374151">classes of exploit and</text>
+  <text x="930" y="300" font-size="11.5" fill="#374151">costs very little.</text>
+
+  <rect x="30" y="314" width="1120" height="80" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="340" font-size="13" font-weight="700" fill="#8c1d18">SAFEST</text>
+  <text x="48" y="360" font-size="11" fill="#4b5563">the smallest crowd, and</text>
+  <text x="48" y="376" font-size="11" fill="#4b5563">the most broken web</text>
+  <text x="220" y="340" font-size="11.5" fill="#374151">Scripting everywhere, plus the same fonts,</text>
+  <text x="220" y="358" font-size="11.5" fill="#374151">media and other active content that can be</text>
+  <text x="220" y="376" font-size="11.5" fill="#374151">used to fingerprint or to run an exploit.</text>
+  <text x="640" y="349" font-size="11.5" font-weight="700" fill="#8c1d18">A large share of the web,</text>
+  <text x="640" y="367" font-size="11.5" fill="#374151">including many sites that</text>
+  <text x="640" y="385" font-size="11.5" fill="#374151">show a blank page.</text>
+  <text x="930" y="349" font-size="11.5" fill="#374151">When the consequence of</text>
+  <text x="930" y="367" font-size="11.5" fill="#374151">being wrong is serious and</text>
+  <text x="930" y="385" font-size="11.5" fill="#374151">broken pages are tolerable.</text>
+
+  <rect x="30" y="414" width="1120" height="140" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="444" font-size="16" font-weight="700" fill="#8c1d18">The trap: for years the slider did not fully take effect until you restarted</text>
+  <text x="56" y="470" font-size="12.5" fill="#374151">Reported in May 2025. Moving the slider to Safer showed the new level in the interface, and just in time compilation, one of the things that level is meant to</text>
+  <text x="56" y="490" font-size="12.5" fill="#374151">disable, stayed enabled until the browser was restarted. Measured performance was unchanged until restart, then dropped sharply. Nothing warned the user.</text>
+  <text x="56" y="516" font-size="12.5" font-weight="700" fill="#8c1d18">The project addressed it: from version 15, changing the level requires a restart, and the browser prompts for one.</text>
+  <text x="56" y="540" font-size="12.5" fill="#374151">If you are on anything older, restart after every change. And note the shape of this: <tspan font-weight="700">the control reported success while doing nothing.</tspan></text>
+
+  <rect x="30" y="574" width="1120" height="120" rx="10" fill="#E69F00" fill-opacity="0.11" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="56" y="604" font-size="16" font-weight="700" fill="#8a6000">The cost of moving right that nobody mentions: it makes you rarer</text>
+  <text x="56" y="630" font-size="12.5" fill="#374151">A site can tell whether scripting ran. So your chosen level sorts you into a group, and the strictest group is the smallest one. Lesson 6.7 made the point</text>
+  <text x="56" y="650" font-size="12.5" fill="#374151">about path length and it applies here: <tspan font-weight="700">Tor Browser works by making its users look alike, and every setting you change moves you out of the crowd.</tspan></text>
+  <text x="56" y="676" font-size="12.5" fill="#374151">This is a real cost and a modest one, because the groups are still large. It is a reason to move the slider deliberately, not a reason to leave it alone.</text>
+
+  <text x="590" y="732" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Pick a level for a reason, restart after changing it, and then leave it alone. Changing it per site is the worst of both.</text>
+  <text x="590" y="758" text-anchor="middle" font-size="13" fill="#4b5563">Safer is the right default for security work. Safest is for when a compromised page would be a serious event rather than an annoyance.</text>
+  <text x="590" y="784" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">And do not install extensions to make up the difference. Section 3 explains why that trades a small gain for a large loss.</text>
+</svg>

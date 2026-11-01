@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" width="1180" height="720" role="img" aria-labelledby="ts-title ts-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ts-title">Figure 2. Five signals an observer reads from encrypted traffic</title>
+  <desc id="ts-desc">A timeline of one person's encrypted messaging over two weeks, with no content visible. A regular short daily session appears for thirteen days. On day fourteen there is a long burst, a larger transfer, and then two connections to different services. Five labelled signals explain what each feature of the shape reveals: regularity, volume, burst, sequence, and correlation. A band below states that none of this required decrypting anything.</desc>
+
+  <rect x="0" y="0" width="1180" height="720" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: The Shape of a Conversation, Without Its Contents</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Every bar below is encrypted. An observer reads the picture anyway.</text>
+
+  <line x1="80" y1="240" x2="1120" y2="240" stroke="#9ca3af" stroke-width="2"/>
+  <g font-size="11" fill="#6b7280" text-anchor="middle">
+    <text x="100" y="262">day 1</text>
+    <text x="340" y="262">day 5</text>
+    <text x="580" y="262">day 9</text>
+    <text x="820" y="262">day 13</text>
+    <text x="1000" y="262">day 14</text>
+  </g>
+
+  <g fill="#0072B2">
+    <rect x="94" y="212" width="12" height="28" rx="2"/>
+    <rect x="154" y="216" width="12" height="24" rx="2"/>
+    <rect x="214" y="210" width="12" height="30" rx="2"/>
+    <rect x="274" y="218" width="12" height="22" rx="2"/>
+    <rect x="334" y="214" width="12" height="26" rx="2"/>
+    <rect x="394" y="212" width="12" height="28" rx="2"/>
+    <rect x="454" y="216" width="12" height="24" rx="2"/>
+    <rect x="514" y="210" width="12" height="30" rx="2"/>
+    <rect x="574" y="214" width="12" height="26" rx="2"/>
+    <rect x="634" y="218" width="12" height="22" rx="2"/>
+    <rect x="694" y="212" width="12" height="28" rx="2"/>
+    <rect x="754" y="216" width="12" height="24" rx="2"/>
+    <rect x="814" y="212" width="12" height="28" rx="2"/>
+  </g>
+
+  <rect x="944" y="132" width="16" height="108" rx="2" fill="#b3261e"/>
+  <rect x="966" y="158" width="16" height="82" rx="2" fill="#b3261e"/>
+  <rect x="988" y="112" width="16" height="128" rx="2" fill="#b3261e"/>
+  <rect x="1010" y="176" width="16" height="64" rx="2" fill="#b3261e"/>
+  <rect x="1046" y="196" width="12" height="44" rx="2" fill="#E69F00"/>
+  <rect x="1082" y="200" width="12" height="40" rx="2" fill="#E69F00"/>
+
+  <text x="450" y="182" text-anchor="middle" font-size="12.5" font-weight="700" fill="#10476b">thirteen days of the same short session, same hour</text>
+  <text x="985" y="98" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8c1d18">day 14</text>
+  <text x="1070" y="182" text-anchor="middle" font-size="12" font-weight="700" fill="#8a6000">two other</text>
+  <text x="1070" y="196" text-anchor="middle" font-size="12" font-weight="700" fill="#8a6000">services</text>
+
+  <text x="590" y="312" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">What each feature of that picture tells somebody</text>
+
+  <rect x="30" y="332" width="222" height="180" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2"/>
+  <text x="52" y="360" font-size="13.5" font-weight="700" fill="#10476b">1. Regularity</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="386">Same hour, same length,</text>
+    <text x="52" y="404">every day.</text>
+    <text x="52" y="430">A standing arrangement,</text>
+    <text x="52" y="448">and a working pattern</text>
+    <text x="52" y="466">precise enough to predict</text>
+    <text x="52" y="484">and to compare against</text>
+    <text x="52" y="502">another account.</text>
+  </g>
+
+  <rect x="266" y="332" width="222" height="180" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2"/>
+  <text x="288" y="360" font-size="13.5" font-weight="700" fill="#10476b">2. Volume</text>
+  <g font-size="12" fill="#374151">
+    <text x="288" y="386">The day fourteen bars are</text>
+    <text x="288" y="404">several times the others.</text>
+    <text x="288" y="430">Something was transferred</text>
+    <text x="288" y="448">rather than discussed. A</text>
+    <text x="288" y="466">document, an archive, or</text>
+    <text x="288" y="484">code, rather than a few</text>
+    <text x="288" y="502">lines of text.</text>
+  </g>
+
+  <rect x="502" y="332" width="222" height="180" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="524" y="360" font-size="13.5" font-weight="700" fill="#8a6000">3. The break</text>
+  <g font-size="12" fill="#374151">
+    <text x="524" y="386">Thirteen days of routine,</text>
+    <text x="524" y="404">then one that is not.</text>
+    <text x="524" y="430">The anomaly is the signal.</text>
+    <text x="524" y="448">A steady baseline is what</text>
+    <text x="524" y="466">makes a departure from it</text>
+    <text x="524" y="484">legible, which is why the</text>
+    <text x="524" y="502">routine itself is a problem.</text>
+  </g>
+
+  <rect x="738" y="332" width="222" height="180" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="760" y="360" font-size="13.5" font-weight="700" fill="#8a6000">4. Sequence</text>
+  <g font-size="12" fill="#374151">
+    <text x="760" y="386">The burst, then a different</text>
+    <text x="760" y="404">service, then another.</text>
+    <text x="760" y="430">Order carries meaning.</text>
+    <text x="760" y="448">Discovery, then escalation,</text>
+    <text x="760" y="466">then submission, is a shape</text>
+    <text x="760" y="484">an analyst has seen before</text>
+    <text x="760" y="502">and can recognise.</text>
+  </g>
+
+  <rect x="974" y="332" width="176" height="180" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2"/>
+  <text x="996" y="360" font-size="13.5" font-weight="700" fill="#8c1d18">5. Correlation</text>
+  <g font-size="12" fill="#374151">
+    <text x="996" y="386">If another account you</text>
+    <text x="996" y="404">hold went quiet during</text>
+    <text x="996" y="422">that window, the two</text>
+    <text x="996" y="440">are now linked.</text>
+    <text x="996" y="468">Silence is a signal.</text>
+    <text x="996" y="486">So is presence. Both</text>
+    <text x="996" y="504">are observable.</text>
+  </g>
+
+  <rect x="30" y="540" width="1120" height="90" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="570" font-size="15" font-weight="700" fill="#111827">Nothing above required breaking any encryption, and none of it is a flaw in the encryption.</text>
+  <text x="56" y="596" font-size="12.5" fill="#374151">The content was protected throughout, exactly as designed. The story was legible anyway, because a conversation has a shape and the shape travels in the clear.</text>
+  <text x="56" y="616" font-size="12.5" fill="#374151">This is the limit that Lesson 1.1 named as Myth 3, drawn out to its conclusion at the end of the module that began with it.</text>
+
+  <text x="590" y="678" text-anchor="middle" font-size="13.5" fill="#4b5563">The natural response is to obscure the shape. Figure 3 is about which of those defenses you will actually still be running next month.</text>
+</svg>

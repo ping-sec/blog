@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 840" width="1180" height="840" role="img" aria-labelledby="dc-title dc-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="dc-title">Figure 3. Module 6 in one table: which observer, which tool</title>
+  <desc id="dc-desc">A decision table covering the whole module. Each row names an observer somebody might want to remove, and states which of the tools built across the module actually removes that observer. The network you joined is removed by any tunnel, including one you host yourself. Your own internet provider is removed by any tunnel, at the cost of moving the observation to the provider you chose. A destination building a profile across visits needs Tor rather than a tunnel, because a tunnel gives you one stable address. Wanting to reach a specific country needs a rented server or a commercial provider, and Tor cannot supply it reliably. Wanting a fixed address for an allow list needs a rented server, which is the one case with no substitute. Wanting nobody to hold both halves of your connection needs Tor. An adversary who can watch both ends is removed by nothing in the module. Anything done while signed in is removed by nothing anywhere. A band below states the question the whole module was teaching, which is to name the observer first and then choose, rather than choosing a tool and hoping.</desc>
+
+  <rect x="0" y="0" width="1180" height="840" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Module 6 in One Table. Name the Observer, Then Choose.</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Ten lessons, six tools, and one question that decides between them. The question is never which is strongest.</text>
+
+  <rect x="30" y="98" width="1120" height="34" rx="6" fill="#374151"/>
+  <text x="48" y="120" font-size="11.5" font-weight="700" fill="#ffffff">THE OBSERVER YOU WANT TO REMOVE</text>
+  <text x="490" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHAT ACTUALLY REMOVES IT</text>
+  <text x="900" y="120" font-size="11.5" font-weight="700" fill="#ffffff">AND WHAT THAT COSTS</text>
+
+  <rect x="30" y="140" width="1120" height="52" rx="6" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="162" font-size="12.5" font-weight="700" fill="#00614a">The network you just joined</text>
+  <text x="48" y="181" font-size="11" fill="#4b5563">a hotel, a cafe, a conference</text>
+  <text x="490" y="171" font-size="12" fill="#374151">Any tunnel at all, including one at home</text>
+  <text x="900" y="171" font-size="12" fill="#374151">Almost nothing. Lesson 6.1.</text>
+
+  <rect x="30" y="200" width="1120" height="52" rx="6" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="222" font-size="12.5" font-weight="700" fill="#00614a">Your own internet provider</text>
+  <text x="48" y="241" font-size="11" fill="#4b5563">the one with a billing relationship with you</text>
+  <text x="490" y="231" font-size="12" fill="#374151">Any tunnel, or Tor</text>
+  <text x="900" y="222" font-size="12" fill="#374151">The observation moves to whoever you</text>
+  <text x="900" y="240" font-size="12" fill="#374151">chose instead. It is not removed.</text>
+
+  <rect x="30" y="260" width="1120" height="52" rx="6" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2"/>
+  <text x="48" y="282" font-size="12.5" font-weight="700" fill="#10476b">A destination building a profile across visits</text>
+  <text x="48" y="301" font-size="11" fill="#4b5563">recognising you as the same person each time</text>
+  <text x="490" y="291" font-size="12" font-weight="700" fill="#10476b">Tor. A tunnel gives you one stable address</text>
+  <text x="900" y="282" font-size="12" fill="#374151">Speed, and Lesson 6.8's list of</text>
+  <text x="900" y="300" font-size="12" fill="#374151">behaviours that undo it anyway.</text>
+
+  <rect x="30" y="320" width="1120" height="52" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="342" font-size="12.5" font-weight="700" fill="#8a6000">Appearing to be in a particular country</text>
+  <text x="48" y="361" font-size="11" fill="#4b5563">which is a requirement, not a privacy goal</text>
+  <text x="490" y="351" font-size="12" fill="#374151">A rented server, or a commercial provider</text>
+  <text x="900" y="342" font-size="12" font-weight="700" fill="#8a6000">Tor cannot do this reliably. Exit</text>
+  <text x="900" y="360" font-size="12" font-weight="700" fill="#8a6000">selection is not a country picker.</text>
+
+  <rect x="30" y="380" width="1120" height="52" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="402" font-size="12.5" font-weight="700" fill="#8a6000">Needing one fixed address that is yours</text>
+  <text x="48" y="421" font-size="11" fill="#4b5563">an allow list at work, a service that rejects shared exits</text>
+  <text x="490" y="411" font-size="12" font-weight="700" fill="#8a6000">A rented server. Nothing else supplies it</text>
+  <text x="900" y="402" font-size="12" fill="#374151">Lesson 6.6's trust ledger, and an</text>
+  <text x="900" y="420" font-size="12" fill="#374151">anonymity set of exactly one.</text>
+
+  <rect x="30" y="440" width="1120" height="52" rx="6" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2"/>
+  <text x="48" y="462" font-size="12.5" font-weight="700" fill="#10476b">Anybody holding both halves of your connection</text>
+  <text x="48" y="481" font-size="11" fill="#4b5563">your address and your destination, together</text>
+  <text x="490" y="471" font-size="12" font-weight="700" fill="#10476b">Tor, structurally. Lesson 6.7's Figure 1</text>
+  <text x="900" y="462" font-size="12" fill="#374151">Speed, and the caveats in 6.9.</text>
+  <text x="900" y="480" font-size="12" fill="#374151">A chain of tunnels approximates it.</text>
+
+  <rect x="30" y="500" width="1120" height="52" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="522" font-size="12.5" font-weight="700" fill="#8c1d18">An adversary who can watch both ends</text>
+  <text x="48" y="541" font-size="11" fill="#4b5563">a national observer, or a well-placed one</text>
+  <text x="490" y="531" font-size="12" font-weight="700" fill="#8c1d18">Nothing in this module. The project says so</text>
+  <text x="900" y="531" font-size="12" fill="#374151">Lesson 6.9, Figure 1.</text>
+
+  <rect x="30" y="560" width="1120" height="52" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="582" font-size="12.5" font-weight="700" fill="#8c1d18">Anything you did while signed in</text>
+  <text x="48" y="601" font-size="11" fill="#4b5563">and anything you told them yourself</text>
+  <text x="490" y="591" font-size="12" font-weight="700" fill="#8c1d18">Nothing, anywhere, ever</text>
+  <text x="900" y="591" font-size="12" fill="#374151">Lesson 6.8, Figure 2, first row.</text>
+
+  <rect x="30" y="632" width="1120" height="132" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="662" font-size="16" font-weight="700" fill="#10476b">What the module was actually teaching</text>
+  <text x="56" y="688" font-size="12.5" fill="#374151">Read the middle column and notice that no tool appears in every row, and two rows have nothing in them at all. That is the whole argument. There is no</text>
+  <text x="56" y="708" font-size="12.5" fill="#374151">strongest option, because the options are answers to different questions, and the products are all sold as answers to the same one.</text>
+  <text x="56" y="734" font-size="12.5" font-weight="700" fill="#10476b">So name the observer first. Then look at this table. Then choose, and be able to say what you gave up in exchange.</text>
+  <text x="56" y="754" font-size="12.5" fill="#374151">A recommendation that does not name the observer it removes is not advice. It is a preference, and you cannot check a preference.</text>
+
+  <text x="590" y="800" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Every lesson in this module ended the same way: the measure moved an observation rather than removing one. That is not a disappointment. It is the design.</text>
+  <text x="590" y="826" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Knowing exactly where an observation moved to is the difference between using these tools and believing in them.</text>
+</svg>

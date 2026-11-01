@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 680" width="1160" height="680" role="img" aria-labelledby="cm-title cm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="cm-title">Figure 2. What end-to-end encryption covers, and what it leaves</title>
+  <desc id="cm-desc">A message split into two parts. The content is protected by end-to-end encryption. The surrounding record is not, and it names who spoke to whom, when, how often, from where, and on what. Two real subpoena outcomes are compared: Signal supplied two timestamps, while a document on WhatsApp described far richer metadata being available. The band below states that the difference between those two is a design decision, not an encryption strength difference, since both use the same underlying protocol for content.</desc>
+
+  <rect x="0" y="0" width="1160" height="680" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Two Platforms, Same Encryption, Different Answers</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">End-to-end encryption is a property of the content. What surrounds the content is a separate design decision.</text>
+
+  <rect x="30" y="104" width="530" height="196" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 114 a10 10 0 0 1 10 -10 h510 a10 10 0 0 1 10 10 v34 h-530 z" fill="#009E73"/>
+  <text x="295" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE CONTENT, PROTECTED</text>
+  <rect x="54" y="172" width="482" height="104" rx="8" fill="#ffffff" stroke="#009E73" stroke-width="1.5"/>
+  <text x="74" y="200" font-size="13" fill="#111827">"Critical injection flaw in the payment path.</text>
+  <text x="74" y="222" font-size="13" fill="#111827">Proof of concept attached. Roughly ten million</text>
+  <text x="74" y="244" font-size="13" fill="#111827">accounts exposed. Do not forward this."</text>
+  <text x="74" y="266" font-size="11.5" font-style="italic" fill="#00614a">The provider cannot read any of this.</text>
+
+  <rect x="600" y="104" width="530" height="196" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="9 6"/>
+  <path d="M600 114 a10 10 0 0 1 10 -10 h510 a10 10 0 0 1 10 10 v34 h-530 z" fill="#E69F00"/>
+  <text x="865" y="134" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE RECORD AROUND IT</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="624" y="172">Which two accounts, and at what exact moment</text>
+    <text x="624" y="194">How large the message was, and whether a file came with it</text>
+    <text x="624" y="216">How often you two speak, and who replies first</text>
+    <text x="624" y="238">Which addresses each of you connected from</text>
+    <text x="624" y="260">Which application, which version, which device</text>
+    <text x="624" y="284" font-style="italic" fill="#8a6000">None of this is content, so none of it is encrypted content.</text>
+  </g>
+
+  <text x="580" y="344" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">What each provider actually handed over when compelled</text>
+
+  <rect x="30" y="364" width="530" height="176" rx="10" fill="#ffffff" stroke="#009E73" stroke-width="2.5"/>
+  <text x="54" y="394" font-size="15" font-weight="700" fill="#00614a">Signal, responding to a grand jury subpoena</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="54" y="424">The account creation timestamp.</text>
+    <text x="54" y="448">The last connection timestamp.</text>
+    <text x="54" y="476" font-weight="700" fill="#00614a">That was the complete response.</text>
+    <text x="54" y="502">No contacts, no groups, no message records, because</text>
+    <text x="54" y="522">the service was built not to hold them.</text>
+  </g>
+
+  <rect x="600" y="364" width="530" height="176" rx="10" fill="#ffffff" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="624" y="394" font-size="15" font-weight="700" fill="#8c1d18">WhatsApp, per a leaked law enforcement document</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="624" y="424">Under a pen register order, metadata on a target every</text>
+    <text x="624" y="444">fifteen minutes.</text>
+    <text x="624" y="470">Under a warrant, the target's address book contacts, and</text>
+    <text x="624" y="490">details of other users who hold the target in theirs.</text>
+    <text x="624" y="518" font-weight="700" fill="#8c1d18">Content stayed encrypted throughout.</text>
+  </g>
+
+  <rect x="30" y="562" width="1100" height="98" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="592" font-size="15" font-weight="700" fill="#111827">Both of those services encrypt content with the same underlying protocol.</text>
+  <text x="56" y="618" font-size="12.5" fill="#374151">So the difference between those two responses is not encryption strength. It is a choice about what to collect and keep. Lesson 1.1 made this point as</text>
+  <text x="56" y="638" font-size="12.5" fill="#374151">Myth 3 and it is the single most useful idea in this module: "is it end-to-end encrypted" and "what does it know about me" are two separate questions,</text>
+  <text x="56" y="656" font-size="12.5" fill="#374151">and a platform can answer the first one perfectly while answering the second one badly. Ask both, every time.</text>
+</svg>

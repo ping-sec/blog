@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" role="img" aria-labelledby="lp-title lp-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="lp-title">Figure 2. How two identities actually get linked today</title>
+  <desc id="lp-desc">Five linkage paths between a personal identity and a research identity. The third-party cookie path is marked as largely closed in browsers that block third-party cookies by default. Four paths remain open: the device fingerprint, the network address, activity timing, and any account you sign in to. A note explains that the classic pixel-and-cookie story is the one everyone teaches and the one least likely to be how it happens now.</desc>
+
+  <defs>
+    <marker id="lpA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="700" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Five Paths Between Two Identities</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">One of these is the path every guide describes. It is also the one most likely to be closed already.</text>
+
+  <rect x="40" y="106" width="200" height="480" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="140" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#10476b">PERSONAL</text>
+  <text x="140" y="162" text-anchor="middle" font-size="12" fill="#6b7280">signed in, named,</text>
+  <text x="140" y="180" text-anchor="middle" font-size="12" fill="#6b7280">unremarkable</text>
+
+  <rect x="940" y="106" width="200" height="480" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="1040" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#8c1d18">RESEARCH</text>
+  <text x="1040" y="162" text-anchor="middle" font-size="12" fill="#6b7280">no accounts, and</text>
+  <text x="1040" y="180" text-anchor="middle" font-size="12" fill="#6b7280">meant to stay apart</text>
+
+  <rect x="268" y="212" width="644" height="60" rx="8" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="288" y="238" font-size="13.5" font-weight="700" fill="#6b7280">1. A third-party cookie, read on both sites</text>
+  <text x="288" y="260" font-size="12" fill="#6b7280">Largely closed where third-party cookies are blocked by default, which is Safari, Firefox and Brave. Still open in Chrome.</text>
+  <line x1="244" y1="242" x2="264" y2="242" stroke="#9ca3af" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <line x1="916" y1="242" x2="936" y2="242" stroke="#9ca3af" stroke-width="2.5" stroke-dasharray="5 4"/>
+
+  <rect x="268" y="288" width="644" height="60" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="288" y="314" font-size="13.5" font-weight="700" fill="#8a6000">2. The device fingerprint</text>
+  <text x="288" y="336" font-size="12" fill="#374151">Same machine, same graphics, same fonts. Lesson 2.2 measured this. Containers and profiles do nothing about it.</text>
+  <line x1="244" y1="318" x2="264" y2="318" stroke="#374151" stroke-width="2.5" marker-end="url(#lpA)"/>
+  <line x1="936" y1="318" x2="916" y2="318" stroke="#374151" stroke-width="2.5" marker-end="url(#lpA)"/>
+
+  <rect x="268" y="364" width="644" height="60" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="288" y="390" font-size="13.5" font-weight="700" fill="#8a6000">3. The network address</text>
+  <text x="288" y="412" font-size="12" fill="#374151">One connection, one address, both identities. Figure 1 shows that no layer of compartmentalization touches this.</text>
+  <line x1="244" y1="394" x2="264" y2="394" stroke="#374151" stroke-width="2.5" marker-end="url(#lpA)"/>
+  <line x1="936" y1="394" x2="916" y2="394" stroke="#374151" stroke-width="2.5" marker-end="url(#lpA)"/>
+
+  <rect x="268" y="440" width="644" height="60" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="288" y="466" font-size="13.5" font-weight="700" fill="#8a6000">4. Timing</text>
+  <text x="288" y="488" font-size="12" fill="#374151">Personal activity stops, research activity starts, minutes apart, every day. Lesson 1.3 covered timing as an identifier.</text>
+  <line x1="244" y1="470" x2="264" y2="470" stroke="#374151" stroke-width="2.5" marker-end="url(#lpA)"/>
+  <line x1="936" y1="470" x2="916" y2="470" stroke="#374151" stroke-width="2.5" marker-end="url(#lpA)"/>
+
+  <rect x="268" y="516" width="644" height="60" rx="8" fill="#b3261e" fill-opacity="0.12" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="288" y="542" font-size="13.5" font-weight="700" fill="#8c1d18">5. You sign in to something</text>
+  <text x="288" y="564" font-size="12" fill="#374151">One account, once, in the wrong window. No technical control survives this, and it is the way it usually happens.</text>
+  <line x1="244" y1="546" x2="264" y2="546" stroke="#b3261e" stroke-width="3" marker-end="url(#lpA)"/>
+  <line x1="936" y1="546" x2="916" y2="546" stroke="#b3261e" stroke-width="3" marker-end="url(#lpA)"/>
+
+  <rect x="40" y="606" width="1100" height="76" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="66" y="634" font-size="14" font-weight="700" fill="#111827">Path 1 is the story everybody tells. Paths 2 to 5 are the ones you have to plan for.</text>
+  <text x="66" y="660" font-size="12.5" fill="#374151">Compartmentalization by cookies closes a path that your browser may have closed already. It leaves the other four untouched, and the last one is not a technical problem at all.</text>
+</svg>

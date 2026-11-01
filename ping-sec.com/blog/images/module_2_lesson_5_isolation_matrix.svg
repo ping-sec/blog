@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-labelledby="im-title im-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="im-title">Figure 1. What each isolation layer actually separates</title>
+  <desc id="im-desc">A matrix of five isolation layers against six things they might separate. Total Cookie Protection separates cookies between sites only. Containers add separation of cookies within one site, so several accounts can be used at once, but share history, bookmarks and extensions. Profiles add separate history, bookmarks and extensions. Separate browsers additionally change part of the fingerprint. Only a separate machine changes all of it. The network address column is no for every row, because nothing in this table changes it.</desc>
+
+  <rect x="0" y="0" width="1200" height="660" fill="#ffffff"/>
+
+  <text x="600" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: What Each Layer Actually Separates</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Compartmentalization is usually taught as one idea. It is five layers, and they separate different things.</text>
+
+  <rect x="30" y="96" width="1140" height="72" rx="8" fill="#374151"/>
+  <g font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.4">
+    <text x="46" y="138">LAYER</text>
+    <text x="270" y="122">Cookies</text><text x="270" y="138">between</text><text x="270" y="154">sites</text>
+    <text x="418" y="122">Cookies</text><text x="418" y="138">within one</text><text x="418" y="154">site</text>
+    <text x="566" y="122">History and</text><text x="566" y="138">bookmarks</text>
+    <text x="714" y="122">Extensions</text><text x="714" y="138">and settings</text>
+    <text x="862" y="130">Fingerprint</text>
+    <text x="1010" y="122">Network</text><text x="1010" y="138">address</text>
+  </g>
+
+  <rect x="30" y="176" width="1140" height="70" rx="6" fill="#0072B2" fill-opacity="0.07" stroke="#0072B2" stroke-width="1.8"/>
+  <text x="46" y="206" font-size="13" font-weight="700" fill="#10476b">Total Cookie Protection</text>
+  <text x="46" y="226" font-size="11" fill="#6b7280">on by default with Strict</text>
+  <g font-size="12.5" font-weight="700">
+    <text x="270" y="216" fill="#00614a">yes</text>
+    <text x="418" y="216" fill="#8c1d18">no</text>
+    <text x="566" y="216" fill="#8c1d18">no</text>
+    <text x="714" y="216" fill="#8c1d18">no</text>
+    <text x="862" y="216" fill="#8c1d18">no</text>
+    <text x="1010" y="216" fill="#8c1d18">no</text>
+  </g>
+
+  <rect x="30" y="254" width="1140" height="70" rx="6" fill="#56B4E9" fill-opacity="0.12" stroke="#56B4E9" stroke-width="1.8"/>
+  <text x="46" y="284" font-size="13" font-weight="700" fill="#1f5f7f">Containers, one profile</text>
+  <text x="46" y="304" font-size="11" fill="#6b7280">several accounts on one site</text>
+  <g font-size="12.5" font-weight="700">
+    <text x="270" y="294" fill="#00614a">yes</text>
+    <text x="418" y="294" fill="#00614a">yes</text>
+    <text x="566" y="294" fill="#8c1d18">no</text>
+    <text x="714" y="294" fill="#8c1d18">no</text>
+    <text x="862" y="294" fill="#8c1d18">no</text>
+    <text x="1010" y="294" fill="#8c1d18">no</text>
+  </g>
+
+  <rect x="30" y="332" width="1140" height="70" rx="6" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="1.8"/>
+  <text x="46" y="362" font-size="13" font-weight="700" fill="#00614a">Profiles, same browser</text>
+  <text x="46" y="382" font-size="11" fill="#6b7280">these can run at the same time</text>
+  <g font-size="12.5" font-weight="700">
+    <text x="270" y="372" fill="#00614a">yes</text>
+    <text x="418" y="372" fill="#00614a">yes</text>
+    <text x="566" y="372" fill="#00614a">yes</text>
+    <text x="714" y="372" fill="#00614a">yes</text>
+    <text x="862" y="372" fill="#8c1d18">no</text>
+    <text x="1010" y="372" fill="#8c1d18">no</text>
+  </g>
+
+  <rect x="30" y="410" width="1140" height="70" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="1.8"/>
+  <text x="46" y="440" font-size="13" font-weight="700" fill="#8a6000">Separate browsers</text>
+  <text x="46" y="460" font-size="11" fill="#6b7280">different engine and config</text>
+  <g font-size="12.5" font-weight="700">
+    <text x="270" y="450" fill="#00614a">yes</text>
+    <text x="418" y="450" fill="#00614a">yes</text>
+    <text x="566" y="450" fill="#00614a">yes</text>
+    <text x="714" y="450" fill="#00614a">yes</text>
+    <text x="862" y="450" fill="#8a6000">partly</text>
+    <text x="1010" y="450" fill="#8c1d18">no</text>
+  </g>
+  <text x="862" y="468" font-size="10" fill="#6b7280">hardware traits still shared</text>
+
+  <rect x="30" y="488" width="1140" height="70" rx="6" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="1.8"/>
+  <text x="46" y="518" font-size="13" font-weight="700" fill="#8c1d18">Separate machine, or a virtual one</text>
+  <text x="46" y="538" font-size="11" fill="#6b7280">changes what is measured</text>
+  <g font-size="12.5" font-weight="700">
+    <text x="270" y="528" fill="#00614a">yes</text>
+    <text x="418" y="528" fill="#00614a">yes</text>
+    <text x="566" y="528" fill="#00614a">yes</text>
+    <text x="714" y="528" fill="#00614a">yes</text>
+    <text x="862" y="528" fill="#00614a">yes</text>
+    <text x="1010" y="528" fill="#8a6000">only if routed</text>
+  </g>
+
+  <rect x="30" y="568" width="1140" height="88" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="596" font-size="14" font-weight="700" fill="#111827">Read the last column downward. It says no all the way to the bottom.</text>
+  <text x="56" y="620" font-size="12.5" fill="#374151">No amount of compartmentalization inside your machine changes the address you connect from. That is a network control, and it belongs to a different</text>
+  <text x="56" y="640" font-size="12.5" fill="#374151">lesson. If two identities must not share an address, only routing separates them.</text>
+</svg>

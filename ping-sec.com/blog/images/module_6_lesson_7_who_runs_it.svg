@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-labelledby="wr-title wr-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wr-title">Figure 3. Who runs this network, and where "volunteer-run" gets thinner than it sounds</title>
+  <desc id="wr-desc">An honest account of the network's composition in four panels. The first panel covers the directory authorities: nine hard-coded servers that each publish an hourly signed vote, combined into a consensus that a majority must sign, which is the one genuinely centralised part of the design and is also fully published and auditable. The second panel covers relay numbers, with roughly eight to nine thousand relays of which around two thousand permit exit traffic, and notes that the exit position is the scarce and legally exposed one. The third panel covers concentration, noting that relays sit in over a thousand autonomous systems but roughly a third of capacity sits in the top three, so the network is less evenly spread than the word volunteer suggests. The fourth panel states what this means for the trust argument in Figure 1. A band below sets out what a reader should take from it.</desc>
+
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Who Runs This, and Where the Argument Gets Thinner</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Figure 1's property depends on the relays not all being the same party. That is worth checking rather than assuming, so here is the actual shape of the network.</text>
+
+  <rect x="30" y="100" width="272" height="346" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h252 a10 10 0 0 1 10 10 v42 h-272 z" fill="#E69F00"/>
+  <text x="166" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">THE DIRECTORY</text>
+  <text x="166" y="144" text-anchor="middle" font-size="11" fill="#ffffff">the centralised part</text>
+
+  <g font-size="11.5" fill="#374151">
+    <text x="52" y="178" font-size="20" font-weight="700" fill="#8a6000">9</text>
+    <text x="80" y="178" font-weight="700" fill="#8a6000">directory authorities</text>
+    <text x="52" y="200">Hard-coded into the client.</text>
+
+    <text x="52" y="230" font-weight="700" fill="#8a6000">How it works</text>
+    <text x="52" y="250">Each one publishes an hourly</text>
+    <text x="52" y="268">vote on which relays exist and</text>
+    <text x="52" y="286">what they are good for. The</text>
+    <text x="52" y="304">votes combine into a consensus</text>
+    <text x="52" y="322">a majority must sign.</text>
+
+    <text x="52" y="352" font-weight="700" fill="#8c1d18">Be honest about this</text>
+    <text x="52" y="372">Nine servers deciding what the</text>
+    <text x="52" y="390">network is, is centralisation.</text>
+    <text x="52" y="414" font-style="italic" fill="#4b5563">It is also published, signed and</text>
+    <text x="52" y="428" font-style="italic" fill="#4b5563">checkable by anyone.</text>
+  </g>
+
+  <rect x="312" y="100" width="272" height="346" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M312 110 a10 10 0 0 1 10 -10 h252 a10 10 0 0 1 10 10 v42 h-272 z" fill="#0072B2"/>
+  <text x="448" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">THE RELAYS</text>
+  <text x="448" y="144" text-anchor="middle" font-size="11" fill="#ffffff">run by volunteers, mostly</text>
+
+  <g font-size="11.5" fill="#374151">
+    <text x="334" y="180" font-size="19" font-weight="700" fill="#10476b">~8,000</text>
+    <text x="334" y="200">relays in the network, and the</text>
+    <text x="334" y="218">count has grown steadily.</text>
+
+    <text x="334" y="250" font-size="19" font-weight="700" fill="#10476b">~2,000</text>
+    <text x="334" y="270">of those permit exit traffic.</text>
+
+    <text x="334" y="300" font-weight="700" fill="#10476b">Why exits are scarce</text>
+    <text x="334" y="320">The exit is the address that</text>
+    <text x="334" y="338">appears in everybody else's</text>
+    <text x="334" y="356">logs, so the operator receives</text>
+    <text x="334" y="374">the complaints and the legal</text>
+    <text x="334" y="392">attention. Lesson 6.10 returns</text>
+    <text x="334" y="410">to what that involves.</text>
+  </g>
+
+  <rect x="594" y="100" width="272" height="346" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M594 110 a10 10 0 0 1 10 -10 h252 a10 10 0 0 1 10 10 v42 h-272 z" fill="#b3261e"/>
+  <text x="730" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">THE CONCENTRATION</text>
+  <text x="730" y="144" text-anchor="middle" font-size="11" fill="#ffffff">the part that is rarely said</text>
+
+  <g font-size="11.5" fill="#374151">
+    <text x="616" y="180" font-size="19" font-weight="700" fill="#8c1d18">~1,000</text>
+    <text x="616" y="200">separate networks host relays,</text>
+    <text x="616" y="218">which sounds well spread.</text>
+
+    <text x="616" y="250" font-size="19" font-weight="700" fill="#8c1d18">~1/3</text>
+    <text x="616" y="270">of capacity sits in just three</text>
+    <text x="616" y="288">of those networks.</text>
+
+    <text x="616" y="318" font-weight="700" fill="#8c1d18">Why that matters here</text>
+    <text x="616" y="338">Figure 1 assumes your three</text>
+    <text x="616" y="356">relays are separate parties.</text>
+    <text x="616" y="374">Concentration makes it more</text>
+    <text x="616" y="392">likely that two of them sit</text>
+    <text x="616" y="410">where one observer can see both.</text>
+  </g>
+
+  <rect x="876" y="100" width="274" height="346" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M876 110 a10 10 0 0 1 10 -10 h254 a10 10 0 0 1 10 10 v42 h-274 z" fill="#009E73"/>
+  <text x="1013" y="127" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">SO WHAT SURVIVES</text>
+  <text x="1013" y="144" text-anchor="middle" font-size="11" fill="#ffffff">the argument, corrected</text>
+
+  <g font-size="11.5" fill="#374151">
+    <text x="898" y="178" font-weight="700" fill="#00614a">The property still holds</text>
+    <text x="898" y="198">for the ordinary case, because</text>
+    <text x="898" y="216">the client avoids picking two</text>
+    <text x="898" y="234">relays from the same operator</text>
+    <text x="898" y="252">or the same network.</text>
+
+    <text x="898" y="282" font-weight="700" fill="#8a6000">It weakens against</text>
+    <text x="898" y="302">an adversary who can observe</text>
+    <text x="898" y="320">large parts of the internet's</text>
+    <text x="898" y="338">core, because concentration</text>
+    <text x="898" y="356">puts more circuits within</text>
+    <text x="898" y="374">reach of fewer observers.</text>
+
+    <text x="898" y="396" font-style="italic" fill="#4b5563">That adversary is Lesson 6.9's</text>
+    <text x="898" y="414">subject, and Tor does not claim</text>
+    <text x="898" y="432" font-style="italic" fill="#4b5563">to beat it.</text>
+  </g>
+
+  <rect x="30" y="460" width="1120" height="152" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="490" font-size="16" font-weight="700" fill="#111827">What to take from this, which is not "therefore do not use it"</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="516" r="3.5" fill="#374151"/><text x="80" y="520"><tspan font-weight="700">Every one of these numbers is public.</tspan> The project publishes relay counts, capacity, and network distribution, and anybody can check them. That is the</text>
+    <text x="80" y="538">difference that matters against a commercial provider, whose equivalent numbers do not exist in any form you can inspect.</text>
+    <circle cx="66" cy="562" r="3.5" fill="#374151"/><text x="80" y="566"><tspan font-weight="700">The design accounts for some of this and not all of it.</tspan> Avoiding two relays from one operator is built in. Concentration in the internet's core is not</text>
+    <text x="80" y="584">something the design can fix, and the project says so rather than claiming otherwise.</text>
+    <circle cx="66" cy="600" r="3.5" fill="#00614a"/><text x="80" y="604"><tspan font-weight="700">Running a relay is the one action in this whole module that improves the system for everybody</tspan>, rather than only for you. Lesson 6.10 covers it.</text>
+  </g>
+
+  <text x="590" y="654" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Module 6 has spent five lessons asking who you have to trust and whether you can check. Here the answer is: fewer parties than a tunnel, and yes.</text>
+  <text x="590" y="682" text-anchor="middle" font-size="13" fill="#4b5563">That is the strongest claim available anywhere in this module, and it is still a bounded claim rather than a guarantee.</text>
+  <text x="590" y="712" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Figures like this one are usually left out of Tor introductions because they complicate the pitch. They are the reason to believe the rest of it.</text>
+</svg>

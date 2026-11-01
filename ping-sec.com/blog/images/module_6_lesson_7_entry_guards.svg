@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-labelledby="eg-title eg-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="eg-title">Figure 2. Why the first hop deliberately does not rotate</title>
+  <desc id="eg-desc">A comparison of two designs for choosing the first relay. In the first design a fresh first relay is chosen for every circuit, which feels safer but means that over many sessions the probability of eventually choosing a hostile relay at least once approaches certainty, and one such occasion is enough for that relay to observe you. In the second design, the one Tor actually uses, the client keeps a small stable set of first relays for months, so the outcome is decided once: either the chosen relays are hostile, in which case you are exposed for the rotation period, or they are not, in which case you are safe for it. The design converts a slow accumulation of risk into a single decision. A band below gives the current parameters, which are two primary guards rotating on roughly a three and a half month schedule, and the history of the setting moving from three guards to one in 2014 and to two in 2022. A closing band explains what this means when a tunnel is placed in front of Tor.</desc>
+
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Why the First Hop Deliberately Does Not Rotate</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Changing your entry point constantly feels safer. It is the opposite, and understanding why is the single most useful thing in this lesson.</text>
+
+  <rect x="30" y="100" width="554" height="342" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h534 a10 10 0 0 1 10 10 v46 h-554 z" fill="#b3261e"/>
+  <text x="307" y="129" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">THE INTUITIVE DESIGN</text>
+  <text x="307" y="147" text-anchor="middle" font-size="11" fill="#ffffff">a fresh first relay for every circuit, which Tor does not do</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="56" y="182" font-weight="700" fill="#8c1d18">The appeal</text>
+    <text x="56" y="204">No relay ever sees you twice. Nothing about you</text>
+    <text x="56" y="222">accumulates anywhere. It sounds obviously correct.</text>
+
+    <text x="56" y="256" font-weight="700" fill="#8c1d18">What actually happens over time</text>
+    <text x="56" y="278">Some fraction of relays are run by somebody who wants</text>
+    <text x="56" y="296">to observe you. Each new circuit is a fresh draw from</text>
+    <text x="56" y="314">that pool.</text>
+    <text x="56" y="342">Draw enough times and the chance of picking a hostile</text>
+    <text x="56" y="360">relay at least once goes to certainty. And once is enough,</text>
+    <text x="56" y="378">because that relay then sees your real address.</text>
+
+    <text x="56" y="412" font-weight="700" fill="#8c1d18">So the risk is not spread. It accumulates.</text>
+  </g>
+
+  <rect x="596" y="100" width="554" height="342" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M596 110 a10 10 0 0 1 10 -10 h534 a10 10 0 0 1 10 10 v46 h-554 z" fill="#009E73"/>
+  <text x="873" y="129" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">WHAT TOR ACTUALLY DOES</text>
+  <text x="873" y="147" text-anchor="middle" font-size="11" fill="#ffffff">a small set of first relays, kept for months</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="182" font-weight="700" fill="#00614a">The mechanism</text>
+    <text x="622" y="204">Your client picks a small set of first relays and keeps</text>
+    <text x="622" y="222">using them. Only the middle and exit change per circuit.</text>
+
+    <text x="622" y="256" font-weight="700" fill="#00614a">What that changes</text>
+    <text x="622" y="278">The outcome is now decided once rather than sampled</text>
+    <text x="622" y="296">repeatedly. Either your guards are hostile, and you are</text>
+    <text x="622" y="314">exposed for the rotation period, or they are not, and</text>
+    <text x="622" y="332">you are safe for the whole of it.</text>
+
+    <text x="622" y="366" font-weight="700" fill="#00614a">The trade, stated honestly</text>
+    <text x="622" y="388">A small chance of sustained exposure, instead of a</text>
+    <text x="622" y="406">near-certainty of brief exposure. Most people are</text>
+    <text x="622" y="424">better off, and a few are worse off.</text>
+  </g>
+
+  <rect x="30" y="450" width="1120" height="126" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="478" font-size="15.5" font-weight="700" fill="#10476b">The current settings, and the fact that they have changed three times</text>
+  <text x="56" y="504" font-size="12.5" fill="#374151"><tspan font-weight="700">Today:</tspan> clients use two primary guards, rotating on roughly a three and a half month schedule. The number is carried in the signed network consensus,</text>
+  <text x="56" y="524" font-size="12.5" fill="#374151">so it can be changed for the whole network without shipping new software.</text>
+  <text x="56" y="546" font-size="12.5" fill="#374151"><tspan font-weight="700">The history matters:</tspan> three guards originally, reduced to one in 2014 to narrow the points at which a client enters the network, and raised back to</text>
+
+  <text x="56" y="566" font-size="12.5" fill="#374151">two in 2022. A setting revised twice in a decade is one you should check rather than memorise.</text>
+
+  <rect x="30" y="592" width="1120" height="104" rx="10" fill="#E69F00" fill-opacity="0.11" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="56" y="620" font-size="15.5" font-weight="700" fill="#8a6000">What this means for putting a tunnel in front of Tor</text>
+  <text x="56" y="646" font-size="12.5" fill="#374151">Lesson 6.4 said the Tor Project does not recommend it, and this is the argument. A tunnel in front replaces a considered guard design with a single</text>
+  <text x="56" y="666" font-size="12.5" fill="#374151">permanent first hop that you chose, that sees every session you ever run, and that knows exactly who you are because you pay it every month.</text>
+  <text x="56" y="688" font-size="12.5" font-weight="700" fill="#8a6000">That is a change to the threat model rather than a layer added on top of it. It may still be the right change. It is not a free one.</text>
+
+  <text x="590" y="732" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">The general lesson: a defence that reduces each individual exposure can still increase your total exposure, if you sample often enough.</text>
+  <text x="590" y="756" text-anchor="middle" font-size="13" fill="#4b5563">This is why "change your address constantly" is good advice in some places and actively harmful here. The right question is always what accumulates.</text>
+  <text x="590" y="780" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">And note that this design is published, argued in public proposals, and revised when the argument changes. That is a property of the network, not a detail.</text>
+  <text x="590" y="804" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">You can read the reasoning for the current value yourself, which you cannot do for any commercial provider's routing decisions.</text>
+</svg>

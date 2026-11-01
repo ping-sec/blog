@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 806" width="1180" height="806" role="img" aria-labelledby="cp-title cp-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="cp-title">Figure 2. The two compatibility approaches, and the attestation ladder that decides what works</title>
+  <desc id="cp-desc">On the left, the two ways an alternative Android system provides application compatibility. A reimplementation of Google services needs system level signature spoofing to impersonate the real component, which is a privilege escalation in itself. Running the real Google services inside the ordinary application sandbox needs no elevated privilege at all, and the component cannot see other applications or read hardware identifiers. The counterintuitive result is that running the real thing unprivileged exposes less than running a substitute privileged. On the right, three levels of the integrity check applications use, what each requires, and which an alternative system can satisfy. A band below explains that the strongest level is built on a hardware attestation interface that can allow alternative system keys, and that several banks adopted this.</desc>
+
+  <rect x="0" y="0" width="1180" height="806" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Compatibility, and Who Actually Holds Privileges</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The usual framing is that a Google substitute is the private option and real Google services are the compromise. It is the other way round.</text>
+
+  <rect x="30" y="100" width="550" height="404" rx="10" fill="#374151" fill-opacity="0.06" stroke="#374151" stroke-width="2.5"/>
+  <text x="52" y="128" font-size="15.5" font-weight="700" fill="#111827">Two ways to make applications work</text>
+
+  <rect x="52" y="144" width="506" height="150" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="72" y="170" font-size="13.5" font-weight="700" fill="#8a6000">A reimplementation of Google services</text>
+  <g font-size="12" fill="#374151">
+    <text x="72" y="194">Open source code that answers the same interfaces, so</text>
+    <text x="72" y="212">applications believe Google services are present.</text>
+    <text x="72" y="238" font-weight="700" fill="#8c1d18">To impersonate the real component it needs system level</text>
+    <text x="72" y="256" font-weight="700" fill="#8c1d18">signature spoofing, which is a privilege the system does</text>
+    <text x="72" y="274" font-weight="700" fill="#8c1d18">not otherwise grant to anything.</text>
+  </g>
+
+  <rect x="52" y="308" width="506" height="182" rx="8" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="2"/>
+  <text x="72" y="334" font-size="13.5" font-weight="700" fill="#00614a">The real thing, in the ordinary sandbox</text>
+  <g font-size="12" fill="#374151">
+    <text x="72" y="358">Google's actual components, installed and run as a normal</text>
+    <text x="72" y="376">unprivileged application with no system access.</text>
+    <text x="72" y="402" font-weight="700" fill="#00614a">It cannot see your other applications, read hardware</text>
+    <text x="72" y="420" font-weight="700" fill="#00614a">identifiers, or leave the sandbox. It holds only the</text>
+    <text x="72" y="438" font-weight="700" fill="#00614a">permissions you grant it, like anything else.</text>
+    <text x="72" y="460" font-style="italic" fill="#00614a">Running the real thing unprivileged exposes less than running</text>
+  </g>
+  <text x="72" y="478" font-size="12" font-style="italic" fill="#00614a">a substitute privileged. That is the point people find surprising.</text>
+
+  <rect x="600" y="100" width="550" height="386" rx="10" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="622" y="128" font-size="15.5" font-weight="700" fill="#10476b">The integrity ladder applications check against</text>
+  <text x="622" y="150" font-size="12" fill="#4b5563">The successor to the older check, which is retired. Three levels:</text>
+
+  <rect x="622" y="164" width="506" height="94" rx="8" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="2"/>
+  <text x="642" y="188" font-size="13" font-weight="700" fill="#00614a">Basic</text>
+  <text x="642" y="210" font-size="12" fill="#374151">A recognised device and an application from the store.</text>
+  <text x="642" y="232" font-size="12" font-weight="700" fill="#00614a">An alternative system passes this.</text>
+  <text x="642" y="250" font-size="11.5" fill="#4b5563">Most applications never check anything stronger.</text>
+
+  <rect x="622" y="270" width="506" height="94" rx="8" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2"/>
+  <text x="642" y="294" font-size="13" font-weight="700" fill="#8a6000">Device</text>
+  <text x="642" y="316" font-size="12" fill="#374151">A device with Google services present and functioning.</text>
+  <text x="642" y="338" font-size="12" font-weight="700" fill="#8a6000">Generally passes with the sandboxed approach.</text>
+  <text x="642" y="356" font-size="11.5" fill="#4b5563">Most banking applications sit here, and most of them work.</text>
+
+  <rect x="622" y="376" width="506" height="96" rx="8" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="642" y="400" font-size="13" font-weight="700" fill="#8c1d18">Strong</text>
+  <text x="642" y="422" font-size="12" fill="#374151">Hardware backed keys issued for that device on the stock system.</text>
+  <text x="642" y="444" font-size="12" font-weight="700" fill="#8c1d18">An alternative system does not pass this.</text>
+  <text x="642" y="462" font-size="11.5" fill="#4b5563">A minority of applications, concentrated in certain markets.</text>
+
+  <rect x="30" y="520" width="1120" height="122" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="550" font-size="15.5" font-weight="700" fill="#00614a">The part worth knowing, because it is the part a developer can act on</text>
+  <text x="56" y="576" font-size="12.5" fill="#374151">The strongest level is built on the hardware key attestation interface, and that interface can allow the keys of an alternative operating system. An application</text>
+  <text x="56" y="596" font-size="12.5" fill="#374151">calling it directly, rather than through the integrity wrapper, can verify the device genuinely and still accept a hardened system. The project publishes a guide</text>
+  <text x="56" y="616" font-size="12.5" fill="#374151">for exactly this, and several banks adopted it across 2024 and 2025, which is why the compatibility list keeps getting longer rather than shorter.</text>
+
+  <rect x="30" y="664" width="1120" height="76" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="692" font-size="14.5" font-weight="700" fill="#111827">What this means before you switch</text>
+  <text x="56" y="718" font-size="12.5" fill="#374151">Check your own applications rather than a compatibility list, because the answer depends on your bank and your country. And keep browser access as the</text>
+  <text x="56" y="734" font-size="12.5" fill="#374151">fallback, which works regardless and is the reason this rarely turns into a real problem.</text>
+
+  <text x="590" y="782" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">The compatibility story is better than its reputation, and it is not the reason to hesitate. Figure 3 is the reason to hesitate.</text>
+</svg>

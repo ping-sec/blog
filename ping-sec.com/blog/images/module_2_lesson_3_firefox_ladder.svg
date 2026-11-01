@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 780" width="1180" height="780" role="img" aria-labelledby="fl-title fl-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="fl-title">Figure 3. The Firefox hardening ladder, and the rungs most people skip past</title>
+  <desc id="fl-desc">Four tiers of Firefox configuration in increasing order. Tier one is the settings interface only, which brings Enhanced Tracking Protection strict and with it Total Cookie Protection. Tier two adds a content blocker and containers. Tier three turns on the light targeted fingerprinting protection. Tier four is the Tor-derived resist fingerprinting mode or a community preference file, which is global and breaks pages. A panel on the right lists preferences that older guides recommend and the reason each one should now be skipped.</desc>
+
+  <rect x="0" y="0" width="1180" height="780" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Climb the Ladder in Order, and Stop When It Is Enough</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Most published guides start at tier 4. Tiers 1 and 2 carry most of the benefit and almost none of the breakage.</text>
+
+  <rect x="30" y="102" width="690" height="132" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <circle cx="66" cy="136" r="17" fill="#0072B2"/><text x="66" y="142" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">1</text>
+  <text x="96" y="142" font-size="15" font-weight="700" fill="#10476b">The settings interface, and nothing else</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="170">Enhanced Tracking Protection set to Strict. Telemetry and studies off. HTTPS-Only on.</text>
+    <text x="52" y="192">Encrypted name resolution on. Permissions set to block by default.</text>
+    <text x="52" y="218" font-weight="700" fill="#10476b">What this buys: Strict brings Total Cookie Protection, which isolates storage per site.</text>
+  </g>
+
+  <rect x="30" y="246" width="690" height="132" rx="10" fill="#56B4E9" fill-opacity="0.16" stroke="#56B4E9" stroke-width="2.5"/>
+  <circle cx="66" cy="280" r="17" fill="#56B4E9"/><text x="66" y="286" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">2</text>
+  <text x="96" y="286" font-size="15" font-weight="700" fill="#1f5f7f">One content blocker, and containers</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="314">A single well-maintained content blocker. Multi-Account Containers for separation</text>
+    <text x="52" y="336">between your identities inside one browser.</text>
+    <text x="52" y="362" font-weight="700" fill="#1f5f7f">What this buys: the unlinkability from Figure 1, question 3, at very low cost.</text>
+  </g>
+
+  <rect x="30" y="390" width="690" height="132" rx="10" fill="#E69F00" fill-opacity="0.14" stroke="#E69F00" stroke-width="2.5"/>
+  <circle cx="66" cy="424" r="17" fill="#E69F00"/><text x="66" y="430" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">3</text>
+  <text x="96" y="430" font-size="15" font-weight="700" fill="#8a6000">Targeted fingerprinting protection</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="458">The lighter fingerprinting protection inside Enhanced Tracking Protection. This is what</text>
+    <text x="52" y="480">Mozilla recommends for most people.</text>
+    <text x="52" y="506" font-weight="700" fill="#8a6000">What this buys: real reduction, and it can be relaxed for one site without turning it all off.</text>
+  </g>
+
+  <rect x="30" y="534" width="690" height="150" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <circle cx="66" cy="568" r="17" fill="#b3261e"/><text x="66" y="574" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">4</text>
+  <text x="96" y="574" font-size="15" font-weight="700" fill="#8c1d18">Resist Fingerprinting, or a community preference file</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="602">The Tor-derived uniformity mode. It forces one time zone, rounds the window with letterbox</text>
+    <text x="52" y="624">bars, limits fonts, and prompts before a page can read canvas pixels. It does not add noise.</text>
+    <text x="52" y="650" font-weight="700" fill="#8c1d18">The catch: it is global. On or off, every tab, with no per-site relief. Pages will break.</text>
+    <text x="52" y="672">Reach for this only when Figure 1 question 2 said yes, and then ask why you are not using Tor Browser.</text>
+  </g>
+
+  <rect x="740" y="102" width="410" height="582" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+  <text x="762" y="132" font-size="14.5" font-weight="700" fill="#111827">Preferences older guides tell you to set</text>
+  <text x="762" y="152" font-size="12.5" fill="#6b7280">Check each one before you copy it</text>
+  <line x1="762" y1="166" x2="1128" y2="166" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <g font-size="12" fill="#374151">
+    <text x="762" y="192" font-weight="700" font-family="Consolas, Menlo, monospace" fill="#8c1d18">privacy.firstparty.isolate</text>
+    <text x="762" y="212">Superseded. Total Cookie Protection already does</text>
+    <text x="762" y="230">this, is on with Strict, and breaks far less. Setting</text>
+    <text x="762" y="248">both is redundant and causes problems.</text>
+
+    <text x="762" y="286" font-weight="700" font-family="Consolas, Menlo, monospace" fill="#8c1d18">dom.battery.enabled</text>
+    <text x="762" y="306">Pointless in Firefox. The battery interface was</text>
+    <text x="762" y="324">removed from Firefox years ago. It is Chrome</text>
+    <text x="762" y="342">that still exposes it.</text>
+
+    <text x="762" y="380" font-weight="700" font-family="Consolas, Menlo, monospace" fill="#8c1d18">webgl.disabled</text>
+    <text x="762" y="400">Heavy-handed. It breaks maps and charts, and</text>
+    <text x="762" y="418">the absence of graphics support is itself an</text>
+    <text x="762" y="436">unusual signal. Tier 3 or 4 already limits it.</text>
+
+    <text x="762" y="474" font-weight="700" font-family="Consolas, Menlo, monospace" fill="#8c1d18">network.http.referer.XOriginPolicy</text>
+    <text x="762" y="494">Mostly redundant now. The browser default</text>
+    <text x="762" y="512">already sends only the origin across sites.</text>
+    <text x="762" y="530">Tightening it further mainly breaks sign-in flows.</text>
+
+    <text x="762" y="568" font-weight="700" font-family="Consolas, Menlo, monospace" fill="#8c1d18">media.peerconnection.enabled = false</text>
+    <text x="762" y="588">Blunt. It disables video calling outright. The</text>
+    <text x="762" y="606">local address leak this was written for is largely</text>
+    <text x="762" y="624">closed already, as Lesson 2.1 covered.</text>
+
+    <text x="762" y="662" font-weight="700" fill="#111827">The pattern behind all five</text>
+    <text x="762" y="682">Each was good advice once. Each was copied</text>
+    <text x="762" y="700">forward past the change that retired it.</text>
+  </g>
+
+  <text x="590" y="742" text-anchor="middle" font-size="13.5" fill="#4b5563">A preference name in a guide is not advice. It is advice with an expiry date that nobody printed on it.</text>
+  <text x="590" y="764" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Before you set one, find out what it does now, and what the browser already does without it.</text>
+</svg>

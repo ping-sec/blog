@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 810" width="1180" height="810" role="img" aria-labelledby="ac-title ac-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ac-title">Figure 2. Three providers tested by reality, and what happened next</title>
+  <desc id="ac-desc">Three case studies. One provider claimed to keep no logs, supplied connection records to investigators in 2017, then commissioned an independent review in 2019 and a second in 2021 that permitted unannounced checks. A second provider supplied connection records in 2016 while under a previous owner, and has since changed hands twice, so the company that logged is not the company operating today. A third had its offices searched in 2023 by police intending to seize customer data, and had nothing to give. A band below argues that a permanent avoid list based on a single incident discards the most informative part of each story, which is what the provider did afterwards.</desc>
+
+  <rect x="0" y="0" width="1180" height="810" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: What Providers Did After Being Tested</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Standard guidance keeps a permanent avoid list. The incident is the least informative part of each of these stories.</text>
+
+  <rect x="30" y="100" width="360" height="356" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#E69F00"/>
+  <text x="210" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">CAUGHT, THEN CHANGED</text>
+  <text x="210" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the case worth thinking about</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="182" font-weight="700" fill="#8c1d18">2017: it supplied records</text>
+    <text x="52" y="204">A provider whose policy said it kept no logs</text>
+    <text x="52" y="222">supplied connection records that helped</text>
+    <text x="52" y="240">identify a suspect in a stalking case.</text>
+    <text x="52" y="262">It later said its policy had meant browsing</text>
+    <text x="52" y="280">activity rather than connection metadata.</text>
+    <text x="52" y="308" font-weight="700" fill="#00614a">2019 and 2021: it submitted to review</text>
+    <text x="52" y="330">An independent review in 2019, and a second</text>
+    <text x="52" y="348">in 2021 with a firm permitted to check</text>
+    <text x="52" y="366">without prior notice.</text>
+    <text x="52" y="396" font-style="italic" fill="#8a6000">Unannounced checking is a stronger regime</text>
+    <text x="52" y="414" font-style="italic" fill="#8a6000">than most providers submit to, including</text>
+    <text x="52" y="432" font-style="italic" fill="#8a6000">several on the recommended list.</text>
+  </g>
+
+  <rect x="410" y="100" width="360" height="356" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M410 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#0072B2"/>
+  <text x="590" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">CAUGHT, THEN SOLD</text>
+  <text x="590" y="146" text-anchor="middle" font-size="11" fill="#ffffff">a different question entirely</text>
+  <g font-size="12" fill="#374151">
+    <text x="432" y="182" font-weight="700" fill="#8c1d18">2016: it supplied records</text>
+    <text x="432" y="204">Another provider advertising no logging</text>
+    <text x="432" y="222">supplied connection records to investigators.</text>
+    <text x="432" y="250" font-weight="700" fill="#10476b">And then it changed hands. Twice.</text>
+    <text x="432" y="272">The company that kept those records is not</text>
+    <text x="432" y="290">the company operating the service today,</text>
+    <text x="432" y="308">and the current owner is a different</text>
+    <text x="432" y="326">business with different people.</text>
+    <text x="432" y="356" font-weight="700" fill="#8a6000">So what is the incident evidence of?</text>
+    <text x="432" y="378">Something about the brand's history, and</text>
+    <text x="432" y="396">very little about the operation you would</text>
+    <text x="432" y="414">be buying from now. Ownership cuts both</text>
+    <text x="432" y="432">ways, which nobody says.</text>
+  </g>
+
+  <rect x="790" y="100" width="360" height="356" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M790 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#009E73"/>
+  <text x="970" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">TESTED, AND EMPTY</text>
+  <text x="970" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the outcome everybody wants</text>
+  <g font-size="12" fill="#374151">
+    <text x="812" y="182" font-weight="700" fill="#00614a">2023: the police arrived</text>
+    <text x="812" y="204">Officers executed a search warrant at a</text>
+    <text x="812" y="222">provider's offices intending to seize</text>
+    <text x="812" y="240">computers holding customer data.</text>
+    <text x="812" y="268" font-weight="700" fill="#00614a">The data did not exist. They left</text>
+    <text x="812" y="286" font-weight="700" fill="#00614a">without taking anything.</text>
+    <text x="812" y="314">This is the strongest evidence available</text>
+    <text x="812" y="332">about any provider, and it is rare because</text>
+    <text x="812" y="350">somebody has to come looking first.</text>
+    <text x="812" y="380" font-style="italic" fill="#8a6000">Notice that this happened in a country the</text>
+    <text x="812" y="398" font-style="italic" fill="#8a6000">standard jurisdiction list tells you to</text>
+    <text x="812" y="416" font-style="italic" fill="#8a6000">avoid, which is Section 4's argument in</text>
+    <text x="812" y="434" font-style="italic" fill="#8a6000">one sentence.</text>
+  </g>
+
+  <rect x="30" y="478" width="1120" height="150" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="508" font-size="15.5" font-weight="700" fill="#111827">Why "caught once, avoid forever" is a lazy rule</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="534" r="3.5" fill="#374151"/><text x="80" y="538"><tspan font-weight="700">It discards the informative half.</tspan> What a provider does after an incident tells you about its current management. The incident tells you about a policy in 2016 or 2017.</text>
+    <circle cx="66" cy="560" r="3.5" fill="#374151"/><text x="80" y="564"><tspan font-weight="700">It rewards never being tested.</tspan> A provider nobody has ever come looking for sits above one that was tested and responded, purely because there is nothing on its record.</text>
+    <circle cx="66" cy="586" r="3.5" fill="#374151"/><text x="80" y="590"><tspan font-weight="700">And it ignores ownership changes</tspan>, which the same guidance treats as decisive when a company it dislikes buys a brand, and forgets when the ownership moves the other way.</text>
+    <circle cx="66" cy="612" r="3.5" fill="#8c1d18"/><text x="80" y="616"><tspan font-weight="700">None of which means the incidents do not matter.</tspan> They do. They are one input, dated, alongside what came after.</text>
+  </g>
+
+  <rect x="30" y="650" width="1120" height="86" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="678" font-size="14.5" font-weight="700" fill="#8c1d18">The distinction these incidents actually turned on, and it is worth carrying away</text>
+  <text x="56" y="704" font-size="12.5" fill="#374151">In both cases the provider supplied connection records rather than browsing history, and in both cases its marketing had said "no logs" without distinguishing the two.</text>
+  <text x="56" y="724" font-size="12.5" fill="#374151">A policy that does not name the categories separately is not a policy. It is a phrase, and Section 3 is about reading past it.</text>
+
+  <text x="590" y="772" text-anchor="middle" font-size="13.5" fill="#4b5563">Judge a provider on its current architecture, its current ownership, and the most recent time anybody checked.</text>
+  <text x="590" y="796" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">A list of villains from a decade ago is easier to write and tells the reader almost nothing about what to buy today.</text>
+</svg>

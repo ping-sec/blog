@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" role="img" aria-labelledby="pk-title pk-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="pk-title">Figure 3. Where passkeys change the picture, and where they do not</title>
+  <desc id="pk-desc">A comparison of what a password requires against what a passkey requires. With a password, a secret is sent to the site and can be phished, reused, or stolen from the site's own database. With a passkey, a private key stays on your device, only a signature is sent, and the credential is bound to the site's identity so it cannot be presented to a lookalike. A band below states what does not change: the vault holding the passkeys becomes more important, not less, and most accounts still have a password behind the passkey.</desc>
+
+  <rect x="0" y="0" width="1180" height="700" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: What a Passkey Changes About Your Vault</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Your password manager now stores two different kinds of thing, and they fail in different ways.</text>
+
+  <rect x="30" y="104" width="540" height="356" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 114 a10 10 0 0 1 10 -10 h520 a10 10 0 0 1 10 10 v38 h-540 z" fill="#E69F00"/>
+  <text x="300" y="130" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">A PASSWORD</text>
+  <text x="300" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">a shared secret, sent to whoever asks convincingly</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="184" font-weight="700" fill="#8a6000">What leaves your device</text>
+    <text x="52" y="206">The secret itself, every time you sign in.</text>
+
+    <text x="52" y="244" font-weight="700" fill="#8c1d18">Can be phished</text>
+    <text x="52" y="266">A convincing lookalike page receives it and</text>
+    <text x="52" y="286">can replay it. Your manager may decline to</text>
+    <text x="52" y="306">fill, and you can still type it in yourself.</text>
+
+    <text x="52" y="344" font-weight="700" fill="#8c1d18">Can be stolen from the site</text>
+    <text x="52" y="366">The site holds something derived from it, and</text>
+    <text x="52" y="386">a breach of the site puts that at risk.</text>
+
+    <text x="52" y="424" font-weight="700" fill="#8c1d18">Can be reused</text>
+    <text x="52" y="446">Which is the one failure a password manager</text>
+    <text x="52" y="466">already solves, and the reason you have one.</text>
+  </g>
+
+  <rect x="610" y="104" width="540" height="356" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M610 114 a10 10 0 0 1 10 -10 h520 a10 10 0 0 1 10 10 v38 h-540 z" fill="#009E73"/>
+  <text x="880" y="130" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">A PASSKEY</text>
+  <text x="880" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">a key pair, bound to one site, that never leaves</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="632" y="184" font-weight="700" fill="#00614a">What leaves your device</text>
+    <text x="632" y="206">A signature over a fresh challenge. Never the</text>
+    <text x="632" y="226">private key, and never anything replayable.</text>
+
+    <text x="632" y="264" font-weight="700" fill="#00614a">Resists phishing structurally</text>
+    <text x="632" y="286">The credential is bound to the real site's</text>
+    <text x="632" y="306">identity. A lookalike domain cannot request it,</text>
+    <text x="632" y="326">and you cannot hand it over by mistake.</text>
+
+    <text x="632" y="364" font-weight="700" fill="#00614a">Survives a breach of the site</text>
+    <text x="632" y="386">The site holds only a public key, which is</text>
+    <text x="632" y="406">worth nothing to whoever steals it.</text>
+
+    <text x="632" y="444" font-style="italic" fill="#00614a">This is a genuine improvement, not a rebrand.</text>
+  </g>
+
+  <rect x="30" y="486" width="1120" height="118" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="516" font-size="15" font-weight="700" fill="#8c1d18">What does not change, and what most coverage omits</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="542" r="3.5" fill="#8c1d18"/><text x="80" y="546" font-weight="700">The vault matters more, not less.</text><text x="330" y="546">It now holds credentials that cannot be reset by changing a password.</text>
+    <circle cx="66" cy="568" r="3.5" fill="#8c1d18"/><text x="80" y="572" font-weight="700">Most accounts keep a password behind the passkey.</text><text x="430" y="572">If the recovery path is still a password and a code by message, that is the real strength.</text>
+    <circle cx="66" cy="592" r="3.5" fill="#8c1d18"/><text x="80" y="596" font-weight="700">Sync means copies.</text><text x="256" y="596">A passkey synchronised across devices lives wherever your vault lives, with all of Figure 1 applying to it.</text>
+  </g>
+
+  <text x="590" y="646" text-anchor="middle" font-size="13.5" fill="#4b5563">Adopt passkeys where they are offered. Then check what happens when you tell that site you have lost your device,</text>
+  <text x="590" y="672" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">because that path is the one an attacker will use, and Lesson 4.4 is about exactly this.</text>
+</svg>

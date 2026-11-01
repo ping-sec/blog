@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" width="1180" height="720" role="img" aria-labelledby="ds-title ds-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ds-title">Figure 3. Four fingerprinting defense strategies compared</title>
+  <desc id="ds-desc">A table of four strategies. Blocking refuses the API and is used by Tor Browser for canvas. Uniformity makes every user report identical values and is the Tor Browser design goal. Randomisation adds per-session noise and is the Brave approach, called farbling. Compartmentalisation separates identities across profiles or machines. Two columns distinguish whether you are unique inside a single session from whether sessions can be linked to each other, because the strategies differ on those two questions.</desc>
+
+  <rect x="0" y="0" width="1180" height="720" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Four Strategies, and the Two Questions They Answer Differently</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Being unique in one session and being linkable across sessions are separate problems. Most guidance confuses them.</text>
+
+  <rect x="25" y="100" width="1130" height="50" rx="8" fill="#374151"/>
+  <g font-size="12.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">
+    <text x="42" y="130">STRATEGY</text>
+    <text x="212" y="130">WHAT IT DOES</text>
+    <text x="512" y="122">UNIQUE WITHIN</text><text x="512" y="139">ONE SESSION?</text>
+    <text x="682" y="122">LINKABLE ACROSS</text><text x="682" y="139">SESSIONS?</text>
+    <text x="852" y="130">USED BY</text>
+    <text x="1002" y="130">MAIN COST</text>
+  </g>
+
+  <rect x="25" y="154" width="1130" height="128" rx="8" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="2"/>
+  <text x="42" y="184" font-size="14" font-weight="700" fill="#10476b">BLOCK</text>
+  <g font-size="12" fill="#374151">
+    <text x="42" y="208">Refuse the call, or</text>
+    <text x="42" y="226">prompt the user</text>
+    <text x="212" y="184">The interface returns nothing usable, so the</text>
+    <text x="212" y="204">attribute contributes no bits at all. The</text>
+    <text x="212" y="224">absence of a value is itself observable, which</text>
+    <text x="212" y="244">is the catch.</text>
+    <text x="512" y="184" font-weight="700" fill="#00614a">No, for that</text>
+    <text x="512" y="202" font-weight="700" fill="#00614a">attribute</text>
+    <text x="512" y="226">but refusing is a</text>
+    <text x="512" y="244">signal in itself</text>
+    <text x="682" y="184" font-weight="700" fill="#00614a">Not by that</text>
+    <text x="682" y="202" font-weight="700" fill="#00614a">attribute</text>
+    <text x="852" y="184">Tor Browser, for</text>
+    <text x="852" y="204">canvas and WebGL</text>
+    <text x="852" y="224">Extensions such as</text>
+    <text x="852" y="244">CanvasBlocker</text>
+    <text x="1002" y="184">Site breakage.</text>
+    <text x="1002" y="204">Maps, charts,</text>
+    <text x="1002" y="224">games and video</text>
+    <text x="1002" y="244">tools all need these.</text>
+  </g>
+
+  <rect x="25" y="290" width="1130" height="128" rx="8" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <text x="42" y="320" font-size="14" font-weight="700" fill="#00614a">UNIFORMITY</text>
+  <g font-size="12" fill="#374151">
+    <text x="42" y="344">Everyone reports</text>
+    <text x="42" y="362">the same values</text>
+    <text x="212" y="320">Screen size, fonts, time zone, language and</text>
+    <text x="212" y="340">headers are forced to one shared set, so no</text>
+    <text x="212" y="360">member of the group can be told apart from</text>
+    <text x="212" y="380">any other member.</text>
+    <text x="512" y="320" font-weight="700" fill="#00614a">No</text>
+    <text x="512" y="344">you are one of</text>
+    <text x="512" y="362">many identical users</text>
+    <text x="682" y="320" font-weight="700" fill="#00614a">No</text>
+    <text x="682" y="344">as long as you</text>
+    <text x="682" y="362">change nothing</text>
+    <text x="852" y="320" font-weight="700">Tor Browser</text>
+    <text x="852" y="344">This is its stated</text>
+    <text x="852" y="362">design goal</text>
+    <text x="1002" y="320">You must not</text>
+    <text x="1002" y="340">customise anything.</text>
+    <text x="1002" y="360">Resizing the window</text>
+    <text x="1002" y="380">or adding an add-on</text>
+    <text x="1002" y="398">breaks the set.</text>
+  </g>
+
+  <rect x="25" y="426" width="1130" height="128" rx="8" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="42" y="456" font-size="14" font-weight="700" fill="#8a6000">RANDOMISE</text>
+  <g font-size="12" fill="#374151">
+    <text x="42" y="480">Add per-session</text>
+    <text x="42" y="498">noise to the result</text>
+    <text x="212" y="456">Canvas, audio and similar readings get small</text>
+    <text x="212" y="476">random changes that differ per site and per</text>
+    <text x="212" y="496">session, so the value collected today does not</text>
+    <text x="212" y="516">match the value collected tomorrow.</text>
+    <text x="512" y="456" font-weight="700" fill="#8a6000">Yes</text>
+    <text x="512" y="480">a random value is</text>
+    <text x="512" y="498">still a unique value</text>
+    <text x="682" y="456" font-weight="700" fill="#00614a">No</text>
+    <text x="682" y="480">this is exactly what</text>
+    <text x="682" y="498">it is built to stop</text>
+    <text x="852" y="456" font-weight="700">Brave</text>
+    <text x="852" y="480">Its own name for</text>
+    <text x="852" y="498">this is farbling</text>
+    <text x="1002" y="456">Little breakage, but</text>
+    <text x="1002" y="476">the noise itself can</text>
+    <text x="1002" y="496">be detected, marking</text>
+    <text x="1002" y="516">you as a randomiser.</text>
+  </g>
+
+  <rect x="25" y="562" width="1130" height="112" rx="8" fill="#56B4E9" fill-opacity="0.14" stroke="#56B4E9" stroke-width="2"/>
+  <text x="42" y="592" font-size="14" font-weight="700" fill="#1f5f7f">SEPARATE</text>
+  <g font-size="12" fill="#374151">
+    <text x="42" y="616">One identity per</text>
+    <text x="42" y="634">profile or machine</text>
+    <text x="212" y="592">Change the thing being measured instead of</text>
+    <text x="212" y="612">hiding it. A separate profile, virtual machine or</text>
+    <text x="212" y="632">device per identity, with no crossover of</text>
+    <text x="212" y="652">accounts, files or habits.</text>
+    <text x="512" y="592" font-weight="700" fill="#8a6000">Yes</text>
+    <text x="512" y="616">each identity is still</text>
+    <text x="512" y="634">unique on its own</text>
+    <text x="682" y="592" font-weight="700" fill="#00614a">No</text>
+    <text x="682" y="616">the identities do not</text>
+    <text x="682" y="634">share a machine</text>
+    <text x="852" y="592">Your own setup,</text>
+    <text x="852" y="612">built deliberately</text>
+    <text x="1002" y="592">Discipline. One</text>
+    <text x="1002" y="612">mistaken window</text>
+    <text x="1002" y="632">undoes it, and the</text>
+    <text x="1002" y="652">mistake is silent.</text>
+  </g>
+
+  <text x="590" y="704" text-anchor="middle" font-size="13.5" fill="#4b5563">Read the two middle columns together. Randomising leaves you unique in every session and unlinkable between them, which is the right trade for most operational work.</text>
+</svg>

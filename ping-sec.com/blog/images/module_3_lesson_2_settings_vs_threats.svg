@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="sv-title sv-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="sv-title">Figure 2. Which setting protects you from whom</title>
+  <desc id="sv-desc">A matrix of eight messenger settings against four observers: the service operator, the person you are messaging, somebody holding your unlocked device, and somebody who compels the provider with legal process. Each cell marks whether that setting helps against that observer. The pattern shows that most settings address only one observer, and that the last column is barely affected by any of them.</desc>
+
+  <rect x="0" y="0" width="1200" height="700" fill="#ffffff"/>
+
+  <text x="600" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Each Setting Answers One Observer</text>
+  <text x="600" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">A configuration checklist tells you what to switch on. This tells you what each switch is for.</text>
+
+  <rect x="30" y="96" width="1140" height="62" rx="8" fill="#374151"/>
+  <g font-size="11.5" font-weight="700" fill="#ffffff" letter-spacing="0.4">
+    <text x="46" y="133">SETTING</text>
+    <text x="452" y="120">The service</text><text x="452" y="136">operator</text>
+    <text x="642" y="120">The person you</text><text x="642" y="136">are messaging</text>
+    <text x="832" y="120">Somebody holding</text><text x="832" y="136">your unlocked phone</text>
+    <text x="1022" y="120">Legal process</text><text x="1022" y="136">against the provider</text>
+  </g>
+
+  <g font-size="12.5">
+    <rect x="30" y="166" width="1140" height="44" rx="5" fill="#0072B2" fill-opacity="0.06"/>
+    <text x="46" y="194" font-weight="700" fill="#111827">Disable read receipts</text>
+    <text x="452" y="194" fill="#6b7280">no change</text>
+    <text x="642" y="194" font-weight="700" fill="#00614a">helps</text>
+    <text x="832" y="194" fill="#6b7280">no change</text>
+    <text x="1022" y="194" fill="#6b7280">no change</text>
+
+    <rect x="30" y="216" width="1140" height="44" rx="5" fill="#0072B2" fill-opacity="0.06"/>
+    <text x="46" y="244" font-weight="700" fill="#111827">Disable typing indicators</text>
+    <text x="452" y="244" fill="#6b7280">no change</text>
+    <text x="642" y="244" font-weight="700" fill="#00614a">helps</text>
+    <text x="832" y="244" fill="#6b7280">no change</text>
+    <text x="1022" y="244" fill="#6b7280">no change</text>
+
+    <rect x="30" y="266" width="1140" height="44" rx="5" fill="#E69F00" fill-opacity="0.10"/>
+    <text x="46" y="294" font-weight="700" fill="#111827">Disable link previews</text>
+    <text x="452" y="294" font-weight="700" fill="#00614a">helps</text>
+    <text x="642" y="294" fill="#6b7280">no change</text>
+    <text x="832" y="294" fill="#6b7280">no change</text>
+    <text x="1022" y="294" fill="#6b7280">no change</text>
+
+    <rect x="30" y="316" width="1140" height="44" rx="5" fill="#E69F00" fill-opacity="0.10"/>
+    <text x="46" y="344" font-weight="700" fill="#111827">Always relay calls</text>
+    <text x="452" y="344" fill="#6b7280">no change</text>
+    <text x="642" y="344" font-weight="700" fill="#00614a">helps, hides your address</text>
+    <text x="832" y="344" fill="#6b7280">no change</text>
+    <text x="1022" y="344" fill="#6b7280">no change</text>
+
+    <rect x="30" y="366" width="1140" height="44" rx="5" fill="#E69F00" fill-opacity="0.10"/>
+    <text x="46" y="394" font-weight="700" fill="#111827">Sealed sender</text>
+    <text x="452" y="394" font-weight="700" fill="#00614a">helps</text>
+    <text x="642" y="394" fill="#6b7280">no change</text>
+    <text x="832" y="394" fill="#6b7280">no change</text>
+    <text x="1022" y="394" font-weight="700" fill="#8a6000">indirectly</text>
+
+    <rect x="30" y="416" width="1140" height="44" rx="5" fill="#009E73" fill-opacity="0.09"/>
+    <text x="46" y="444" font-weight="700" fill="#111827">Screen lock on the app</text>
+    <text x="452" y="444" fill="#6b7280">no change</text>
+    <text x="642" y="444" fill="#6b7280">no change</text>
+    <text x="832" y="444" font-weight="700" fill="#00614a">helps</text>
+    <text x="1022" y="444" fill="#6b7280">no change</text>
+
+    <rect x="30" y="466" width="1140" height="44" rx="5" fill="#009E73" fill-opacity="0.09"/>
+    <text x="46" y="494" font-weight="700" fill="#111827">Notifications hide sender and content</text>
+    <text x="452" y="494" fill="#6b7280">no change</text>
+    <text x="642" y="494" fill="#6b7280">no change</text>
+    <text x="832" y="494" font-weight="700" fill="#00614a">helps, and against a glance</text>
+    <text x="1022" y="494" fill="#6b7280">no change</text>
+
+    <rect x="30" y="516" width="1140" height="44" rx="5" fill="#009E73" fill-opacity="0.09"/>
+    <text x="46" y="544" font-weight="700" fill="#111827">Disappearing messages</text>
+    <text x="452" y="544" fill="#6b7280">no change</text>
+    <text x="642" y="544" fill="#6b7280">they can still capture it</text>
+    <text x="832" y="544" font-weight="700" fill="#00614a">helps a great deal</text>
+    <text x="1022" y="544" fill="#6b7280">no change</text>
+  </g>
+
+  <rect x="30" y="572" width="1140" height="112" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="602" font-size="14.5" font-weight="700" fill="#111827">Two things to read off this table</text>
+  <text x="56" y="628" font-size="12.5" fill="#374151">The last column is almost entirely unaffected. What a provider can be compelled to hand over was decided when the service was designed, not by anything you</text>
+  <text x="56" y="648" font-size="12.5" fill="#374151">switch on afterwards. That is a platform choice, from Lesson 3.1.</text>
+  <text x="56" y="670" font-size="12.5" fill="#374151">And most settings help against exactly one observer, so switching them all on is not depth. It is coverage. Know which one each is covering.</text>
+</svg>

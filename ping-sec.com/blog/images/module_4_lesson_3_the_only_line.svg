@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="ol-title ol-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ol-title">Figure 1. The only line in the ranking that changes the attacker's job</title>
+  <desc id="ol-desc">A ranking of authentication methods split by a single dividing line rather than by tiers. Above the line are hardware security keys and passkeys with user verification, which share one property: a perfect replica of a login page obtains nothing usable. Below the line are time based codes from an application, push approval with number matching, plain push approval, and codes by text message. All four share the same defeat, which is that the value can be relayed by an attacker in real time, and they are ranked by how many additional ways there are to lose them. A band below notes that email codes and security questions are not second factors at all.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The Only Line That Changes the Attacker's Job</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">A five star method and a four star method sound one step apart. They are not one step apart, and the star rating is what hides that.</text>
+
+  <rect x="30" y="98" width="1120" height="196" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <text x="52" y="126" font-size="15" font-weight="700" fill="#00614a">PHISHING RESISTANT</text>
+  <text x="240" y="126" font-size="12.5" fill="#374151">A perfect replica of the login page obtains nothing it can use. Not because you noticed, and not because you were careful.</text>
+
+  <rect x="52" y="142" width="530" height="132" rx="8" fill="#ffffff" stroke="#009E73" stroke-width="2"/>
+  <text x="72" y="168" font-size="13.5" font-weight="700" fill="#00614a">A hardware security key</text>
+  <g font-size="12" fill="#374151">
+    <text x="72" y="190">The device from Lesson 4.2, as a second factor or on</text>
+    <text x="72" y="208">its own. Nothing replayable ever leaves it.</text>
+    <text x="72" y="232" font-weight="700">Costs money, and can be lost.</text>
+    <text x="72" y="252">Which is a lockout problem rather than a security one,</text>
+    <text x="72" y="266">and Lesson 4.2 Figure 3 is the map for it.</text>
+  </g>
+
+  <rect x="598" y="142" width="530" height="132" rx="8" fill="#ffffff" stroke="#009E73" stroke-width="2"/>
+  <text x="618" y="168" font-size="13.5" font-weight="700" fill="#00614a">A passkey, with user verification</text>
+  <g font-size="12" fill="#374151">
+    <text x="618" y="190">The same protocol, with the credential in your vault or</text>
+    <text x="618" y="208">on a device. One gesture, two factors.</text>
+    <text x="618" y="232" font-weight="700" fill="#8a6000">Without user verification it is possession only.</text>
+    <text x="618" y="252">A setting almost nobody checks, and the thing that</text>
+    <text x="618" y="266">decides whether one passkey counts as two factors.</text>
+  </g>
+
+  <rect x="30" y="310" width="1120" height="52" rx="8" fill="#374151"/>
+  <text x="590" y="333" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">EVERYTHING BELOW THIS LINE SHARES ONE DEFEAT</text>
+  <text x="590" y="352" text-anchor="middle" font-size="12" fill="#e5e7eb">You hand over a value, and an attacker relays it to the real site while it is still valid. Ranked below by what else can go wrong.</text>
+
+  <rect x="30" y="378" width="1120" height="252" rx="10" fill="#E69F00" fill-opacity="0.10" stroke="#E69F00" stroke-width="2.5"/>
+
+  <rect x="52" y="398" width="254" height="212" rx="8" fill="#ffffff" stroke="#E69F00" stroke-width="2"/>
+  <text x="70" y="424" font-size="13" font-weight="700" fill="#8a6000">Codes from an app</text>
+  <text x="70" y="442" font-size="11" fill="#8a6000">time based, thirty seconds</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="70" y="470">Best of the phishable set,</text>
+    <text x="70" y="488">and a genuine improvement.</text>
+    <text x="70" y="512" font-weight="700" fill="#00614a">No phone number involved,</text>
+    <text x="70" y="530" font-weight="700" fill="#00614a">so SIM swapping does not</text>
+    <text x="70" y="548" font-weight="700" fill="#00614a">reach it. Works offline.</text>
+    <text x="70" y="574">Its real problem is backup:</text>
+    <text x="70" y="592">one lost phone, everything.</text>
+  </g>
+
+  <rect x="326" y="398" width="254" height="212" rx="8" fill="#ffffff" stroke="#E69F00" stroke-width="2"/>
+  <text x="344" y="424" font-size="13" font-weight="700" fill="#8a6000">Push, with number</text>
+  <text x="344" y="442" font-size="13" font-weight="700" fill="#8a6000">matching</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="344" y="470">You type a number shown on</text>
+    <text x="344" y="488">screen into the application.</text>
+    <text x="344" y="512" font-weight="700" fill="#00614a">Bombardment stops working,</text>
+    <text x="344" y="530" font-weight="700" fill="#00614a">because there is nothing to</text>
+    <text x="344" y="548" font-weight="700" fill="#00614a">approve by reflex.</text>
+    <text x="344" y="574">A relay still works: it shows</text>
+    <text x="344" y="592">you the number to type.</text>
+  </g>
+
+  <rect x="600" y="398" width="254" height="212" rx="8" fill="#b3261e" fill-opacity="0.06" stroke="#b3261e" stroke-width="2"/>
+  <text x="618" y="424" font-size="13" font-weight="700" fill="#8c1d18">Push, plain approve</text>
+  <text x="618" y="442" font-size="11" fill="#8c1d18">a yes or no button</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="618" y="470">Adds the fatigue attack to</text>
+    <text x="618" y="488">everything above.</text>
+    <text x="618" y="512" font-weight="700" fill="#8c1d18">The 2022 case study is in</text>
+    <text x="618" y="530" font-weight="700" fill="#8c1d18">Figure 3, and it is not the</text>
+    <text x="618" y="548" font-weight="700" fill="#8c1d18">story most people tell.</text>
+    <text x="618" y="574">Switch on number matching</text>
+    <text x="618" y="592">if the service offers it.</text>
+  </g>
+
+  <rect x="874" y="398" width="254" height="212" rx="8" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="892" y="424" font-size="13" font-weight="700" fill="#8c1d18">Codes by text message</text>
+  <text x="892" y="442" font-size="11" fill="#8c1d18">tied to a phone number</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="892" y="470">Adds SIM swapping, which</text>
+    <text x="892" y="488">needs no access to you at</text>
+    <text x="892" y="506">all, only to your carrier.</text>
+    <text x="892" y="530" font-weight="700" fill="#8c1d18">Now a restricted method in</text>
+    <text x="892" y="548" font-weight="700" fill="#8c1d18">the current NIST guidance,</text>
+    <text x="892" y="566" font-weight="700" fill="#8c1d18">and no longer sufficient</text>
+    <text x="892" y="584" font-weight="700" fill="#8c1d18">on its own at that level.</text>
+  </g>
+
+  <rect x="30" y="648" width="1120" height="102" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="676" font-size="15" font-weight="700" fill="#111827">Two things commonly offered as a second factor are not a second factor at all</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="702" r="3.5" fill="#8c1d18"/><text x="80" y="706"><tspan font-weight="700">Codes to your email address.</tspan> The same channel your account recovery already uses, so it protects nothing your email does not already protect. For an email account it is circular.</text>
+    <circle cx="66" cy="728" r="3.5" fill="#8c1d18"/><text x="80" y="732"><tspan font-weight="700">Security questions.</tspan> Still something you know, so not a second category at all, and the answers are frequently published by you. Use invented answers stored in the vault.</text>
+  </g>
+
+  <text x="590" y="778" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Getting above the line is one decision. Rearranging methods below it is housekeeping, and worth doing, and not the same thing.</text>
+</svg>

@@ -195,7 +195,7 @@ The standard routine is a list of websites. Here is one organised around Figure 
 
 ## 8. Detection and Correlation, Corrected
 
-Two claims from the source material need adjusting for consistency with earlier lessons.
+Two common claims need adjusting for consistency with earlier lessons.
 
 **"Use port 443, it blends with normal web traffic."** Lesson 6.2 covered why this is no longer true: inspection equipment fingerprints the handshake, the client, the traffic shape and the server's response to probing, none of which is the port. Obfuscation is a separate layer with its own name at each provider.
 

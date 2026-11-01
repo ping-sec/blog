@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="bd-title bd-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="bd-title">Figure 3. The two kinds of border device search, and what your status changes</title>
+  <desc id="bd-desc">Two search types under the United States directive updated in January 2026. A basic search is an officer reviewing the device by hand, permitted at officer discretion with or without suspicion. An advanced search connects external equipment to review, copy or analyse the contents, and requires supervisory approval together with reasonable suspicion of a violation or a national security concern. A panel below explains that citizens cannot be refused re-entry for declining to unlock a device, though the device may be detained, while visitors and visa holders can be refused entry. A final band gives the only reliable preparation, which is not having the material on the device, and warns against concealment techniques and against making false statements.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: The Border, With the Distinctions Kept In</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Most guidance says "assume it will be searched, bring a clean device." Correct, and it flattens two distinctions that decide what happens to you.</text>
+
+  <rect x="30" y="102" width="550" height="248" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 112 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v42 h-550 z" fill="#E69F00"/>
+  <text x="305" y="130" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">A BASIC SEARCH</text>
+  <text x="305" y="147" text-anchor="middle" font-size="11.5" fill="#ffffff">an officer looking through the device by hand</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="186">No external equipment. The officer scrolls, opens</text>
+    <text x="52" y="206">applications, and reads what is on the device.</text>
+    <text x="52" y="238" font-weight="700" fill="#8a6000">Permitted at the officer's discretion, with or</text>
+    <text x="52" y="258" font-weight="700" fill="#8a6000">without any suspicion at all.</text>
+    <text x="52" y="290">This is the one that happens. If you are searched,</text>
+    <text x="52" y="310">this is almost certainly what it is.</text>
+    <text x="52" y="336" font-style="italic" fill="#8a6000">Anything visible on the device is readable.</text>
+  </g>
+
+  <rect x="600" y="102" width="550" height="248" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M600 112 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v42 h-550 z" fill="#b3261e"/>
+  <text x="875" y="130" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">AN ADVANCED SEARCH</text>
+  <text x="875" y="147" text-anchor="middle" font-size="11.5" fill="#ffffff">equipment connected, contents copied and analysed</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="186">External equipment is attached, not merely to unlock the</text>
+    <text x="622" y="206">device but to review, copy or analyse what is on it.</text>
+    <text x="622" y="238" font-weight="700" fill="#8c1d18">Requires supervisory approval and reasonable suspicion</text>
+    <text x="622" y="258" font-weight="700" fill="#8c1d18">of a violation, or a national security concern.</text>
+    <text x="622" y="290">Far rarer, and the outcome is a copy of the device rather</text>
+    <text x="622" y="310">than a look through it.</text>
+    <text x="622" y="336" font-style="italic" fill="#8c1d18">Lesson 5.1 Figure 2 decides how much this yields.</text>
+  </g>
+
+  <rect x="30" y="372" width="1120" height="152" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="402" font-size="15.5" font-weight="700" fill="#10476b">The distinction that matters most, and that most guidance collapses</text>
+
+  <rect x="56" y="416" width="530" height="90" rx="8" fill="#ffffff" stroke="#0072B2" stroke-width="2"/>
+  <text x="76" y="440" font-size="13" font-weight="700" fill="#10476b">If you are a citizen of the country you are entering</text>
+  <text x="76" y="462" font-size="12.5" fill="#374151">You cannot be refused entry for declining to unlock a device.</text>
+  <text x="76" y="482" font-size="12.5" font-weight="700" fill="#8a6000">You can be delayed, questioned at length, and the device</text>
+  <text x="76" y="498" font-size="12.5" font-weight="700" fill="#8a6000">itself can be detained, sometimes for weeks.</text>
+
+  <rect x="600" y="416" width="530" height="90" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="2"/>
+  <text x="620" y="440" font-size="13" font-weight="700" fill="#8c1d18">If you are a visitor or a visa holder</text>
+  <text x="620" y="462" font-size="12.5" fill="#374151">Refusal can mean refusal of entry, and that decision is</text>
+  <text x="620" y="482" font-size="12.5" fill="#374151">largely unreviewable at the point it is made.</text>
+  <text x="620" y="500" font-size="12.5" font-weight="700" fill="#8c1d18">The calculation is completely different. Know which you are.</text>
+
+  <rect x="30" y="546" width="1120" height="146" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="576" font-size="15.5" font-weight="700" fill="#00614a">The only preparation that reliably works, and two things that make it worse</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="602" r="3.5" fill="#00614a"/><text x="80" y="606"><tspan font-weight="700">Do not have it on the device.</tspan> Not hidden, not encrypted, not in a container. Absent. Retrieve it after arrival from somewhere that needs credentials you carry in your head.</text>
+    <circle cx="66" cy="628" r="3.5" fill="#00614a"/><text x="80" y="632"><tspan font-weight="700">Power the device off before you reach the desk.</tspan> Lesson 5.1 Figure 2: the sealed state is what an advanced search runs into, and it takes three seconds to arrange.</text>
+    <circle cx="66" cy="654" r="3.5" fill="#8c1d18"/><text x="80" y="658"><tspan font-weight="700">Do not rely on hidden volumes or deniable storage.</tspan> Examiners know the tools that support them, so denial invites escalation rather than ending it.</text>
+    <circle cx="66" cy="680" r="3.5" fill="#8c1d18"/><text x="80" y="684"><tspan font-weight="700">Do not make false statements to an officer.</tspan> That is a separate offence in most places, and a far worse one than whatever was on the phone.</text>
+  </g>
+
+  <text x="590" y="726" text-anchor="middle" font-size="13.5" fill="#4b5563">Under the directive updated in January 2026 you should also be told the purpose and authority for the search, and how to raise a concern afterwards.</text>
+  <text x="590" y="752" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">And if you carry client material under a confidentiality clause, ask the client what they expect at a border before you travel, not afterwards.</text>
+  <text x="590" y="778" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Rules and practice vary by country and change. Check the current position for your route and your status rather than trusting any lesson, including this one.</text>
+</svg>

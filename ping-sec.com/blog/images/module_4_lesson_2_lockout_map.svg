@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" width="1180" height="760" role="img" aria-labelledby="lm-title lm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="lm-title">Figure 3. The four ways you lock yourself out, and what recovers each</title>
+  <desc id="lm-desc">A table of four lockout scenarios. Losing a key is recovered by a second key that was registered on the same accounts beforehand. Forgetting the device PIN blocks the FIDO2 application after eight wrong attempts, and the only route back is a reset that erases every credential on the key. Losing every key at once is recovered by service recovery codes stored where you can reach them without the account. Using a key to unlock an offline password database has no recovery at all unless you saved the secret or programmed a second key with the same secret. The final column shows that every one of these is arranged at setup time and cannot be arranged afterwards.</desc>
+
+  <rect x="0" y="0" width="1180" height="760" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: The Lockout Map</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">A hardware key is the only security control in this course that can permanently destroy your own access. Every recovery below is arranged in advance or not at all.</text>
+
+  <rect x="30" y="98" width="1120" height="42" rx="8" fill="#374151"/>
+  <text x="48" y="125" font-size="12.5" font-weight="700" fill="#ffffff">WHAT HAPPENS</text>
+  <text x="320" y="125" font-size="12.5" font-weight="700" fill="#ffffff">WHAT IT ACTUALLY COSTS</text>
+  <text x="632" y="125" font-size="12.5" font-weight="700" fill="#ffffff">WHAT GETS YOU BACK IN</text>
+  <text x="928" y="125" font-size="12.5" font-weight="700" fill="#ffffff">WHEN YOU HAD TO ARRANGE IT</text>
+
+  <rect x="30" y="146" width="1120" height="112" rx="8" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="176" font-size="13" font-weight="700" fill="#00614a">You lose the key</text>
+  <g font-size="12" fill="#374151">
+    <text x="48" y="200">Dropped, left behind, or the</text>
+    <text x="48" y="220">connector finally gives up.</text>
+    <text x="320" y="176">Every account it was the only</text>
+    <text x="320" y="196">factor for, all at once, with no</text>
+    <text x="320" y="216">warning and usually while</text>
+    <text x="320" y="236">travelling.</text>
+    <text x="632" y="176" font-weight="700" fill="#00614a">A second key, registered on the</text>
+    <text x="632" y="196" font-weight="700" fill="#00614a">same accounts.</text>
+    <text x="632" y="216">Then revoke the lost one from</text>
+    <text x="632" y="236">every account it was on.</text>
+    <text x="928" y="176">At registration. A key you own</text>
+    <text x="928" y="196">but never registered is not a</text>
+    <text x="928" y="216">backup key, it is a spare part.</text>
+  </g>
+
+  <rect x="30" y="266" width="1120" height="132" rx="8" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="296" font-size="13" font-weight="700" fill="#8a6000">You forget the device PIN</text>
+  <g font-size="12" fill="#374151">
+    <text x="48" y="320">The PIN protecting the key</text>
+    <text x="48" y="340">itself, not any account</text>
+    <text x="48" y="360">password.</text>
+    <text x="320" y="296" font-weight="700" fill="#8c1d18">Eight wrong attempts block the</text>
+    <text x="320" y="316" font-weight="700" fill="#8c1d18">FIDO2 application entirely.</text>
+    <text x="320" y="336">The limit is fixed in the</text>
+    <text x="320" y="356">specification and cannot be</text>
+    <text x="320" y="376">raised.</text>
+    <text x="632" y="296">A factory reset of that</text>
+    <text x="632" y="316">application, which is the only</text>
+    <text x="632" y="336">route back.</text>
+    <text x="632" y="360" font-weight="700" fill="#8c1d18">It erases every passkey and</text>
+    <text x="632" y="380" font-weight="700" fill="#8c1d18">credential on the key.</text>
+    <text x="928" y="296">When you set the PIN. Put it in</text>
+    <text x="928" y="316">the password manager at the</text>
+    <text x="928" y="336">moment you choose it, because</text>
+    <text x="928" y="356">this recovery restores the</text>
+    <text x="928" y="376">device and not your access.</text>
+  </g>
+
+  <rect x="30" y="406" width="1120" height="112" rx="8" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="436" font-size="13" font-weight="700" fill="#8a6000">Every key is gone at once</text>
+  <g font-size="12" fill="#374151">
+    <text x="48" y="460">Fire, theft of a bag holding</text>
+    <text x="48" y="480">both, or simply being far from</text>
+    <text x="48" y="500">where you stored the spare.</text>
+    <text x="320" y="436">Everything, unless the service</text>
+    <text x="320" y="456">offers another route, and the</text>
+    <text x="320" y="476">good ones deliberately do not</text>
+    <text x="320" y="496">offer many.</text>
+    <text x="632" y="436" font-weight="700" fill="#8a6000">Recovery codes, treated as</text>
+    <text x="632" y="456" font-weight="700" fill="#8a6000">credentials in their own right.</text>
+    <text x="632" y="476">Stored somewhere you can reach</text>
+    <text x="632" y="496">without the account they unlock.</text>
+    <text x="928" y="436">At setup, when the service</text>
+    <text x="928" y="456">offers them once. Codes inside</text>
+    <text x="928" y="476">an account those same codes</text>
+    <text x="928" y="496">would unlock are not a backup.</text>
+  </g>
+
+  <rect x="30" y="526" width="1120" height="132" rx="8" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="556" font-size="13" font-weight="700" fill="#8c1d18">You used the key to unlock</text>
+  <text x="48" y="574" font-size="13" font-weight="700" fill="#8c1d18">an offline password database</text>
+  <g font-size="12" fill="#374151">
+    <text x="48" y="600">The challenge and response</text>
+    <text x="48" y="620">feature covered in Section 6,</text>
+    <text x="48" y="640">which is not FIDO2 at all.</text>
+    <text x="320" y="556" font-weight="700" fill="#8c1d18">The database. Permanently.</text>
+    <text x="320" y="580">There is no service to appeal</text>
+    <text x="320" y="600">to, no reset that helps, and no</text>
+    <text x="320" y="620">recovery code, because the</text>
+    <text x="320" y="640">response is part of the key.</text>
+    <text x="632" y="556" font-weight="700" fill="#8c1d18">Nothing, unless you kept a copy</text>
+    <text x="632" y="576" font-weight="700" fill="#8c1d18">of the secret, or programmed a</text>
+    <text x="632" y="596" font-weight="700" fill="#8c1d18">second key with the same one.</text>
+    <text x="632" y="620">The project documentation says</text>
+    <text x="632" y="640">this outright. Believe it.</text>
+    <text x="928" y="556">While you configure the secret,</text>
+    <text x="928" y="576">and never again afterwards.</text>
+    <text x="928" y="600">This is the one entry in the</text>
+    <text x="928" y="620">table where being late means</text>
+    <text x="928" y="640">the data is simply gone.</text>
+  </g>
+
+  <text x="590" y="694" text-anchor="middle" font-size="13.5" fill="#4b5563">Notice the pattern: the recovery column is easy in every row, and the last column is why people are locked out anyway.</text>
+  <text x="590" y="722" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Buy the second key with the first one. Registering it later is a task that never reaches the top of anybody's list.</text>
+  <text x="590" y="746" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">And test the backup key by signing in with it, because a key you have never used is an assumption rather than a backup.</text>
+</svg>

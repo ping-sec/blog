@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 850" width="1180" height="850" role="img" aria-labelledby="sd-title sd-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="sd-title">Figure 2. Say the direction, because the usual phrasing is ambiguous</title>
+  <desc id="sd-desc">The phrases VPN over Tor and Tor over VPN are used inconsistently and mean opposite things to different writers, so the projects that maintain these tools avoid them and describe the order instead. Two arrangements are drawn. Connecting to a VPN before Tor hides Tor usage from the network operator and gives the provider a permanent view of your Tor entry traffic. Connecting to Tor before a VPN gives the destination a stable address instead of a Tor exit and hands the provider a full view of your traffic while removing several of Tor's protections. A band below explains the guard relay argument, which is the technical reason a VPN added to Tor generally does not help.</desc>
+
+  <rect x="0" y="0" width="1180" height="850" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ar2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#374151"/></marker>
+  </defs>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Say the Direction, Not "Over"</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Two writers using the same phrase routinely mean opposite arrangements, which is why the projects that maintain these tools stopped using it.</text>
+
+  <rect x="30" y="98" width="1120" height="90" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="126" font-size="15" font-weight="700" fill="#8c1d18">The phrasing problem, and it is not pedantry</text>
+  <text x="56" y="150" font-size="12.5" fill="#374151">The documentation for the systems that actually implement this explicitly discourages "X over Y" as ambiguous, and writes the chain out instead.</text>
+  <text x="56" y="170" font-size="12.5" fill="#374151">Guidance using the phrases frequently attaches them to the wrong arrangement, including the material this lesson is built from.</text>
+
+  <rect x="30" y="208" width="550" height="304" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 218 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v40 h-550 z" fill="#009E73"/>
+  <text x="305" y="245" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">YOU &#8594; VPN &#8594; TOR &#8594; INTERNET</text>
+
+  <text x="52" y="284" font-size="12.5" font-weight="700" fill="#00614a">What it is for: hiding Tor usage from your network</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="308">Your operator sees a connection to a provider and not</text>
+    <text x="52" y="326">that you use Tor. That is the whole benefit, and in some</text>
+    <text x="52" y="344">places it is a serious one.</text>
+  </g>
+
+  <text x="52" y="378" font-size="12.5" font-weight="700" fill="#374151">Who sees what</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="402">Operator: a tunnel, nothing else.</text>
+    <text x="52" y="420">Provider: your real address, and that you use Tor.</text>
+    <text x="52" y="438">Tor entry relay: the provider's address.</text>
+    <text x="52" y="456">Exit relay and destination: unchanged from plain Tor.</text>
+  </g>
+
+  <text x="52" y="490" font-size="12" font-style="italic" fill="#8a6000">Acceptable where the reason above applies. Note that the</text>
+  <text x="52" y="506" font-size="12" font-style="italic" fill="#8a6000">provider becomes a permanent observer of your Tor use.</text>
+
+  <rect x="600" y="208" width="550" height="304" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M600 218 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v40 h-550 z" fill="#b3261e"/>
+  <text x="875" y="245" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">YOU &#8594; TOR &#8594; VPN &#8594; INTERNET</text>
+
+  <text x="622" y="284" font-size="12.5" font-weight="700" fill="#8c1d18">What it is for: a stable address at the far end</text>
+  <g font-size="12" fill="#374151">
+    <text x="622" y="308">The destination sees the provider rather than a Tor exit,</text>
+    <text x="622" y="326">which helps only where a service refuses Tor exits</text>
+    <text x="622" y="344">outright.</text>
+  </g>
+
+  <text x="622" y="378" font-size="12.5" font-weight="700" fill="#374151">What it costs</text>
+  <g font-size="12" fill="#374151">
+    <text x="622" y="402">Your operator sees that you use Tor. The provider sees</text>
+    <text x="622" y="420">everything you do, and now sees it consistently, which</text>
+    <text x="622" y="438">gives you a persistent identity across sessions that Tor</text>
+    <text x="622" y="456">was specifically designed to prevent.</text>
+  </g>
+
+  <text x="622" y="490" font-size="12" font-weight="700" fill="#8c1d18">You have paid Tor's costs and given away its main property.</text>
+  <text x="622" y="506" font-size="12" font-style="italic" fill="#8c1d18">The configuration is also genuinely difficult to get right.</text>
+
+  <rect x="30" y="534" width="1120" height="152" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="564" font-size="15.5" font-weight="700" fill="#10476b">The guard relay argument, which is the reason nobody explains</text>
+  <text x="56" y="590" font-size="12.5" fill="#374151">Tor deliberately keeps a small, slowly rotating set of first relays. The reasoning is that if you picked a fresh first relay every time, you would eventually pick a hostile</text>
+  <text x="56" y="610" font-size="12.5" fill="#374151">one, and repeated exposure over many sessions is worse than sustained exposure to a few. The design is a considered answer to a specific attack.</text>
+  <text x="56" y="638" font-size="13" font-weight="700" fill="#10476b">Putting a provider in front of Tor replaces that considered answer with a single permanent first hop that you chose, that sees every session, and that</text>
+  <text x="56" y="658" font-size="13" font-weight="700" fill="#10476b">knows who you are because you pay it. That is a change to Tor's threat model rather than an addition to it.</text>
+  <text x="56" y="680" font-size="12" font-style="italic" fill="#4b5563">Which is worth knowing before deciding, and is a better reason than "the project does not recommend it".</text>
+
+  <rect x="30" y="710" width="1120" height="86" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="738" font-size="14.5" font-weight="700" fill="#111827">What the project itself says, quoted rather than paraphrased</text>
+  <text x="56" y="762" font-size="12.5" fill="#374151">It does not recommend using a VPN with Tor unless you are an advanced user who knows how to configure both in a way that does not compromise your privacy.</text>
+  <text x="56" y="782" font-size="12.5" fill="#374151">That is a narrower statement than a prohibition, and a narrower one than an endorsement.</text>
+
+  <text x="590" y="828" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Write the arrow diagram every time. It takes four extra characters and removes the ambiguity that this whole section exists to correct.</text>
+</svg>

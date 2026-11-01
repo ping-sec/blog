@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 856" width="1180" height="856" role="img" aria-labelledby="rc-title rc-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="rc-title">Figure 1. Reconnaissance over Tor, task by task</title>
+  <desc id="rc-desc">Four kinds of reconnaissance work assessed against whether Tor is the right tool. Reading public sources about a target is helped, because it removes your address from that source's logs and the latency does not matter. Fetching pages from the target's own site is partly helped, since the target sees a relay rather than you, but the relay addresses are published so the target knows the request came through Tor. Active scanning is the wrong tool, because it is slow, many exits refuse the ports involved, the target sees a volunteer's address rather than yours, and you have routed your scan through somebody else's legal exposure. Anything requiring an account or a callback address is not helped at all. A band below states that Tor changes who the target sees and changes nothing about whether you were authorised, and that a lookup sent to a privacy respecting resolver is a secondary question when the connection that follows carries your own address to the target.</desc>
+
+  <rect x="0" y="0" width="1180" height="856" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Reconnaissance Over Tor, Task by Task</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">"Do your research over Tor" is the standard advice. It is right for one of these four tasks, partly right for a second, and wrong for the other two.</text>
+
+  <rect x="30" y="98" width="1120" height="34" rx="6" fill="#374151"/>
+  <text x="48" y="120" font-size="11.5" font-weight="700" fill="#ffffff">THE TASK</text>
+  <text x="390" y="120" font-size="11.5" font-weight="700" fill="#ffffff">WHAT TOR CHANGES</text>
+  <text x="840" y="120" font-size="11.5" font-weight="700" fill="#ffffff">VERDICT</text>
+
+  <rect x="30" y="140" width="1120" height="72" rx="6" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2.5"/>
+  <text x="48" y="164" font-size="12.5" font-weight="700" fill="#00614a">Reading public sources about a target</text>
+  <text x="48" y="184" font-size="11" fill="#4b5563">registries, filings, archives, code repositories,</text>
+  <text x="48" y="200" font-size="11" fill="#4b5563">anything published by a third party</text>
+  <text x="390" y="164" font-size="11.5" fill="#374151">Removes your address from that source's logs, so</text>
+  <text x="390" y="182" font-size="11.5" fill="#374151">nobody can tell later who was researching what.</text>
+  <text x="390" y="200" font-size="11.5" fill="#374151">The latency does not matter for reading.</text>
+  <text x="840" y="173" font-size="12.5" font-weight="700" fill="#00614a">Use it. This is the</text>
+  <text x="840" y="191" font-size="12.5" font-weight="700" fill="#00614a">case the advice means.</text>
+
+  <rect x="30" y="220" width="1120" height="82" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="244" font-size="12.5" font-weight="700" fill="#8a6000">Fetching pages from the target's own site</text>
+  <text x="48" y="264" font-size="11" fill="#4b5563">browsing what they publish, before</text>
+  <text x="48" y="280" font-size="11" fill="#4b5563">anything active happens</text>
+  <text x="390" y="244" font-size="11.5" fill="#374151">The target sees a relay rather than you, which is</text>
+  <text x="390" y="256" font-size="11.5" fill="#374151">the point. But relay addresses are published, so</text>
+  <text x="390" y="280" font-size="11.5" font-weight="700" fill="#8a6000">they know the request arrived through Tor, and</text>
+  <text x="390" y="298" font-size="11.5" font-weight="700" fill="#8a6000">a small site may find that notable in itself.</text>
+  <text x="840" y="253" font-size="12.5" font-weight="700" fill="#8a6000">Partly. You traded being</text>
+  <text x="840" y="271" font-size="12.5" font-weight="700" fill="#8a6000">identified for being</text>
+  <text x="840" y="289" font-size="12.5" font-weight="700" fill="#8a6000">conspicuous. Decide which.</text>
+
+  <rect x="30" y="310" width="1120" height="100" rx="6" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="48" y="334" font-size="12.5" font-weight="700" fill="#8c1d18">Active scanning and probing</text>
+  <text x="48" y="354" font-size="11" fill="#4b5563">port scans, directory enumeration,</text>
+  <text x="48" y="370" font-size="11" fill="#4b5563">anything that sends traffic the target</text>
+  <text x="48" y="386" font-size="11" fill="#4b5563">did not ask for</text>
+  <text x="390" y="334" font-size="11.5" fill="#374151">It is slow enough to change your results, and many</text>
+  <text x="390" y="352" font-size="11.5" fill="#374151">exits refuse the ports involved, so coverage is</text>
+  <text x="390" y="370" font-size="11.5" fill="#374151">uneven in ways you will not notice.</text>
+  <text x="390" y="390" font-size="11.5" font-weight="700" fill="#8c1d18">And the scan now appears to come from a volunteer's</text>
+  <text x="390" y="406" font-size="11.5" font-weight="700" fill="#8c1d18">relay, not from you. See the band below.</text>
+  <text x="840" y="343" font-size="12.5" font-weight="700" fill="#8c1d18">Wrong tool. Use</text>
+  <text x="840" y="361" font-size="12.5" font-weight="700" fill="#8c1d18">infrastructure you</text>
+  <text x="840" y="379" font-size="12.5" font-weight="700" fill="#8c1d18">rented and control,</text>
+  <text x="840" y="397" font-size="12.5" font-weight="700" fill="#8c1d18">which is Lesson 6.6.</text>
+
+  <rect x="30" y="418" width="1120" height="66" rx="6" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <text x="48" y="442" font-size="12.5" font-weight="700" fill="#374151">Anything needing an account or a callback address</text>
+  <text x="48" y="462" font-size="11" fill="#4b5563">signing in, receiving a response, being reachable</text>
+  <text x="390" y="451" font-size="11.5" fill="#374151">Nothing. Lesson 6.8's first row: you supplied the identifier yourself.</text>
+  <text x="840" y="451" font-size="12.5" font-weight="700" fill="#374151">No help available.</text>
+
+  <rect x="30" y="500" width="1120" height="130" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="530" font-size="16" font-weight="700" fill="#8c1d18">The row that matters most, said plainly</text>
+  <text x="56" y="556" font-size="12.5" fill="#374151">Sending a scan through Tor puts a volunteer's address on your scan. That volunteer receives the complaint, explains themselves to their hosting provider,</text>
+  <text x="56" y="576" font-size="12.5" fill="#374151">and carries the legal exposure Figure 2 describes. They did not agree to that, and they cannot decline it after the fact.</text>
+  <text x="56" y="602" font-size="12.5" font-weight="700" fill="#8c1d18">This is a professional ethics question before it is a technical one, and the network's own guidance asks people not to do it.</text>
+  <text x="56" y="622" font-size="12.5" fill="#374151">Rent your own infrastructure for active work. It costs about five dollars a month and it puts your own name on your own traffic, which is correct.</text>
+
+  <rect x="30" y="652" width="1120" height="88" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="680" font-size="15" font-weight="700" fill="#10476b">And a correction to how this course has framed reconnaissance elsewhere</text>
+  <text x="56" y="706" font-size="12.5" fill="#374151">Lesson 7.1 recommended a privacy-respecting resolver for reconnaissance lookups. That is a secondary question at best: <tspan font-weight="700">which resolver answered barely</tspan></text>
+  <text x="56" y="726" font-size="12.5" fill="#374151"><tspan font-weight="700">matters when the connection that follows the lookup carries your own address straight to the target.</tspan> Fix the connection first, then the lookup.</text>
+
+  <text x="590" y="790" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Tor changes who the target sees. It changes nothing whatsoever about whether you were authorised to be there.</text>
+  <text x="590" y="820" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Any tool that makes attribution harder also makes it harder to demonstrate you acted within scope. That cuts both ways, and mostly against you.</text>
+</svg>

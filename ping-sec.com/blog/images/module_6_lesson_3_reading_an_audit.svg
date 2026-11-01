@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 830" width="1180" height="830" role="img" aria-labelledby="ra-title ra-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ra-title">Figure 1. Three kinds of audit, and what each one can establish</title>
+  <desc id="ra-desc">Three different things are all called a VPN audit. An application security review examines the client software for vulnerabilities and says nothing about servers or logging. An infrastructure review examines server configuration and hardening. A no logging assurance engagement examines whether the system configuration is capable of retaining the data the provider says it does not retain. A band below gives four questions to ask of any audit report: its date, who commissioned it, what was in and out of scope, and whether the full report is published or only a summary. A final band explains that a no logging engagement is a point in time observation of configuration rather than a proof of behaviour over time, which is why frequency matters more than any single report.</desc>
+
+  <rect x="0" y="0" width="1180" height="830" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Three Different Things Are All Called "Audited"</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Guidance says to check for an audit and stops there. Which audit, of what, by whom, and when, are the whole of the information.</text>
+
+  <rect x="30" y="100" width="360" height="290" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#0072B2"/>
+  <text x="210" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">APPLICATION SECURITY</text>
+  <text x="210" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the software you install</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="182" font-weight="700" fill="#10476b">What it examines</text>
+    <text x="52" y="204">The client applications: memory handling,</text>
+    <text x="52" y="222">how keys are stored, whether the kill switch</text>
+    <text x="52" y="240">actually holds, leak behaviour.</text>
+    <text x="52" y="272" font-weight="700" fill="#10476b">What it establishes</text>
+    <text x="52" y="294">That the thing on your machine was reviewed</text>
+    <text x="52" y="312">by somebody competent at a point in time.</text>
+    <text x="52" y="344" font-weight="700" fill="#8c1d18">What it says about logging</text>
+    <text x="52" y="366" font-weight="700" fill="#8c1d18">Nothing whatsoever.</text>
+  </g>
+
+  <rect x="410" y="100" width="360" height="290" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M410 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#E69F00"/>
+  <text x="590" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">INFRASTRUCTURE REVIEW</text>
+  <text x="590" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the servers and how they are run</text>
+  <g font-size="12" fill="#374151">
+    <text x="432" y="182" font-weight="700" fill="#8a6000">What it examines</text>
+    <text x="432" y="204">Server build and hardening, how machines are</text>
+    <text x="432" y="222">provisioned and wiped, access control, whether</text>
+    <text x="432" y="240">storage is used at all.</text>
+    <text x="432" y="272" font-weight="700" fill="#8a6000">What it establishes</text>
+    <text x="432" y="294">That the estate was configured as described,</text>
+    <text x="432" y="312">on the machines the auditor was shown.</text>
+    <text x="432" y="344" font-weight="700" fill="#8a6000">The limit worth naming</text>
+    <text x="432" y="366">An auditor sees the estate presented to them.</text>
+  </g>
+
+  <rect x="790" y="100" width="360" height="290" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M790 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#009E73"/>
+  <text x="970" y="129" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">NO LOGGING ASSURANCE</text>
+  <text x="970" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the claim people actually care about</text>
+  <g font-size="12" fill="#374151">
+    <text x="812" y="182" font-weight="700" fill="#00614a">What it examines</text>
+    <text x="812" y="204">Whether the system as configured is capable of</text>
+    <text x="812" y="222">retaining the data the provider says it does</text>
+    <text x="812" y="240">not retain. Usually under a formal standard.</text>
+    <text x="812" y="272" font-weight="700" fill="#00614a">What it establishes</text>
+    <text x="812" y="294">That on the day the auditor looked, the</text>
+    <text x="812" y="312">configuration matched the claim.</text>
+    <text x="812" y="344" font-weight="700" fill="#8c1d18">What it does not establish</text>
+    <text x="812" y="366" font-weight="700" fill="#8c1d18">What happens on a day nobody is looking.</text>
+  </g>
+
+  <rect x="30" y="412" width="1120" height="176" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="442" font-size="15.5" font-weight="700" fill="#111827">Four questions to ask of any audit report, in the order that matters</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="462" r="3.5" fill="#374151"/><text x="80" y="466"><tspan font-weight="700">Which of the three is it?</tspan> An application review presented as evidence of no logging is a category error, and it is the most common one in comparison articles.</text>
+    <circle cx="66" cy="488" r="3.5" fill="#374151"/><text x="80" y="492"><tspan font-weight="700">What date?</tspan> Infrastructure changes constantly. A report from four years ago describes a company that no longer exists in that configuration.</text>
+    <circle cx="66" cy="514" r="3.5" fill="#374151"/><text x="80" y="518"><tspan font-weight="700">Who commissioned it, and what was excluded?</tspan> Almost all of these are paid for by the subject, which is normal and not disqualifying.</text>
+    <text x="80" y="538">The exclusions are stated plainly by careful auditors, and they are the most useful paragraph in the document.</text>
+    <circle cx="66" cy="560" r="3.5" fill="#374151"/><text x="80" y="564"><tspan font-weight="700">Is the full report published, or a summary?</tspan> A press release describing an audit is not an audit. If you cannot read the scope section, you do not know what was tested.</text>
+  </g>
+
+  <rect x="30" y="612" width="1120" height="128" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="642" font-size="15.5" font-weight="700" fill="#8c1d18">And the structural limit, which no amount of auditing removes</text>
+  <text x="56" y="668" font-size="12.5" fill="#374151">A no logging engagement observes a configuration. It cannot observe intent, it cannot observe what happens after the auditor leaves, and it cannot detect a change made</text>
+  <text x="56" y="688" font-size="12.5" fill="#374151">the following week. That is not a criticism of the auditors, who are usually careful to say so themselves in the report you were not shown.</text>
+  <text x="56" y="716" font-size="13" font-weight="700" fill="#8c1d18">Which is why repetition matters more than any single report. Six engagements over seven years says something a first audit cannot, and an unannounced one says more again.</text>
+
+  <text x="590" y="782" text-anchor="middle" font-size="13.5" fill="#4b5563">So "audited" on a comparison chart is not a fact about a provider. It is a prompt to go and read something.</text>
+  <text x="590" y="808" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Twenty minutes with the actual report tells you more than any number of articles about it.</text>
+</svg>

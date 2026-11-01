@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" role="img" aria-labelledby="wv-title wv-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wv-title">Figure 1. Three places a password vault can live, and what each means</title>
+  <desc id="wv-desc">Three architectures compared. Local first keeps the encrypted file on your own machines and you arrange synchronisation. A vendor service holds the encrypted vault for you. Self-hosting puts the service on infrastructure you run. Each is assessed on who holds a copy, what a breach of that holder yields, and what you have to do yourself. A band below states the point that unites them: once somebody holds a copy of your encrypted vault, the only thing between them and its contents is your master password and the work factor protecting it.</desc>
+
+  <rect x="0" y="0" width="1180" height="700" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Who Ends Up Holding a Copy</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The architectures differ less than they appear. What differs is how many parties end up with an encrypted copy of everything you have.</text>
+
+  <rect x="30" y="104" width="360" height="376" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 114 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v38 h-360 z" fill="#009E73"/>
+  <text x="210" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">LOCAL FIRST</text>
+  <text x="210" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">an encrypted file you own</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="182" font-weight="700" fill="#00614a">Who holds a copy</text>
+    <text x="52" y="204">You, on each device you put it on. Plus</text>
+    <text x="52" y="224">whatever you sync it through.</text>
+
+    <text x="52" y="260" font-weight="700" fill="#00614a">If the holder is breached</text>
+    <text x="52" y="282">Your machine, or your sync provider. The</text>
+    <text x="52" y="302">attacker gets one encrypted file and can</text>
+    <text x="52" y="322">work on it indefinitely.</text>
+
+    <text x="52" y="358" font-weight="700" fill="#8a6000">What you must do yourself</text>
+    <text x="52" y="380">Synchronisation, conflict handling, backup,</text>
+    <text x="52" y="400">and mobile access. All of it.</text>
+
+    <text x="52" y="436" font-style="italic" fill="#00614a">No vendor to trust, and no vendor to do</text>
+    <text x="52" y="456" font-style="italic" fill="#00614a">the work you would rather not do.</text>
+  </g>
+
+  <rect x="410" y="104" width="360" height="376" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M410 114 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v38 h-360 z" fill="#E69F00"/>
+  <text x="590" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">A VENDOR SERVICE</text>
+  <text x="590" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">they hold it, encrypted, for you</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="432" y="182" font-weight="700" fill="#8a6000">Who holds a copy</text>
+    <text x="432" y="204">You, your devices, and the vendor. Their</text>
+    <text x="432" y="224">backups count too.</text>
+
+    <text x="432" y="260" font-weight="700" fill="#8c1d18">If the holder is breached</text>
+    <text x="432" y="282">Every customer vault at once, and the</text>
+    <text x="432" y="302">attacker works offline on all of them.</text>
+    <text x="432" y="322">This is not hypothetical. See Figure 2.</text>
+
+    <text x="432" y="358" font-weight="700" fill="#00614a">What you get for it</text>
+    <text x="432" y="380">Synchronisation, mobile applications,</text>
+    <text x="432" y="400">recovery, and sharing that works.</text>
+
+    <text x="432" y="436" font-style="italic" fill="#8a6000">A real trade, and the convenience half</text>
+    <text x="432" y="456" font-style="italic" fill="#8a6000">is why most people should take it.</text>
+  </g>
+
+  <rect x="790" y="104" width="360" height="376" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M790 114 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v38 h-360 z" fill="#0072B2"/>
+  <text x="970" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">SELF-HOSTED SERVICE</text>
+  <text x="970" y="146" text-anchor="middle" font-size="11.5" fill="#ffffff">the software, on your infrastructure</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="812" y="182" font-weight="700" fill="#10476b">Who holds a copy</text>
+    <text x="812" y="204">You, your devices, and a server you</text>
+    <text x="812" y="224">are now responsible for.</text>
+
+    <text x="812" y="260" font-weight="700" fill="#8a6000">If the holder is breached</text>
+    <text x="812" y="282">Your vaults, and whoever else uses your</text>
+    <text x="812" y="302">instance. You are the vendor now, with</text>
+    <text x="812" y="322">the vendor's obligations.</text>
+
+    <text x="812" y="358" font-weight="700" fill="#8c1d18">The honest caution</text>
+    <text x="812" y="380">A neglected instance is worse than a</text>
+    <text x="812" y="400">maintained vendor. Patching, backups and</text>
+    <text x="812" y="420">uptime become yours, permanently.</text>
+
+    <text x="812" y="456" font-style="italic" fill="#10476b">Choose this if you already run servers well.</text>
+  </g>
+
+  <rect x="30" y="506" width="1120" height="98" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="536" font-size="15" font-weight="700" fill="#8c1d18">What all three have in common, and it is the thing that matters</text>
+  <text x="56" y="562" font-size="12.5" fill="#374151">Once anybody holds a copy of your encrypted vault, the only things between them and its contents are your master password and the work factor protecting it.</text>
+  <text x="56" y="582" font-size="12.5" fill="#374151">They can attack it offline, at their own pace, with no rate limit and nobody to notice. That is true of a file on a sync service exactly as it is true of a vendor breach.</text>
+
+  <text x="590" y="640" text-anchor="middle" font-size="13.5" fill="#4b5563">So the architecture decision is smaller than it looks, and the master password and key derivation settings are larger.</text>
+  <text x="590" y="666" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Guidance that says "the file is already encrypted, so cloud sync is fine" is stating the premise of the attack as though it were the answer to it.</text>
+</svg>

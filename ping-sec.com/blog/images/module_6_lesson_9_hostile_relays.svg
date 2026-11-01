@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-labelledby="hr-title hr-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="hr-title">Figure 2. Two kinds of hostile relay operator, and why the sophisticated one avoids the exit</title>
+  <desc id="hr-desc">A comparison of two documented relay campaigns. The first ran exit relays and rewrote traffic, downgrading encrypted connections to unencrypted ones for cryptocurrency services and substituting payment addresses. It reached about twenty-seven per cent of exit capacity at its peak in February 2021 and was still holding several per cent months later. Its limitation is that it can only touch traffic that was not already encrypted, so ordinary encrypted browsing was unaffected. The second campaign ran mostly guard and middle relays rather than exits, reaching roughly sixteen per cent of first-hop selection and thirty-five per cent of middle-hop selection at its peak, with only a small exit presence. That operator was not reading traffic at all: holding the first position and a large share of middle positions is what makes correlation possible. A band below draws the conclusion that the exit is the obvious threat and the entry position is the serious one, and that this is why the concentration figures in Lesson 6.7 matter.</desc>
+
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Two Hostile Operators, and Why the Better One Avoided the Exit</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Both of these were documented in the real network. The one everybody worries about is the less interesting of the two.</text>
+
+  <rect x="30" y="100" width="554" height="400" rx="10" fill="#E69F00" fill-opacity="0.11" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h534 a10 10 0 0 1 10 10 v46 h-554 z" fill="#E69F00"/>
+  <text x="307" y="129" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">THE EXIT OPERATOR</text>
+  <text x="307" y="147" text-anchor="middle" font-size="11" fill="#ffffff">the threat everybody names, and the shallower one</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="56" y="182" font-weight="700" fill="#8a6000">What they did</text>
+    <text x="56" y="204">Ran exit relays and modified traffic passing</text>
+    <text x="56" y="222">through them. Specifically: downgraded encrypted</text>
+    <text x="56" y="240">connections to cryptocurrency services down to</text>
+    <text x="56" y="258">unencrypted ones, then substituted the payment</text>
+    <text x="56" y="276">address so funds went to them instead.</text>
+
+    <text x="56" y="310" font-weight="700" fill="#8c1d18">The scale</text>
+    <text x="56" y="332">Roughly 27 per cent of all exit capacity at the</text>
+    <text x="56" y="350">peak, in February 2021. Still holding several per</text>
+    <text x="56" y="368">cent months afterwards.</text>
+
+    <text x="56" y="402" font-weight="700" fill="#00614a">What limited it</text>
+    <text x="56" y="424">It could only touch traffic that was not already</text>
+    <text x="56" y="442">encrypted end to end. Ordinary encrypted browsing</text>
+    <text x="56" y="460">passed through untouched.</text>
+    <text x="56" y="482" font-style="italic" fill="#4b5563">Which is why transport encryption matters more here.</text>
+  </g>
+
+  <rect x="596" y="100" width="554" height="400" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M596 110 a10 10 0 0 1 10 -10 h534 a10 10 0 0 1 10 10 v46 h-554 z" fill="#b3261e"/>
+  <text x="873" y="129" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">THE POSITION OPERATOR</text>
+  <text x="873" y="147" text-anchor="middle" font-size="11" fill="#ffffff">the one that understood the system it was attacking</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="182" font-weight="700" fill="#8c1d18">What they did</text>
+    <text x="622" y="204">Added relays in industrial quantities, with no</text>
+    <text x="622" y="222">contact details, across datacentres worldwide.</text>
+    <text x="622" y="244" font-weight="700" fill="#8c1d18">Mostly first-hop and middle positions.</text>
+    <text x="622" y="262">Only a small exit presence.</text>
+
+    <text x="622" y="296" font-weight="700" fill="#8c1d18">The scale, at peak</text>
+    <text x="622" y="318">About a 16 per cent chance of entering the network</text>
+    <text x="622" y="336">through one of theirs. About 35 per cent of passing</text>
+    <text x="622" y="354">through one in the middle. Up to 5 per cent at exit.</text>
+
+    <text x="622" y="388" font-weight="700" fill="#8c1d18">Why those positions</text>
+    <text x="622" y="410">They were not trying to read anything. Holding the</text>
+    <text x="622" y="428">first position tells you who the user is, and holding</text>
+    <text x="622" y="446">many middle positions raises the odds of seeing</text>
+    <text x="622" y="464">enough of a circuit to correlate it.</text>
+    <text x="622" y="486" font-style="italic" fill="#4b5563">This is Figure 1's attack, attempted from the inside.</text>
+  </g>
+
+  <rect x="30" y="520" width="1120" height="160" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="550" font-size="16" font-weight="700" fill="#10476b">What the pair of them tells you</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="576" r="3.5" fill="#0072B2"/><text x="80" y="580"><tspan font-weight="700">The exit is the obvious threat and the entry is the serious one.</tspan> A hostile exit reads what you failed to encrypt. A hostile entry, combined with</text>
+    <text x="80" y="598">visibility at the other end, tells somebody who you are.</text>
+    <circle cx="66" cy="622" r="3.5" fill="#0072B2"/><text x="80" y="626"><tspan font-weight="700">This is why Lesson 6.7's concentration figures matter.</tspan> The property that no single party holds both halves assumes the relays are separate parties.</text>
+    <text x="80" y="644">An operator running a large share of first and middle positions is buying exactly that assumption's failure.</text>
+    <circle cx="66" cy="664" r="3.5" fill="#00614a"/><text x="80" y="668"><tspan font-weight="700">And both were found, named and removed by volunteer researchers</tspan> reading public relay data. That is the auditability argument, working.</text>
+  </g>
+
+  <rect x="30" y="692" width="1120" height="72" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="720" font-size="13" fill="#374151">Two practical consequences. <tspan font-weight="700">Use encrypted transport for everything</tspan>, because the exit is the one position that sees your traffic in whatever state you</text>
+  <text x="56" y="744" font-size="13" fill="#374151">left it. And <tspan font-weight="700">prefer onion addresses where a service publishes one</tspan>, because that removes the exit position from your circuit entirely.</text>
+
+  <text x="590" y="796" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">The guard design in Lesson 6.7 is the defence against the right-hand column. Now you can see what it was defending against.</text>
+</svg>

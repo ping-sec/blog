@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 700" width="1180" height="700" role="img" aria-labelledby="ef-title ef-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="ef-title">Figure 2. EFAIL, and why your mail client stopped loading images</title>
+  <desc id="ef-desc">Four steps. An attacker who holds a copy of an encrypted message modifies it, wrapping the ciphertext so that the decrypted result becomes part of a web address. The victim client decrypts and then renders the message, fetching that address and carrying the plaintext to the attacker. A band below lists the three layers of response: clients stopped loading remote content by default, the standards added integrity checking, and the standing user-level advice is to keep remote content disabled.</desc>
+
+  <defs>
+    <marker id="efA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1180" height="700" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: The Attack Your Mail Client Settings Are Still Reacting To</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Published in 2018 against both major mail encryption standards. It did not break the cryptography. It used the mail client.</text>
+
+  <rect x="30" y="104" width="270" height="176" rx="10" fill="#374151" fill-opacity="0.09" stroke="#374151" stroke-width="2.5"/>
+  <circle cx="66" cy="138" r="16" fill="#374151"/><text x="66" y="144" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1</text>
+  <text x="94" y="144" font-size="13.5" font-weight="700" fill="#111827">They already have it</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="178">The attacker holds a copy of an</text>
+    <text x="52" y="198">encrypted message, from a mailbox</text>
+    <text x="52" y="218">breach, an archive, or interception.</text>
+    <text x="52" y="246" font-style="italic" fill="#6b7280">They cannot read it. Yet.</text>
+  </g>
+
+  <line x1="306" y1="192" x2="326" y2="192" stroke="#374151" stroke-width="2.5" marker-end="url(#efA)"/>
+
+  <rect x="332" y="104" width="270" height="176" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <circle cx="368" cy="138" r="16" fill="#E69F00"/><text x="368" y="144" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2</text>
+  <text x="396" y="144" font-size="13.5" font-weight="700" fill="#8a6000">They wrap it</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="354" y="178">The ciphertext is placed inside a</text>
+    <text x="354" y="198">new message, positioned so that</text>
+    <text x="354" y="218">whatever it decrypts to lands in</text>
+    <text x="354" y="238">the middle of a web address.</text>
+    <text x="354" y="266" font-style="italic" fill="#8a6000">Then they mail it to you.</text>
+  </g>
+
+  <line x1="608" y1="192" x2="628" y2="192" stroke="#374151" stroke-width="2.5" marker-end="url(#efA)"/>
+
+  <rect x="634" y="104" width="270" height="176" rx="10" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <circle cx="670" cy="138" r="16" fill="#b3261e"/><text x="670" y="144" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3</text>
+  <text x="698" y="144" font-size="13.5" font-weight="700" fill="#8c1d18">Your client decrypts</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="656" y="178">Your client does exactly its job.</text>
+    <text x="656" y="198">It decrypts the part it recognises</text>
+    <text x="656" y="218">and assembles the message for</text>
+    <text x="656" y="238">display.</text>
+    <text x="656" y="266" font-style="italic" fill="#8c1d18">The plaintext is now in a link.</text>
+  </g>
+
+  <line x1="910" y1="192" x2="930" y2="192" stroke="#374151" stroke-width="2.5" marker-end="url(#efA)"/>
+
+  <rect x="936" y="104" width="214" height="176" rx="10" fill="#b3261e" fill-opacity="0.20" stroke="#b3261e" stroke-width="3"/>
+  <circle cx="972" cy="138" r="16" fill="#b3261e"/><text x="972" y="144" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">4</text>
+  <text x="1000" y="144" font-size="13.5" font-weight="700" fill="#8c1d18">It phones home</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="958" y="178">Rendering the message fetches</text>
+    <text x="958" y="198">the remote content, and the</text>
+    <text x="958" y="218">request carries your decrypted</text>
+    <text x="958" y="238">message to the attacker.</text>
+    <text x="958" y="266" font-style="italic" fill="#8c1d18">You never clicked anything.</text>
+  </g>
+
+  <rect x="30" y="310" width="1120" height="86" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="340" font-size="15" font-weight="700" fill="#111827">Note what was and was not broken</text>
+  <text x="56" y="366" font-size="12.5" fill="#374151">The encryption held. What failed was everything around it: a message format that let an attacker graft chosen content onto ciphertext, and a client that</text>
+  <text x="56" y="386" font-size="12.5" fill="#374151">rendered the result and reached out to the network. Encryption is a component, and components sit inside systems that can undo them.</text>
+
+  <text x="590" y="440" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Three layers of response, and the third one is yours</text>
+
+  <rect x="30" y="460" width="356" height="164" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="52" y="490" font-size="14" font-weight="700" fill="#10476b">Clients changed</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="518">Mail clients stopped loading remote</text>
+    <text x="52" y="538">content by default, and became far</text>
+    <text x="52" y="558">more careful about assembling</text>
+    <text x="52" y="578">messages from mixed parts.</text>
+    <text x="52" y="606" font-style="italic" fill="#10476b">Already done for you.</text>
+  </g>
+
+  <rect x="402" y="460" width="356" height="164" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <text x="424" y="490" font-size="14" font-weight="700" fill="#00614a">Standards changed</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="424" y="518">Integrity protection on encrypted</text>
+    <text x="424" y="538">data moved from optional to</text>
+    <text x="424" y="558">expected, so a modified message</text>
+    <text x="424" y="578">is detected rather than decrypted.</text>
+    <text x="424" y="606" font-style="italic" fill="#00614a">Requires current software.</text>
+  </g>
+
+  <rect x="774" y="460" width="376" height="164" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="796" y="490" font-size="14" font-weight="700" fill="#8a6000">Your setting</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="796" y="518">Keep remote content off. Prefer plain</text>
+    <text x="796" y="538">text over formatted mail for anything</text>
+    <text x="796" y="558">encrypted. Both are still the standing</text>
+    <text x="796" y="578">advice, and both cost you very little.</text>
+    <text x="796" y="606" font-style="italic" fill="#8a6000">This is the part you control.</text>
+  </g>
+
+  <text x="590" y="666" text-anchor="middle" font-size="13.5" fill="#4b5563">If a guide tells you to configure encrypted mail and never mentions remote content, it was written before 2018 or copied from something that was.</text>
+</svg>

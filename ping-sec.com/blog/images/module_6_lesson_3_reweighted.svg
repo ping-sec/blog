@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="rw-title rw-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="rw-title">Figure 3. The hundred point scorecard, reweighted by evidential value</title>
+  <desc id="rw-desc">A comparison of two scoring schemes for evaluating a VPN provider. The usual scheme awards ten points for jurisdiction, of which three are for not belonging to an intelligence alliance, twenty for technical features that every serious provider now has, and only three for evidence from an actual legal test. The reweighted scheme awards twenty five points for evidence from real testing, twenty for audit quality including type recency and frequency, twenty for architecture that limits what can exist to be handed over, fifteen for traceable ownership, ten for the technical baseline treated as a floor rather than a differentiator, five for jurisdiction measured by current retention law, and five for honest marketing. A band below explains the three changes and why each was made.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: The Scorecard, Reweighted by What Each Signal Proves</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">A hundred point rubric looks rigorous. What makes it rigorous or not is whether the weights match how much each item actually tells you.</text>
+
+  <rect x="30" y="100" width="550" height="440" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v40 h-550 z" fill="#b3261e"/>
+  <text x="305" y="137" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE USUAL WEIGHTING</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="184" font-weight="700">Technical features</text><text x="530" y="184" text-anchor="end" font-weight="700">20</text>
+    <text x="52" y="202" font-size="11.5" fill="#4b5563">Modern protocols, leak protection, kill switch</text>
+
+    <text x="52" y="234" font-weight="700">Verification</text><text x="530" y="234" text-anchor="end" font-weight="700">20</text>
+    <text x="52" y="252" font-size="11.5" fill="#4b5563">Of which evidence from a real legal test: 3</text>
+
+    <text x="52" y="284" font-weight="700">Privacy policy wording</text><text x="530" y="284" text-anchor="end" font-weight="700">15</text>
+    <text x="52" y="302" font-size="11.5" fill="#4b5563">Read and scored as text</text>
+
+    <text x="52" y="334" font-weight="700" fill="#8c1d18">Jurisdiction</text><text x="530" y="334" text-anchor="end" font-weight="700" fill="#8c1d18">10</text>
+    <text x="52" y="352" font-size="11.5" fill="#8c1d18">Of which "not in an intelligence alliance": 3</text>
+
+    <text x="52" y="384" font-weight="700">Ownership</text><text x="530" y="384" text-anchor="end" font-weight="700">10</text>
+    <text x="52" y="410" font-weight="700">Business model</text><text x="530" y="410" text-anchor="end" font-weight="700">10</text>
+    <text x="52" y="436" font-weight="700">Track record</text><text x="530" y="436" text-anchor="end" font-weight="700">10</text>
+    <text x="52" y="462" font-weight="700">Marketing honesty</text><text x="530" y="462" text-anchor="end" font-weight="700">5</text>
+
+    <text x="52" y="502" font-style="italic" fill="#8c1d18">Twenty points for features every serious provider</text>
+    <text x="52" y="520" font-style="italic" fill="#8c1d18">already has, and three for the only real evidence.</text>
+  </g>
+
+  <rect x="600" y="100" width="550" height="440" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M600 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v40 h-550 z" fill="#009E73"/>
+  <text x="875" y="137" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">REWEIGHTED</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="184" font-weight="700" fill="#00614a">Evidence from real testing</text><text x="1128" y="184" text-anchor="end" font-weight="700" fill="#00614a">25</text>
+    <text x="622" y="202" font-size="11.5" fill="#4b5563">Seizures, warrants, court records. Never tested scores zero, not full marks.</text>
+
+    <text x="622" y="234" font-weight="700" fill="#00614a">Audit quality</text><text x="1128" y="234" text-anchor="end" font-weight="700" fill="#00614a">20</text>
+    <text x="622" y="252" font-size="11.5" fill="#4b5563">Type, date, scope published, how many, and whether unannounced.</text>
+
+    <text x="622" y="284" font-weight="700" fill="#00614a">Architecture that limits what exists</text><text x="1128" y="284" text-anchor="end" font-weight="700" fill="#00614a">20</text>
+    <text x="622" y="302" font-size="11.5" fill="#4b5563">Anonymous payment, no identity required to hold an account.</text>
+
+    <text x="622" y="334" font-weight="700">Traceable ownership</text><text x="1128" y="334" text-anchor="end" font-weight="700">15</text>
+    <text x="622" y="352" font-size="11.5" fill="#4b5563">Who ultimately owns it, and whether that changed recently.</text>
+
+    <text x="622" y="384" font-weight="700">Technical baseline</text><text x="1128" y="384" text-anchor="end" font-weight="700">10</text>
+    <text x="622" y="402" font-size="11.5" fill="#4b5563">A floor to clear, not a differentiator. Everybody has this now.</text>
+
+    <text x="622" y="434" font-weight="700">Jurisdiction</text><text x="1128" y="434" text-anchor="end" font-weight="700">5</text>
+    <text x="622" y="452" font-size="11.5" fill="#4b5563">Current retention law only. Alliance membership scores nothing.</text>
+
+    <text x="622" y="484" font-weight="700">Marketing honesty</text><text x="1128" y="484" text-anchor="end" font-weight="700">5</text>
+    <text x="622" y="502" font-size="11.5" fill="#4b5563">A cheap signal, and a surprisingly reliable one.</text>
+
+    <text x="622" y="528" font-style="italic" fill="#00614a">Same hundred points. Different question being answered.</text>
+  </g>
+
+  <rect x="30" y="562" width="1120" height="152" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="592" font-size="15.5" font-weight="700" fill="#10476b">Three changes, and the reasoning for each</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="618" r="3.5" fill="#0072B2"/><text x="80" y="622"><tspan font-weight="700">Evidence went from 3 to 25.</tspan> A documented demand that produced nothing is the only signal that settles anything, and it scored below the kill switch.</text>
+    <circle cx="66" cy="644" r="3.5" fill="#0072B2"/><text x="80" y="648"><tspan font-weight="700">Technical features went from 20 to 10.</tspan> In 2015 they separated providers. Today every serious provider has them, so the row no longer discriminates.</text>
+    <circle cx="66" cy="670" r="3.5" fill="#0072B2"/><text x="80" y="674"><tspan font-weight="700">Jurisdiction went from 10 to 5, alliance membership to zero.</tspan> What matters is current retention law, and Lesson 6.1 has one changing right now.</text>
+    <circle cx="66" cy="696" r="3.5" fill="#8c1d18"/><text x="80" y="700"><tspan font-weight="700">And "never tested" now scores zero rather than being silently ignored</tspan>, because an untested claim is an absence of information rather than a clean record.</text>
+  </g>
+
+  <text x="590" y="754" text-anchor="middle" font-size="13.5" fill="#4b5563">Use whichever weighting you like. The point is that a rubric encodes a set of beliefs about what evidence is worth, and most published ones never state theirs.</text>
+  <text x="590" y="780" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">If you publish a scorecard, publish the reasoning for the weights. That is the part a reader cannot reconstruct and the part that makes it useful.</text>
+</svg>

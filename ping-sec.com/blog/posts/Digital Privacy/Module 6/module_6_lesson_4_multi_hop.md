@@ -108,7 +108,7 @@ This section corrects a naming problem, and the correction matters because the t
 
 **The phrases "VPN over Tor" and "Tor over VPN" are used inconsistently and mean opposite things to different writers.** The documentation for the systems that actually implement these arrangements explicitly discourages the phrasing as ambiguous and writes the chain out instead: connecting to a VPN *before* Tor, or connecting to Tor *before* a VPN. (Reference 1)
 
-**The source material for this lesson attaches both labels to the wrong arrangement**, which is exactly the failure the convention exists to prevent, and is a good argument for abandoning the phrasing rather than trying to remember which way round it goes.
+**One guide I reviewed for this lesson attaches both labels to the wrong arrangement**, which is exactly the failure the convention exists to prevent, and is a good argument for abandoning the phrasing rather than trying to remember which way round it goes.
 
 ### You → VPN → Tor → Internet
 
@@ -124,7 +124,7 @@ This section corrects a naming problem, and the correction matters because the t
 
 **What it costs.** Your operator sees that you use Tor. The provider sees everything you do, and now sees it consistently, **which gives you a persistent identity across sessions that Tor was specifically designed to prevent.**
 
-You have paid Tor's costs and given away its main property. The configuration is also genuinely difficult to get right, and the source material's instruction to "configure Tor to use VPN B as exit" describes something Tor does not offer as a setting. What people actually do involves running a tunnel client inside an isolated workstation, which is a different and considerably more fragile arrangement than the sentence implies.
+You have paid Tor's costs and given away its main property. The configuration is also genuinely difficult to get right, and the instruction to "configure Tor to use VPN B as exit" describes something Tor does not offer as a setting. What people actually do involves running a tunnel client inside an isolated workstation, which is a different and considerably more fragile arrangement than the sentence implies.
 
 ---
 
@@ -186,7 +186,7 @@ Every guide says the Tor Project does not recommend adding a VPN. Almost none sa
 
 ## 7. Deciding
 
-The source material offers a five-level threat matrix and eight scenarios. Here is the shorter version.
+This decision does not need a threat matrix and a long list of scenarios. Here is the short version.
 
 **If you cannot say which specific party you are hiding the other half from, you have not yet found a reason for the second hop.** That sentence is the whole decision procedure.
 
@@ -208,7 +208,7 @@ Worked through:
 
 **A provider's own multi-hop is not a defence against that provider.** It is a defence against one of its servers being compromised, which is a real thing and a different thing.
 
-**Write the arrow diagram**, because the usual phrasing means opposite things to different writers and the source material for this lesson gets both labels backwards.
+**Write the arrow diagram**, because the usual phrasing means opposite things to different writers, and at least one guide gets both labels backwards.
 
 **The guard relay argument is the reason**, not an appeal to authority, and it lets you make the decision yourself.
 
@@ -245,7 +245,7 @@ Worked through:
 - C) Because they refer only to older software
 - D) Because writers use them inconsistently to mean opposite arrangements, so they write the chain order out instead
 
-**Answer: D.** The source material for this lesson attaches both labels to the wrong arrangement, which is the failure the convention exists to prevent.
+**Answer: D.** One guide reviewed for this lesson attaches both labels to the wrong arrangement, which is the failure the convention exists to prevent.
 
 **Question 4.** In a You to VPN to Tor arrangement, what does the provider see?
 

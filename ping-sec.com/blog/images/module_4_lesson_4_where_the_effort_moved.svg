@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 750" width="1180" height="750" role="img" aria-labelledby="em-title em-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="em-title">Figure 2. Where attacker effort moved once sign in got harder</title>
+  <desc id="em-desc">Two observed attacks against the recovery and fallback path rather than against authentication itself. The first is the downgrade: a phishing kit responsible for a majority of blocked phishing volume in 2025 carried code that detects a passkey prompt and steers the target to a weaker method that can be relayed. The second is the help desk: a criminal group documented by national agencies telephones support, impersonates an employee, and has the password reset and the second factor moved to a device it controls. A band below gives the design conclusion, which is that adding a strong method to a system that still offers a weak recovery route does not make the system phishing resistant.</desc>
+
+  <rect x="0" y="0" width="1180" height="750" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Where the Effort Moved</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Hardening the sign in did not reduce the number of attackers. It relocated them, and both of these are observed in the wild rather than predicted.</text>
+
+  <rect x="30" y="100" width="550" height="352" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v42 h-550 z" fill="#b3261e"/>
+  <text x="305" y="128" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE DOWNGRADE</text>
+  <text x="305" y="145" text-anchor="middle" font-size="11.5" fill="#ffffff">do not beat the strong method, offer a weaker one</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="182">A phishing kit sold as a service, credited with the</text>
+    <text x="52" y="202">majority of the phishing volume one large provider</text>
+    <text x="52" y="222">blocked in mid 2025, carries code for this.</text>
+
+    <text x="52" y="256" font-weight="700" fill="#8c1d18">It detects that the real site is about to ask for a</text>
+    <text x="52" y="276" font-weight="700" fill="#8c1d18">passkey, and steers the target to a different method.</text>
+
+    <text x="52" y="310">Nothing about the passkey was defeated. It was simply</text>
+    <text x="52" y="330">never used, because a plausible page said the fingerprint</text>
+    <text x="52" y="350">reader was unavailable and offered a code instead.</text>
+
+    <text x="52" y="386" font-weight="700" fill="#8a6000">Why this is the lesson and not a footnote</text>
+    <text x="52" y="408">Every fallback you leave enabled is a menu item the</text>
+    <text x="52" y="428">attacker gets to choose from, and the attacker will</text>
+    <text x="52" y="444">always choose the worst one you left on.</text>
+  </g>
+
+  <rect x="600" y="100" width="550" height="352" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M600 110 a10 10 0 0 1 10 -10 h530 a10 10 0 0 1 10 10 v42 h-550 z" fill="#E69F00"/>
+  <text x="875" y="128" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE HELP DESK</text>
+  <text x="875" y="145" text-anchor="middle" font-size="11.5" fill="#ffffff">do not attack the account, attack the person who can reset it</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="182">A criminal group documented in a joint national advisory,</text>
+    <text x="622" y="202">first in 2023 and updated in July 2025, works this way</text>
+    <text x="622" y="222">as its primary route in.</text>
+
+    <text x="622" y="256" font-weight="700" fill="#8a6000">It telephones support, presents itself as an employee,</text>
+    <text x="622" y="276" font-weight="700" fill="#8a6000">and has the password reset and the second factor moved</text>
+    <text x="622" y="296" font-weight="700" fill="#8a6000">to a device it controls.</text>
+
+    <text x="622" y="330">No malware, no phishing page, and no interaction with</text>
+    <text x="622" y="350">the target at all. The target finds out afterwards.</text>
+
+    <text x="622" y="386" font-weight="700" fill="#8a6000">What the advisory recommends is instructive</text>
+    <text x="622" y="408">Scripted identity checks, two independent verifications</text>
+    <text x="622" y="428">with one of them resistant to voice impersonation, and</text>
+    <text x="622" y="444">resets correlated against ticket evidence.</text>
+  </g>
+
+  <rect x="30" y="472" width="1120" height="102" rx="10" fill="#374151" fill-opacity="0.09" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="502" font-size="15.5" font-weight="700" fill="#111827">The conclusion both of these point at, stated at a standards conference in 2025</text>
+  <text x="56" y="530" font-size="13.5" font-weight="700" fill="#374151">Adding passkeys as an option does not make a system phishing resistant, if a text message recovery or a password reset path is still there.</text>
+  <text x="56" y="556" font-size="12.5" fill="#374151">Which is the argument from Lesson 4.3, arriving from the other direction: adding a strong method raises nothing while a weak one is still reachable.</text>
+
+  <rect x="30" y="594" width="1120" height="96" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="622" font-size="15" font-weight="700" fill="#00614a">What this means for you specifically, as somebody who will be on both sides of it</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="646" r="3.5" fill="#00614a"/><text x="80" y="650"><tspan font-weight="700">On your own accounts:</tspan> the audit in this lesson is a search for menu items you forgot you left on. Most people find at least two.</text>
+    <circle cx="66" cy="672" r="3.5" fill="#00614a"/><text x="80" y="676"><tspan font-weight="700">On an engagement:</tspan> the recovery path is scope that clients routinely forget to think about, and the help desk is part of the attack surface.</text>
+  </g>
+
+  <text x="590" y="722" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Neither of these attacks touches your password, your key, or your vault. Both of them end with the attacker signed in as you.</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" width="1180" height="720" role="img" aria-labelledby="it-title it-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="it-title">Figure 3. Four questions before installing, and the stacks they produce</title>
+  <desc id="it-desc">On the left, four questions to ask before installing any extension: whether a browser setting already does it, whether you can name the current maintainer, whether the permissions match the job, and whether you will notice if it changes hands. On the right, the resulting minimal stacks for Firefox, Brave, Chrome and Tor Browser.</desc>
+
+  <rect x="0" y="0" width="1180" height="720" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Four Questions, and What Survives Them</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Question 1 removes most candidates on its own. Very few extensions survive all four.</text>
+
+  <rect x="30" y="100" width="560" height="580" rx="10" fill="#0072B2" fill-opacity="0.07" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h540 a10 10 0 0 1 10 10 v36 h-560 z" fill="#0072B2"/>
+  <text x="310" y="132" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">ASK THESE, IN ORDER</text>
+
+  <circle cx="66" cy="182" r="16" fill="#0072B2"/><text x="66" y="188" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1</text>
+  <text x="94" y="188" font-size="14.5" font-weight="700" fill="#10476b">Does a browser setting already do this?</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="214">A setting costs no entropy, needs no trust, and cannot be sold to</text>
+    <text x="52" y="234">anybody. It wins every time it is an option.</text>
+    <text x="52" y="258" font-style="italic" fill="#6b7280">Retired by this question: forced encryption, canvas control, storage isolation.</text>
+  </g>
+
+  <circle cx="66" cy="300" r="16" fill="#0072B2"/><text x="66" y="306" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2</text>
+  <text x="94" y="306" font-size="14.5" font-weight="700" fill="#10476b">Can you name who maintains it now?</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="332">Not who wrote it. Who ships the updates today. Ownership changes</text>
+    <text x="52" y="352">are how good extensions become bad ones, quietly, after install.</text>
+    <text x="52" y="376" font-style="italic" fill="#6b7280">If the answer is a company you have never heard of, stop here.</text>
+  </g>
+
+  <circle cx="66" cy="418" r="16" fill="#0072B2"/><text x="66" y="424" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3</text>
+  <text x="94" y="424" font-size="14.5" font-weight="700" fill="#10476b">Do the permissions match the job?</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="450">A content blocker genuinely needs to read every page. A currency</text>
+    <text x="52" y="470">converter does not. Compare what it asks for against what it does.</text>
+    <text x="52" y="494" font-style="italic" fill="#6b7280">A mismatch here is the clearest signal you will ever get.</text>
+  </g>
+
+  <circle cx="66" cy="536" r="16" fill="#0072B2"/><text x="66" y="542" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">4</text>
+  <text x="94" y="542" font-size="14.5" font-weight="700" fill="#10476b">Will you notice if it changes?</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="568">Extensions update themselves silently. If you will not review this</text>
+    <text x="52" y="588">one again, you are trusting it permanently and in advance.</text>
+    <text x="52" y="612" font-style="italic" fill="#6b7280">Put a date in the calendar, or do not install it.</text>
+  </g>
+
+  <rect x="52" y="632" width="516" height="34" rx="8" fill="#0072B2" fill-opacity="0.14"/>
+  <text x="310" y="654" text-anchor="middle" font-size="13" font-weight="700" fill="#10476b">Four yes answers, or it does not go on.</text>
+
+  <rect x="620" y="100" width="530" height="580" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="2.5"/>
+  <path d="M620 110 a10 10 0 0 1 10 -10 h510 a10 10 0 0 1 10 10 v36 h-530 z" fill="#374151"/>
+  <text x="885" y="132" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHAT SURVIVES, BY BROWSER</text>
+
+  <rect x="642" y="168" width="486" height="112" rx="8" fill="#ffffff" stroke="#009E73" stroke-width="2"/>
+  <text x="662" y="194" font-size="14" font-weight="700" fill="#00614a">Firefox</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="662" y="220">The full content blocker, which still has its complete</text>
+    <text x="662" y="240">capability here. Containers for separation.</text>
+    <text x="662" y="266" font-weight="700">Two. Possibly a third for cleaning addresses.</text>
+  </g>
+
+  <rect x="642" y="294" width="486" height="112" rx="8" fill="#ffffff" stroke="#E69F00" stroke-width="2"/>
+  <text x="662" y="320" font-size="14" font-weight="700" fill="#8a6000">Brave</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="662" y="346">Its blocking already runs below the extension layer, so</text>
+    <text x="662" y="366">most of what you would add is duplication.</text>
+    <text x="662" y="392" font-weight="700">Zero, in most cases. Add nothing by default.</text>
+  </g>
+
+  <rect x="642" y="420" width="486" height="112" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="2"/>
+  <text x="662" y="446" font-size="14" font-weight="700" fill="#8c1d18">Chrome and Edge</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="662" y="472">Only the reduced blocker is available. No extension</text>
+    <text x="662" y="492">choice recovers what the platform removed.</text>
+    <text x="662" y="518" font-weight="700">One, and understand that it does less.</text>
+  </g>
+
+  <rect x="642" y="546" width="486" height="112" rx="8" fill="#ffffff" stroke="#374151" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="662" y="572" font-size="14" font-weight="700" fill="#111827">Tor Browser</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="662" y="598">Adding anything moves you out of the group of identical</text>
+    <text x="662" y="618">users that is the entire protection.</text>
+    <text x="662" y="644" font-weight="700" fill="#8c1d18">None. Not one. This is not a recommendation, it is the design.</text>
+  </g>
+</svg>

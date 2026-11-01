@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 620" width="1180" height="620" role="img" aria-labelledby="bm-title bm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="bm-title">Figure 2. The three browsers compared by strategy</title>
+  <desc id="bm-desc">A table of three browsers. Firefox is configurable and its strategy depends on which mode you choose. Brave uses randomisation, called farbling, and since version 1.64 it has only one fingerprinting setting because the strict mode was removed. Tor Browser uses uniformity and must not be modified. Each row gives what the browser is best at, what it costs, and the single rule that matters most for that browser.</desc>
+
+  <rect x="0" y="0" width="1180" height="620" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Three Browsers, Three Strategies</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The strategy column decides everything else. It is not a ranking, because they do not solve the same problem.</text>
+
+  <rect x="25" y="100" width="1130" height="44" rx="8" fill="#374151"/>
+  <g font-size="12.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">
+    <text x="42" y="128">BROWSER</text>
+    <text x="212" y="128">STRATEGY</text>
+    <text x="412" y="128">BEST AT</text>
+    <text x="652" y="128">WHAT IT COSTS YOU</text>
+    <text x="912" y="128">THE ONE RULE</text>
+  </g>
+
+  <rect x="25" y="148" width="1130" height="140" rx="8" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="2"/>
+  <text x="42" y="178" font-size="15" font-weight="700" fill="#10476b">Firefox</text>
+  <text x="42" y="200" font-size="11.5" fill="#6b7280">configured</text>
+  <g font-size="12" fill="#374151">
+    <text x="212" y="178" font-weight="700">Whichever you pick</text>
+    <text x="212" y="200">Light targeted protection,</text>
+    <text x="212" y="220">or the Tor-derived</text>
+    <text x="212" y="240">uniformity mode. These</text>
+    <text x="212" y="260">are different choices with</text>
+    <text x="212" y="280">very different costs.</text>
+    <text x="412" y="178">Being the daily driver for</text>
+    <text x="412" y="198">professional work.</text>
+    <text x="412" y="224">Containers give you several</text>
+    <text x="412" y="244">separated identities inside</text>
+    <text x="412" y="264">one browser, which is the</text>
+    <text x="412" y="284">cheapest separation there is.</text>
+    <text x="652" y="178">Time, and the risk of</text>
+    <text x="652" y="198">copying settings you do</text>
+    <text x="652" y="218">not understand.</text>
+    <text x="652" y="244">Most published preference</text>
+    <text x="652" y="264">lists contain entries that</text>
+    <text x="652" y="284">are stale or harmful.</text>
+    <text x="912" y="178" font-weight="700" fill="#10476b">Change one thing at a time,</text>
+    <text x="912" y="198" font-weight="700" fill="#10476b">and test after each one.</text>
+    <text x="912" y="224">A configuration you cannot</text>
+    <text x="912" y="244">explain is a configuration</text>
+    <text x="912" y="264">you cannot debug when a</text>
+    <text x="912" y="284">site stops working.</text>
+  </g>
+
+  <rect x="25" y="296" width="1130" height="140" rx="8" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="42" y="326" font-size="15" font-weight="700" fill="#8a6000">Brave</text>
+  <text x="42" y="348" font-size="11.5" fill="#6b7280">out of the box</text>
+  <g font-size="12" fill="#374151">
+    <text x="212" y="326" font-weight="700">Randomisation</text>
+    <text x="212" y="348">Farbling, seeded per site</text>
+    <text x="212" y="368">and per session.</text>
+    <text x="212" y="394" font-weight="700" fill="#8c1d18">Strict mode was removed</text>
+    <text x="212" y="412" font-weight="700" fill="#8c1d18">in version 1.64. There is</text>
+    <text x="212" y="430" font-weight="700" fill="#8c1d18">one setting now.</text>
+    <text x="412" y="326">Unlinkability with almost</text>
+    <text x="412" y="346">no configuration work.</text>
+    <text x="412" y="372">Good defaults, a built-in</text>
+    <text x="412" y="392">content blocker, and site</text>
+    <text x="412" y="412">compatibility from its</text>
+    <text x="412" y="430">Chromium base.</text>
+    <text x="652" y="326">You stay unique inside</text>
+    <text x="652" y="346">each session. Randomising</text>
+    <text x="652" y="366">is not hiding.</text>
+    <text x="652" y="392">The noise can be detected,</text>
+    <text x="652" y="412">which marks you as</text>
+    <text x="652" y="430">somebody who randomises.</text>
+    <text x="912" y="326" font-weight="700" fill="#8a6000">Its Tor window is not</text>
+    <text x="912" y="346" font-weight="700" fill="#8a6000">Tor Browser.</text>
+    <text x="912" y="372">It routes the traffic, but it</text>
+    <text x="912" y="392">does not give you the</text>
+    <text x="912" y="412">uniform fingerprint. Do not</text>
+    <text x="912" y="430">use it where question 2 applies.</text>
+  </g>
+
+  <rect x="25" y="444" width="1130" height="140" rx="8" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2"/>
+  <text x="42" y="474" font-size="15" font-weight="700" fill="#00614a">Tor Browser</text>
+  <text x="42" y="496" font-size="11.5" fill="#6b7280">as shipped</text>
+  <g font-size="12" fill="#374151">
+    <text x="212" y="474" font-weight="700">Uniformity</text>
+    <text x="212" y="496">Every user reports the</text>
+    <text x="212" y="516">same values. Canvas and</text>
+    <text x="212" y="536">graphics are blocked or</text>
+    <text x="212" y="556">prompted rather than</text>
+    <text x="212" y="576">noised.</text>
+    <text x="412" y="474">Unattributability, and</text>
+    <text x="412" y="494">nothing else comes close.</text>
+    <text x="412" y="520">It is also the only one of</text>
+    <text x="412" y="540">the three that hides your</text>
+    <text x="412" y="560">address from the site by</text>
+    <text x="412" y="578">default.</text>
+    <text x="652" y="474">Speed, repeated challenge</text>
+    <text x="652" y="494">pages, and real breakage at</text>
+    <text x="652" y="514">the higher security levels.</text>
+    <text x="652" y="540">Also every convenience you</text>
+    <text x="652" y="560">would normally reach for,</text>
+    <text x="652" y="578">because you must not add it.</text>
+    <text x="912" y="474" font-weight="700" fill="#00614a">Do not customise it.</text>
+    <text x="912" y="500">Not the window size, not an</text>
+    <text x="912" y="520">add-on, not a preference. The</text>
+    <text x="912" y="540">protection is being identical,</text>
+    <text x="912" y="560">so every change you make is</text>
+    <text x="912" y="578">a change away from safety.</text>
+  </g>
+</svg>

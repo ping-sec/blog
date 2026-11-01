@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 720" width="1140" height="720" role="img" aria-labelledby="obs-title obs-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="obs-title">Figure 2. Three observers of one page load</title>
+  <desc id="obs-desc">One page load is watched by three separate observers. The network path sees the destination address, the domain name lookup, and the hostname in the connection handshake. The server sees the request headers, the cookies, and the origin you came from. Script running on the page measures the device itself: canvas rendering, graphics strings, fonts, audio, screen geometry, time zone and core count. A note explains which of these transport encryption protects and which it does not.</desc>
+
+  <defs>
+    <marker id="dn2" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M 0 0 L 5 10 L 10 0" fill="none" stroke="#6b7280" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1140" height="720" fill="#ffffff"/>
+
+  <text x="570" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: One Page Load, Three Observers</text>
+  <text x="570" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Each observer sees a different set of things. A control that helps against one of them can do nothing about the other two.</text>
+
+  <rect x="40" y="106" width="200" height="52" rx="10" fill="#374151"/>
+  <text x="140" y="138" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">YOU OPEN A PAGE</text>
+  <line x1="140" y1="158" x2="140" y2="640" stroke="#6b7280" stroke-width="2" stroke-dasharray="6 6"/>
+  <line x1="140" y1="620" x2="140" y2="648" stroke="#6b7280" stroke-width="2" marker-end="url(#dn2)"/>
+
+  <rect x="270" y="106" width="830" height="164" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M270 116 a10 10 0 0 1 10 -10 h810 a10 10 0 0 1 10 10 v34 h-830 z" fill="#0072B2"/>
+  <text x="292" y="136" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">OBSERVER 1: THE NETWORK PATH</text>
+  <text x="1078" y="136" text-anchor="end" font-size="12.5" fill="#ffffff">your provider, the network you are on, anyone in between</text>
+  <g font-size="13" fill="#111827">
+    <circle cx="296" cy="180" r="3.5" fill="#0072B2"/><text x="312" y="185">Your address, and therefore your approximate location</text>
+    <circle cx="296" cy="208" r="3.5" fill="#0072B2"/><text x="312" y="213">The domain name lookup, unless the lookup itself is encrypted</text>
+    <circle cx="296" cy="236" r="3.5" fill="#0072B2"/><text x="312" y="241">The hostname in the connection handshake, unless the handshake is encrypted</text>
+    <circle cx="700" cy="180" r="3.5" fill="#0072B2"/><text x="716" y="185">The size and timing of every exchange</text>
+    <circle cx="700" cy="208" r="3.5" fill="#0072B2"/><text x="716" y="213">Characteristics of your operating system network stack</text>
+  </g>
+
+  <rect x="270" y="288" width="830" height="164" rx="10" fill="#56B4E9" fill-opacity="0.14" stroke="#56B4E9" stroke-width="2.5"/>
+  <path d="M270 298 a10 10 0 0 1 10 -10 h810 a10 10 0 0 1 10 10 v34 h-830 z" fill="#56B4E9"/>
+  <text x="292" y="318" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">OBSERVER 2: THE SERVER, AND EVERY THIRD PARTY IT LOADS</text>
+  <g font-size="13" fill="#111827">
+    <circle cx="296" cy="362" r="3.5" fill="#2b7fa8"/><text x="312" y="367">Your address again, plus the exact time</text>
+    <circle cx="296" cy="390" r="3.5" fill="#2b7fa8"/><text x="312" y="395">Your request headers: browser and version, languages you accept</text>
+    <circle cx="296" cy="418" r="3.5" fill="#2b7fa8"/><text x="312" y="423">Any cookie that this domain set before</text>
+    <circle cx="700" cy="362" r="3.5" fill="#2b7fa8"/><text x="716" y="367">Which site you arrived from, at domain level</text>
+    <circle cx="700" cy="390" r="3.5" fill="#2b7fa8"/><text x="716" y="395">Tracking parameters carried in the address itself</text>
+    <circle cx="700" cy="418" r="3.5" fill="#2b7fa8"/><text x="716" y="423">Which resources your browser already had cached</text>
+  </g>
+
+  <rect x="270" y="470" width="830" height="176" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5" stroke-dasharray="9 6"/>
+  <path d="M270 480 a10 10 0 0 1 10 -10 h810 a10 10 0 0 1 10 10 v34 h-830 z" fill="#E69F00"/>
+  <text x="292" y="500" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">OBSERVER 3: SCRIPT RUNNING ON THE PAGE</text>
+  <text x="1078" y="500" text-anchor="end" font-size="12.5" fill="#ffffff">this is the one that measures your device</text>
+  <g font-size="13" fill="#111827">
+    <circle cx="296" cy="544" r="3.5" fill="#b07b00"/><text x="312" y="549">A canvas drawing, hashed</text>
+    <circle cx="296" cy="572" r="3.5" fill="#b07b00"/><text x="312" y="577">Graphics vendor and renderer strings</text>
+    <circle cx="296" cy="600" r="3.5" fill="#b07b00"/><text x="312" y="605">Which fonts are installed</text>
+    <circle cx="296" cy="628" r="3.5" fill="#b07b00"/><text x="312" y="633">An audio signal, processed and hashed</text>
+    <circle cx="700" cy="544" r="3.5" fill="#b07b00"/><text x="716" y="549">Screen geometry, colour depth, pixel ratio</text>
+    <circle cx="700" cy="572" r="3.5" fill="#b07b00"/><text x="716" y="577">Time zone and language settings</text>
+    <circle cx="700" cy="600" r="3.5" fill="#b07b00"/><text x="716" y="605">Processor core count and memory hints</text>
+    <circle cx="700" cy="628" r="3.5" fill="#b07b00"/><text x="716" y="633">Touch support and input devices</text>
+  </g>
+
+  <text x="570" y="686" text-anchor="middle" font-size="13.5" fill="#4b5563">Transport encryption protects the content of observer 2, and nothing in observer 1 or observer 3. Encryption is not a privacy control here.</text>
+  <text x="570" y="708" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Module 1, Lesson 1, Myth 3 said this in the abstract. This figure is the same statement with the field names filled in.</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 790" width="1180" height="790" role="img" aria-labelledby="dr-title dr-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="dr-title">Figure 3. What each hop buys, and the limit no hop count changes</title>
+  <desc id="dr-desc">Three panels. The first sets out what each additional hop actually achieves: the first removes your network operator's view of destinations, the second splits knowledge between two parties, and the third and beyond add latency and failure modes for very little. The second panel explains the limit that no number of hops changes, which is that an adversary able to observe traffic entering the chain and leaving it can match the two by timing and volume, a weakness Tor's own designers state openly. The third panel lists what actually goes wrong in practice, which is nested clients fighting over routing, conflicting connection guards, and name resolution escaping the chain. A band below gives the three things that do change the answer.</desc>
+
+  <rect x="0" y="0" width="1180" height="790" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: What Each Hop Buys, and What No Hop Count Changes</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The instinct that more hops means more privacy is wrong in a specific and checkable way, and the specifics decide when to stop.</text>
+
+  <rect x="30" y="100" width="360" height="392" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v42 h-360 z" fill="#009E73"/>
+  <text x="210" y="137" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">WHAT EACH HOP BUYS</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="52" y="180" font-size="13" font-weight="700" fill="#00614a">The first hop</text>
+    <text x="52" y="204">Removes your network operator from</text>
+    <text x="52" y="222">the picture and gives the destination</text>
+    <text x="52" y="240">a different address.</text>
+    <text x="52" y="262" font-weight="700">This is most of the value, and it is</text>
+    <text x="52" y="280" font-weight="700">where the diminishing begins.</text>
+
+    <text x="52" y="316" font-size="13" font-weight="700" fill="#8a6000">The second hop</text>
+    <text x="52" y="340">Splits knowledge, so no single party</text>
+    <text x="52" y="358">holds both halves. Genuinely useful,</text>
+    <text x="52" y="376">and only if the two are separate</text>
+    <text x="52" y="394">companies under separate control.</text>
+
+    <text x="52" y="430" font-size="13" font-weight="700" fill="#8c1d18">The third and beyond</text>
+    <text x="52" y="454">Adds latency, cost and failure modes.</text>
+    <text x="52" y="472">Adds very little else.</text>
+  </g>
+
+  <rect x="410" y="100" width="360" height="392" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M410 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v42 h-360 z" fill="#b3261e"/>
+  <text x="590" y="137" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">THE LIMIT NO COUNT CHANGES</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="432" y="180" font-size="13" font-weight="700" fill="#8c1d18">Watching both ends</text>
+    <text x="432" y="204">An adversary who can see traffic go</text>
+    <text x="432" y="222">into the chain and see traffic come</text>
+    <text x="432" y="240">out of it can match the two by timing</text>
+    <text x="432" y="258">and volume alone.</text>
+    <text x="432" y="282" font-weight="700" fill="#8c1d18">The contents are irrelevant. So is</text>
+    <text x="432" y="300" font-weight="700" fill="#8c1d18">the number of hops in between.</text>
+
+    <text x="432" y="336" font-size="13" font-weight="700" fill="#374151">Stated openly by the people who</text>
+    <text x="432" y="354" font-size="13" font-weight="700" fill="#374151">designed the strongest system</text>
+    <text x="432" y="378">Tor's own documentation says it does</text>
+    <text x="432" y="396">not claim to defend against somebody</text>
+    <text x="432" y="414">who can observe both ends of a</text>
+    <text x="432" y="432">connection. Nothing in this lesson</text>
+    <text x="432" y="450">does better than Tor here.</text>
+    <text x="432" y="474" font-style="italic" fill="#8a6000">So hops are not the answer to that.</text>
+  </g>
+
+  <rect x="790" y="100" width="360" height="392" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M790 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v42 h-360 z" fill="#E69F00"/>
+  <text x="970" y="137" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff">WHAT ACTUALLY GOES WRONG</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="812" y="180" font-size="13" font-weight="700" fill="#8a6000">Two clients, one routing table</text>
+    <text x="812" y="204">Running two tunnel applications on one</text>
+    <text x="812" y="222">machine has them competing to control</text>
+    <text x="812" y="240">routes and name resolution.</text>
+    <text x="812" y="262" font-weight="700" fill="#8c1d18">Guidance calls this the easy method.</text>
+    <text x="812" y="280" font-weight="700" fill="#8c1d18">It is the least reliable one.</text>
+
+    <text x="812" y="316" font-size="13" font-weight="700" fill="#8a6000">Two connection guards</text>
+    <text x="812" y="340">Each wants to cut the network when its</text>
+    <text x="812" y="358">own tunnel drops. Together they produce</text>
+    <text x="812" y="376">states neither was designed for.</text>
+
+    <text x="812" y="412" font-size="13" font-weight="700" fill="#8a6000">Name resolution escaping</text>
+    <text x="812" y="436">The commonest silent failure, and the</text>
+    <text x="812" y="454">one that undoes the whole arrangement</text>
+    <text x="812" y="472">without any visible symptom.</text>
+  </g>
+
+  <rect x="30" y="516" width="1120" height="146" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="546" font-size="15.5" font-weight="700" fill="#10476b">Three things that do change the answer, none of which is another hop</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="572" r="3.5" fill="#0072B2"/><text x="80" y="576"><tspan font-weight="700">Reshaping the traffic.</tspan> Cover traffic and regularised packet sizes attack the timing and volume matching directly, which is the only thing that does. Lesson 6.2, Figure 3.</text>
+    <circle cx="66" cy="598" r="3.5" fill="#0072B2"/><text x="80" y="602"><tspan font-weight="700">Many relays with rotating circuits.</tspan> Tor's design, which is a different answer to the same problem and a better tested one than any chain you assemble yourself.</text>
+    <circle cx="66" cy="624" r="3.5" fill="#0072B2"/><text x="80" y="628"><tspan font-weight="700">Not being interesting at both ends.</tspan> Compartmentalisation and account discipline decide far more than routing does, which is Module 5 arriving in a networking lesson.</text>
+    <circle cx="66" cy="650" r="3.5" fill="#8c1d18"/><text x="80" y="654"><tspan font-weight="700">And a verified single hop beats an unverified double one</tspan>, because a chain you have not tested for leaks is a chain you do not know the shape of.</text>
+  </g>
+
+  <text x="590" y="700" text-anchor="middle" font-size="13.5" fill="#4b5563">Two hops from two separate companies is a coherent arrangement with a clear purpose. Three or more is usually a feeling rather than a threat model.</text>
+  <text x="590" y="726" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">If you cannot say which specific party you are hiding the other half from, you have not yet found a reason for the second hop.</text>
+  <text x="590" y="752" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">That sentence is the whole decision procedure, and it is shorter than any matrix.</text>
+</svg>

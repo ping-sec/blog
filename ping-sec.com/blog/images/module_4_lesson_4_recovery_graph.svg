@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 720" width="1180" height="720" role="img" aria-labelledby="rg-title rg-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="rg-title">Figure 3. Draw your recovery graph, and look for the loop</title>
+  <desc id="rg-desc">Two diagrams of recovery dependencies. The first shows the loop that standard advice produces: the email account is recovered by its recovery codes, those codes are stored in the password vault, and the vault is recovered through the email account. Every node depends on another node in the circle, so losing any one of them loses all three. The second shows an acyclic arrangement in which the email account and the vault both terminate at a physical store holding a second hardware key, printed codes and a vault backup, which depends on nothing that can be lost online and on nobody who can be talked past. A band below states the rule that every recovery graph needs a root that depends on nothing else, and that the root must be physical.</desc>
+
+  <rect x="0" y="0" width="1180" height="720" fill="#ffffff"/>
+
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#b3261e"/></marker>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#009E73"/></marker>
+  </defs>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Draw the Graph, and Look for the Loop</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Standard advice produces the diagram on the left. It gives sound instructions one at a time and never draws them together.</text>
+
+  <rect x="30" y="100" width="550" height="348" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="305" y="128" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8c1d18">THE LOOP MOST PEOPLE HAVE</text>
+  <text x="305" y="147" text-anchor="middle" font-size="11.5" fill="#374151">every arrow reads "is recovered by" or "is kept in"</text>
+
+  <rect x="178" y="166" width="254" height="46" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="305" y="194" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Your email account</text>
+
+  <rect x="52" y="322" width="222" height="46" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="163" y="343" text-anchor="middle" font-size="12.5" font-weight="700" fill="#111827">Its recovery codes</text>
+  <text x="163" y="360" text-anchor="middle" font-size="11" fill="#4b5563">issued once, at setup</text>
+
+  <rect x="336" y="322" width="222" height="46" rx="8" fill="#ffffff" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="447" y="343" text-anchor="middle" font-size="12.5" font-weight="700" fill="#111827">Your password vault</text>
+  <text x="447" y="360" text-anchor="middle" font-size="11" fill="#4b5563">where you were told to put them</text>
+
+  <path d="M238 216 L178 316" stroke="#b3261e" stroke-width="2.5" fill="none" marker-end="url(#a1)"/>
+  <text x="150" y="258" font-size="11.5" font-style="italic" fill="#8c1d18">recovered by</text>
+
+  <path d="M278 345 L330 345" stroke="#b3261e" stroke-width="2.5" fill="none" marker-end="url(#a1)"/>
+  <text x="304" y="392" text-anchor="middle" font-size="11.5" font-style="italic" fill="#8c1d18">kept in</text>
+
+  <path d="M432 316 L372 216" stroke="#b3261e" stroke-width="2.5" fill="none" marker-end="url(#a1)"/>
+  <text x="452" y="258" font-size="11.5" font-style="italic" fill="#8c1d18">recovered by</text>
+
+  <text x="305" y="424" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8c1d18">Three nodes, three arrows, no way out.</text>
+  <text x="305" y="441" text-anchor="middle" font-size="11.5" fill="#374151">Lose any one of them and you have lost all three.</text>
+
+  <rect x="600" y="100" width="550" height="348" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="875" y="128" text-anchor="middle" font-size="14.5" font-weight="700" fill="#00614a">THE GRAPH YOU WANT</text>
+  <text x="875" y="147" text-anchor="middle" font-size="11.5" fill="#374151">the same arrows, arranged so the chain terminates</text>
+
+  <rect x="622" y="172" width="238" height="46" rx="8" fill="#ffffff" stroke="#009E73" stroke-width="2.5"/>
+  <text x="741" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Your email account</text>
+
+  <rect x="890" y="172" width="238" height="46" rx="8" fill="#ffffff" stroke="#009E73" stroke-width="2.5"/>
+  <text x="1009" y="200" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Your password vault</text>
+
+  <path d="M741 222 L741 296" stroke="#009E73" stroke-width="2.5" fill="none" marker-end="url(#a2)"/>
+  <path d="M1009 222 L1009 296" stroke="#009E73" stroke-width="2.5" fill="none" marker-end="url(#a2)"/>
+  <text x="875" y="258" text-anchor="middle" font-size="11.5" font-style="italic" fill="#00614a">both recovered by</text>
+
+  <rect x="622" y="302" width="506" height="78" rx="8" fill="#009E73" fill-opacity="0.16" stroke="#009E73" stroke-width="3.5"/>
+  <text x="875" y="328" text-anchor="middle" font-size="13.5" font-weight="700" fill="#00614a">A physical store you control</text>
+  <text x="875" y="348" text-anchor="middle" font-size="12" fill="#374151">A second hardware key, the codes on paper, and a copy of the vault.</text>
+  <text x="875" y="368" text-anchor="middle" font-size="12" fill="#374151">A safe, a deposit box, or a locked drawer somewhere else.</text>
+
+  <text x="875" y="410" text-anchor="middle" font-size="12.5" font-weight="700" fill="#00614a">This node has no outgoing arrow, which is the entire point.</text>
+  <text x="875" y="428" text-anchor="middle" font-size="11.5" fill="#374151">It cannot be phished, reset by a support agent, or lost with a device.</text>
+
+  <rect x="30" y="468" width="1120" height="126" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="498" font-size="15.5" font-weight="700" fill="#111827">The rule, which takes ten minutes to check and is almost never checked</text>
+  <text x="56" y="524" font-size="13.5" font-weight="700" fill="#374151">Every recovery graph needs at least one root: a node that depends on nothing else. If no node qualifies, you have a loop rather than a plan.</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="550" r="3.5" fill="#374151"/><text x="80" y="554"><tspan font-weight="700">The root has to be physical.</tspan> Anything online is recoverable by somebody, which means it has an incoming arrow you did not draw and did not choose.</text>
+    <circle cx="66" cy="576" r="3.5" fill="#374151"/><text x="80" y="580"><tspan font-weight="700">Each instruction on the left is individually correct.</tspan> Store codes in the vault. Secure the vault with the email. The loop only appears when you draw them together.</text>
+  </g>
+
+  <text x="590" y="632" text-anchor="middle" font-size="13.5" fill="#4b5563">Do this on paper for your own accounts before the lab asks you to. It takes one sheet, and most people find the loop within about five minutes.</text>
+  <text x="590" y="658" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">A local vault with no online recovery does not escape this. It makes the vault the root, so the paper copy in the safe is the only thing standing behind everything.</text>
+  <text x="590" y="686" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">The failure this prevents is not a compromise. It is the quieter one where nothing was attacked and you simply cannot get in.</text>
+</svg>

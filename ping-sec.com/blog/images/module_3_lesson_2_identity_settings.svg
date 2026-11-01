@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 680" width="1160" height="680" role="img" aria-labelledby="is-title is-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="is-title">Figure 1. Signal identity settings after the 2024 phone number change</title>
+  <desc id="is-desc">Three separate controls are explained. A username gives people a way to reach you that is not your telephone number. The setting controlling who can find you by number decides whether somebody holding your number can locate your account. The setting controlling who can see your number decides whether people you chat with are shown it. A band below explains that a telephone number is still required to register, so these settings hide the number from other users rather than removing it from the account.</desc>
+
+  <rect x="0" y="0" width="1160" height="680" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Three Separate Controls, Commonly Confused</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Since 2024 your number is hidden from people you chat with by default. These three settings are what remains to decide.</text>
+
+  <rect x="30" y="102" width="356" height="308" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M30 112 a10 10 0 0 1 10 -10 h336 a10 10 0 0 1 10 10 v36 h-356 z" fill="#0072B2"/>
+  <text x="208" y="134" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">A USERNAME</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="176" font-weight="700" fill="#10476b">What it is</text>
+    <text x="52" y="198">A handle you choose, shareable as text</text>
+    <text x="52" y="218">or as a code, that people can use to</text>
+    <text x="52" y="238">start a conversation with you.</text>
+    <text x="52" y="268" font-weight="700" fill="#10476b">What it buys you</text>
+    <text x="52" y="290">You can give somebody a way to reach</text>
+    <text x="52" y="310">you without giving them your number.</text>
+    <text x="52" y="340" font-weight="700" fill="#8c1d18">What it does not do</text>
+    <text x="52" y="362">It is not an anonymous account. It is</text>
+    <text x="52" y="382">a second name for the same account.</text>
+  </g>
+
+  <rect x="402" y="102" width="356" height="308" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M402 112 a10 10 0 0 1 10 -10 h336 a10 10 0 0 1 10 10 v36 h-356 z" fill="#E69F00"/>
+  <text x="580" y="134" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHO CAN FIND ME BY NUMBER</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="424" y="176" font-weight="700" fill="#8a6000">What it controls</text>
+    <text x="424" y="198">Whether somebody who already holds</text>
+    <text x="424" y="218">your telephone number can search and</text>
+    <text x="424" y="238">discover that you are on the service.</text>
+    <text x="424" y="268" font-weight="700" fill="#8a6000">The default</text>
+    <text x="424" y="290">Anybody with your number can find you.</text>
+    <text x="424" y="310">Set it to nobody if that matters.</text>
+    <text x="424" y="340" font-weight="700" fill="#8c1d18">Who this is for</text>
+    <text x="424" y="362">Anyone whose number is known to a</text>
+    <text x="424" y="382">party they would rather not hear from.</text>
+  </g>
+
+  <rect x="774" y="102" width="356" height="308" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M774 112 a10 10 0 0 1 10 -10 h336 a10 10 0 0 1 10 10 v36 h-356 z" fill="#009E73"/>
+  <text x="952" y="134" text-anchor="middle" font-size="13.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">WHO CAN SEE MY NUMBER</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="796" y="176" font-weight="700" fill="#00614a">What it controls</text>
+    <text x="796" y="198">Whether the people you talk to are</text>
+    <text x="796" y="218">shown your number in the app.</text>
+    <text x="796" y="248" font-weight="700" fill="#00614a">The default changed</text>
+    <text x="796" y="270">This is now hidden by default. People</text>
+    <text x="796" y="290">already holding your number in their</text>
+    <text x="796" y="310">address book still see it, because they</text>
+    <text x="796" y="330">already had it.</text>
+    <text x="796" y="360" font-weight="700" fill="#8c1d18">Check yours anyway</text>
+    <text x="796" y="382">An older account may predate the change.</text>
+  </g>
+
+  <rect x="30" y="434" width="1100" height="98" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="464" font-size="15" font-weight="700" fill="#111827">A telephone number is still required to register. These settings hide it from other users, not from the service.</text>
+  <text x="56" y="490" font-size="12.5" fill="#374151">So a username does not make the account anonymous. If the number itself must not be connected to you, that is a separate problem, and it is solved before</text>
+  <text x="56" y="510" font-size="12.5" fill="#374151">registration rather than in the settings screen afterwards. Figure 3 covers the alternative.</text>
+
+  <rect x="30" y="554" width="1100" height="98" rx="10" fill="#b3261e" fill-opacity="0.06" stroke="#b3261e" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="56" y="584" font-size="14.5" font-weight="700" fill="#8c1d18">What guidance written before 2024 gets wrong here</text>
+  <text x="56" y="610" font-size="12.5" fill="#374151">Older material treats the telephone number as unavoidably visible to everyone you speak to, and recommends a second number as the only remedy. That was</text>
+  <text x="56" y="630" font-size="12.5" fill="#374151">true and is no longer the whole picture. A second number is still the answer to a different question, which is whether the account itself links back to you.</text>
+</svg>

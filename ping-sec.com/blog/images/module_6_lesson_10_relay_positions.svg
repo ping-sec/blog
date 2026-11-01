@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 810" width="1180" height="810" role="img" aria-labelledby="rp-title rp-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="rp-title">Figure 2. The three things you could run, and what each one commits you to</title>
+  <desc id="rp-desc">A comparison of the three positions a volunteer can operate. A bridge is an unlisted entry point that helps people on censored networks reach the network at all; it attracts essentially no abuse complaints, is not in the public list so services do not block it, and is low risk to run at home. A guard or middle relay carries traffic between other relays; it does not usually receive abuse complaints because its address never appears as the source of anything, and it is also low risk to run at home. An exit relay is the address that appears in everybody else's logs, so its operator receives copyright notices and abuse complaints directly, carries genuine legal exposure, and should not be run from a home connection or a home address. A band below states the practical guidance for anybody who wants to help, which is that two of the three are appropriate for a spare machine at home and the third needs a supportive hosting provider, a reduced exit policy, a published abuse contact and a prepared response letter.</desc>
+
+  <rect x="0" y="0" width="1180" height="810" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: Running a Relay, and What Each Position Commits You To</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Lesson 6.7 noted this is the one action in the module that helps everybody rather than only you. Here is what it actually involves.</text>
+
+  <rect x="30" y="100" width="360" height="366" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#009E73"/>
+  <text x="210" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">A BRIDGE</text>
+  <text x="210" y="146" text-anchor="middle" font-size="11" fill="#ffffff">an unlisted entry point</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="52" y="180" font-weight="700" fill="#00614a">What it does for people</text>
+    <text x="52" y="202">Lets somebody on a censored</text>
+    <text x="52" y="220">network reach the network at all.</text>
+    <text x="52" y="238">Lesson 6.8's Figure 3 is the</text>
+    <text x="52" y="256">problem it solves.</text>
+
+    <text x="52" y="290" font-weight="700" fill="#00614a">Abuse complaints</text>
+    <text x="52" y="312">Essentially none. Your address is</text>
+    <text x="52" y="330">never the source of anything.</text>
+
+    <text x="52" y="364" font-weight="700" fill="#00614a">Legal exposure</text>
+    <text x="52" y="386">Low in most countries.</text>
+
+    <text x="52" y="418" font-weight="700" fill="#00614a">Run it at home?</text>
+    <text x="52" y="436" font-weight="700" fill="#00614a">Yes. Being unlisted, it is not</text>
+    <text x="52" y="452" font-weight="700" fill="#00614a">blocked by services either.</text>
+  </g>
+
+  <rect x="410" y="100" width="360" height="366" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M410 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#0072B2"/>
+  <text x="590" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">A GUARD OR MIDDLE RELAY</text>
+  <text x="590" y="146" text-anchor="middle" font-size="11" fill="#ffffff">carrying traffic between relays</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="432" y="180" font-weight="700" fill="#10476b">What it does for people</text>
+    <text x="432" y="202">Adds capacity and, more usefully,</text>
+    <text x="432" y="220">adds another separate party. That</text>
+    <text x="432" y="238">is the assumption Lesson 6.7's</text>
+    <text x="432" y="256">whole argument rests on.</text>
+
+    <text x="432" y="290" font-weight="700" fill="#10476b">Abuse complaints</text>
+    <text x="432" y="312">Not usually any. Your address</text>
+    <text x="432" y="330">never appears as the source of</text>
+    <text x="432" y="348">traffic to anybody's site.</text>
+
+    <text x="432" y="382" font-weight="700" fill="#10476b">Legal exposure</text>
+    <text x="432" y="404">Low in most countries.</text>
+
+    <text x="432" y="436" font-weight="700" fill="#10476b">Run it at home? Yes, given</text>
+    <text x="432" y="454" font-weight="700" fill="#10476b">bandwidth you can spare.</text>
+  </g>
+
+  <rect x="790" y="100" width="360" height="366" rx="10" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M790 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v44 h-360 z" fill="#b3261e"/>
+  <text x="970" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">AN EXIT RELAY</text>
+  <text x="970" y="146" text-anchor="middle" font-size="11" fill="#ffffff">the address in everybody's logs</text>
+
+  <g font-size="12" fill="#374151">
+    <text x="812" y="180" font-weight="700" fill="#8c1d18">What it does for people</text>
+    <text x="812" y="202">The scarce position. Roughly two</text>
+    <text x="812" y="220">thousand of eight thousand relays,</text>
+    <text x="812" y="238">and the network needs more of</text>
+    <text x="812" y="256">these than of anything else.</text>
+
+    <text x="812" y="290" font-weight="700" fill="#8c1d18">Abuse complaints</text>
+    <text x="812" y="312">Directly to you, continuously,</text>
+    <text x="812" y="330">including copyright notices for</text>
+    <text x="812" y="348">traffic you never saw.</text>
+
+    <text x="812" y="382" font-weight="700" fill="#8c1d18">Legal exposure</text>
+    <text x="812" y="404">Real. Traffic may be attributed to</text>
+    <text x="812" y="422">you before anything is explained.</text>
+
+    <text x="812" y="450" font-weight="700" fill="#8c1d18">Run it at home? No. Never.</text>
+  </g>
+
+  <rect x="30" y="476" width="1120" height="150" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="506" font-size="16" font-weight="700" fill="#111827">If you want to run an exit, the published guidance is specific and worth following exactly</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="532" r="3.5" fill="#374151"/><text x="80" y="536"><tspan font-weight="700">Not from your home connection, and not from your home address.</tspan> If law enforcement takes an interest, the traffic looks like it came from your house,</text>
+    <text x="80" y="554">and the response to that is a search rather than a phone call.</text>
+    <circle cx="66" cy="578" r="3.5" fill="#374151"/><text x="80" y="582"><tspan font-weight="700">Use a hosting provider that knows and agrees.</tspan> Tell them before you start. An unprepared provider terminates you at the first complaint.</text>
+    <circle cx="66" cy="604" r="3.5" fill="#374151"/><text x="80" y="608"><tspan font-weight="700">Use a reduced exit policy, publish an abuse contact, and have a response letter ready.</tspan> The organisations that support this work publish templates.</text>
+  </g>
+
+  <rect x="30" y="646" width="1120" height="76" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="674" font-size="13" fill="#374151">If that sounds like more than you want to take on, <tspan font-weight="700">run a bridge or a middle relay instead.</tspan> Both are genuinely useful, both are low risk, and both run</text>
+  <text x="56" y="698" font-size="13" fill="#374151">happily on a spare machine at home. The network needs separate operators in separate places more than it needs any single large contributor.</text>
+
+  <text x="590" y="754" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">This is also the answer to Lesson 6.9's concentration problem. More independent operators is the only thing that fixes it, and it is volunteer work.</text>
+  <text x="590" y="782" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">Every other lesson in this module told you how to protect yourself. This one is the only place you can improve the system for somebody else.</text>
+</svg>

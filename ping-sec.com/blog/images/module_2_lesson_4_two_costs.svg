@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 700" width="1160" height="700" role="img" aria-labelledby="tc-title tc-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="tc-title">Figure 2. The two costs that every extension carries</title>
+  <desc id="tc-desc">One benefit and two costs. The benefit is whatever protection the extension provides. The first cost is entropy: research fingerprinted between nine and twenty-three percent of evaluated extensions, and among 854 real users many carried a distinctive set. The second cost is trust: a content blocker needs to read and alter every page, and three documented incidents show what happens when that trust is misplaced.</desc>
+
+  <rect x="0" y="0" width="1160" height="700" fill="#ffffff"/>
+
+  <text x="580" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: One Benefit, Two Costs</text>
+  <text x="580" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The paradox is usually stated and rarely quantified. Here are the numbers behind it.</text>
+
+  <rect x="30" y="100" width="330" height="260" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h310 a10 10 0 0 1 10 10 v34 h-330 z" fill="#009E73"/>
+  <text x="195" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">THE BENEFIT</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="170">Requests that never leave.</text>
+    <text x="52" y="192">Trackers that never load.</text>
+    <text x="52" y="214">Identifiers stripped out of the</text>
+    <text x="52" y="234">addresses you click and share.</text>
+    <text x="52" y="262" font-weight="700" fill="#00614a">This is real, and it is large.</text>
+    <text x="52" y="284">A content blocker removes more</text>
+    <text x="52" y="304">tracking than every preference</text>
+    <text x="52" y="322">in Lesson 2.3 combined.</text>
+  </g>
+
+  <rect x="400" y="100" width="360" height="260" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M400 110 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v34 h-360 z" fill="#E69F00"/>
+  <text x="580" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">COST 1: ENTROPY</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="422" y="168">An extension can be detected from</text>
+    <text x="422" y="188">the traces it leaves in a page, from</text>
+    <text x="422" y="208">the files it exposes, and from what</text>
+    <text x="422" y="228">it blocks.</text>
+    <text x="422" y="258" font-weight="700" fill="#8a6000">Measured: between 9 and 23 percent</text>
+    <text x="422" y="278" font-weight="700" fill="#8a6000">of evaluated extensions could be</text>
+    <text x="422" y="298" font-weight="700" fill="#8a6000">fingerprinted automatically.</text>
+    <text x="422" y="320">Across 854 real users, many carried a</text>
+  </g>
+  <text x="422" y="340" font-size="12.5" fill="#374151">distinctive set.</text>
+
+  <rect x="800" y="100" width="330" height="260" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M800 110 a10 10 0 0 1 10 -10 h310 a10 10 0 0 1 10 10 v34 h-330 z" fill="#b3261e"/>
+  <text x="965" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff" letter-spacing="0.5">COST 2: TRUST</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="822" y="170">To block on every page, an extension</text>
+    <text x="822" y="190">must be able to read and alter every</text>
+    <text x="822" y="210">page. There is no smaller permission</text>
+    <text x="822" y="230">that does the job.</text>
+    <text x="822" y="260" font-weight="700" fill="#8c1d18">So it can also read what you type,</text>
+    <text x="822" y="280" font-weight="700" fill="#8c1d18">record where you go, and change</text>
+    <text x="822" y="300" font-weight="700" fill="#8c1d18">what you see.</text>
+    <text x="822" y="322">You are trusting a person, not a</text>
+  </g>
+  <text x="822" y="342" font-size="12.5" fill="#374151">product.</text>
+
+  <text x="580" y="392" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">Three times that trust was misplaced</text>
+
+  <rect x="30" y="410" width="356" height="152" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="52" y="440" font-size="13.5" font-weight="700" fill="#111827">Web of Trust, 2016</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="466">A site reputation extension that was</text>
+    <text x="52" y="486">found to be selling detailed browsing</text>
+    <text x="52" y="506">histories. Pulled from the stores.</text>
+    <text x="52" y="534" font-style="italic" fill="#8c1d18">Sold what it was trusted to protect.</text>
+  </g>
+
+  <rect x="402" y="410" width="356" height="152" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="424" y="440" font-size="13.5" font-weight="700" fill="#111827">Stylish, 2018</text>
+  <g font-size="12" fill="#374151">
+    <text x="424" y="466">A styling extension, sold to an analytics</text>
+    <text x="424" y="486">firm, then quietly updated to report</text>
+    <text x="424" y="506">every site its users visited.</text>
+    <text x="424" y="534" font-style="italic" fill="#8c1d18">The code was fine when you installed it.</text>
+  </g>
+
+  <rect x="774" y="410" width="356" height="152" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="2"/>
+  <text x="796" y="440" font-size="13.5" font-weight="700" fill="#111827">Chrome store, 2020</text>
+  <g font-size="12" fill="#374151">
+    <text x="796" y="466">Researchers found a coordinated set of</text>
+    <text x="796" y="486">extensions injecting ads and exfiltrating</text>
+    <text x="796" y="506">data. Around 500 were removed.</text>
+    <text x="796" y="534" font-style="italic" fill="#8c1d18">Store presence is not review.</text>
+  </g>
+
+  <rect x="30" y="588" width="1100" height="86" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="618" font-size="14.5" font-weight="700" fill="#111827">The rule that falls out of this</text>
+  <text x="56" y="644" font-size="12.5" fill="#374151">A small number of widely used extensions from maintainers with a long record. Popularity matters here in a way it usually does not, because a common extension hides</text>
+  <text x="56" y="664" font-size="12.5" fill="#374151">you in a larger group and gets far more scrutiny. Two of the three cases above began as a change of ownership, so check who maintains a tool now, not who wrote it.</text>
+</svg>

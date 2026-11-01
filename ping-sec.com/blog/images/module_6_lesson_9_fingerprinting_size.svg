@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-labelledby="fs-title fs-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="fs-title">Figure 3. Traffic fingerprinting results, stated at the right size</title>
+  <desc id="fs-desc">An explanation of why published traffic fingerprinting accuracy figures usually overstate real capability. In a closed world test, where the classifier only has to decide which of a small fixed list of sites was visited, accuracy above ninety-five per cent is reported for around five sites, falling below eighty per cent at around twenty-five. In the open world, where a person may visit any site and mostly visits none of the watched ones, the deciding quantity is not accuracy but the false positive rate, because at realistic rates of occurrence a classifier needs orders of magnitude fewer false positives to produce usable results. Measurements using genuine traffic collected at a real exit relay show that synthetic datasets flattered earlier attacks. A panel lists the defences actually deployed, which are narrow: padding that conceals the setup of client-side onion service circuits, and additional restricted guard layers that defend onion services against having their entry relay discovered. A closing band notes that this caution applies equally to a figure cited earlier in this course about encrypted name resolution.</desc>
+
+  <rect x="0" y="0" width="1180" height="820" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: Fingerprinting Numbers, and Why Most of Them Are Too Large</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Published accuracy figures are real measurements of the wrong situation. Understanding the gap is more useful than memorising any single number.</text>
+
+  <rect x="30" y="100" width="554" height="272" rx="10" fill="#E69F00" fill-opacity="0.11" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M30 110 a10 10 0 0 1 10 -10 h534 a10 10 0 0 1 10 10 v44 h-554 z" fill="#E69F00"/>
+  <text x="307" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">THE CLOSED WORLD</text>
+  <text x="307" y="146" text-anchor="middle" font-size="11" fill="#ffffff">where most published numbers come from</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="56" y="180" font-weight="700" fill="#8a6000">The setup</text>
+    <text x="56" y="202">The classifier is told the visit was to one of a</text>
+    <text x="56" y="220">small fixed list of sites, and only has to say which.</text>
+
+    <text x="56" y="252" font-weight="700" fill="#8a6000">The results</text>
+    <text x="56" y="276">Above 95 per cent when watching about 5 sites.</text>
+    <text x="56" y="300" font-weight="700" fill="#8c1d18">Below 80 per cent at about 25 sites.</text>
+    <text x="56" y="324">The number falls as the list grows, and real lists</text>
+    <text x="56" y="342">are far longer than twenty-five.</text>
+    <text x="56" y="362" font-style="italic" fill="#4b5563">The measurement is sound. The situation is artificial.</text>
+  </g>
+
+  <rect x="596" y="100" width="554" height="272" rx="10" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2.5"/>
+  <path d="M596 110 a10 10 0 0 1 10 -10 h534 a10 10 0 0 1 10 10 v44 h-554 z" fill="#0072B2"/>
+  <text x="873" y="128" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">THE OPEN WORLD</text>
+  <text x="873" y="146" text-anchor="middle" font-size="11" fill="#ffffff">where people actually browse</text>
+
+  <g font-size="12.5" fill="#374151">
+    <text x="622" y="180" font-weight="700" fill="#10476b">The setup</text>
+    <text x="622" y="202">A person may visit any site at all, and almost</text>
+    <text x="622" y="220">always visits none of the ones being watched.</text>
+
+    <text x="622" y="252" font-weight="700" fill="#10476b">Why that changes everything</text>
+    <text x="622" y="274">Accuracy stops being the deciding quantity. With</text>
+    <text x="622" y="292">a rare event and a large volume of ordinary traffic,</text>
+    <text x="622" y="310">even a small false positive rate buries every real</text>
+    <text x="622" y="328">detection under wrong ones.</text>
+    <text x="622" y="352" font-weight="700" fill="#10476b">Genuine traffic measurements show the gap is large.</text>
+  </g>
+
+  <rect x="30" y="392" width="1120" height="126" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="422" font-size="16" font-weight="700" fill="#111827">The specific criticism, which came from measuring real traffic rather than from arguing</text>
+  <text x="56" y="448" font-size="12.5" fill="#374151">Earlier work was evaluated on synthetic datasets: one kind of traffic, simple models of how a person behaves, fixed tooling, front pages only, and no attempt to</text>
+  <text x="56" y="468" font-size="12.5" fill="#374151">reflect how often any given site is actually visited. Attacks tested against traffic genuinely collected at a working exit relay perform substantially worse.</text>
+  <text x="56" y="494" font-size="12.5" font-weight="700" fill="#111827">The finding is not that fingerprinting does not work. It is that the published figures describe a task easier than the real one, by a wide margin.</text>
+
+  <rect x="30" y="538" width="554" height="164" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="566" font-size="15" font-weight="700" fill="#00614a">What is actually deployed as a defence</text>
+  <text x="56" y="592" font-size="12" fill="#374151">Padding that conceals the setup of client-side onion</text>
+  <text x="56" y="610" font-size="12" fill="#374151">service circuits, merged into the software some years</text>
+  <text x="56" y="628" font-size="12" fill="#374151">ago and narrow in scope by design.</text>
+  <text x="56" y="654" font-size="12" fill="#374151">Extra restricted guard layers that defend an onion</text>
+  <text x="56" y="672" font-size="12" fill="#374151">service against having its entry relay discovered.</text>
+  <text x="56" y="694" font-size="12" font-weight="700" fill="#8a6000">Note what is not there: general cover traffic.</text>
+
+  <rect x="596" y="538" width="554" height="164" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="622" y="566" font-size="15" font-weight="700" fill="#8c1d18">And this cuts against a figure earlier in this course</text>
+  <text x="622" y="592" font-size="12" fill="#374151">Lesson 7.2 cited over ninety per cent accuracy at</text>
+  <text x="622" y="610" font-size="12" fill="#374151">identifying sites from encrypted name resolution</text>
+  <text x="622" y="628" font-size="12" fill="#374151">traffic, from very short traces.</text>
+  <text x="622" y="654" font-size="12" font-weight="700" fill="#8c1d18">That figure comes from the same research tradition</text>
+  <text x="622" y="672" font-size="12" font-weight="700" fill="#8c1d18">and the same caution applies to it.</text>
+  <text x="622" y="694" font-size="12" font-style="italic" fill="#4b5563">The claim there should have been stated at this size.</text>
+
+  <text x="590" y="744" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">So do not conclude that traffic analysis is solved, in either direction. Conclude that a published accuracy figure describes a laboratory task.</text>
+  <text x="590" y="770" text-anchor="middle" font-size="13" fill="#4b5563">The question to ask of any such number: was the classifier choosing from a short list, and what was its false positive rate at a realistic rate of occurrence?</text>
+  <text x="590" y="796" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">That is the same discipline this course applies to product claims, applied to research claims, which deserve it just as much.</text>
+</svg>

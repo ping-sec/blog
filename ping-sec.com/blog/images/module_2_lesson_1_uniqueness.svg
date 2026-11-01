@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 660" width="1120" height="660" role="img" aria-labelledby="uq-title uq-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="uq-title">Figure 3. Share of browser fingerprints that were unique, by study population</title>
+  <desc id="uq-desc">A horizontal bar chart of five measurements. From a self-selected sample of about 500,000 visitors to a fingerprinting test site in 2010, 84 percent of fingerprints were unique. From 2.07 million fingerprints collected on an ordinary high-traffic website in 2018, 35.7 percent of desktop fingerprints were unique, 33.6 percent across all devices, 18.5 percent of mobile fingerprints, and only 0.7 percent of desktop fingerprints when scripting was disabled.</desc>
+
+  <rect x="0" y="0" width="1120" height="660" fill="#ffffff"/>
+
+  <text x="560" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 3: How Unique Is a Browser, Really?</text>
+  <text x="560" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Share of collected fingerprints that were unique. The widely quoted number and the general-population number are not the same number.</text>
+
+  <g font-size="12.5" fill="#374151">
+    <rect x="742" y="92" width="14" height="14" rx="3" fill="#E69F00"/><text x="764" y="104">Self-selected sample</text>
+    <rect x="906" y="92" width="14" height="14" rx="3" fill="#0072B2"/><text x="928" y="104">General population</text>
+  </g>
+
+  <g stroke="#e5e7eb" stroke-width="1.5">
+    <line x1="420" y1="128" x2="420" y2="452"/>
+    <line x1="560" y1="128" x2="560" y2="452"/>
+    <line x1="700" y1="128" x2="700" y2="452"/>
+    <line x1="840" y1="128" x2="840" y2="452"/>
+    <line x1="980" y1="128" x2="980" y2="452"/>
+  </g>
+
+  <text x="400" y="146" text-anchor="end" font-size="12.5" font-weight="700" fill="#8a6000" letter-spacing="0.5">VISITORS TO A FINGERPRINTING TEST SITE, 2010</text>
+  <text x="400" y="176" text-anchor="end" font-size="13.5" font-weight="700" fill="#111827">All browsers</text>
+  <text x="400" y="194" text-anchor="end" font-size="12" fill="#6b7280">about 500,000 fingerprints</text>
+  <path d="M420 158 H886 A4 4 0 0 1 890 162 V188 A4 4 0 0 1 886 192 H420 Z" fill="#E69F00"/>
+  <text x="902" y="180" font-size="16" font-weight="700" fill="#111827">84%</text>
+
+  <text x="400" y="248" text-anchor="end" font-size="12.5" font-weight="700" fill="#10476b" letter-spacing="0.5">VISITORS TO AN ORDINARY HIGH-TRAFFIC SITE, 2018</text>
+  <text x="400" y="278" text-anchor="end" font-size="13.5" font-weight="700" fill="#111827">Desktop</text>
+  <text x="400" y="296" text-anchor="end" font-size="12" fill="#6b7280">2.07 million fingerprints in total</text>
+  <path d="M420 260 H616 A4 4 0 0 1 620 264 V290 A4 4 0 0 1 616 294 H420 Z" fill="#0072B2"/>
+  <text x="632" y="282" font-size="16" font-weight="700" fill="#111827">35.7%</text>
+
+  <text x="400" y="330" text-anchor="end" font-size="13.5" font-weight="700" fill="#111827">All devices</text>
+  <path d="M420 312 H604 A4 4 0 0 1 608 316 V342 A4 4 0 0 1 604 346 H420 Z" fill="#0072B2"/>
+  <text x="620" y="334" font-size="16" font-weight="700" fill="#111827">33.6%</text>
+
+  <text x="400" y="382" text-anchor="end" font-size="13.5" font-weight="700" fill="#111827">Mobile</text>
+  <path d="M420 364 H520 A4 4 0 0 1 524 368 V394 A4 4 0 0 1 520 398 H420 Z" fill="#0072B2"/>
+  <text x="536" y="386" font-size="16" font-weight="700" fill="#111827">18.5%</text>
+
+  <text x="400" y="428" text-anchor="end" font-size="13.5" font-weight="700" fill="#111827">Desktop, scripting off</text>
+  <text x="400" y="446" text-anchor="end" font-size="12" fill="#6b7280">same population, no JavaScript</text>
+  <rect x="420" y="416" width="4" height="30" rx="1" fill="#0072B2"/>
+  <text x="436" y="436" font-size="16" font-weight="700" fill="#111827">0.7%</text>
+
+  <line x1="420" y1="462" x2="980" y2="462" stroke="#9ca3af" stroke-width="1.5"/>
+  <g font-size="12" fill="#6b7280" text-anchor="middle">
+    <text x="420" y="482">0%</text>
+    <text x="560" y="482">25%</text>
+    <text x="700" y="482">50%</text>
+    <text x="840" y="482">75%</text>
+    <text x="980" y="482">100%</text>
+  </g>
+  <text x="700" y="506" text-anchor="middle" font-size="13" font-weight="700" fill="#111827" letter-spacing="0.5">SHARE OF FINGERPRINTS THAT WERE UNIQUE</text>
+
+  <rect x="40" y="530" width="1040" height="106" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="66" y="560" font-size="14" font-weight="700" fill="#111827">Read the sample, not just the number.</text>
+  <text x="66" y="584" font-size="12.5" fill="#374151">The 2010 figure comes from people who deliberately went to a fingerprinting test site. That is an unusual population with unusual configurations. Measured on</text>
+  <text x="66" y="604" font-size="12.5" fill="#374151">an ordinary website, roughly a third of desktop visitors were unique and fewer than a fifth of phone visitors were. Fingerprinting still works, it works less well than</text>
+  <text x="66" y="624" font-size="12.5" fill="#374151">the quoted number suggests, and it works far better against a desktop than against a phone. Note the last bar: almost the whole fingerprint arrives through script.</text>
+</svg>

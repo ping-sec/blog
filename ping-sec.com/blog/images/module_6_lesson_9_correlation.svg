@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 810" width="1180" height="810" role="img" aria-labelledby="co-title co-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="co-title">Figure 1. The one attack Tor does not claim to stop</title>
+  <desc id="co-desc">A diagram of end-to-end correlation. An observer who can see traffic entering the network near the user and leaving it near the destination does not need to break any encryption. Matching the timing and volume of the two flows is enough to link them. A panel explains why adding relays does not help: the observer is positioned at the two ends, and everything between them is irrelevant to the method. A panel quotes the project's own position, that the design does not try to protect against an attacker who can see or measure both sides, and that the security approach is instead to reduce the chance of an adversary being in those positions. A further panel explains the alternative that was rejected, which is adding delay and cover traffic as high latency remailer systems do, and why that trade was not taken. A closing band draws out what follows for a reader: the defence is not cryptographic but positional, so the useful question is who could plausibly occupy both ends of your particular connection.</desc>
+
+  <rect x="0" y="0" width="1180" height="810" fill="#ffffff"/>
+
+  <defs>
+    <marker id="coar" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#374151"/></marker>
+  </defs>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: The One Attack Tor Does Not Claim to Stop</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Most systems are vague about their limits. This one publishes them, which is the reason to take the rest of its claims seriously.</text>
+
+  <rect x="30" y="100" width="1120" height="150" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+
+  <rect x="60" y="126" width="150" height="54" rx="8" fill="#0072B2" fill-opacity="0.16" stroke="#0072B2" stroke-width="2"/>
+  <text x="135" y="148" text-anchor="middle" font-size="12.5" font-weight="700" fill="#10476b">YOU</text>
+  <text x="135" y="167" text-anchor="middle" font-size="10.5" fill="#4b5563">and your connection</text>
+
+  <path d="M216 153 h34" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#coar)"/>
+
+  <rect x="256" y="126" width="380" height="54" rx="8" fill="#009E73" fill-opacity="0.12" stroke="#009E73" stroke-width="2"/>
+  <text x="446" y="148" text-anchor="middle" font-size="12.5" font-weight="700" fill="#00614a">THREE RELAYS, WORKING EXACTLY AS DESIGNED</text>
+  <text x="446" y="167" text-anchor="middle" font-size="10.5" fill="#4b5563">nothing here is broken, and nothing here matters to this attack</text>
+
+  <path d="M642 153 h34" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#coar)"/>
+
+  <rect x="682" y="126" width="150" height="54" rx="8" fill="#374151" fill-opacity="0.12" stroke="#374151" stroke-width="2"/>
+  <text x="757" y="148" text-anchor="middle" font-size="12.5" font-weight="700" fill="#374151">DESTINATION</text>
+
+  <circle cx="135" cy="206" r="9" fill="#b3261e"/>
+  <circle cx="757" cy="206" r="9" fill="#b3261e"/>
+  <path d="M135 197 v-9" stroke="#b3261e" stroke-width="2.5" fill="none"/>
+  <path d="M757 197 v-9" stroke="#b3261e" stroke-width="2.5" fill="none"/>
+  <path d="M144 206 h604" stroke="#b3261e" stroke-width="2.5" stroke-dasharray="6 5" fill="none"/>
+  <text x="446" y="228" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8c1d18">One observer watching both of these two points can match the flows by timing and volume alone</text>
+
+  <text x="880" y="150" font-size="12.5" font-weight="700" fill="#8c1d18">No encryption is broken.</text>
+  <text x="880" y="170" font-size="12" fill="#374151">Nothing is decrypted, and no</text>
+  <text x="880" y="188" font-size="12" fill="#374151">relay has to be compromised.</text>
+  <text x="880" y="212" font-size="12" fill="#374151">Traffic that goes in at one</text>
+  <text x="880" y="230" font-size="12" fill="#374151">moment comes out at another,</text>
+  <text x="880" y="248" font-size="12" fill="#374151">and the shapes match.</text>
+
+  <rect x="30" y="268" width="360" height="238" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="296" font-size="15" font-weight="700" fill="#111827">Why more hops do not help</text>
+  <text x="56" y="322" font-size="12" fill="#374151">The observer is standing at the two ends.</text>
+  <text x="56" y="340" font-size="12" fill="#374151">What happens between them does not enter</text>
+  <text x="56" y="358" font-size="12" fill="#374151">into the method at all.</text>
+  <text x="56" y="384" font-size="12" font-weight="700" fill="#111827">A fourth relay, a fifth, a chain of</text>
+  <text x="56" y="402" font-size="12" font-weight="700" fill="#111827">tunnels bolted on: none of it changes</text>
+  <text x="56" y="420" font-size="12" font-weight="700" fill="#111827">what the two endpoints look like.</text>
+  <text x="56" y="448" font-size="12" font-style="italic" fill="#4b5563">This is the same limit Lesson 6.4 found for</text>
+  <text x="56" y="466" font-size="12" font-style="italic" fill="#4b5563">tunnel chains, arriving here unchanged. It is</text>
+  <text x="56" y="484" font-size="12" font-style="italic" fill="#4b5563">why hop counting stops being useful.</text>
+
+  <rect x="410" y="268" width="360" height="238" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="436" y="296" font-size="15" font-weight="700" fill="#10476b">What the project says about it</text>
+  <text x="436" y="322" font-size="12" fill="#374151">The design does not try to protect against</text>
+  <text x="436" y="340" font-size="12" fill="#374151">an attacker who can see or measure traffic</text>
+  <text x="436" y="358" font-size="12" fill="#374151">both entering and leaving the network.</text>
+  <text x="436" y="384" font-size="12" font-weight="700" fill="#10476b">That is published, in their own</text>
+  <text x="436" y="402" font-size="12" font-weight="700" fill="#10476b">documentation, in plain language.</text>
+  <text x="436" y="430" font-size="12" fill="#374151">Their stated approach instead is to reduce</text>
+  <text x="436" y="448" font-size="12" fill="#374151">the chance that an adversary ends up in</text>
+  <text x="436" y="466" font-size="12" fill="#374151">both of the right positions, which makes</text>
+  <text x="436" y="484" font-size="12" fill="#374151">this a positional defence, not a cryptographic one.</text>
+
+  <rect x="790" y="268" width="360" height="238" rx="10" fill="#E69F00" fill-opacity="0.11" stroke="#E69F00" stroke-width="2.5"/>
+  <text x="816" y="296" font-size="15" font-weight="700" fill="#8a6000">The fix they chose not to build</text>
+  <text x="816" y="322" font-size="12" fill="#374151">There is a known defence: hold messages,</text>
+  <text x="816" y="340" font-size="12" fill="#374151">reorder them, and send steady cover traffic</text>
+  <text x="816" y="358" font-size="12" fill="#374151">so that timing carries no information.</text>
+  <text x="816" y="384" font-size="12" fill="#374151">Remailer systems did exactly that, and the</text>
+  <text x="816" y="402" font-size="12" fill="#374151">cost is delay measured in hours.</text>
+  <text x="816" y="430" font-size="12" font-weight="700" fill="#8a6000">Tor chose interactive browsing over</text>
+  <text x="816" y="448" font-size="12" font-weight="700" fill="#8a6000">resistance to this attack, deliberately.</text>
+  <text x="816" y="474" font-size="12" font-style="italic" fill="#4b5563">A stated trade, not an oversight.</text>
+
+  <rect x="30" y="526" width="1120" height="140" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="556" font-size="16" font-weight="700" fill="#00614a">So the useful question is positional, and you can actually answer it</text>
+  <text x="56" y="582" font-size="12.5" fill="#374151">Since the defence is about position rather than mathematics, ask: <tspan font-weight="700">who could plausibly see both ends of this particular connection?</tspan> For most work the</text>
+  <text x="56" y="602" font-size="12.5" fill="#374151">answer is nobody, because your traffic enters in one country through one provider and leaves through a relay somewhere else entirely.</text>
+  <text x="56" y="628" font-size="12.5" fill="#374151">For a national adversary watching a country's own borders, and a destination inside that same country, the answer may well be somebody. That is a</text>
+  <text x="56" y="648" font-size="12.5" font-weight="700" fill="#00614a">specific, answerable question about your situation, which is worth far more than a general worry about whether Tor is broken.</text>
+
+  <text x="590" y="706" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Module 3 Lesson 4 already teaches this attack in a messaging context. It is the same attack, and this is the system that says openly it cannot stop it.</text>
+  <text x="590" y="734" text-anchor="middle" font-size="13" fill="#4b5563">Compare that with every provider claim in Lesson 6.3, none of which named a single thing the product could not do.</text>
+  <text x="590" y="762" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">A system that publishes its own defeat conditions is giving you something you can plan around. A system that does not is giving you a mood.</text>
+</svg>

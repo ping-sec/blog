@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 810" width="1180" height="810" role="img" aria-labelledby="wm-title wm-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wm-title">Figure 1. What a VPN moves, and what it leaves exactly where it was</title>
+  <desc id="wm-desc">Two chains. Without a VPN, your device connects through your network operator to the destination, and the operator sees which sites you reach while the destination sees your address. With a VPN, an encrypted tunnel is added, so the operator sees only a connection to the provider, and the destination sees the provider's address instead of yours. The provider now sees what the operator used to. A band below states that this is a transfer of visibility rather than a removal of it. A second band lists what neither arrangement changes: the destination still knows you when you sign in, cookies and fingerprinting are unaffected, application components still report independently, and the advertising bid request still carries identifiers.</desc>
+
+  <rect x="0" y="0" width="1180" height="810" fill="#ffffff"/>
+
+  <defs>
+    <marker id="m1" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#374151"/></marker>
+  </defs>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: What a VPN Moves, and What It Leaves Alone</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The single most useful sentence about VPNs is that they transfer visibility rather than remove it. Everything else follows from that.</text>
+
+  <text x="52" y="118" font-size="13" font-weight="700" fill="#8c1d18" letter-spacing="0.5">WITHOUT A VPN</text>
+
+  <rect x="30" y="128" width="340" height="152" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="200" y="154" text-anchor="middle" font-size="13.5" font-weight="700" fill="#111827">Your device</text>
+  <g font-size="12" fill="#374151">
+    <text x="52" y="182">Knows everything, because it is</text>
+    <text x="52" y="200">yours. The starting point rather</text>
+    <text x="52" y="218">than an observer.</text>
+    <text x="52" y="246" font-style="italic" fill="#4b5563">Which is worth stating, because</text>
+    <text x="52" y="264" font-style="italic" fill="#4b5563">a compromised device ends this.</text>
+  </g>
+
+  <path d="M375 204 h35" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#m1)"/>
+
+  <rect x="420" y="128" width="340" height="152" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="590" y="154" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8c1d18">Your network operator</text>
+  <g font-size="12" fill="#374151">
+    <text x="442" y="182" font-weight="700" fill="#8c1d18">Which sites you reach, and when.</text>
+    <text x="442" y="204">Not the contents, which are encrypted,</text>
+    <text x="442" y="222">but the destinations, the timing and</text>
+    <text x="442" y="240">the volume.</text>
+    <text x="442" y="266" font-style="italic">In some countries it may sell that.</text>
+  </g>
+
+  <path d="M765 204 h35" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#m1)"/>
+
+  <rect x="810" y="128" width="340" height="152" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="980" y="154" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8a6000">The destination</text>
+  <g font-size="12" fill="#374151">
+    <text x="832" y="182" font-weight="700" fill="#8a6000">Your network address, and</text>
+    <text x="832" y="200" font-weight="700" fill="#8a6000">everything you do on the site.</text>
+    <text x="832" y="228">Roughly which city you are in, and</text>
+    <text x="832" y="246">who you are the moment you sign in.</text>
+  </g>
+
+  <text x="52" y="322" font-size="13" font-weight="700" fill="#00614a" letter-spacing="0.5">WITH A VPN</text>
+
+  <rect x="30" y="332" width="262" height="150" rx="10" fill="#374151" fill-opacity="0.07" stroke="#374151" stroke-width="2"/>
+  <text x="161" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#111827">Your device</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="50" y="386">Unchanged. Still knows</text>
+    <text x="50" y="404">everything, still the thing</text>
+    <text x="50" y="422">that matters most.</text>
+    <text x="50" y="450" font-style="italic" fill="#4b5563">Nothing in this row helps if</text>
+    <text x="50" y="468" font-style="italic" fill="#4b5563">this box is compromised.</text>
+  </g>
+
+  <path d="M297 406 h14" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#m1)"/>
+
+  <rect x="316" y="332" width="262" height="150" rx="10" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2"/>
+  <text x="447" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#00614a">Your network operator</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="336" y="386" font-weight="700" fill="#00614a">Now sees one thing: that</text>
+    <text x="336" y="404" font-weight="700" fill="#00614a">you connected to a VPN.</text>
+    <text x="336" y="430">Not the destinations. Still</text>
+    <text x="336" y="448">the timing and the volume,</text>
+    <text x="336" y="466">which is not nothing.</text>
+  </g>
+
+  <path d="M583 406 h14" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#m1)"/>
+
+  <rect x="602" y="332" width="262" height="150" rx="10" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="733" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#8c1d18">The VPN provider</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="622" y="386" font-weight="700" fill="#8c1d18">Everything the operator</text>
+    <text x="622" y="404" font-weight="700" fill="#8c1d18">used to see, plus your real</text>
+    <text x="622" y="422" font-weight="700" fill="#8c1d18">address and your payment.</text>
+    <text x="622" y="448">A new observer, in a new</text>
+    <text x="622" y="466">country, chosen by you.</text>
+  </g>
+
+  <path d="M869 406 h14" stroke="#374151" stroke-width="2.5" fill="none" marker-end="url(#m1)"/>
+
+  <rect x="888" y="332" width="262" height="150" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="1019" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#8a6000">The destination</text>
+  <g font-size="11.5" fill="#374151">
+    <text x="908" y="386">Sees the provider's address</text>
+    <text x="908" y="404">instead of yours.</text>
+    <text x="908" y="430" font-weight="700" fill="#8a6000">Everything else about what</text>
+    <text x="908" y="448" font-weight="700" fill="#8a6000">you do there is exactly as</text>
+    <text x="908" y="466" font-weight="700" fill="#8a6000">it was.</text>
+  </g>
+
+  <rect x="30" y="508" width="1120" height="94" rx="10" fill="#0072B2" fill-opacity="0.09" stroke="#0072B2" stroke-width="2.5"/>
+  <text x="56" y="536" font-size="15.5" font-weight="700" fill="#10476b">What actually happened: one observer was swapped for another</text>
+  <text x="56" y="562" font-size="12.5" fill="#374151">Your network operator lost the destinations. The provider gained them, along with your real address and whatever your payment method reveals. Nobody was removed</text>
+  <text x="56" y="582" font-size="12.5" fill="#374151">from the picture. The question is not whether you are being observed. It is which of the two you would rather be observed by, and that is a real question with a real answer.</text>
+
+  <rect x="30" y="622" width="1120" height="132" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="652" font-size="15.5" font-weight="700" fill="#8c1d18">And four things that did not move at all, which is where most of the disappointment comes from</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="678" r="3.5" fill="#8c1d18"/><text x="80" y="682"><tspan font-weight="700">Signing in.</tspan> The moment you log into an account, the destination knows exactly who you are, and the address it saw first stops mattering.</text>
+    <circle cx="66" cy="704" r="3.5" fill="#8c1d18"/><text x="80" y="708"><tspan font-weight="700">Cookies and fingerprinting.</tspan> Module 2 covered these. They identify the browser rather than the address, and a tunnel does not touch them.</text>
+    <circle cx="66" cy="730" r="3.5" fill="#8c1d18"/><text x="80" y="734"><tspan font-weight="700">Application components and the advertising request.</tspan> Lesson 5.2, channels two and three. They report from inside the tunnel, carrying identifiers a new address does not change.</text>
+  </g>
+
+  <text x="590" y="792" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">A VPN is a network layer tool. Almost everything people want it to fix happens at a different layer, which is why it disappoints them.</text>
+</svg>

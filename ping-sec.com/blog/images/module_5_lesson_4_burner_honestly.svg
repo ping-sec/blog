@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 800" width="1180" height="800" role="img" aria-labelledby="bh-title bh-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="bh-title">Figure 2. Four things that defeat a burner phone, and what one is actually for</title>
+  <desc id="bh-desc">Four defeat mechanisms. First, more than 155 countries now require identity documents to register a prepaid subscriber module, so an unregistered one is not purchasable in most of the world. Second, the purchase itself is recorded by cameras and timestamps even when paid in cash. Third, and most important, a second device that travels the same routes at the same times as your usual one is linked by pattern rather than by name, and research finds that most pairs of people who call each other have shared a tower. Fourth, a single moment of carelessness such as one power-on at home undoes everything. A band below states what a burner is actually good for, and what it is not.</desc>
+
+  <rect x="0" y="0" width="1180" height="800" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 2: The Burner Phone, Honestly</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The usual instructions are cash purchase, never power it on near your real phone, destroy it afterwards. All true, and all insufficient.</text>
+
+  <rect x="30" y="98" width="270" height="300" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <circle cx="64" cy="132" r="16" fill="#b3261e"/><text x="64" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">1</text>
+  <text x="90" y="130" font-size="13.5" font-weight="700" fill="#8c1d18">You cannot buy it</text>
+  <text x="90" y="147" font-size="11" fill="#8c1d18">in most of the world</text>
+  <g font-size="12" fill="#374151">
+    <text x="50" y="182">More than 155 countries now</text>
+    <text x="50" y="200">require identity documents to</text>
+    <text x="50" y="218">register a prepaid subscriber</text>
+    <text x="50" y="236">module.</text>
+    <text x="50" y="262" font-weight="700" fill="#8c1d18">Some require biometrics.</text>
+    <text x="50" y="288">A handful of countries do not,</text>
+    <text x="50" y="306">and they are the ones this</text>
+    <text x="50" y="324">advice was written in.</text>
+    <text x="50" y="354" font-style="italic" fill="#8c1d18">Check the country you are in</text>
+    <text x="50" y="372" font-style="italic" fill="#8c1d18">before planning around this.</text>
+  </g>
+
+  <rect x="320" y="98" width="270" height="300" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <circle cx="354" cy="132" r="16" fill="#b07b00"/><text x="354" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">2</text>
+  <text x="380" y="130" font-size="13.5" font-weight="700" fill="#8a6000">The purchase is</text>
+  <text x="380" y="147" font-size="11" fill="#8a6000">recorded regardless</text>
+  <g font-size="12" fill="#374151">
+    <text x="340" y="182">Cash removes the payment</text>
+    <text x="340" y="200">record and nothing else.</text>
+    <text x="340" y="226">The shop has cameras. The</text>
+    <text x="340" y="244">till has a timestamp. The</text>
+    <text x="340" y="262">device has a serial number</text>
+    <text x="340" y="280">tied to that consignment.</text>
+    <text x="340" y="308" font-weight="700" fill="#8a6000">Which links a face and a</text>
+    <text x="340" y="326" font-weight="700" fill="#8a6000">minute to a device, later,</text>
+    <text x="340" y="344" font-weight="700" fill="#8a6000">if anybody looks.</text>
+    <text x="340" y="374" font-style="italic">How you got there matters too.</text>
+  </g>
+
+  <rect x="610" y="98" width="270" height="300" rx="10" fill="#b3261e" fill-opacity="0.10" stroke="#b3261e" stroke-width="3"/>
+  <circle cx="644" cy="132" r="16" fill="#b3261e"/><text x="644" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">3</text>
+  <text x="670" y="130" font-size="13.5" font-weight="700" fill="#8c1d18">Your pattern, not</text>
+  <text x="670" y="147" font-size="11" fill="#8c1d18">your name</text>
+  <g font-size="12" fill="#374151">
+    <text x="630" y="182">The important one, and the</text>
+    <text x="630" y="200">one the usual advice misses.</text>
+    <text x="630" y="226">A device that travels your</text>
+    <text x="630" y="244">routes, at your hours, is</text>
+    <text x="630" y="262">linked to you by shape.</text>
+    <text x="630" y="288" font-weight="700" fill="#8c1d18">Never on at the same time</text>
+    <text x="630" y="306" font-weight="700" fill="#8c1d18">is not the same as never</text>
+    <text x="630" y="324" font-weight="700" fill="#8c1d18">in the same places.</text>
+    <text x="630" y="352" font-style="italic" fill="#8c1d18">Research finds most pairs who</text>
+    <text x="630" y="370" font-style="italic" fill="#8c1d18">call each other share a tower.</text>
+  </g>
+
+  <rect x="900" y="98" width="250" height="300" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <circle cx="934" cy="132" r="16" fill="#374151"/><text x="934" y="138" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">4</text>
+  <text x="960" y="130" font-size="13.5" font-weight="700" fill="#111827">One slip ends it</text>
+  <text x="960" y="147" font-size="11" fill="#374151">permanently</text>
+  <g font-size="12" fill="#374151">
+    <text x="920" y="182">One power-on at home. One</text>
+    <text x="920" y="200">call to a number you have</text>
+    <text x="920" y="218">called before. One connection</text>
+    <text x="920" y="236">to a network you use.</text>
+    <text x="920" y="262" font-weight="700">The record is permanent and</text>
+    <text x="920" y="280" font-weight="700">you will not know you made</text>
+    <text x="920" y="298" font-weight="700">the mistake.</text>
+    <text x="920" y="328" font-style="italic">Operational discipline over</text>
+    <text x="920" y="346" font-style="italic">months is the hard part, and</text>
+    <text x="920" y="364" font-style="italic">nobody is naturally good at it.</text>
+  </g>
+
+  <rect x="30" y="422" width="1120" height="128" rx="10" fill="#009E73" fill-opacity="0.09" stroke="#009E73" stroke-width="2.5"/>
+  <text x="56" y="452" font-size="15.5" font-weight="700" fill="#00614a">What a second device is genuinely good for, which is not what the guidance implies</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="478" r="3.5" fill="#00614a"/><text x="80" y="482"><tspan font-weight="700">Compartmentalisation.</tspan> A device that holds client work and nothing else, so a personal compromise is not a client compromise. This works, it is boring, and it is the actual use.</text>
+    <circle cx="66" cy="504" r="3.5" fill="#00614a"/><text x="80" y="508"><tspan font-weight="700">Travel with reduced exposure.</tspan> A device carrying nothing sensitive across a border, so a search finds nothing. Figure 3. This also works.</text>
+    <circle cx="66" cy="530" r="3.5" fill="#00614a"/><text x="80" y="534"><tspan font-weight="700">A clean device for an untrusted environment.</tspan> Conference networks, client sites, anywhere you would rather not connect your real phone.</text>
+  </g>
+
+  <rect x="30" y="574" width="1120" height="112" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="604" font-size="15.5" font-weight="700" fill="#8c1d18">What it is not good for, and where the usual guidance becomes actively unsafe</text>
+  <text x="56" y="630" font-size="12.5" fill="#374151">Genuine anonymity against a capable investigator. Not because the technique is wrong, but because it has to be executed perfectly, over a long period, by somebody</text>
+  <text x="56" y="650" font-size="12.5" fill="#374151">who has never done it before, in a country whose subscriber registration rules the guidance did not mention.</text>
+  <text x="56" y="676" font-size="13" font-weight="700" fill="#8c1d18">Anybody whose safety depends on that needs a specialist and a lawyer, not a checklist. Saying otherwise is the failure mode of this entire topic.</text>
+
+  <text x="590" y="726" text-anchor="middle" font-size="13.5" fill="#4b5563">Use a second device for compartmentalisation, which is what almost everybody reading this actually needs.</text>
+  <text x="590" y="752" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">Do not confuse that with anonymity, and do not let a lesson convince you that you have achieved anonymity because you paid cash.</text>
+  <text x="590" y="778" text-anchor="middle" font-size="12.5" font-style="italic" fill="#4b5563">The gap between those two things is where people get hurt, and it is exactly the gap this kind of material tends to blur.</text>
+</svg>

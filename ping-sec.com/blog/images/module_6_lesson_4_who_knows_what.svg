@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 818" width="1180" height="818" role="img" aria-labelledby="wk-title wk-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="wk-title">Figure 1. Who knows your address, who knows your destination, and who knows both</title>
+  <desc id="wk-desc">A table comparing five arrangements. With no tunnel, the network operator knows both your address and your destinations. With a single tunnel, the provider knows both. With a provider's own multi-hop, two servers each know one half but the provider operates both. With two different providers chained, each knows one half and neither knows both, which requires them to combine records to reconstruct the path. With a tunnel followed by Tor, the provider knows your address and that you use Tor, and no single party knows both ends. A band below lists what none of these arrangements changes: the account you hold, the payment that identifies you, your browser fingerprint, and everything you do while signed in.</desc>
+
+  <rect x="0" y="0" width="1180" height="818" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Who Knows Your Address, Who Knows Where You Went</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">Multi-hop splits knowledge between parties. It does not remove it, and the column that matters is the third one.</text>
+
+  <rect x="30" y="98" width="1120" height="44" rx="8" fill="#374151"/>
+  <text x="48" y="126" font-size="12.5" font-weight="700" fill="#ffffff">ARRANGEMENT</text>
+  <text x="360" y="126" font-size="12.5" font-weight="700" fill="#ffffff">KNOWS YOUR ADDRESS</text>
+  <text x="620" y="126" font-size="12.5" font-weight="700" fill="#ffffff">KNOWS YOUR DESTINATION</text>
+  <text x="900" y="126" font-size="12.5" font-weight="700" fill="#ffffff">KNOWS BOTH</text>
+
+  <rect x="30" y="148" width="1120" height="62" rx="6" fill="#b3261e" fill-opacity="0.09" stroke="#b3261e" stroke-width="2"/>
+  <text x="48" y="174" font-size="12.5" font-weight="700" fill="#8c1d18">No tunnel</text>
+  <text x="48" y="194" font-size="11" fill="#4b5563">what most people have</text>
+  <text x="360" y="184" font-size="12" fill="#374151">Your network operator</text>
+  <text x="620" y="184" font-size="12" fill="#374151">Your network operator</text>
+  <text x="900" y="184" font-size="12" font-weight="700" fill="#8c1d18">Your network operator</text>
+
+  <rect x="30" y="216" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="242" font-size="12.5" font-weight="700" fill="#8a6000">A single tunnel</text>
+  <text x="48" y="262" font-size="11" fill="#4b5563">Lesson 6.1's whole subject</text>
+  <text x="360" y="252" font-size="12" fill="#374151">The provider</text>
+  <text x="620" y="252" font-size="12" fill="#374151">The provider</text>
+  <text x="900" y="252" font-size="12" font-weight="700" fill="#8a6000">The provider</text>
+
+  <rect x="30" y="284" width="1120" height="62" rx="6" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2"/>
+  <text x="48" y="310" font-size="12.5" font-weight="700" fill="#8a6000">One provider's multi-hop</text>
+  <text x="48" y="330" font-size="11" fill="#4b5563">the one-click option</text>
+  <text x="360" y="320" font-size="12" fill="#374151">Entry server</text>
+  <text x="620" y="320" font-size="12" fill="#374151">Exit server</text>
+  <text x="900" y="312" font-size="12" font-weight="700" fill="#8a6000">The provider, which</text>
+  <text x="900" y="330" font-size="12" font-weight="700" fill="#8a6000">operates both ends</text>
+
+  <rect x="30" y="352" width="1120" height="62" rx="6" fill="#009E73" fill-opacity="0.11" stroke="#009E73" stroke-width="2"/>
+  <text x="48" y="378" font-size="12.5" font-weight="700" fill="#00614a">Two providers, chained</text>
+  <text x="48" y="398" font-size="11" fill="#4b5563">the arrangement that earns the name</text>
+  <text x="360" y="388" font-size="12" fill="#374151">Provider A only</text>
+  <text x="620" y="388" font-size="12" fill="#374151">Provider B only</text>
+  <text x="900" y="380" font-size="12" font-weight="700" fill="#00614a">Nobody, unless the two</text>
+  <text x="900" y="398" font-size="12" font-weight="700" fill="#00614a">combine their records</text>
+
+  <rect x="30" y="420" width="1120" height="62" rx="6" fill="#0072B2" fill-opacity="0.10" stroke="#0072B2" stroke-width="2"/>
+  <text x="48" y="446" font-size="12.5" font-weight="700" fill="#10476b">Tunnel, then Tor</text>
+  <text x="48" y="466" font-size="11" fill="#4b5563">described properly in Figure 2</text>
+  <text x="360" y="456" font-size="12" fill="#374151">The provider, plus that you use Tor</text>
+  <text x="620" y="456" font-size="12" fill="#374151">The Tor exit relay</text>
+  <text x="900" y="448" font-size="12" font-weight="700" fill="#10476b">Nobody, by design</text>
+  <text x="900" y="466" font-size="11.5" fill="#374151">and see Figure 3 for the limit</text>
+
+  <rect x="30" y="506" width="1120" height="86" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2.5"/>
+  <text x="56" y="534" font-size="14.5" font-weight="700" fill="#111827">Read the third column, not the first</text>
+  <text x="56" y="558" font-size="12.5" fill="#374151">Row three is sold as multi-hop and delivers a split between two machines run by one company, under one legal identity, reachable by one legal process.</text>
+  <text x="56" y="578" font-size="12.5" fill="#374151">Row four is a split between two companies. The difference is what the word is supposed to mean.</text>
+
+  <rect x="30" y="612" width="1120" height="124" rx="10" fill="#b3261e" fill-opacity="0.07" stroke="#b3261e" stroke-width="2.5"/>
+  <text x="56" y="642" font-size="15.5" font-weight="700" fill="#8c1d18">And three things every row of this table has in common</text>
+  <g font-size="12.5" fill="#374151">
+    <circle cx="66" cy="668" r="3.5" fill="#8c1d18"/><text x="80" y="672"><tspan font-weight="700">Your account and your payment.</tspan> Whoever you bought from can connect the subscription to you unless the architecture from Lesson 6.3 prevents it. Two hops does not.</text>
+    <circle cx="66" cy="694" r="3.5" fill="#8c1d18"/><text x="80" y="698"><tspan font-weight="700">Signing in.</tspan> The destination knows exactly who you are the moment you log into an account, whatever address the request arrived from.</text>
+    <circle cx="66" cy="720" r="3.5" fill="#8c1d18"/><text x="80" y="724"><tspan font-weight="700">Your browser fingerprint, and the application components from Lesson 5.2.</tspan> Unchanged by every row above, because none of this happens at the network layer.</text>
+  </g>
+
+  <text x="590" y="774" text-anchor="middle" font-size="13.5" fill="#4b5563">So multi-hop answers one question well: it stops any single party holding both halves. That is a real property and a narrow one.</text>
+  <text x="590" y="798" text-anchor="middle" font-size="13.5" font-weight="700" fill="#374151">If your problem is anything in the red band, adding hops is the wrong tool and no number of them will help.</text>
+</svg>

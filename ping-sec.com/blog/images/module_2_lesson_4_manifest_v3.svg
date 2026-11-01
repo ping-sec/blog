@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 680" width="1180" height="680" role="img" aria-labelledby="mv3-title mv3-desc" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+  <title id="mv3-title">Figure 1. What Manifest V3 changed, and where each browser now stands</title>
+  <desc id="mv3-desc">A band at the top explains that the blocking request interface was replaced by a declarative one with fixed rule limits and no dynamic filtering. Three columns follow. Chrome and Edge disabled Manifest V2 for ordinary users in Chrome 138 in July 2025 and only the reduced Lite blocker remains. Brave hosts Manifest V2 extensions on its own servers so the full blocker still works. Firefox kept the blocking request interface and the full blocker works normally.</desc>
+
+  <rect x="0" y="0" width="1180" height="680" fill="#ffffff"/>
+
+  <text x="590" y="44" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Figure 1: Your Content Blocker Now Depends on Your Browser</text>
+  <text x="590" y="72" text-anchor="middle" font-size="14.5" fill="#4b5563">The extension platform changed underneath this topic. Advice written before it is advice for a browser that no longer exists.</text>
+
+  <rect x="30" y="100" width="1120" height="112" rx="10" fill="#374151" fill-opacity="0.08" stroke="#374151" stroke-width="2"/>
+  <text x="56" y="130" font-size="15" font-weight="700" fill="#111827">What Manifest V3 changed</text>
+  <text x="56" y="156" font-size="12.5" fill="#374151">The interface that let an extension inspect a request and decide, in code, whether to block it was replaced by a declarative one. An extension now registers rules in</text>
+  <text x="56" y="176" font-size="12.5" fill="#374151">advance and the browser applies them. There is a ceiling on how many rules it may register, and no way to make a blocking decision from page context at request time.</text>
+  <text x="56" y="198" font-size="12.5" font-weight="700" fill="#8c1d18">Cosmetic filtering, per-site dynamic rules and scriptlet injection are the capabilities that lose the most.</text>
+
+  <rect x="30" y="230" width="360" height="330" rx="10" fill="#b3261e" fill-opacity="0.08" stroke="#b3261e" stroke-width="2.5"/>
+  <path d="M30 240 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v36 h-360 z" fill="#b3261e"/>
+  <text x="210" y="262" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">CHROME AND EDGE</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="52" y="300" font-weight="700" fill="#8c1d18">Manifest V2: disabled</text>
+    <text x="52" y="322">Turned off for ordinary users in</text>
+    <text x="52" y="342">Chrome 138, July 2025. The</text>
+    <text x="52" y="362">enterprise exception followed.</text>
+    <text x="52" y="390" font-weight="700" fill="#8c1d18">Full uBlock Origin: unavailable</text>
+    <text x="52" y="412">Delisted from the store in late</text>
+    <text x="52" y="432">2024, and remaining Manifest V2</text>
+    <text x="52" y="452">listings were removed in 2026.</text>
+    <text x="52" y="480" font-weight="700">What you get instead</text>
+    <text x="52" y="502">The Lite build, which works</text>
+    <text x="52" y="522">within the new limits and blocks</text>
+    <text x="52" y="542">meaningfully less.</text>
+  </g>
+
+  <rect x="410" y="230" width="360" height="330" rx="10" fill="#E69F00" fill-opacity="0.12" stroke="#E69F00" stroke-width="2.5"/>
+  <path d="M410 240 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v36 h-360 z" fill="#E69F00"/>
+  <text x="590" y="262" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">BRAVE</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="432" y="300" font-weight="700" fill="#8a6000">Manifest V2: kept alive</text>
+    <text x="432" y="322">Brave hosts Manifest V2</text>
+    <text x="432" y="342">extensions on its own servers,</text>
+    <text x="432" y="362">outside the Chrome store.</text>
+    <text x="432" y="390" font-weight="700" fill="#8a6000">Full uBlock Origin: works</text>
+    <text x="432" y="412">Though Brave already ships its</text>
+    <text x="432" y="432">own blocker at the network layer,</text>
+    <text x="432" y="452">which is not an extension at all.</text>
+    <text x="432" y="480" font-weight="700">The practical position</text>
+    <text x="432" y="502">Chromium compatibility without</text>
+    <text x="432" y="522">the Chromium blocking loss. Note</text>
+    <text x="432" y="542">that this depends on Brave.</text>
+  </g>
+
+  <rect x="790" y="230" width="360" height="330" rx="10" fill="#009E73" fill-opacity="0.10" stroke="#009E73" stroke-width="2.5"/>
+  <path d="M790 240 a10 10 0 0 1 10 -10 h340 a10 10 0 0 1 10 10 v36 h-360 z" fill="#009E73"/>
+  <text x="970" y="262" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff" letter-spacing="0.5">FIREFOX</text>
+  <g font-size="12.5" fill="#374151">
+    <text x="812" y="300" font-weight="700" fill="#00614a">Manifest V2: supported</text>
+    <text x="812" y="322">A different engine and a different</text>
+    <text x="812" y="342">decision. The blocking request</text>
+    <text x="812" y="362">interface was retained.</text>
+    <text x="812" y="390" font-weight="700" fill="#00614a">Full uBlock Origin: works</text>
+    <text x="812" y="412">With dynamic filtering, cosmetic</text>
+    <text x="812" y="432">rules and per-site control intact.</text>
+    <text x="812" y="460" font-weight="700">The practical position</text>
+    <text x="812" y="482">The strongest content blocking</text>
+    <text x="812" y="502">available in a mainstream</text>
+    <text x="812" y="522">browser, and one more reason</text>
+    <text x="812" y="542">Lesson 2.3 put it where it did.</text>
+  </g>
+
+  <rect x="30" y="580" width="1120" height="76" rx="10" fill="#0072B2" fill-opacity="0.08" stroke="#0072B2" stroke-width="2"/>
+  <text x="56" y="610" font-size="14.5" font-weight="700" fill="#10476b">The order of decisions has reversed.</text>
+  <text x="56" y="636" font-size="12.5" fill="#374151">You no longer pick a browser and then pick extensions. Which content blocker you can run is now a property of the browser, so it belongs in the browser choice from Lesson 2.3.</text>
+</svg>

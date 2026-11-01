@@ -19,11 +19,11 @@ tags:
 
 ## About This Lesson
 
-Protocol comparisons age badly, and this one has aged in three specific places.
+Protocol comparisons age badly, and the standard one has aged in three specific places.
 
-The performance figures everybody quotes stopped being true in 2023. The advice for restrictive networks describes how inspection equipment worked about a decade ago. And the one claim about quantum resistance is backwards, in a lesson that otherwise handles cryptography carefully.
+The performance figures everybody quotes stopped being true in 2023. The advice for restrictive networks describes how inspection equipment worked about a decade ago. And the usual claim about quantum resistance is backwards.
 
-Underneath those three corrections the material is sound, so this lesson keeps the structure and fixes what needs fixing. It also adds two protocol-level features that no comparison chart lists, one of which has been on by default at a major provider since January 2025.
+Underneath those three corrections the standard comparison is sound, so this lesson keeps its structure and fixes what needs fixing. It also adds two protocol-level features that no comparison chart lists, one of which has been on by default at a major provider since January 2025.
 
 ### Learning Objectives
 
@@ -105,7 +105,7 @@ This is the correction with the most practical weight.
 
 *Figure 2. Four things inspection equipment looks at, none of which is the port.*
 
-**The claim**, which appears in nearly every protocol guide including the source for this lesson, is that running OpenVPN over TCP on port 443 makes it indistinguishable from ordinary web traffic, because a firewall cannot block that port without blocking the web.
+**The claim**, which appears in nearly every protocol guide, is that running OpenVPN over TCP on port 443 makes it indistinguishable from ordinary web traffic, because a firewall cannot block that port without blocking the web.
 
 **The first half is true and the second does not follow.** Inspection equipment has not worked by port for some years.
 
@@ -134,7 +134,7 @@ This is the correction with the most practical weight.
 
 ## 5. What Is and Is Not Quantum Resistant
 
-The source material says the elliptic curve exchange WireGuard uses is quantum resistant with modifications. **The first part is wrong and it matters, because it is the reverse of the situation.**
+You may read that the elliptic curve exchange WireGuard uses is quantum resistant with modifications. **The first part is wrong and it matters, because it is the reverse of the situation.**
 
 ![[module_6_lesson_2_two_additions.svg]]
 
@@ -170,13 +170,13 @@ Lesson 3.4 established that encryption hides contents and not patterns. That app
 
 **"Lightway is proprietary but audited."** It was rewritten in Rust, open sourced, and audited by two independent firms in late 2024, with only low-risk findings, since addressed. (Reference 6) The proprietary half of that description is out of date.
 
-**"Modern providers have solved the static address issue."** WireGuard assigns a fixed internal address and uses a long-lived key, which in principle allows a provider to correlate sessions. Providers mitigate this in different ways, including rotating keys and using address translation. **Mitigated is the right word, and solved is too strong**, and the specific mechanisms differ enough that it is worth reading what your provider actually does rather than accepting a general reassurance. The source material also attributes one provider's approach to a port forwarding protocol, which does not do key rotation and is a different thing entirely.
+**"Modern providers have solved the static address issue."** WireGuard assigns a fixed internal address and uses a long-lived key, which in principle allows a provider to correlate sessions. Providers mitigate this in different ways, including rotating keys and using address translation. **Mitigated is the right word, and solved is too strong**, and the specific mechanisms differ enough that it is worth reading what your provider actually does rather than accepting a general reassurance. Watch also for descriptions that attribute a provider's approach to a port forwarding protocol, which does not do key rotation and is a different thing entirely.
 
-**On the retired protocols**, the source material is right and the reasoning can be sharper. The authentication scheme underpinning PPTP was broken publicly in 2012, reduced to the difficulty of a single obsolete cipher key, which is to say hours on rented hardware. It is not weak. It is finished. If a provider offers only that, the protocol list is telling you about the rest of the operation.
+**On the retired protocols**, the standard advice is right and the reasoning can be sharper. The authentication scheme underpinning PPTP was broken publicly in 2012, reduced to the difficulty of a single obsolete cipher key, which is to say hours on rented hardware. It is not weak. It is finished. If a provider offers only that, the protocol list is telling you about the rest of the operation.
 
 **On L2TP with IPsec**, dated is fair. The specific concern worth knowing is that many deployments use a shared secret common to all users, which the provider publishes, and that changes the security properties considerably.
 
-**On IKEv2's origins.** The source notes it was developed largely by Microsoft and Cisco and that some people find that a reason for caution. The concrete version is more useful: documents published in 2013 indicated sustained intelligence interest in IPsec key exchange, and separately, weak Diffie-Hellman groups in older configurations were shown to be attackable by a well-resourced adversary. Current configurations with modern groups are not in that position, and the history is a reason to check the configuration rather than to avoid the protocol.
+**On IKEv2's origins.** It was developed largely by Microsoft and Cisco, and some people find that a reason for caution. The concrete version is more useful: documents published in 2013 indicated sustained intelligence interest in IPsec key exchange, and separately, weak Diffie-Hellman groups in older configurations were shown to be attackable by a well-resourced adversary. Current configurations with modern groups are not in that position, and the history is a reason to check the configuration rather than to avoid the protocol.
 
 ---
 
@@ -190,7 +190,7 @@ Lesson 3.4 established that encryption hides contents and not patterns. That app
 
 **If you need to get through a network that filters by port only**, OpenVPN over TCP on 443 still does that job.
 
-**Configure more than one.** The multi-protocol advice in the source material is sound: have a second option ready before you are somewhere that needs it, because the moment you need it is a bad time to be reading setup documentation.
+**Configure more than one.** The multi-protocol advice is sound: have a second option ready before you are somewhere that needs it, because the moment you need it is a bad time to be reading setup documentation.
 
 ---
 
@@ -300,7 +300,7 @@ Lesson 3.4 established that encryption hides contents and not patterns. That app
 - C) As applying only to self-hosted setups
 - D) As too strong. Providers mitigate it in different ways, and it is worth reading what yours actually does
 
-**Answer: D.** The source material also attributes one provider's approach to a port forwarding protocol, which does not perform key rotation.
+**Answer: D.** Watch also for descriptions that attribute a provider's approach to a port forwarding protocol, which does not perform key rotation.
 
 ---
 
@@ -342,7 +342,7 @@ Test both protocols yourself. Three runs each, same server, same time of day, an
 | Processor use during transfer | | | |
 | Battery drain over 30 minutes, if mobile | | | |
 
-Then answer: **does your measurement match the figures in the source material, or the figures in Section 2?** And: **can you tell whether your provider's OpenVPN deployment uses data channel offload?**
+Then answer: **does your measurement match the figures commonly quoted, or the figures in Section 2?** And: **can you tell whether your provider's OpenVPN deployment uses data channel offload?**
 
 **Deliverable.** The table, both answers, and your method.
 
