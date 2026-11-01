@@ -30,7 +30,7 @@ Three things it does cover in detail: what the security levels actually do and o
 
 ### A Note on This Lesson
 
-Authored rather than converted, like Lesson 6.7. Module 2 Lesson 3 covers installing Tor Browser and remains the right place to start if you have never opened it. This lesson assumes it is installed.
+Module 2 Lesson 3 covers installing Tor Browser and remains the right place to start if you have never opened it. This lesson assumes it is installed.
 
 **One correction to that lesson carries forward.** Its treatment of window resizing reflects advice that was correct when written and has since been handled by the browser itself. Section 3 covers what changed.
 

@@ -24,14 +24,6 @@ A VPN leak is traffic that leaves your machine outside the tunnel while the tunn
 
 That last one is the reason this lesson exists in the form it does. **A leak taxonomy assembled from testing sites will never contain the leak that testing sites cannot see.**
 
-### A Note on the Source
-
-The markdown file for this lesson is a fragment. It covers name resolution and then stops with a bracketed note saying the rest of the content continues, followed by a second bracketed note explaining that character limits prevented it being written. Both are artefacts of whatever generated it rather than teaching material, and the second is the same class of thing as the stray text I flagged in the Module 3 Lesson 4 script.
-
-**The full lesson does exist**, as 31 slides in the accompanying presentation, and this article is built from those. It is worth checking the other modules for the same pattern, because a file named to suggest completeness that contains a truncation apology will not be caught by anything except reading it.
-
-The course index also lists this lesson as "Network Anonymity Summary" while both the markdown and the presentation call it "VPN Vulnerabilities and Detection." Worth reconciling.
-
 ### Learning Objectives
 
 After you read this lesson, you can do these tasks:
@@ -208,8 +200,6 @@ Two claims from the source material need adjusting for consistency with earlier 
 **"Use port 443, it blends with normal web traffic."** Lesson 6.2 covered why this is no longer true: inspection equipment fingerprints the handshake, the client, the traffic shape and the server's response to probing, none of which is the port. Obfuscation is a separate layer with its own name at each provider.
 
 **"Timing attacks require nation-state adversaries."** This was a fair description once. Traffic analysis using machine learning has become considerably more accessible, which is precisely why a shipping defence against it exists and was covered in Lesson 6.2. The correct statement is that these attacks need visibility at both ends, which is a different and much more available thing than being a nation state.
-
-**One item in the source to flag.** It contains a case study of a researcher deanonymised by leaked lookups and identified through a legal inquiry, presented as fact with no source. It reads as illustrative. Present it as a scenario or find the citation, because an unattributed case study in otherwise technical material is the kind of thing a careful reader stops to check.
 
 ---
 
@@ -464,7 +454,6 @@ Read this alongside your own test result. The gap between the two is the useful 
 
 1. Part 3 asked you to look at your routing table on two networks. Had you ever looked at it before, and what does that suggest about how leak testing is usually taught?
 2. Section 5 argues two standard fixes now cost more than the leak. How would you have found that out if this article had not told you?
-3. The source material for this lesson is a truncated fragment with the real content in a slide deck. What does that imply about checking material before teaching from it?
 
 ---
 

@@ -34,8 +34,6 @@ Three limits, in order of how often they matter to real work, which is the rever
 
 ### A Note on This Lesson
 
-Authored rather than converted, third of four.
-
 **One correction to my own earlier work appears in Section 4.** In Lesson 7.2 I cited a result on identifying websites from encrypted name resolution traffic at over ninety per cent accuracy from very short traces, and presented it without qualification. That figure comes from a research tradition where evaluation conditions are known to flatter the attacker, and the qualification belongs with it. Section 4 states it properly.
 
 ### Learning Objectives

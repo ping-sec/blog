@@ -30,9 +30,7 @@ Then the module closes with a single table: which observer, which tool. That tab
 
 ### A Note on This Lesson
 
-Authored rather than converted, the last of four. It also replaces the module-closing summary in Lesson 6.6, which described a six-lesson module.
-
-**It contains one correction to Lesson 7.1**, in Section 1.
+**This lesson contains one correction to Lesson 7.1**, in Section 1.
 
 ### Learning Objectives
 

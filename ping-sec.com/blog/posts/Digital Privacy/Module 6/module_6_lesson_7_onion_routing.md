@@ -30,13 +30,9 @@ The difference is structural, and this lesson is about the structure.
 
 ### A Note on This Lesson
 
-**This lesson is new, not a conversion.** Everything so far in this series has taken an existing course script and corrected it. There is no script for this one.
-
 Tor does appear elsewhere in the course. Module 2 Lesson 3 covers Tor Browser as a browser choice, and it is a decent treatment: the three hops, verified downloads, the security slider, and the behavioural rules. Module 3 Lesson 4 covers timing correlation. Module 6 Lesson 4 covers combining a tunnel with Tor. Module 8 and Module 19 reference it.
 
 **What no lesson does is teach the network.** That gap matters because every threat model in this course resolves its highest tier to "use Tor," and a student meeting that advice has been taught Tor as a Firefox variant with a slider. These four lessons supply what the advice assumes you already know.
-
-Lesson 6.4 already forward-references this lesson twice. Those references were written before it existed.
 
 ### Learning Objectives
 

@@ -18,7 +18,7 @@ tags:
 
 ## About This Lesson
 
-This is the last lesson in Module 6, and it is the one where you build something. You rent a small server, install WireGuard on it, and connect your devices to it. At the end you have a tunnel that you configured, running software you chose, on a machine only you log in to.
+This is the last of the tunnel lessons in Module 6, and it is the one where you build something. You rent a small server, install WireGuard on it, and connect your devices to it. At the end you have a tunnel that you configured, running software you chose, on a machine only you log in to.
 
 That is worth doing. It is also worth being exact about what it gives you, because the reason usually offered is wrong.
 
@@ -27,14 +27,6 @@ That is worth doing. It is also worth being exact about what it gives you, becau
 What you gained is different, and it is real: **an exit whose configuration you can read.** Lesson 6.3 spent its whole length on the fact that you cannot verify a provider's claims. Here you can, because you wrote them. That is control, and control is a good reason to build this. It is not the same thing as anonymity, and on the anonymity question this build moves you backwards.
 
 There is a second problem, which is structural. **The lesson describes two different machines and only builds one of them.**
-
-### A Note on the Source
-
-The markdown script for this lesson is complete, at about 2,000 lines, and the accompanying deck runs to 34 slides. That is a change from Lesson 6.5, whose script was a truncated fragment. No truncation artefacts appear here.
-
-The course index still lists this lesson as "Network Privacy Tools" while the script and the deck both call it "Self-Hosted VPN Setup." That is the same index mismatch I flagged for Lesson 6.5, which suggests the index was written against an earlier plan and not updated. Worth a pass over the whole index rather than fixing entries one at a time.
-
-There is also a separate file, a comprehensive WireGuard lab covering server build, a multi-hop chain, traffic analysis and leak testing. It overlaps this lesson's own lab and belongs alongside it. Decide which one is the assigned exercise before a student meets both.
 
 ### Learning Objectives
 
